@@ -1,6 +1,6 @@
 # ARSA_DOGGERLAND_TO_MYCENAE_SINTASHTA
 ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Ra-Oka Substrate
-(doggerland.jpg)
+!(doggerland.jpg)
 
 
 Inverted qpAdm Modeling and Mathematical Singularities of the Volga-Oka Substrate (Arsa Core) on the 1240K SNP Panel (v66)
@@ -58,7 +58,7 @@ library(tidyverse)
 # Test environment binding
 print("R Paleogenetic Core Pipeline Init: SUCCESS")
 ```
-(ARSA4.jpg)
+!(ARSA4.jpg)
 
 The 15th enhanced and expanded edition of this monograph presents a foundational, paradigm-shifting paleogenetic and bioinformatic study targeting the spatio-temporal stratification of Western Eurasia from the Mesolithic to the Early Iron Age. Utilizing the formal mixture modeling framework (qpAdm) strictly on the full-length 1.24-million SNP (1240K) reference array v66.p1 from the Harvard David Reich Lab, this work computationally exposes the sedentary Volga-Oka-Sura interfluve (the historical Land of Arsa) as the ultimate "Matrix Factory" and the primary civilizational demiurge of the ancient world.
 
