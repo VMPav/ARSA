@@ -4,7 +4,10 @@ ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling an
 
 # ARSA-Matrix-Factory: Paleogenetic qpAdm Re-Validation (admixtools2)
 
-This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov [10.5281/zenodo.23199141](https://doi.org).  10.5281/zenodo.23199141
+This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov (https://doi.org/10.5281/zenodo.23199141). 
+https://doi.org/10.5281/zenodo.23199141
+
+
 
 ## ⚡ Core Breakthroughs Reproduced in This Repository
 
