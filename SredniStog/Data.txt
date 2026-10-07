@@ -1,0 +1,258 @@
+
+
+ ("Erzya","Moksha","Seima_Turbino","Russia_AltaiKrai_LN","Russia_Tatarstan_EIA1_Ananyino",
+"Russia_Tatarstan_LBA_Maklasheevka","Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga",
+"Russia_Chelyabinsk_MLBA_Sintashta","Russia_Samara_LBA_Srubnaya","Russia_Samara_MBA_Poltavka",
+"Russia_Samara_EBA_Yamnaya","Germany_Esperstedt_CordedWare","Netherlands_LNA_CordedWare_Vlaardingen",
+"kzb004.SG","Netherlands_EN_LateMesolithic_Swifterbant-o","England_Mesolithic",
+"Ukraine_Odesa_EBA",
+"Mbuti","Papuan","Karitiana","Israel_Natufian","Georgia_Satsurblia_LateUP")
+
+
+
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left               weight       se       z
+  <chr>                         <chr>               <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  1.64 0.802      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.802
+
+
+1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Erzya                      0.722 0.992 0.728
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.278 0.992 0.280
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank  Erzya Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  1.98 0.576      1  0.722                     0.278 TRUE    
+2 01        1     4  2.73 0.604      0  1                        NA     TRUE    
+3 10        1     4  5.13 0.274      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.576
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left   weight       se       z
+  <chr>                         <chr>   <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Moksha      1 6.76e-14 1.48e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  1.77 0.779      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.779
+Предупреждение:
+В read_f2(dir, pops, pops2, type = type, remove_na = remove_na,  :
+  Discarding 1 block(s) due to missing values!
+Discarded block(s): 474
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left               weight       se       z
+  <chr>                         <chr>               <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  2.98 0.560      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.560
+
+
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Moksha                     0.601 0.458 1.31 
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.399 0.458 0.873
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank Moksha Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  1.33 0.722      1  0.601                     0.399 TRUE    
+2 01        1     4  2.44 0.656      0  1                        NA     TRUE    
+3 10        1     4  5.43 0.246      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.722
+Предупреждение:
+В read_f2(dir, pops, pops2, type = type, remove_na = remove_na,  :
+  Discarding 1 block(s) due to missing values!
+Discarded block(s): 474
+
+
+
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left  weight       se       z
+  <chr>                         <chr>  <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Erzya      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  4.96 0.291      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.291
+
+
+
+ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Moksha                     0.725 0.471 1.54 
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.275 0.471 0.584
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank Moksha Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  2.67 0.446      1  0.725                     0.275 TRUE    
+2 01        1     4  4.02 0.403      0  1                        NA     TRUE    
+3 10        1     4  6.64 0.156      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.446
+Предупреждение:
+В read_f2(dir, pops, pops2, type = type, remove_na = remove_na,  :
+  Discarding 1 block(s) due to missing values!
+Discarded block(s): 473
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left   weight       se       z
+  <chr>                         <chr>   <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Moksha      1 6.76e-14 1.48e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  2.87 0.580      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.580
+Предупреждение:
+В read_f2(dir, pops, pops2, type = type, remove_na = remove_na,  :
+  Discarding 1 block(s) due to missing values!
+Discarded block(s): 473
+> 
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left                     weight       se       z
+  <chr>                         <chr>                     <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamna…      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Samara_EBA_Yamnaya feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                     <dbl> <lgl>    <lgl>
+1 0         0     4  6.10 0.192      0                         1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.192
+
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left                     weight       se       z
+  <chr>                         <chr>                     <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Russia_Samara_LBA_Srubn…      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Samara_LBA_Srubnaya feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                      <dbl> <lgl>    <lgl>
+1 0         0     4  3.36 0.499      0                          1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.499
+
+ℹ

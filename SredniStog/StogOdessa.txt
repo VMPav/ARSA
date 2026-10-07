@@ -1,0 +1,179 @@
+
+
+        I12168.TW M Ukraine_Odesa_EBA
+        I12168.AG M Ukraine_Odesa_EBA
+        I12168.AG.TW M Ukraine_Odesa_EBA
+
+I12168.TW	44955	I12168	"KTR1.13  Sredni Stog (KTR-1.13, Katarzhino kurgan 1 burial 13)"	
+tooth	NikitinReichNature2025	NikitinReichNature2025	https://doi.org/10.1038/s41586-024-08372-2	
+ENA:PRJEB81468	Direct: IntCal20 (R_Combine)	4916	34	
+"3018-2911 calBCE [R_Combine: (4375±20 BP, PSUAMS-4762), (4335±25 BP, PSUAMS-9815)]"	..	
+Ukraine_Odesa_EBA	"Znamianka (Odesa Oblast, Ivanivskyi District)"
+Ukraine	47.0161135	30.2894448	Native Pulldown on 3.2M snpset	
+TW	Twist1.4M	3	4.31201272	0.16457251	1694159	1066355	552050	1115511	263630	
+M	..	0	0	R-M12149	R1b1a1b1b	..	361.944	U4a	"[0.991,0.999]"	0.067	0.373	"[0.003,0.006]"	
+"[0.003,0.005]"	"ds.half,ds.half,ds.half"	"S12168.E1.L3,S12168.E1.L2,S12168.E1.L1"
+	"0.038,0.042,0.048"	Pass	..
+I12168.AG	44956	I12168	"KTR1.13  Sredni Stog (KTR-1.13, Katarzhino kurgan 1 burial 13)"	tooth	NikitinReichNature2025	NikitinReichNature2025	https://doi.org/10.1038/s41586-024-08372-2	ENA:PRJEB81468	Direct: IntCal20 (R_Combine)	4916	34	"3018-2911 calBCE [R_Combine: (4375±20 BP, PSUAMS-4762), (4335±25 BP, PSUAMS-9815)]"	..	Ukraine_Odesa_EBA	"Znamianka (Odesa Oblast, Ivanivskyi District)"	Ukraine	47.0161135	30.2894448	Native Pulldown on 3.2M snpset	AG	"1240k,Twist1.4M"	3	4.31201272	0.16457251	771489	518207	268776	485377	125236	M	..	0	0	R-M12149	R1b1a1b1b	..	361.944	U4a	"[0.991,0.999]"	0.067	0.373	"[0.003,0.006]"	"[0.003,0.005]"	"ds.half,ds.half,ds.half"	"S12168.E1.L3,S12168.E1.L2,S12168.E1.L1"	"0.038,0.042,0.048"	Pass	..
+I12168.AG.TW	44957	I12168	"KTR1.13  Sredni Stog (KTR-1.13, Katarzhino kurgan 1 burial 13)"	tooth	NikitinReichNature2025	NikitinReichNature2025	https://doi.org/10.1038/s41586-024-08372-2	ENA:PRJEB81468	Direct: IntCal20 (R_Combine)	4916	34	"3018-2911 calBCE [R_Combine: (4375±20 BP, PSUAMS-4762), (4335±25 BP, PSUAMS-9815)]"	..	Ukraine_Odesa_EBA	"Znamianka (Odesa Oblast, Ivanivskyi District)"	Ukraine	47.0161135	30.2894448	Native Pulldown on 3.2M snpset	AG.TW	"1240k,Twist1.4M"	3	4.31201272	0.16457251	1743073	1088080	561443	1148041	268002	M	..	0	0	R-M12149	R1b1a1b1b	..	361.944	U4a	"[0.991,0.999]"	0.067	0.373	"[0.003,0.006]"	"[0.003,0.005]"	"ds.half,ds.half,ds.half"	"S12168.E1.L3,S12168.E1.L2,S12168.E1.L1"	"0.038,0.042,0.048"	Pass	..
+
+("Erzya","Moksha","Seima_Turbino","Russia_AltaiKrai_LN","Russia_Tatarstan_EIA1_Ananyino",
+"Russia_Tatarstan_LBA_Maklasheevka","Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga",
+"Russia_Chelyabinsk_MLBA_Sintashta","Russia_Samara_LBA_Srubnaya","Russia_Samara_MBA_Poltavka",
+"Russia_Samara_EBA_Yamnaya","Germany_Esperstedt_CordedWare","Netherlands_LNA_CordedWare_Vlaardingen",
+"kzb004.SG","Netherlands_EN_LateMesolithic_Swifterbant-o","England_Mesolithic",
+"Ukraine_Odesa_EBA",
+"Mbuti","Papuan","Karitiana","Israel_Natufian","Georgia_Satsurblia_LateUP")
+
+
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left               weight       se       z
+  <chr>                         <chr>               <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  1.64 0.802      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.802
+
+
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic         0.604 0.303  1.99
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.396 0.303  1.31
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank England_Mesolithic Russia_Samara_EBA_Ya…¹
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl>                  <dbl>
+1 00        0     3 0.901 0.825      1              0.604                  0.396
+2 01        1     4 2.17  0.705      0              1                     NA    
+3 10        1     4 6.06  0.195      0             NA                      1    
+# ℹ abbreviated name: ¹​Russia_Samara_EBA_Yamnaya
+# ℹ 5 more variables: feasible <lgl>, best <lgl>, dofdiff <dbl>,
+#   chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.825
+
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left               weight       se       z
+  <chr>             <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA England_Mesolithic      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq           p f4rank England_Mesolithic feasible best 
+  <chr> <dbl> <dbl> <dbl>       <dbl>  <dbl>              <dbl> <lgl>    <lgl>
+1 0         0     4  35.2 0.000000418      0                  1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+            p
+        <dbl>
+1 0.000000418
+
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left                          weight       se       z
+  <chr>             <chr>                          <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA Germany_Esperstedt_CordedWare      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq        p f4rank Germany_Esperstedt_Co…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl>    <dbl>  <dbl>                   <dbl> <lgl>    <lgl>
+1 0         0     4  51.3 1.98e-10      0                       1 TRUE     NA   
+# ℹ abbreviated name: ¹​Germany_Esperstedt_CordedWare
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+         p
+     <dbl>
+1 1.98e-10
+
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left                      weight       se       z
+  <chr>             <chr>                      <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA Russia_Samara_EBA_Yamnaya      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq        p f4rank Russia_Samara_EBA_Yam…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl>    <dbl>  <dbl>                   <dbl> <lgl>    <lgl>
+1 0         0     4  52.3 1.21e-10      0                       1 TRUE     NA   
+# ℹ abbreviated name: ¹​Russia_Samara_EBA_Yamnaya
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+         p
+     <dbl>
+1 1.21e-10
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left               weight       se       z
+  <chr>                         <chr>               <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  1.64 0.802      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.802
+
