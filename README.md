@@ -2,7 +2,7 @@
 ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate
 ![alt text](ARSAdiag.png)
 
-![](ARSAdiag.png)
+
 # ARSA-Matrix-Factory: Paleogenetic qpAdm Re-Validation (admixtools2)
 
 This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov (https://doi.org/10.5281/zenodo.23199141). 
@@ -80,7 +80,7 @@ Install `admixtools2` and run reproduction scripts using the provided \(f_2\) bl
 Cite the primary monograph repository as:
 
 ```text
-Pavlov, V. M. (2026). ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate (Version v16). Zenodo. https://doi.org
+Pavlov, V. M. (2026). ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate (Version v16). Zenodo. https://doi.org/10.5281/zenodo.23199141
 ```
 
 ## 📊 GENERAL PASSPORT OF GENETIC RELATIONS (By Degree of Cladistic Purity)
@@ -127,7 +127,7 @@ To reproduce the exact logs from the monograph, follow these steps:
 2. **Extract the data archive** (containing precomputed f₂-statistics blocks) directly into the repository root folder. Ensure the extracted data files are in the same directory as the `.R` scripts.
 3. Open your R environment (ensure `admixtools2` and `tidyverse` are installed) and execute any reproduction script.
 
-!(ARSA_VikingDiagram.png)
+![](ARSA_VikingDiagram.png)
 
 The 15th enhanced and expanded edition of this monograph presents a foundational, paradigm-shifting paleogenetic and bioinformatic study targeting the spatio-temporal stratification of Western Eurasia from the Mesolithic to the Early Iron Age. Utilizing the formal mixture modeling framework (qpAdm) strictly on the full-length 1.24-million SNP (1240K) reference array v66.p1 from the Harvard David Reich Lab, this work computationally exposes the sedentary Volga-Oka-Sura interfluve (the historical Land of Arsa) as the ultimate "Matrix Factory" and the primary civilizational demiurge of the ancient world.
 
@@ -160,6 +160,6 @@ The 15th edition introduces a reconstructed, pristine matrix of ordinary singula
 2. The Paleolinguistic Legacy of Otto Bader:
 The monograph finally resolves the linguistic paradox of the modern Finno-Ugric framework of the Volga relics by rigorously validating the classic paradigm established by the preeminent archaeologist Otto Nikolaevich Bader. It is computationally and historically demonstrated that the highly mobile Seima-Turbino corporations established the Proto-Finno-Ugric idiom as a dominant global lingua franca from the Altai to Finland to control transcontinental trade routes. The sedentary Arsa core adapted this functional grammatical frame while perfectly safeguarding its indigenous, sacral Aryan lexical fund—such as the roots paz, mirde, and syado—which subsequently structured the oldest layers of the cosmogonic hymns of the Rigveda.
 
-!(ARSA.png)
+![](ARSA.png)
 
 
