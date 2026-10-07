@@ -160,6 +160,6 @@ The 15th edition introduces a reconstructed, pristine matrix of ordinary singula
 2. The Paleolinguistic Legacy of Otto Bader:
 The monograph finally resolves the linguistic paradox of the modern Finno-Ugric framework of the Volga relics by rigorously validating the classic paradigm established by the preeminent archaeologist Otto Nikolaevich Bader. It is computationally and historically demonstrated that the highly mobile Seima-Turbino corporations established the Proto-Finno-Ugric idiom as a dominant global lingua franca from the Altai to Finland to control transcontinental trade routes. The sedentary Arsa core adapted this functional grammatical frame while perfectly safeguarding its indigenous, sacral Aryan lexical fund—such as the roots paz, mirde, and syado—which subsequently structured the oldest layers of the cosmogonic hymns of the Rigveda.
 
-![alt text](ARSAdiag.png)
+!(ARSA.png)
 
 
