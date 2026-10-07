@@ -1,7 +1,8 @@
 # ARSA_DOGGERLAND_TO_MYCENAE_SINTASHTA
 ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Ra-Oka Substrate
 ![](doggerland.png)
-(<https://doi.org/10.5281/zenodo.23199141>)
+(<https://doi.org/10.5281/zenodo.23224148>)
+
 
 Inverted qpAdm Modeling and Mathematical Singularities of the Volga-Oka Substrate (Arsa Core) on the 1240K SNP Panel (v66)
 Overview & Mathematical Methodology
