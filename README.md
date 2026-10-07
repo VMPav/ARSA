@@ -4,15 +4,7 @@ ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling an
 
 # ARSA-Matrix-Factory: Paleogenetic qpAdm Re-Validation (admixtools2)
 
-This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov [10.5281/zenodo.22978487](https://doi.org).
-
----
-
-## 🧬 Scientific Rationale & Resolving the "Mordovian" Blind Spot
-
-Standard academic datasets aggregate indigenous Volga-Oka-Sura populations under the non-specific label **`Mordovian`**. This repository deconstructs this by isolating individual endogamous IDs to present separate profiles for **`Erzya`**  (continuation of the Mesolithic Doggerland refugium) and  **`Moksha`** (Bronze Age Uralic paleomechanism cornerstone).
-
----
+This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov [10.5281/zenodo.23199141](https://doi.org).  10.5281/zenodo.23199141
 
 ## ⚡ Core Breakthroughs Reproduced in This Repository
 
