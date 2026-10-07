@@ -1,26 +1,17 @@
 # ARSA_DOGGERLAND_TO_MYCENAE_SINTASHTA
-ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate
-![alt text](ARSAdiag.png)
+ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Ra-Oka Substrate
 
-# ARSA-Matrix-Factory: Paleogenetic qpAdm Re-Validation (admixtools2)
+![alt text](ARSA.png)
 
-This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov [10.5281/zenodo.22978487](https://doi.org).
+Inverted qpAdm Modeling and Mathematical Singularities of the Volga-Oka Substrate (Arsa Core) on the 1240K SNP Panel (v66)
+Overview & Mathematical Methodology
+This repository documents the formal bioinformatic verification of the Stationary Core Hypothesis of West Eurasian ethnogenesis, utilizing formal mixture modeling computed via the admixtools 2.0 execution engine. Calculations are performed strictly on the full-length, patched David Reich Lab 1240K SNP reference panel (AADR version v66.1, 2026) [1.6].
+To eliminate mathematical noise, degeneracy from DNA degradation, and demographic over-fitting characteristic of arbitrary 3-component models (EEF/WHG/EHG summaries), this architecture deploys a rigid 5-dimensional right (outgroup) population framework anchored by the deep Eurasian Paleosiberian ANE calibrator:
+Right={Mbuti, Papuan, Israel_Natufian, Georgia_Satsurblia_LateUP, Karitiana}Right equals the set Mbuti, Papuan, Israel_Natufian, Georgia_Satsurblia_LateUP, Karitiana end-set
+Right={Mbuti, Papuan, Israel_Natufian, Georgia_Satsurblia_LateUP, Karitiana}
 
----
+![alt text](doggerland.jpg)
 
-## 🧬 Scientific Rationale & Resolving the "Mordovian" Blind Spot
-
-Standard academic datasets aggregate indigenous Volga-Oka-Sura populations under the non-specific label **`Mordovian`**. This repository deconstructs this by isolating individual endogamous IDs to present separate profiles for **`Erzya`**  (continuation of the Mesolithic Doggerland refugium) and  **`Moksha`** (Bronze Age Uralic paleomechanism cornerstone).
-
----
-
-## ⚡ Core Breakthroughs Reproduced in This Repository
-
-1. **The Doggerland Transgression:** Proves Moksha and Erzya preserve a 99–100% intact Paleo-European/Cro-Magnon backbone (`England_Mesolithic`).
-2. **The Trans-Eurasian Hyper-Highway:** Shows the Late Mesolithic/Early Neolithic Netherlands carried West Siberian/Tyumen Neolithic hunter-gatherer substrate.
-3. **The Inverted Sintashta & Mycenaean Vectors:** Demonstrates that late Bronze Age elites mirror autosomal proportions preserved within Volga-Oka sedentary relics.
-
----
 
 ## 🛠️ Environment Configuration & C++ Compilation (For Experienced Researchers Only)
 
@@ -70,73 +61,8 @@ library(tidyverse)
 print("R Paleogenetic Core Pipeline Init: SUCCESS")
 ```
 
-## 📂 Repository Structure
+![alt text](ARSA.png)
 
-* `arsa_f2_blocks/` — Precomputed f2-statistics via admixtools2
-* `R-scripts for running models like`Greece_Achaea_LBA_Erzya.R` and `run_mycenae_singularity.R`
-* `README.md` — Project documentation
-
----
-
-## 🛠️ Quick Start & Reproduction
-
-Install `admixtools2` and run reproduction scripts using the provided \(f_2\) blocks and outgroups (`Mbuti`, `Papuan`, `Israel_Natufian`, `Georgia_Satsurblia_LateUP`, `Karitiana`). For the full script contents and code implementation, please refer to the complete markdown block in the repository documentation.
-
----
-
-## 📜 Citation & Legal Notice
-
-Cite the primary monograph repository as:
-
-```text
-Pavlov, V. M. (2026). ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate (Version v16). Zenodo. https://doi.org
-```
-
-## 📊 GENERAL PASSPORT OF GENETIC RELATIONS (By Degree of Cladistic Purity)
-
-Validated via admixtools2 (Outgroups: Mbuti, Papuan, Karitiana, Israel_Natufian, Georgia_Satsurblia_LateUP)
-With the 'Ukraine_Odesa_EBA' (pseudo-Stog) noise completely removed.
-
-### 🟥 ERZYA AS THE TARGET
-
-* Russia_Samara_MBA_Poltavka -------- (p = 0.93895) <-- Absolute Identity
-* Moksha ---------------------------- (p = 0.93508)
-* Russia_Samara_LBA_Srubnaya -------- (p = 0.82122)
-* Germany_Esperstedt_CordedWare ----- (p = 0.72615)
-* England_Mesolithic ---------------- (p = 0.58761)
-* Russia_Chelyabinsk_MLBA_Sintashta - (p = 0.57864)
-* Russia_Samara_EBA_Yamnaya --------- (p = 0.37761) <-- Statistical Decline
-* Russia_AltaiKrai_LN --------------- (p = 0.15854)
-
-### 🟦 MOKSHA AS THE TARGET
-
-* Erzya ----------------------------- (p = 0.93508)
-* Russia_Samara_MBA_Poltavka -------- (p = 0.90214)
-* England_Mesolithic ---------------- (p = 0.86698) <-- Intact Doggerland Refugium
-* Russia_Samara_LBA_Srubnaya -------- (p = 0.82383)
-* Germany_Esperstedt_CordedWare ----- (p = 0.77851)
-* Russia_Chelyabinsk_MLBA_Sintashta - (p = 0.50287)
-* Russia_Samara_EBA_Yamnaya --------- (p = 0.17974)
-* Russia_AltaiKrai_LN --------------- (p = 0.13208)
-
-### 🟨 GERMANY_CORDED_WARE AS THE TARGET
-
-* Moksha ---------------------------- (p = 0.77851) <-- Forest Substrate Superiority
-* Erzya ----------------------------- (p = 0.72615)
-* Russia_Chelyabinsk_MLBA_Sintashta - (p = 0.61904)
-* England_Mesolithic ---------------- (p = 0.56041)
-* Russia_Samara_LBA_Srubnaya -------- (p = 0.49882)
-* Russia_Samara_EBA_Yamnaya --------- (p = 0.46863) <-- Yamnaya Disproven as Source
-
-## 🚀 Quick Start & Reproduction
-
-To reproduce the exact logs from the monograph, follow these steps:
-
-1. **Clone or download** this repository to your local machine.
-2. **Extract the data archive** (containing precomputed f₂-statistics blocks) directly into the repository root folder. Ensure the extracted data files are in the same directory as the `.R` scripts.
-3. Open your R environment (ensure `admixtools2` and `tidyverse` are installed) and execute any reproduction script.
-
-![alt text](ARSA_VikingDiagram.png)
 
 The 15th enhanced and expanded edition of this monograph presents a foundational, paradigm-shifting paleogenetic and bioinformatic study targeting the spatio-temporal stratification of Western Eurasia from the Mesolithic to the Early Iron Age. Utilizing the formal mixture modeling framework (qpAdm) strictly on the full-length 1.24-million SNP (1240K) reference array v66.p1 from the Harvard David Reich Lab, this work computationally exposes the sedentary Volga-Oka-Sura interfluve (the historical Land of Arsa) as the ultimate "Matrix Factory" and the primary civilizational demiurge of the ancient world.
 
@@ -169,6 +95,5 @@ The 15th edition introduces a reconstructed, pristine matrix of ordinary singula
 2. The Paleolinguistic Legacy of Otto Bader:
 The monograph finally resolves the linguistic paradox of the modern Finno-Ugric framework of the Volga relics by rigorously validating the classic paradigm established by the preeminent archaeologist Otto Nikolaevich Bader. It is computationally and historically demonstrated that the highly mobile Seima-Turbino corporations established the Proto-Finno-Ugric idiom as a dominant global lingua franca from the Altai to Finland to control transcontinental trade routes. The sedentary Arsa core adapted this functional grammatical frame while perfectly safeguarding its indigenous, sacral Aryan lexical fund—such as the roots paz, mirde, and syado—which subsequently structured the oldest layers of the cosmogonic hymns of the Rigveda.
 
-![alt text](ARSAdiag.png)
 
 
