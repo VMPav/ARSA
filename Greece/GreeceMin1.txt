@@ -105,16 +105,6 @@ Greece_Achaea_LBA  = Erzya (p=0.76685), Moksha (p=0.64099)
 1 Greece_Achaea_LBA Moksha      1 1.14e-13 8.79e12
 -----------------------------------------------------------------
 
-ЦЕЛЬ (TARGET)  : Moksha 
-ЧИСТОЕ P-VALUE : 0.13458 
-ИСТОЧНИКИ(LEFT): Erzya 
-СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
-# A tibble: 1 × 5
-  target left  weight       se       z
-  <chr>  <chr>  <dbl>    <dbl>   <dbl>
-1 Moksha Erzya      1 1.14e-13 8.79e12
------------------------------------------------------------------
-
 ЦЕЛЬ (TARGET)  : Erzya 
 ЧИСТОЕ P-VALUE : 0.13458 
 ИСТОЧНИКИ(LEFT): Moksha 
