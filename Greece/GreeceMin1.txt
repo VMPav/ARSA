@@ -1,0 +1,148 @@
+
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Greece_Achaea_LBA"
+# A tibble: 1 × 5
+  target            left  weight       se       z
+  <chr>             <chr>  <dbl>    <dbl>   <dbl>
+1 Greece_Achaea_LBA Erzya      1 1.14e-13 8.79e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Greece_Achaea_LBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  1.83 0.767      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.767
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Greece_Achaea_LBA"
+# A tibble: 1 × 5
+  target            left   weight       se       z
+  <chr>             <chr>   <dbl>    <dbl>   <dbl>
+1 Greece_Achaea_LBA Moksha      1 1.14e-13 8.79e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Greece_Achaea_LBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  2.52 0.641      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.641
+
+=================================================================
+   ГЕНЕРАЛЬНЫЙ ПАСПОРТ РОДСТВЕННЫХ СВЯЗЕЙ (ПО СТЕПЕНИ ЧИСТОТЫ)
+=================================================================
+Erzya  = Greece_Achaea_LBA (p=0.76685), Moksha (p=0.13458) 
+-----------------------------------------------------------------
+Moksha  = Greece_Achaea_LBA (p=0.64099), Erzya (p=0.13458) 
+-----------------------------------------------------------------
+Greece_Achaea_LBA  = Erzya (p=0.76685), Moksha (p=0.64099) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ ПОДРОБНЫЕ ЛОГИ КАЛЬКУЛЯЦИИ ДЛЯ РУКОПИСИ КНИГИ:
+=================================================================
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.76685 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left              weight       se       z
+  <chr>  <chr>              <dbl>    <dbl>   <dbl>
+1 Erzya  Greece_Achaea_LBA      1 1.14e-13 8.79e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.76685 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left  weight       se       z
+  <chr>             <chr>  <dbl>    <dbl>   <dbl>
+1 Greece_Achaea_LBA Erzya      1 1.14e-13 8.79e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.64099 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left              weight       se       z
+  <chr>  <chr>              <dbl>    <dbl>   <dbl>
+1 Moksha Greece_Achaea_LBA      1 1.14e-13 8.79e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.64099 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left   weight       se       z
+  <chr>             <chr>   <dbl>    <dbl>   <dbl>
+1 Greece_Achaea_LBA Moksha      1 1.14e-13 8.79e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.13458 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left  weight       se       z
+  <chr>  <chr>  <dbl>    <dbl>   <dbl>
+1 Moksha Erzya      1 1.14e-13 8.79e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.13458 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left   weight       se       z
+  <chr>  <chr>   <dbl>    <dbl>   <dbl>
+1 Erzya  Moksha      1 1.14e-13 8.79e12
+-----------------------------------------------------------------
+--------------------------END-----------------------------------
+
+
+
+
+D:\_soft26\R7>Rscript "d:\_soft26\R7\Main6\Greece\_____WinGen_Greece.r"
+ℹ Reading allele frequencies from packedancestrymap files...
+ℹ v66_1240K.geno has 27594 samples and 1233013 SNPs
+ℹ Calculating allele frequencies from 147 samples in 9 populations
+ℹ Expected size of allele frequency data: 227 MB
+1233k SNPs read...
+✔ 1233013 SNPs read in total
+! 694864 SNPs remain after filtering. 694864 are polymorphic.
+ℹ Allele frequency matrix for 694864 SNPs and 9 populations is 100 MB
+ℹ Computing pairwise f2 for all SNPs and population pairs requires 1801 MB RAM without splitting
+ℹ Computing without splitting since 1801 < 8000 (maxmem)...
+ℹ Data written to D:\Arsa_Final_F2_Blocks/
+Предупреждение:
+В discard_snps(snpdat, maxmiss = maxmiss, auto_only = auto_only,  :
+  Keeping only chromosomes 1 to 22! Set `auto_only = FALSE` to keep all chromosomes!
+[1] "--- End extract_f2---"
+

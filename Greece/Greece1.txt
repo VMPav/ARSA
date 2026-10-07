@@ -1,0 +1,651 @@
+
+   ГЕНЕРАЛЬНЫЙ ПАСПОРТ РОДСТВЕННЫХ СВЯЗЕЙ (ПО СТЕПЕНИ ЧИСТОТЫ)
+=================================================================
+Erzya  = Greece_Achaea_LBA (p=0.94817), 
+Russia_Samara_MBA_Poltavka (p=0.76736), 
+Russia_Samara_LBA_Srubnaya (p=0.45129), 
+England_Mesolithic (p=0.42896), 
+Russia_Alan (p=0.19421), 
+Russia_EarlySarmatian (p=0.14324), 
+Moksha (p=0.12549) 
+-----------------------------------------------------------------
+Moksha  = Russia_Samara_MBA_Poltavka (p=0.76846), 
+England_Mesolithic (p=0.69873), 
+Greece_Achaea_LBA (p=0.57819), 
+Russia_EarlySarmatian (p=0.18868), 
+Russia_Samara_LBA_Srubnaya (p=0.17411), 
+Erzya (p=0.12549) 
+-----------------------------------------------------------------
+Seima_Turbino  = Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.92948) 
+-----------------------------------------------------------------
+Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga  = Seima_Turbino (p=0.92948) 
+-----------------------------------------------------------------
+Russia_Chelyabinsk_MLBA_Sintashta  = Russia_Samara_LBA_Srubnaya (p=0.48210), 
+Russia_Samara_EBA_Yamnaya (p=0.35524), Greece_Achaea_LBA (p=0.15832), 
+Russia_Samara_MBA_Poltavka (p=0.08025) 
+-----------------------------------------------------------------
+Russia_Alan  = Russia_Samara_MBA_Poltavka (p=0.33943), 
+Erzya (p=0.19421), Greece_Achaea_LBA (p=0.18647) 
+-----------------------------------------------------------------
+Russia_EarlySarmatian  = Moksha (p=0.18868), 
+England_Mesolithic (p=0.18653), 
+Russia_Samara_MBA_Poltavka (p=0.15040), 
+Erzya (p=0.14324), 
+Greece_Achaea_LBA (p=0.09530) 
+-----------------------------------------------------------------
+Russia_Samara_LBA_Srubnaya  = Greece_Achaea_LBA (p=0.89358), Russia_Samara_MBA_Poltavka (p=0.63781), Russia_Chelyabinsk_MLBA_Sintashta (p=0.48210), Erzya (p=0.45129), Russia_Samara_EBA_Yamnaya (p=0.30826), England_Mesolithic (p=0.23341), Moksha (p=0.17411) 
+-----------------------------------------------------------------
+Russia_Samara_MBA_Poltavka  = Greece_Achaea_LBA (p=0.96102), Moksha (p=0.76846), Erzya (p=0.76736), Russia_Samara_LBA_Srubnaya (p=0.63781), England_Mesolithic (p=0.49838), Russia_Alan (p=0.33943), Russia_EarlySarmatian (p=0.15040), Russia_Chelyabinsk_MLBA_Sintashta (p=0.08025) 
+-----------------------------------------------------------------
+Russia_Samara_EBA_Yamnaya  = Russia_Chelyabinsk_MLBA_Sintashta (p=0.35524), Russia_Samara_LBA_Srubnaya (p=0.30826), Greece_Achaea_LBA (p=0.07789) 
+-----------------------------------------------------------------
+England_Mesolithic  = Moksha (p=0.69873), Greece_Achaea_LBA (p=0.62962), Russia_Samara_MBA_Poltavka (p=0.49838), Erzya (p=0.42896), Russia_Samara_LBA_Srubnaya (p=0.23341), Russia_EarlySarmatian (p=0.18653) 
+-----------------------------------------------------------------
+Greece_Achaea_LBA  = Russia_Samara_MBA_Poltavka (p=0.96102), Erzya (p=0.94817), Russia_Samara_LBA_Srubnaya (p=0.89358), England_Mesolithic (p=0.62962), Moksha (p=0.57819), Russia_Alan (p=0.18647), Russia_Chelyabinsk_MLBA_Sintashta (p=0.15832), Russia_EarlySarmatian (p=0.09530), Russia_Samara_EBA_Yamnaya (p=0.07789) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ ПОДРОБНЫЕ ЛОГИ КАЛЬКУЛЯЦИИ ДЛЯ РУКОПИСИ КНИГИ:
+=================================================================
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.96102 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left                       weight       se             z
+  <chr>             <chr>                       <dbl>    <dbl>         <dbl>
+1 Greece_Achaea_LBA Russia_Samara_MBA_Poltavka      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.96102 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left              weight       se             z
+  <chr>                      <chr>              <dbl>    <dbl>         <dbl>
+1 Russia_Samara_MBA_Poltavka Greece_Achaea_LBA      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.94817 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left  weight       se       z
+  <chr>             <chr>  <dbl>    <dbl>   <dbl>
+1 Greece_Achaea_LBA Erzya      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.94817 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left              weight       se       z
+  <chr>  <chr>              <dbl>    <dbl>   <dbl>
+1 Erzya  Greece_Achaea_LBA      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+ЧИСТОЕ P-VALUE : 0.92948 
+ИСТОЧНИКИ(LEFT): Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                         left    weight       se       z
+  <chr>                                          <chr>    <dbl>    <dbl>   <dbl>
+1 Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga Seima_…      1 3.06e-13 3.27e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Seima_Turbino 
+ЧИСТОЕ P-VALUE : 0.92948 
+ИСТОЧНИКИ(LEFT): Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                                     weight       se       z
+  <chr>         <chr>                                     <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Russia_EMBA_FatyanovoBalanovo_CordedWar…      1 3.06e-13 3.27e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.89358 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left                       weight       se       z
+  <chr>             <chr>                       <dbl>    <dbl>   <dbl>
+1 Greece_Achaea_LBA Russia_Samara_LBA_Srubnaya      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.89358 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left              weight       se       z
+  <chr>                      <chr>              <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Greece_Achaea_LBA      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.76846 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left   weight       se             z
+  <chr>                      <chr>   <dbl>    <dbl>         <dbl>
+1 Russia_Samara_MBA_Poltavka Moksha      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.76846 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se             z
+  <chr>  <chr>                       <dbl>    <dbl>         <dbl>
+1 Moksha Russia_Samara_MBA_Poltavka      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.76736 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_MBA_Poltavka      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.76736 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left  weight       se       z
+  <chr>                      <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Erzya      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.69873 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se             z
+  <chr>  <chr>               <dbl>    <dbl>         <dbl>
+1 Moksha England_Mesolithic      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.69873 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left   weight       se             z
+  <chr>              <chr>   <dbl>    <dbl>         <dbl>
+1 England_Mesolithic Moksha      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.63781 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                       weight       se       z
+  <chr>                      <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Russia_Samara_LBA_Srubnaya      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.63781 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                       weight       se       z
+  <chr>                      <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_Samara_MBA_Poltavka      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.62962 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left               weight       se             z
+  <chr>             <chr>               <dbl>    <dbl>         <dbl>
+1 Greece_Achaea_LBA England_Mesolithic      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.62962 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left              weight       se             z
+  <chr>              <chr>              <dbl>    <dbl>         <dbl>
+1 England_Mesolithic Greece_Achaea_LBA      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.57819 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left              weight       se             z
+  <chr>  <chr>              <dbl>    <dbl>         <dbl>
+1 Moksha Greece_Achaea_LBA      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.57819 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left   weight       se             z
+  <chr>             <chr>   <dbl>    <dbl>         <dbl>
+1 Greece_Achaea_LBA Moksha      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.49838 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left               weight       se       z
+  <chr>                      <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka England_Mesolithic      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.49838 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                       weight       se       z
+  <chr>              <chr>                       <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_Samara_MBA_Poltavka      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.48210 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Russia_Samara_LBA_S…      1 1.23e-12 8.13e11
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.48210 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_Chelyabinsk_MLBA_Si…      1 1.23e-12 8.13e11
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.45129 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left  weight       se             z
+  <chr>                      <chr>  <dbl>    <dbl>         <dbl>
+1 Russia_Samara_LBA_Srubnaya Erzya      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.45129 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se             z
+  <chr>  <chr>                       <dbl>    <dbl>         <dbl>
+1 Erzya  Russia_Samara_LBA_Srubnaya      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.42896 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Erzya  England_Mesolithic      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.42896 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left  weight       se       z
+  <chr>              <chr>  <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Erzya      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.35524 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left                         weight       se       z
+  <chr>                     <chr>                         <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya Russia_Chelyabinsk_MLBA_Sin…      1 1.23e-12 8.13e11
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.35524 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Russia_Samara_EBA_Y…      1 1.23e-12 8.13e11
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.33943 
+ИСТОЧНИКИ(LEFT): Russia_Alan 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left        weight       se             z
+  <chr>                      <chr>        <dbl>    <dbl>         <dbl>
+1 Russia_Samara_MBA_Poltavka Russia_Alan      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Alan 
+ЧИСТОЕ P-VALUE : 0.33943 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target      left                       weight       se             z
+  <chr>       <chr>                       <dbl>    <dbl>         <dbl>
+1 Russia_Alan Russia_Samara_MBA_Poltavka      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.30826 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left                       weight       se         z
+  <chr>                     <chr>                       <dbl>    <dbl>     <dbl>
+1 Russia_Samara_EBA_Yamnaya Russia_Samara_LBA_Srubnaya      1 1.23e-12   8.13e11
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.30826 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                      weight       se         z
+  <chr>                      <chr>                      <dbl>    <dbl>     <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_Samara_EBA_Yamnaya      1 1.23e-12   8.13e11
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.23341 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                       weight       se       z
+  <chr>              <chr>                       <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_Samara_LBA_Srubnaya      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.23341 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left               weight       se       z
+  <chr>                      <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya England_Mesolithic      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.19421 
+ИСТОЧНИКИ(LEFT): Russia_Alan 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left        weight       se       z
+  <chr>  <chr>        <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Alan      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Alan 
+ЧИСТОЕ P-VALUE : 0.19421 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target      left  weight       se       z
+  <chr>       <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Alan Erzya      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlySarmatian 
+ЧИСТОЕ P-VALUE : 0.18868 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left   weight       se       z
+  <chr>                 <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlySarmatian Moksha      1 9.24e-14 1.08e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.18868 
+ИСТОЧНИКИ(LEFT): Russia_EarlySarmatian 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                  weight       se       z
+  <chr>  <chr>                  <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlySarmatian      1 9.24e-14 1.08e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.18653 
+ИСТОЧНИКИ(LEFT): Russia_EarlySarmatian 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                  weight       se             z
+  <chr>              <chr>                  <dbl>    <dbl>         <dbl>
+1 England_Mesolithic Russia_EarlySarmatian      1 1.02e-12 977188473632.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlySarmatian 
+ЧИСТОЕ P-VALUE : 0.18653 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left               weight       se             z
+  <chr>                 <chr>               <dbl>    <dbl>         <dbl>
+1 Russia_EarlySarmatian England_Mesolithic      1 1.02e-12 977188473632.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Alan 
+ЧИСТОЕ P-VALUE : 0.18647 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target      left              weight       se             z
+  <chr>       <chr>              <dbl>    <dbl>         <dbl>
+1 Russia_Alan Greece_Achaea_LBA      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.18647 
+ИСТОЧНИКИ(LEFT): Russia_Alan 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left        weight       se             z
+  <chr>             <chr>        <dbl>    <dbl>         <dbl>
+1 Greece_Achaea_LBA Russia_Alan      1 1.88e-12 531000609340.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.17411 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Samara_LBA_Srubnaya      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.17411 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left   weight       se       z
+  <chr>                      <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Moksha      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.15832 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left              weight       se       z
+  <chr>                             <chr>              <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Greece_Achaea_LBA      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.15832 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left                              weight       se       z
+  <chr>             <chr>                              <dbl>    <dbl>   <dbl>
+1 Greece_Achaea_LBA Russia_Chelyabinsk_MLBA_Sintashta      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.15040 
+ИСТОЧНИКИ(LEFT): Russia_EarlySarmatian 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                  weight       se             z
+  <chr>                      <chr>                  <dbl>    <dbl>         <dbl>
+1 Russia_Samara_MBA_Poltavka Russia_EarlySarmatian      1 1.02e-12 977188473632.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlySarmatian 
+ЧИСТОЕ P-VALUE : 0.15040 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left                       weight       se             z
+  <chr>                 <chr>                       <dbl>    <dbl>         <dbl>
+1 Russia_EarlySarmatian Russia_Samara_MBA_Poltavka      1 1.02e-12 977188473632.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.14324 
+ИСТОЧНИКИ(LEFT): Russia_EarlySarmatian 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                  weight       se             z
+  <chr>  <chr>                  <dbl>    <dbl>         <dbl>
+1 Erzya  Russia_EarlySarmatian      1 1.02e-12 977188473632.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlySarmatian 
+ЧИСТОЕ P-VALUE : 0.14324 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left  weight       se             z
+  <chr>                 <chr>  <dbl>    <dbl>         <dbl>
+1 Russia_EarlySarmatian Erzya      1 1.02e-12 977188473632.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.12549 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left  weight       se       z
+  <chr>  <chr>  <dbl>    <dbl>   <dbl>
+1 Moksha Erzya      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.12549 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left   weight       se       z
+  <chr>  <chr>   <dbl>    <dbl>   <dbl>
+1 Erzya  Moksha      1 9.52e-13 1.05e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.09530 
+ИСТОЧНИКИ(LEFT): Russia_EarlySarmatian 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left                  weight       se             z
+  <chr>             <chr>                  <dbl>    <dbl>         <dbl>
+1 Greece_Achaea_LBA Russia_EarlySarmatian      1 1.02e-12 977188473632.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlySarmatian 
+ЧИСТОЕ P-VALUE : 0.09530 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left              weight       se             z
+  <chr>                 <chr>              <dbl>    <dbl>         <dbl>
+1 Russia_EarlySarmatian Greece_Achaea_LBA      1 1.02e-12 977188473632.
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.08025 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Russia_Samara_MBA_P…      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.08025 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Russia_Chelyabinsk_MLBA_Si…      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.07789 
+ИСТОЧНИКИ(LEFT): Greece_Achaea_LBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left              weight       se       z
+  <chr>                     <chr>              <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya Greece_Achaea_LBA      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Greece_Achaea_LBA 
+ЧИСТОЕ P-VALUE : 0.07789 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left                      weight       se       z
+  <chr>             <chr>                      <dbl>    <dbl>   <dbl>
+1 Greece_Achaea_LBA Russia_Samara_EBA_Yamnaya      1 6.82e-13 1.47e12
+-----------------------------------------------------------------
+--------------------------END-----------------------------------
