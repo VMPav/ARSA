@@ -1,7 +1,7 @@
 # ARSA_DOGGERLAND_TO_MYCENAE_SINTASHTA
 ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Ra-Oka Substrate
+(doggerland.jpg)
 
-![alt text](ARSA.png)
 
 Inverted qpAdm Modeling and Mathematical Singularities of the Volga-Oka Substrate (Arsa Core) on the 1240K SNP Panel (v66)
 Overview & Mathematical Methodology
@@ -9,9 +9,7 @@ This repository documents the formal bioinformatic verification of the Stationar
 To eliminate mathematical noise, degeneracy from DNA degradation, and demographic over-fitting characteristic of arbitrary 3-component models (EEF/WHG/EHG summaries), this architecture deploys a rigid 5-dimensional right (outgroup) population framework anchored by the deep Eurasian Paleosiberian ANE calibrator:
 Right={Mbuti, Papuan, Israel_Natufian, Georgia_Satsurblia_LateUP, Karitiana}Right equals the set Mbuti, Papuan, Israel_Natufian, Georgia_Satsurblia_LateUP, Karitiana end-set
 Right={Mbuti, Papuan, Israel_Natufian, Georgia_Satsurblia_LateUP, Karitiana}
-
-![alt text](doggerland.jpg)
-
+(ARSA.jpg)
 
 ## 🛠️ Environment Configuration & C++ Compilation (For Experienced Researchers Only)
 
@@ -60,9 +58,7 @@ library(tidyverse)
 # Test environment binding
 print("R Paleogenetic Core Pipeline Init: SUCCESS")
 ```
-
-![alt text](ARSA.png)
-
+(ARSA4.jpg)
 
 The 15th enhanced and expanded edition of this monograph presents a foundational, paradigm-shifting paleogenetic and bioinformatic study targeting the spatio-temporal stratification of Western Eurasia from the Mesolithic to the Early Iron Age. Utilizing the formal mixture modeling framework (qpAdm) strictly on the full-length 1.24-million SNP (1240K) reference array v66.p1 from the Harvard David Reich Lab, this work computationally exposes the sedentary Volga-Oka-Sura interfluve (the historical Land of Arsa) as the ultimate "Matrix Factory" and the primary civilizational demiurge of the ancient world.
 

@@ -1,16 +1,12 @@
 # ARSA_DOGGERLAND_TO_MYCENAE_SINTASHTA
 ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate
-![alt text](ARSAdiag.png)
+(ARSAdiag.png)
 
 # ARSA-Matrix-Factory: Paleogenetic qpAdm Re-Validation (admixtools2)
 
 This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov (https://doi.org/10.5281/zenodo.23199141). 
-https://doi.org/10.5281/zenodo.23199141
-
-
 
 ## ⚡ Core Breakthroughs Reproduced in This Repository
-
 1. **The Doggerland Transgression:** Proves Moksha and Erzya preserve a 99–100% intact Paleo-European/Cro-Magnon backbone (`England_Mesolithic`).
 2. **The Trans-Eurasian Hyper-Highway:** Shows the Late Mesolithic/Early Neolithic Netherlands carried West Siberian/Tyumen Neolithic hunter-gatherer substrate.
 3. **The Inverted Sintashta & Mycenaean Vectors:** Demonstrates that late Bronze Age elites mirror autosomal proportions preserved within Volga-Oka sedentary relics.
@@ -31,7 +27,6 @@ Before initiating R, you must install the required native build-essential librar
 sudo apt-get update
 sudo apt-get install -y r-base-dev libopenblas-dev liblapack-dev libgsl-dev libssl-dev libxml2-dev libgfortran-shadow
 ```
-
 **For macOS (via Homebrew):**
 
 ```bash
@@ -131,7 +126,7 @@ To reproduce the exact logs from the monograph, follow these steps:
 2. **Extract the data archive** (containing precomputed f₂-statistics blocks) directly into the repository root folder. Ensure the extracted data files are in the same directory as the `.R` scripts.
 3. Open your R environment (ensure `admixtools2` and `tidyverse` are installed) and execute any reproduction script.
 
-![alt text](ARSA_VikingDiagram.png)
+(ARSA_VikingDiagram.png)
 
 The 15th enhanced and expanded edition of this monograph presents a foundational, paradigm-shifting paleogenetic and bioinformatic study targeting the spatio-temporal stratification of Western Eurasia from the Mesolithic to the Early Iron Age. Utilizing the formal mixture modeling framework (qpAdm) strictly on the full-length 1.24-million SNP (1240K) reference array v66.p1 from the Harvard David Reich Lab, this work computationally exposes the sedentary Volga-Oka-Sura interfluve (the historical Land of Arsa) as the ultimate "Matrix Factory" and the primary civilizational demiurge of the ancient world.
 
