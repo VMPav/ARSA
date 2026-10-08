@@ -1,6 +1,6 @@
 # ARSA_DOGGERLAND_TO_MYCENAE_SINTASHTA
 ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate
-![alt text](ARSAdiag.png)
+![](ARSAdiag.png)
 
 
 # ARSA-Matrix-Factory: Paleogenetic qpAdm Re-Validation (admixtools2)
@@ -124,8 +124,8 @@ With the 'Ukraine_Odesa_EBA' (pseudo-Stog) noise completely removed.
 To reproduce the exact logs from the monograph, follow these steps:
 
 1. **Clone or download** this repository to your local machine.
-2. **Extract the data archive** (containing precomputed f₂-statistics blocks) directly into the repository root folder. Ensure the extracted data files are in the same directory as the `.R` scripts.
-3. Open your R environment (ensure `admixtools2` and `tidyverse` are installed) and execute any reproduction script.
+2. **Extract the data archive** (containing precomputed f₂-statistics blocks)
+3. Open your R environment (ensure `admixtools2` are installed) and execute any reproduction script.
 
 ![](ARSA_VikingDiagram.png)
 
