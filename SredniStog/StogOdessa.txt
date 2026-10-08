@@ -1,6 +1,6 @@
 
 
-        I12168.TW M Ukraine_Odesa_EBA
+        I12168.TW M Ukraine_Odesa_EBA   Sredni Stog
         I12168.AG M Ukraine_Odesa_EBA
         I12168.AG.TW M Ukraine_Odesa_EBA
 
@@ -25,6 +25,83 @@ I12168.AG.TW	44957	I12168	"KTR1.13  Sredni Stog (KTR-1.13, Katarzhino kurgan 1 b
 "Ukraine_Odesa_EBA",
 "Mbuti","Papuan","Karitiana","Israel_Natufian","Georgia_Satsurblia_LateUP")
 
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left               weight       se       z
+  <chr>             <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA England_Mesolithic      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq           p f4rank England_Mesolithic feasible best 
+  <chr> <dbl> <dbl> <dbl>       <dbl>  <dbl>              <dbl> <lgl>    <lgl>
+1 0         0     4  35.2 0.000000418      0                  1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+            p
+        <dbl>
+1 0.000000418
+
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left                          weight       se       z
+  <chr>             <chr>                          <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA Germany_Esperstedt_CordedWare      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq        p f4rank Germany_Esperstedt_Co…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl>    <dbl>  <dbl>                   <dbl> <lgl>    <lgl>
+1 0         0     4  51.3 1.98e-10      0                       1 TRUE     NA   
+# ℹ abbreviated name: ¹​Germany_Esperstedt_CordedWare
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+         p
+     <dbl>
+1 1.98e-10
+
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left                      weight       se       z
+  <chr>             <chr>                      <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA Russia_Samara_EBA_Yamnaya      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq        p f4rank Russia_Samara_EBA_Yam…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl>    <dbl>  <dbl>                   <dbl> <lgl>    <lgl>
+1 0         0     4  52.3 1.21e-10      0                       1 TRUE     NA   
+# ℹ abbreviated name: ¹​Russia_Samara_EBA_Yamnaya
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+         p
+     <dbl>
+1 1.21e-10
 
 Reading ap data for 28 pairs...
 ℹ Computing admixture weights...

@@ -86,7 +86,27 @@ Pavlov, V. M. (2026). ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of 
 ## 📊 GENERAL PASSPORT OF GENETIC RELATIONS (By Degree of Cladistic Purity)
 
 Validated via admixtools2 (Outgroups: Mbuti, Papuan, Karitiana, Israel_Natufian, Georgia_Satsurblia_LateUP)
+
+### 🟥 Sredni Stog ( I12168.TW M Ukraine_Odesa_EBA) AS THE TARGET
+
+🟥 Germany_Esperstedt_CordedWare --------- (p = 1.98e-10) <-- Decline
+🟥 Russia_Samara_EBA_Yamnaya     --------- (p =  1.21e-10) <-- Decline
+🟥 England_Mesolithic            --------- (p = 0.000000418) <-- Decline
+
 With the 'Ukraine_Odesa_EBA' (pseudo-Stog) noise completely removed.
+
+### 🟥 England_Mesolithic AS THE TARGET
+
+* Moksha ---------------------------- (p = 0.86698)
+* Russia_Samara_MBA_Poltavka -------- (p = 0.74075)
+* Erzya ----------------------------- (p = 0.58761)
+* Germany_Esperstedt_CordedWare ----- (p = 0.56041)
+* Russia_AltaiKrai_LN --------------- (p = 0.32951)
+* Russia_Samara_LBA_Srubnaya -------- (p = 0.31903)
+* Russia_Chelyabinsk_MLBA_Sintashta - (p = 0.18790)
+🟥 Russia_Samara_EBA_Yamnaya ------- (p = 0.0305) <-- Decline
+
+
 
 ### 🟥 ERZYA AS THE TARGET
 
@@ -96,7 +116,7 @@ With the 'Ukraine_Odesa_EBA' (pseudo-Stog) noise completely removed.
 * Germany_Esperstedt_CordedWare ----- (p = 0.72615)
 * England_Mesolithic ---------------- (p = 0.58761)
 * Russia_Chelyabinsk_MLBA_Sintashta - (p = 0.57864)
-* Russia_Samara_EBA_Yamnaya --------- (p = 0.37761) <-- Statistical Decline
+* Russia_Samara_EBA_Yamnaya --------- (p = 0.37761) 
 * Russia_AltaiKrai_LN --------------- (p = 0.15854)
 
 ### 🟦 MOKSHA AS THE TARGET
@@ -113,7 +133,7 @@ With the 'Ukraine_Odesa_EBA' (pseudo-Stog) noise completely removed.
 ### 🟨 GERMANY_CORDED_WARE AS THE TARGET
 
 * Moksha ---------------------------- (p = 0.77851) <-- Forest Substrate Superiority
-* Erzya ----------------------------- (p = 0.72615)
+* Erzya ----------------------------- (p = 0.72615) <-- Forest Substrate Superiority
 * Russia_Chelyabinsk_MLBA_Sintashta - (p = 0.61904)
 * England_Mesolithic ---------------- (p = 0.56041)
 * Russia_Samara_LBA_Srubnaya -------- (p = 0.49882)

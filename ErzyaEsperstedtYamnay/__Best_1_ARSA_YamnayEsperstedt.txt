@@ -1,0 +1,1819 @@
+
+pops <- c(
+   "Erzya","Moksha","Seima_Turbino","Russia_AltaiKrai_LN","Russia_Tatarstan_EIA1_Ananyino",
+   "Russia_Tatarstan_LBA_Maklasheevka","Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga",
+   "Russia_Chelyabinsk_MLBA_Sintashta","Russia_Samara_LBA_Srubnaya","Russia_Samara_MBA_Poltavka",
+   "Russia_Samara_EBA_Yamnaya","Germany_Esperstedt_CordedWare",
+   "Netherlands_LNA_CordedWare_Vlaardingen","kzb004.SG",
+   "Netherlands_EN_LateMesolithic_Swifterbant-o","England_Mesolithic",
+   "Mbuti","Papuan","Karitiana","Israel_Natufian","Georgia_Satsurblia_LateUP")
+
+Erzya  = 
+Russia_Samara_MBA_Poltavka (p=0.93895), 
+Moksha (p=0.93508), 
+Russia_Samara_LBA_Srubnaya (p=0.82122), 
+Germany_Esperstedt_CordedWare (p=0.72615), 
+England_Mesolithic (p=0.58761), 
+Russia_Chelyabinsk_MLBA_Sintashta (p=0.57864), 
+Russia_Samara_EBA_Yamnaya (p=0.37761), 
+Russia_AltaiKrai_LN (p=0.15854) 
+-----------------------------------------------------------------
+Moksha  = 
+Erzya (p=0.93508), 
+Russia_Samara_MBA_Poltavka (p=0.90214), 
+England_Mesolithic (p=0.86698), 
+Russia_Samara_LBA_Srubnaya (p=0.82383), 
+Germany_Esperstedt_CordedWare (p=0.77851), 
+Russia_Chelyabinsk_MLBA_Sintashta (p=0.50287), 
+Russia_Samara_EBA_Yamnaya (p=0.17974), 
+Russia_AltaiKrai_LN (p=0.13208) 
+-----------------------------------------------------------------
+Seima_Turbino  = Russia_Tatarstan_EIA1_Ananyino (p=0.64907), 
+Russia_Tatarstan_LBA_Maklasheevka (p=0.64204), 
+kzb004.SG (p=0.46665), Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.27819) 
+-----------------------------------------------------------------
+Russia_AltaiKrai_LN  = England_Mesolithic (p=0.32951), Russia_Samara_MBA_Poltavka (p=0.20676), Erzya (p=0.15854), Moksha (p=0.13208), Germany_Esperstedt_CordedWare (p=0.09274) 
+-----------------------------------------------------------------
+Russia_Tatarstan_EIA1_Ananyino  = Seima_Turbino (p=0.64907), Russia_Tatarstan_LBA_Maklasheevka (p=0.63928), kzb004.SG (p=0.30870), Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.11148) 
+-----------------------------------------------------------------
+Russia_Tatarstan_LBA_Maklasheevka  = Seima_Turbino (p=0.64204), Russia_Tatarstan_EIA1_Ananyino (p=0.63928), kzb004.SG (p=0.41304), Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.20326) 
+-----------------------------------------------------------------
+Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga  = kzb004.SG (p=0.99457), Seima_Turbino (p=0.27819), Russia_Tatarstan_LBA_Maklasheevka (p=0.20326), Russia_Tatarstan_EIA1_Ananyino (p=0.11148) 
+-----------------------------------------------------------------
+Russia_Chelyabinsk_MLBA_Sintashta  = 
+Russia_Samara_LBA_Srubnaya (p=0.86330), 
+Germany_Esperstedt_CordedWare (p=0.61904), 
+Erzya (p=0.57864), 
+Moksha (p=0.50287), 
+Russia_Samara_EBA_Yamnaya (p=0.34837), 
+Russia_Samara_MBA_Poltavka (p=0.24646), 
+England_Mesolithic (p=0.18790) 
+-----------------------------------------------------------------
+Russia_Samara_LBA_Srubnaya  = Russia_Chelyabinsk_MLBA_Sintashta (p=0.86330), Moksha (p=0.82383), Erzya (p=0.82122), Russia_Samara_MBA_Poltavka (p=0.61625), Germany_Esperstedt_CordedWare (p=0.49882), Russia_Samara_EBA_Yamnaya (p=0.40955), England_Mesolithic (p=0.31903) 
+-----------------------------------------------------------------
+Russia_Samara_MBA_Poltavka  = Erzya (p=0.93895), Moksha (p=0.90214), England_Mesolithic (p=0.74075), Russia_Samara_LBA_Srubnaya (p=0.61625), Germany_Esperstedt_CordedWare (p=0.45817), Russia_Chelyabinsk_MLBA_Sintashta (p=0.24646), Russia_Samara_EBA_Yamnaya (p=0.22121), Russia_AltaiKrai_LN (p=0.20676) 
+-----------------------------------------------------------------
+Russia_Samara_EBA_Yamnaya  = Germany_Esperstedt_CordedWare (p=0.46863), Russia_Samara_LBA_Srubnaya (p=0.40955), Erzya (p=0.37761), Russia_Chelyabinsk_MLBA_Sintashta (p=0.34837), Russia_Samara_MBA_Poltavka (p=0.22121), Moksha (p=0.17974) 
+-----------------------------------------------------------------
+Germany_Esperstedt_CordedWare  = 
+Moksha (p=0.77851), 
+Erzya (p=0.72615), 
+Russia_Chelyabinsk_MLBA_Sintashta (p=0.61904), 
+England_Mesolithic (p=0.56041), 
+Russia_Samara_LBA_Srubnaya (p=0.49882), 
+Russia_Samara_EBA_Yamnaya (p=0.46863), 
+Russia_Samara_MBA_Poltavka (p=0.45817), 
+Russia_AltaiKrai_LN (p=0.09274) 
+-----------------------------------------------------------------
+kzb004.SG  = Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.99457), Seima_Turbino (p=0.46665), Russia_Tatarstan_LBA_Maklasheevka (p=0.41304), Russia_Tatarstan_EIA1_Ananyino (p=0.30870) 
+-----------------------------------------------------------------
+England_Mesolithic  = 
+Moksha (p=0.86698), 
+Russia_Samara_MBA_Poltavka (p=0.74075), 
+Erzya (p=0.58761), 
+Germany_Esperstedt_CordedWare (p=0.56041), 
+Russia_AltaiKrai_LN (p=0.32951), 
+Russia_Samara_LBA_Srubnaya (p=0.31903), 
+Russia_Chelyabinsk_MLBA_Sintashta (p=0.18790) 
+-----------------------------------------------------------------
+
+[1] "Итоговые веса="
+[1] "Russia_Samara_EBA_Yamnaya"
+# A tibble: 1 × 5
+  target                    left               weight       se       z
+  <chr>                     <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya England_Mesolithic      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Russia_Samara_EBA_Yamnaya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq      p f4rank England_Mesolithic feasible best 
+  <chr> <dbl> <dbl> <dbl>  <dbl>  <dbl>              <dbl> <lgl>    <lgl>
+1 0         0     4  10.7 0.0305      0                  1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+       p
+   <dbl>
+1 0.0305
+
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left  weight       se       z
+  <chr>                         <chr>  <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Erzya      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  2.05 0.726      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.726
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left   weight       se       z
+  <chr>                         <chr>   <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Moksha      1 6.76e-14 1.48e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  1.77 0.779      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.779
+
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left               weight       se       z
+  <chr>                         <chr>               <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  2.98 0.560      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.560
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Erzya"
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Erzya  England_Mesolithic      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  2.82 0.588      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.588
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Moksha"
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Moksha England_Mesolithic      1 6.76e-14 1.48e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  1.27 0.867      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.867
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.90057 
+ИСТОЧНИКИ(LEFT): England_Mesolithic + Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic         0.414 0.226  1.83
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.586 0.226  2.59
+
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Russia_Samara_EBA_Yamnaya"
+# A tibble: 1 × 5
+  target                    left               weight       se       z
+  <chr>                     <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya England_Mesolithic      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Russia_Samara_EBA_Yamnaya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq      p f4rank England_Mesolithic feasible best 
+  <chr> <dbl> <dbl> <dbl>  <dbl>  <dbl>              <dbl> <lgl>    <lgl>
+1 0         0     4  10.7 0.0305      0                  1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+       p
+   <dbl>
+1 0.0305
+
+[1] "Итоговые веса="   + мусор Ukraine_Odesa_EBA  Sredni Stog
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 5
+  target                        left                       weight     se      z
+  <chr>                         <chr>                       <dbl>  <dbl>  <dbl>
+1 Germany_Esperstedt_CordedWare Moksha                     0.663  0.478   1.39 
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.435  0.493   0.883
+3 Germany_Esperstedt_CordedWare Ukraine_Odesa_EBA         -0.0978 0.0982 -0.996
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 7 × 14
+  pat      wt   dof chisq             p f4rank Moksha Russia_Samara_EBA_Yamnaya
+  <chr> <dbl> <dbl> <dbl>         <dbl>  <dbl>  <dbl>                     <dbl>
+1 000       0     2  2.02 0.365              2  0.663                     0.435
+2 001       1     3  3.05 0.384              1  0.779                     0.221
+3 010       1     3  2.97 0.397              1  1.16                     NA    
+4 100       1     3  5.62 0.132              1 NA                         1.05 
+5 011       2     4  3.94 0.414              0  1                        NA    
+6 101       2     4  6.55 0.161              0 NA                         1    
+7 110       2     4 44.3  0.00000000565      0 NA                        NA    
+# ℹ 6 more variables: Ukraine_Odesa_EBA <dbl>, feasible <lgl>, best <lgl>,
+#   dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.365  Модель развалилась  Ukraine_Odesa_EBA - Sredni Stog  там не нужен!
+
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left               weight    se      z
+  <chr>                         <chr>               <dbl> <dbl>  <dbl>
+1 Germany_Esperstedt_CordedWare Moksha             1.10   0.139  7.93 
+2 Germany_Esperstedt_CordedWare Ukraine_Odesa_EBA -0.0992 0.139 -0.716
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq       p f4rank Moksha Ukraine_Odesa_EBA feasible best 
+  <chr> <dbl> <dbl> <dbl>   <dbl>  <dbl>  <dbl>             <dbl> <lgl>    <lgl>
+1 00        0     3  2.46 4.83e-1      1   1.10           -0.0992 FALSE    NA   
+2 01        1     4  3.17 5.29e-1      0   1              NA      TRUE     TRUE 
+3 10        1     4 45.9  2.62e-9      0  NA               1      TRUE     TRUE 
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.483  Модель развалилась  Ukraine_Odesa_EBA - Sredni Stog  там не нужен!
+
+[1] "Итоговые веса="  + Ukraine_Odesa_EBA - Sredni Stog  in base
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left  weight       se       z
+  <chr>                         <chr>  <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Erzya      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  4.96 0.291      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.291
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left              weight    se     z
+  <chr>                         <chr>              <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Erzya             0.975  0.107 9.14 
+2 Germany_Esperstedt_CordedWare Ukraine_Odesa_EBA 0.0252 0.107 0.236
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq       p f4rank  Erzya Ukraine_Odesa_EBA feasible best 
+  <chr> <dbl> <dbl> <dbl>   <dbl>  <dbl>  <dbl>             <dbl> <lgl>    <lgl>
+1 00        0     3  4.87 1.81e-1      1  0.975            0.0252 TRUE     NA   
+2 01        1     4  5.71 2.22e-1      0  1               NA      TRUE     TRUE 
+3 10        1     4 44.5  5.15e-9      0 NA                1      TRUE     TRUE 
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.181 было  0.291 Добавление Ukraine_Odesa_EBA - Sredni Stog  ухудшило результат 
+
+
+
+
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                       weight     se      z
+  <chr>                         <chr>                       <dbl>  <dbl>  <dbl>
+1 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  1.08   0.0802 13.5  
+2 Germany_Esperstedt_CordedWare Ukraine_Odesa_EBA         -0.0793 0.0802 -0.989
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq        p f4rank Russia_Samara_EBA_Yamnaya
+  <chr> <dbl> <dbl> <dbl>    <dbl>  <dbl>                     <dbl>
+1 00        0     3  4.17 2.44e- 1      1                      1.08
+2 01        1     4  5.77 2.17e- 1      0                      1   
+3 10        1     4 50.5  2.88e-10      0                     NA   
+# ℹ 6 more variables: Ukraine_Odesa_EBA <dbl>, feasible <lgl>, best <lgl>,
+#   dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.244
+Модель развалилась  Ukraine_Odesa_EBA - Sredni Stog  там не нужен!
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left               weight       se       z
+  <chr>             <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA England_Mesolithic      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq           p f4rank England_Mesolithic feasible best 
+  <chr> <dbl> <dbl> <dbl>       <dbl>  <dbl>              <dbl> <lgl>    <lgl>
+1 0         0     4  35.2 0.000000418      0                  1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+            p
+        <dbl>
+1 0.000000418
+
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left                          weight       se       z
+  <chr>             <chr>                          <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA Germany_Esperstedt_CordedWare      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq        p f4rank Germany_Esperstedt_Co…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl>    <dbl>  <dbl>                   <dbl> <lgl>    <lgl>
+1 0         0     4  51.3 1.98e-10      0                       1 TRUE     NA   
+# ℹ abbreviated name: ¹​Germany_Esperstedt_CordedWare
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+         p
+     <dbl>
+1 1.98e-10
+
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 5
+  target            left                      weight       se       z
+  <chr>             <chr>                      <dbl>    <dbl>   <dbl>
+1 Ukraine_Odesa_EBA Russia_Samara_EBA_Yamnaya      1 8.18e-14 1.22e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_Odesa_EBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq        p f4rank Russia_Samara_EBA_Yam…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl>    <dbl>  <dbl>                   <dbl> <lgl>    <lgl>
+1 0         0     4  52.3 1.21e-10      0                       1 TRUE     NA   
+# ℹ abbreviated name: ¹​Russia_Samara_EBA_Yamnaya
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+         p
+     <dbl>
+1 1.21e-10
+
+
+[1] "Итоговые веса="   мусор Ukraine_Odesa_EBA  Sredni Stog
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Moksha                     0.725 0.471 1.54 
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.275 0.471 0.584
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank Moksha Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  2.67 0.446      1  0.725                     0.275 TRUE    
+2 01        1     4  4.02 0.403      0  1                        NA     TRUE    
+3 10        1     4  6.64 0.156      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.446
+
+
+[1] "Итоговые веса="  Без мусора Ukraine_Odesa_EBA  Sredni Stog
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Moksha                     0.601 0.458 1.31 
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.399 0.458 0.873
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank Moksha Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  1.33 0.722      1  0.601                     0.399 TRUE    
+2 01        1     4  2.44 0.656      0  1                        NA     TRUE    
+3 10        1     4  5.43 0.246      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.722
+
+[1] "Итоговые веса="  Без мусора Ukraine_Odesa_EBA  Sredni Stog
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Erzya                      0.722 0.992 0.728
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.278 0.992 0.280
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank  Erzya Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  1.98 0.576      1  0.722                     0.278 TRUE    
+2 01        1     4  2.73 0.604      0  1                        NA     TRUE    
+3 10        1     4  5.13 0.274      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.576
+
+[1] "Итоговые веса="   + мусор Ukraine_Odesa_EBA  Sredni Stog
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se       z
+  <chr>                         <chr>                      <dbl> <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Erzya                     -0.147  1.80 -0.0821
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  1.15   1.80  0.639 
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank  Erzya Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  4.76 0.190      1 -0.147                      1.15 FALSE   
+2 01        1     4  7.47 0.113      0  1                         NA    TRUE    
+3 10        1     4  6.53 0.163      0 NA                          1    TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.190
+
+
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Erzya                      0.722 0.992 0.728
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.278 0.992 0.280
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank  Erzya Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  1.98 0.576      1  0.722                     0.278 TRUE    
+2 01        1     4  2.73 0.604      0  1                        NA     TRUE    
+3 10        1     4  5.13 0.274      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.576
+
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Moksha                     0.601 0.458 1.31 
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.399 0.458 0.873
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank Moksha Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  1.33 0.722      1  0.601                     0.399 TRUE    
+2 01        1     4  2.44 0.656      0  1                        NA     TRUE    
+3 10        1     4  5.43 0.246      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.722
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.92179 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya + Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Moksha Russia_Samara_EBA_Yamnaya      0.929  0.0217 42.8 
+2 Moksha Russia_Tatarstan_EIA1_Ananyino 0.0710 0.0217  3.27
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.90849 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya + Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Erzya  Russia_Samara_EBA_Yamnaya      0.941  0.0246 38.2 
+2 Erzya  Russia_Tatarstan_EIA1_Ananyino 0.0587 0.0246  2.39
+
+
+00-0-00---------
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.96650 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se     z
+  <chr>  <chr>                      <dbl>  <dbl> <dbl>
+1 Moksha Russia_Samara_EBA_Yamnaya 0.929  0.0217 42.8 
+2 Moksha Seima_Turbino             0.0715 0.0217  3.29
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.96861 
+ИСТОЧНИКИ(LEFT): Erzya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left          weight     se     z
+  <chr>                      <chr>          <dbl>  <dbl> <dbl>
+1 Russia_Samara_MBA_Poltavka Erzya         0.953  0.0374 25.5 
+2 Russia_Samara_MBA_Poltavka Seima_Turbino 0.0474 0.0374  1.27
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.96715 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target             left                          weight     se     z
+  <chr>              <chr>                          <dbl>  <dbl> <dbl>
+1 England_Mesolithic Germany_Esperstedt_CordedWare 0.931  0.0332 28.0 
+2 England_Mesolithic Seima_Turbino                 0.0688 0.0332  2.07
+
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.94739 
+ИСТОЧНИКИ(LEFT): Erzya + Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left                           weight     se     z
+  <chr>                      <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_Samara_MBA_Poltavka Erzya                          0.951  0.0344 27.7 
+2 Russia_Samara_MBA_Poltavka Russia_Tatarstan_EIA1_Ananyino 0.0489 0.0344  1.42
+
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.93895 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_MBA_Poltavka      1 8.89e-14 1.13e13
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.93810 
+ИСТОЧНИКИ(LEFT): kzb004.SG + Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se     z
+  <chr>  <chr>                      <dbl>  <dbl> <dbl>
+1 Moksha kzb004.SG                 0.0759 0.0242  3.14
+2 Moksha Russia_Samara_EBA_Yamnaya 0.924  0.0242 38.2 
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.93508 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare + Russia_Tatarstan_LBA_Maklasheevka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target             left                              weight     se     z
+  <chr>              <chr>                              <dbl>  <dbl> <dbl>
+1 England_Mesolithic Germany_Esperstedt_CordedWare     0.934  0.0315 29.6 
+2 England_Mesolithic Russia_Tatarstan_LBA_Maklasheevka 0.0656 0.0315  2.08
+
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.93342 
+ИСТОЧНИКИ(LEFT): Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga + Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                           weight     se     z
+  <chr>  <chr>                                           <dbl>  <dbl> <dbl>
+1 Moksha Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 0.0763 0.0244  3.13
+2 Moksha Russia_Samara_EBA_Yamnaya                      0.924  0.0244 37.8 
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.92434 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare + Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target             left                           weight     se     z
+  <chr>              <chr>                           <dbl>  <dbl> <dbl>
+1 England_Mesolithic Germany_Esperstedt_CordedWare  0.935  0.0330 28.3 
+2 England_Mesolithic Russia_Tatarstan_EIA1_Ananyino 0.0650 0.0330  1.97
+
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.92179 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya + Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Moksha Russia_Samara_EBA_Yamnaya      0.929  0.0217 42.8 
+2 Moksha Russia_Tatarstan_EIA1_Ananyino 0.0710 0.0217  3.27
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.90849 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya + Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Erzya  Russia_Samara_EBA_Yamnaya      0.941  0.0246 38.2 
+2 Erzya  Russia_Tatarstan_EIA1_Ananyino 0.0587 0.0246  2.39
+
+
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 5
+  target                        left                       weight     se       z
+  <chr>                         <chr>                       <dbl>  <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Erzya                     -0.0945 1.43   -0.0658
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  1.15   1.45    0.797 
+3 Germany_Esperstedt_CordedWare Ukraine_Odesa_EBA         -0.0598 0.0904 -0.661 
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 7 × 14
+  pat      wt   dof chisq             p f4rank   Erzya Russia_Samara_EBA_Yamnaya
+  <chr> <dbl> <dbl> <dbl>         <dbl>  <dbl>   <dbl>                     <dbl>
+1 000       0     2  3.95 0.139              2 -0.0945                      1.15
+2 001       1     3  4.72 0.193              1 -0.444                       1.44
+3 010       1     3  7.25 0.0645             1  0.954                      NA   
+4 100       1     3  5.66 0.129              1 NA                           1.04
+5 011       2     4  7.41 0.116              0  1                          NA   
+6 101       2     4  6.52 0.164              0 NA                           1   
+7 110       2     4 43.1  0.00000000992      0 NA                          NA   
+# ℹ 6 more variables: Ukraine_Odesa_EBA <dbl>, feasible <lgl>, best <lgl>,
+#   dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.139
+
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se       z
+  <chr>                         <chr>                      <dbl> <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Erzya                     -0.147  1.80 -0.0821
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  1.15   1.80  0.639 
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank  Erzya Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  4.76 0.190      1 -0.147                      1.15 FALSE   
+2 01        1     4  7.47 0.113      0  1                         NA    TRUE    
+3 10        1     4  6.53 0.163      0 NA                          1    TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.190
+>
+
+00000-----------------------999999999999
+
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare Moksha                     0.725 0.471 1.54 
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.275 0.471 0.584
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank Moksha Russia_Samara_EBA_Yamnaya feasible
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl>                     <dbl> <lgl>   
+1 00        0     3  2.67 0.446      1  0.725                     0.275 TRUE    
+2 01        1     4  4.02 0.403      0  1                        NA     TRUE    
+3 10        1     4  6.64 0.156      0 NA                         1     TRUE    
+# ℹ 4 more variables: best <lgl>, dofdiff <dbl>, chisqdiff <dbl>,
+#   p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.446
+
+
+
+
+
+------------------------------------------------------
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Russia_Samara_EBA_Yamnaya"
+# A tibble: 1 × 5
+  target                    left               weight       se       z
+  <chr>                     <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya England_Mesolithic      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Russia_Samara_EBA_Yamnaya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq      p f4rank England_Mesolithic feasible best 
+  <chr> <dbl> <dbl> <dbl>  <dbl>  <dbl>              <dbl> <lgl>    <lgl>
+1 0         0     4  10.7 0.0305      0                  1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+       p
+   <dbl>
+1 0.0305
+\
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 7 populations...
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left               weight       se       z
+  <chr>                         <chr>               <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  2.98 0.560      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.560
+
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 8 populations...
+Reading ap data for 36 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 2 × 5
+  target                        left                      weight    se     z
+  <chr>                         <chr>                      <dbl> <dbl> <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic         0.414 0.226  1.83
+2 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamnaya  0.586 0.226  2.59
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 3 × 13
+  pat      wt   dof chisq     p f4rank England_Mesolithic Russia_Samara_EBA_Ya…¹
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl>                  <dbl>
+1 00        0     3 0.582 0.901      1              0.414                  0.586
+2 01        1     4 4.00  0.406      0              1                     NA    
+3 10        1     4 4.82  0.306      0             NA                      1    
+# ℹ abbreviated name: ¹​Russia_Samara_EBA_Yamnaya
+# ℹ 5 more variables: feasible <lgl>, best <lgl>, dofdiff <dbl>,
+#   chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.901
+
+[1] "Итоговые веса="
+[1] "Russia_Chelyabinsk_MLBA_Sintashta"
+# A tibble: 1 × 5
+  target                            left               weight       se       z
+  <chr>                             <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta England_Mesolithic      1 8.89e-14 1.13e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Russia_Chelyabinsk_MLBA_Sintashta"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  6.15 0.188      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.188
+
+
+[1] "Итоговые веса="
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 5
+  target                        left   weight       se       z
+  <chr>                         <chr>   <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Moksha      1 6.76e-14 1.48e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Germany_Esperstedt_CordedWare"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  2.87 0.580      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.580
+
+
+
+
+
+
+
+
+Germany_Esperstedt_CordedWare  = 
+Moksha (p=0.77851), Erzya (p=0.72615), 
+Russia_Chelyabinsk_MLBA_Sintashta (p=0.61904), 
+England_Mesolithic (p=0.56041), 
+Russia_Samara_LBA_Srubnaya (p=0.49882), 
+Russia_Samara_EBA_Yamnaya (p=0.46863), 
+Russia_Samara_MBA_Poltavka (p=0.45817), 
+Russia_AltaiKrai_LN (p=0.09274) 
+
+Russia_Samara_EBA_Yamnaya  = 
+Germany_Esperstedt_CordedWare (p=0.46863), 
+Russia_Samara_LBA_Srubnaya (p=0.40955), 
+Erzya (p=0.37761), 
+Russia_Chelyabinsk_MLBA_Sintashta (p=0.34837), 
+Russia_Samara_MBA_Poltavka (p=0.22121), 
+Moksha (p=0.17974) 
+
+
+
+
+   ГЕНЕРАЛЬНЫЙ ПАСПОРТ РОДСТВЕННЫХ СВЯЗЕЙ (ПО СТЕПЕНИ ЧИСТОТЫ)
+=================================================================
+Erzya  = Russia_Samara_MBA_Poltavka (p=0.93895), Moksha (p=0.93508), Russia_Samara_LBA_Srubnaya (p=0.82122), Germany_Esperstedt_CordedWare (p=0.72615), England_Mesolithic (p=0.58761), Russia_Chelyabinsk_MLBA_Sintashta (p=0.57864), Russia_Samara_EBA_Yamnaya (p=0.37761), Russia_AltaiKrai_LN (p=0.15854) 
+-----------------------------------------------------------------
+Moksha  = Erzya (p=0.93508), Russia_Samara_MBA_Poltavka (p=0.90214), England_Mesolithic (p=0.86698), Russia_Samara_LBA_Srubnaya (p=0.82383), Germany_Esperstedt_CordedWare (p=0.77851), Russia_Chelyabinsk_MLBA_Sintashta (p=0.50287), Russia_Samara_EBA_Yamnaya (p=0.17974), Russia_AltaiKrai_LN (p=0.13208) 
+-----------------------------------------------------------------
+Seima_Turbino  = Russia_Tatarstan_EIA1_Ananyino (p=0.64907), Russia_Tatarstan_LBA_Maklasheevka (p=0.64204), kzb004.SG (p=0.46665), Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.27819) 
+-----------------------------------------------------------------
+Russia_AltaiKrai_LN  = England_Mesolithic (p=0.32951), Russia_Samara_MBA_Poltavka (p=0.20676), Erzya (p=0.15854), Moksha (p=0.13208), Germany_Esperstedt_CordedWare (p=0.09274) 
+-----------------------------------------------------------------
+Russia_Tatarstan_EIA1_Ananyino  = Seima_Turbino (p=0.64907), Russia_Tatarstan_LBA_Maklasheevka (p=0.63928), kzb004.SG (p=0.30870), Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.11148) 
+-----------------------------------------------------------------
+Russia_Tatarstan_LBA_Maklasheevka  = Seima_Turbino (p=0.64204), Russia_Tatarstan_EIA1_Ananyino (p=0.63928), kzb004.SG (p=0.41304), Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.20326) 
+-----------------------------------------------------------------
+Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga  = kzb004.SG (p=0.99457), Seima_Turbino (p=0.27819), Russia_Tatarstan_LBA_Maklasheevka (p=0.20326), Russia_Tatarstan_EIA1_Ananyino (p=0.11148) 
+-----------------------------------------------------------------
+Russia_Chelyabinsk_MLBA_Sintashta  = 
+Russia_Samara_LBA_Srubnaya (p=0.86330), 
+Germany_Esperstedt_CordedWare (p=0.61904), 
+Erzya (p=0.57864), Moksha (p=0.50287), Russia_Samara_EBA_Yamnaya (p=0.34837), Russia_Samara_MBA_Poltavka (p=0.24646), England_Mesolithic (p=0.18790) 
+-----------------------------------------------------------------
+Russia_Samara_LBA_Srubnaya  = Russia_Chelyabinsk_MLBA_Sintashta (p=0.86330), Moksha (p=0.82383), Erzya (p=0.82122), Russia_Samara_MBA_Poltavka (p=0.61625), Germany_Esperstedt_CordedWare (p=0.49882), Russia_Samara_EBA_Yamnaya (p=0.40955), England_Mesolithic (p=0.31903) 
+-----------------------------------------------------------------
+Russia_Samara_MBA_Poltavka  = Erzya (p=0.93895), Moksha (p=0.90214), England_Mesolithic (p=0.74075), Russia_Samara_LBA_Srubnaya (p=0.61625), Germany_Esperstedt_CordedWare (p=0.45817), Russia_Chelyabinsk_MLBA_Sintashta (p=0.24646), Russia_Samara_EBA_Yamnaya (p=0.22121), Russia_AltaiKrai_LN (p=0.20676) 
+-----------------------------------------------------------------
+Russia_Samara_EBA_Yamnaya  = Germany_Esperstedt_CordedWare (p=0.46863), Russia_Samara_LBA_Srubnaya (p=0.40955), Erzya (p=0.37761), Russia_Chelyabinsk_MLBA_Sintashta (p=0.34837), Russia_Samara_MBA_Poltavka (p=0.22121), Moksha (p=0.17974) 
+-----------------------------------------------------------------
+Germany_Esperstedt_CordedWare  = Moksha (p=0.77851), Erzya (p=0.72615), Russia_Chelyabinsk_MLBA_Sintashta (p=0.61904), England_Mesolithic (p=0.56041), Russia_Samara_LBA_Srubnaya (p=0.49882), Russia_Samara_EBA_Yamnaya (p=0.46863), Russia_Samara_MBA_Poltavka (p=0.45817), Russia_AltaiKrai_LN (p=0.09274) 
+-----------------------------------------------------------------
+kzb004.SG  = Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga (p=0.99457), Seima_Turbino (p=0.46665), Russia_Tatarstan_LBA_Maklasheevka (p=0.41304), Russia_Tatarstan_EIA1_Ananyino (p=0.30870) 
+-----------------------------------------------------------------
+England_Mesolithic  = Moksha (p=0.86698), Russia_Samara_MBA_Poltavka (p=0.74075), Erzya (p=0.58761), Germany_Esperstedt_CordedWare (p=0.56041), Russia_AltaiKrai_LN (p=0.32951), Russia_Samara_LBA_Srubnaya (p=0.31903), Russia_Chelyabinsk_MLBA_Sintashta (p=0.18790) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ ПОДРОБНЫЕ ЛОГИ КАЛЬКУЛЯЦИИ ДЛЯ РУКОПИСИ КНИГИ:
+=================================================================
+
+ЦЕЛЬ (TARGET)  : kzb004.SG 
+ЧИСТОЕ P-VALUE : 0.99457 
+ИСТОЧНИКИ(LEFT): Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target    left                                         weight       se       z
+  <chr>     <chr>                                         <dbl>    <dbl>   <dbl>
+1 kzb004.SG Russia_EMBA_FatyanovoBalanovo_CordedWare_Vo…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+ЧИСТОЕ P-VALUE : 0.99457 
+ИСТОЧНИКИ(LEFT): kzb004.SG 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                         left    weight       se       z
+  <chr>                                          <chr>    <dbl>    <dbl>   <dbl>
+1 Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga kzb004…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.93895 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_MBA_Poltavka      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.93895 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left  weight       se       z
+  <chr>                      <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Erzya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.93508 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left   weight       se       z
+  <chr>  <chr>   <dbl>    <dbl>   <dbl>
+1 Erzya  Moksha      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.93508 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left  weight       se       z
+  <chr>  <chr>  <dbl>    <dbl>   <dbl>
+1 Moksha Erzya      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.90214 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left   weight       se       z
+  <chr>                      <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Moksha      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.90214 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Samara_MBA_Poltavka      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.86698 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left   weight       se       z
+  <chr>              <chr>   <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Moksha      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.86698 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Moksha England_Mesolithic      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.86330 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Russia_Samara_LBA_S…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.86330 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_Chelyabinsk_MLBA_Si…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.82383 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Samara_LBA_Srubnaya      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.82383 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left   weight       se       z
+  <chr>                      <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Moksha      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.82122 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left  weight       se       z
+  <chr>                      <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Erzya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.82122 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_LBA_Srubnaya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.77851 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                          weight       se       z
+  <chr>  <chr>                          <dbl>    <dbl>   <dbl>
+1 Moksha Germany_Esperstedt_CordedWare      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.77851 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left   weight       se       z
+  <chr>                         <chr>   <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Moksha      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.74075 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left               weight       se       z
+  <chr>                      <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka England_Mesolithic      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.74075 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                       weight       se       z
+  <chr>              <chr>                       <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_Samara_MBA_Poltavka      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.72615 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left  weight       se       z
+  <chr>                         <chr>  <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Erzya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.72615 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                          weight       se       z
+  <chr>  <chr>                          <dbl>    <dbl>   <dbl>
+1 Erzya  Germany_Esperstedt_CordedWare      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Tatarstan_EIA1_Ananyino 
+ЧИСТОЕ P-VALUE : 0.64907 
+ИСТОЧНИКИ(LEFT): Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                         left          weight       se       z
+  <chr>                          <chr>          <dbl>    <dbl>   <dbl>
+1 Russia_Tatarstan_EIA1_Ananyino Seima_Turbino      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Seima_Turbino 
+ЧИСТОЕ P-VALUE : 0.64907 
+ИСТОЧНИКИ(LEFT): Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                           weight       se       z
+  <chr>         <chr>                           <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Russia_Tatarstan_EIA1_Ananyino      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Tatarstan_LBA_Maklasheevka 
+ЧИСТОЕ P-VALUE : 0.64204 
+ИСТОЧНИКИ(LEFT): Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left          weight       se       z
+  <chr>                             <chr>          <dbl>    <dbl>   <dbl>
+1 Russia_Tatarstan_LBA_Maklasheevka Seima_Turbino      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Seima_Turbino 
+ЧИСТОЕ P-VALUE : 0.64204 
+ИСТОЧНИКИ(LEFT): Russia_Tatarstan_LBA_Maklasheevka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                              weight       se       z
+  <chr>         <chr>                              <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Russia_Tatarstan_LBA_Maklasheevka      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Tatarstan_LBA_Maklasheevka 
+ЧИСТОЕ P-VALUE : 0.63928 
+ИСТОЧНИКИ(LEFT): Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Tatarstan_LBA_Maklasheevka Russia_Tatarstan_EI…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Tatarstan_EIA1_Ananyino 
+ЧИСТОЕ P-VALUE : 0.63928 
+ИСТОЧНИКИ(LEFT): Russia_Tatarstan_LBA_Maklasheevka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                         left                    weight       se       z
+  <chr>                          <chr>                    <dbl>    <dbl>   <dbl>
+1 Russia_Tatarstan_EIA1_Ananyino Russia_Tatarstan_LBA_M…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.61904 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Germany_Esperstedt_…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.61904 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left                     weight       se       z
+  <chr>                         <chr>                     <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Russia_Chelyabinsk_MLBA…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.61625 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                       weight       se       z
+  <chr>                      <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_Samara_MBA_Poltavka      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.61625 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                       weight       se       z
+  <chr>                      <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Russia_Samara_LBA_Srubnaya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.58761 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left  weight       se       z
+  <chr>              <chr>  <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Erzya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.58761 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Erzya  England_Mesolithic      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.57864 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                              weight       se       z
+  <chr>  <chr>                              <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Chelyabinsk_MLBA_Sintashta      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.57864 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left  weight       se       z
+  <chr>                             <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Erzya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.56041 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                          weight       se       z
+  <chr>              <chr>                          <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Germany_Esperstedt_CordedWare      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.56041 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left               weight       se       z
+  <chr>                         <chr>               <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare England_Mesolithic      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.50287 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left   weight       se       z
+  <chr>                             <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Moksha      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.50287 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                              weight       se       z
+  <chr>  <chr>                              <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Chelyabinsk_MLBA_Sintashta      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.49882 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Germany_Esperstedt_CordedW…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.49882 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left                     weight       se       z
+  <chr>                         <chr>                     <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Russia_Samara_LBA_Srubn…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.46863 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left                     weight       se       z
+  <chr>                         <chr>                     <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Russia_Samara_EBA_Yamna…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.46863 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left                         weight       se       z
+  <chr>                     <chr>                         <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya Germany_Esperstedt_CordedWa…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Seima_Turbino 
+ЧИСТОЕ P-VALUE : 0.46665 
+ИСТОЧНИКИ(LEFT): kzb004.SG 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left      weight       se       z
+  <chr>         <chr>      <dbl>    <dbl>   <dbl>
+1 Seima_Turbino kzb004.SG      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : kzb004.SG 
+ЧИСТОЕ P-VALUE : 0.46665 
+ИСТОЧНИКИ(LEFT): Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target    left          weight       se       z
+  <chr>     <chr>          <dbl>    <dbl>   <dbl>
+1 kzb004.SG Seima_Turbino      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.45817 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left                     weight       se       z
+  <chr>                         <chr>                     <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Russia_Samara_MBA_Polta…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.45817 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Germany_Esperstedt_CordedW…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Tatarstan_LBA_Maklasheevka 
+ЧИСТОЕ P-VALUE : 0.41304 
+ИСТОЧНИКИ(LEFT): kzb004.SG 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left      weight       se       z
+  <chr>                             <chr>      <dbl>    <dbl>   <dbl>
+1 Russia_Tatarstan_LBA_Maklasheevka kzb004.SG      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : kzb004.SG 
+ЧИСТОЕ P-VALUE : 0.41304 
+ИСТОЧНИКИ(LEFT): Russia_Tatarstan_LBA_Maklasheevka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target    left                              weight       se       z
+  <chr>     <chr>                              <dbl>    <dbl>   <dbl>
+1 kzb004.SG Russia_Tatarstan_LBA_Maklasheevka      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.40955 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                      weight       se       z
+  <chr>                      <chr>                      <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_Samara_EBA_Yamnaya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.40955 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left                       weight       se       z
+  <chr>                     <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya Russia_Samara_LBA_Srubnaya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.37761 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left  weight       se       z
+  <chr>                     <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya Erzya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.37761 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                      weight       se       z
+  <chr>  <chr>                      <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_EBA_Yamnaya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.34837 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Russia_Samara_EBA_Y…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.34837 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left                         weight       se       z
+  <chr>                     <chr>                         <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya Russia_Chelyabinsk_MLBA_Sin…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_AltaiKrai_LN 
+ЧИСТОЕ P-VALUE : 0.32951 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left               weight       se       z
+  <chr>               <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_AltaiKrai_LN England_Mesolithic      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.32951 
+ИСТОЧНИКИ(LEFT): Russia_AltaiKrai_LN 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                weight       se       z
+  <chr>              <chr>                <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_AltaiKrai_LN      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.31903 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left               weight       se       z
+  <chr>                      <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya England_Mesolithic      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.31903 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                       weight       se       z
+  <chr>              <chr>                       <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_Samara_LBA_Srubnaya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Tatarstan_EIA1_Ananyino 
+ЧИСТОЕ P-VALUE : 0.30870 
+ИСТОЧНИКИ(LEFT): kzb004.SG 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                         left      weight       se       z
+  <chr>                          <chr>      <dbl>    <dbl>   <dbl>
+1 Russia_Tatarstan_EIA1_Ananyino kzb004.SG      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : kzb004.SG 
+ЧИСТОЕ P-VALUE : 0.30870 
+ИСТОЧНИКИ(LEFT): Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target    left                           weight       se       z
+  <chr>     <chr>                           <dbl>    <dbl>   <dbl>
+1 kzb004.SG Russia_Tatarstan_EIA1_Ananyino      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Seima_Turbino 
+ЧИСТОЕ P-VALUE : 0.27819 
+ИСТОЧНИКИ(LEFT): Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                                     weight       se       z
+  <chr>         <chr>                                     <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Russia_EMBA_FatyanovoBalanovo_CordedWar…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+ЧИСТОЕ P-VALUE : 0.27819 
+ИСТОЧНИКИ(LEFT): Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                         left    weight       se       z
+  <chr>                                          <chr>    <dbl>    <dbl>   <dbl>
+1 Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga Seima_…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.24646 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Russia_Chelyabinsk_MLBA_Si…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.24646 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta Russia_Samara_MBA_P…      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.22121 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left                       weight       se       z
+  <chr>                     <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya Russia_Samara_MBA_Poltavka      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.22121 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                      weight       se       z
+  <chr>                      <chr>                      <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Russia_Samara_EBA_Yamnaya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_AltaiKrai_LN 
+ЧИСТОЕ P-VALUE : 0.20676 
+ИСТОЧНИКИ(LEFT): Russia_Samara_MBA_Poltavka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left                       weight       se       z
+  <chr>               <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_AltaiKrai_LN Russia_Samara_MBA_Poltavka      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_MBA_Poltavka 
+ЧИСТОЕ P-VALUE : 0.20676 
+ИСТОЧНИКИ(LEFT): Russia_AltaiKrai_LN 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                weight       se       z
+  <chr>                      <chr>                <dbl>    <dbl>   <dbl>
+1 Russia_Samara_MBA_Poltavka Russia_AltaiKrai_LN      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+ЧИСТОЕ P-VALUE : 0.20326 
+ИСТОЧНИКИ(LEFT): Russia_Tatarstan_LBA_Maklasheevka 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                         left    weight       se       z
+  <chr>                                          <chr>    <dbl>    <dbl>   <dbl>
+1 Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga Russia…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Tatarstan_LBA_Maklasheevka 
+ЧИСТОЕ P-VALUE : 0.20326 
+ИСТОЧНИКИ(LEFT): Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Tatarstan_LBA_Maklasheevka Russia_EMBA_Fatyano…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Chelyabinsk_MLBA_Sintashta 
+ЧИСТОЕ P-VALUE : 0.18790 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left               weight       se       z
+  <chr>                             <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Chelyabinsk_MLBA_Sintashta England_Mesolithic      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.18790 
+ИСТОЧНИКИ(LEFT): Russia_Chelyabinsk_MLBA_Sintashta 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                              weight       se       z
+  <chr>              <chr>                              <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_Chelyabinsk_MLBA_Sintashta      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_EBA_Yamnaya 
+ЧИСТОЕ P-VALUE : 0.17974 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left   weight       se       z
+  <chr>                     <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_Samara_EBA_Yamnaya Moksha      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.17974 
+ИСТОЧНИКИ(LEFT): Russia_Samara_EBA_Yamnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                      weight       se       z
+  <chr>  <chr>                      <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Samara_EBA_Yamnaya      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_AltaiKrai_LN 
+ЧИСТОЕ P-VALUE : 0.15854 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left  weight       se       z
+  <chr>               <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_AltaiKrai_LN Erzya      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.15854 
+ИСТОЧНИКИ(LEFT): Russia_AltaiKrai_LN 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                weight       se       z
+  <chr>  <chr>                <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_AltaiKrai_LN      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_AltaiKrai_LN 
+ЧИСТОЕ P-VALUE : 0.13208 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left   weight       se       z
+  <chr>               <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_AltaiKrai_LN Moksha      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.13208 
+ИСТОЧНИКИ(LEFT): Russia_AltaiKrai_LN 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                weight       se       z
+  <chr>  <chr>                <dbl>    <dbl>   <dbl>
+1 Moksha Russia_AltaiKrai_LN      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+ЧИСТОЕ P-VALUE : 0.11148 
+ИСТОЧНИКИ(LEFT): Russia_Tatarstan_EIA1_Ananyino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                         left    weight       se       z
+  <chr>                                          <chr>    <dbl>    <dbl>   <dbl>
+1 Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga Russia…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Tatarstan_EIA1_Ananyino 
+ЧИСТОЕ P-VALUE : 0.11148 
+ИСТОЧНИКИ(LEFT): Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                         left                    weight       se       z
+  <chr>                          <chr>                    <dbl>    <dbl>   <dbl>
+1 Russia_Tatarstan_EIA1_Ananyino Russia_EMBA_FatyanovoB…      1 6.76e-14 1.48e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Germany_Esperstedt_CordedWare 
+ЧИСТОЕ P-VALUE : 0.09274 
+ИСТОЧНИКИ(LEFT): Russia_AltaiKrai_LN 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left                weight       se       z
+  <chr>                         <chr>                <dbl>    <dbl>   <dbl>
+1 Germany_Esperstedt_CordedWare Russia_AltaiKrai_LN      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_AltaiKrai_LN 
+ЧИСТОЕ P-VALUE : 0.09274 
+ИСТОЧНИКИ(LEFT): Germany_Esperstedt_CordedWare 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left                          weight       se       z
+  <chr>               <chr>                          <dbl>    <dbl>   <dbl>
+1 Russia_AltaiKrai_LN Germany_Esperstedt_CordedWare      1 8.89e-14 1.13e13
+-----------------------------------------------------------------
+--------------------------END-----------------------------------
