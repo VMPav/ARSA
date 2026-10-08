@@ -6,12 +6,6 @@ library(admixtools)
 #f2_dir <- "D:/Arsa_Final_F2_Blocks"
 f2_dir <- "D:/Arsa_Final_F2_Blocks_Odesa_Stog"
 #f2_dir <- "D:/Arsa_Final_F2_BlocksBest"
-pops <- c(
-   "Erzya", "Moksha", "kzb004.SG", "Seima_Turbino", "Russia_Tatarstan_EIA1_Ananyino",
-   "Russia_Tatarstan_LBA_Maklasheevka", "Ami", "Russia_Ivanovo_MLBA_CordedWare_Fatyanovo",
-   "England_Mesolithic", "Netherlands_EN_LateMesolithic_Swifterbant-o",
-   "Russia_AltaiKrai_LN", "Mbuti", "Turkey_N", "Turkey_C", "Russia_Kostenki_UP"
-)
 
 options(mc.cores = 8)
 
