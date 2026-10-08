@@ -82,7 +82,7 @@ Cite the primary monograph repository as:
 ```text
 Pavlov, V. M. (2026). ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate (Version v16). Zenodo. (<https://doi.org/10.5281/zenodo.23224148>)
 ```
-
+![](ARSA4.png)
 ## 📊 GENERAL PASSPORT OF GENETIC RELATIONS (By Degree of Cladistic Purity)
 
 Validated via admixtools2 (Outgroups: Mbuti, Papuan, Karitiana, Israel_Natufian, Georgia_Satsurblia_LateUP)
