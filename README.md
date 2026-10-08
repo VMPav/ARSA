@@ -89,9 +89,9 @@ Validated via admixtools2 (Outgroups: Mbuti, Papuan, Karitiana, Israel_Natufian,
 
 ### 🟥 Sredni Stog ( I12168.TW M Ukraine_Odesa_EBA) AS THE TARGET
 
-🟥 Germany_Esperstedt_CordedWare --------- (p = 1.98e-10) <-- Decline
-🟥 Russia_Samara_EBA_Yamnaya     --------- (p =  1.21e-10) <-- Decline
-🟥 England_Mesolithic            --------- (p = 0.000000418) <-- Decline
+* Germany_Esperstedt_CordedWare --------- (p = 1.98e-10) <-- Decline
+* Russia_Samara_EBA_Yamnaya     --------- (p =  1.21e-10) <-- Decline
+* England_Mesolithic            --------- (p = 0.000000418) <-- Decline
 
 With the 'Ukraine_Odesa_EBA' (pseudo-Stog) noise completely removed.
 
@@ -104,7 +104,7 @@ With the 'Ukraine_Odesa_EBA' (pseudo-Stog) noise completely removed.
 * Russia_AltaiKrai_LN --------------- (p = 0.32951)
 * Russia_Samara_LBA_Srubnaya -------- (p = 0.31903)
 * Russia_Chelyabinsk_MLBA_Sintashta - (p = 0.18790)
-🟥 Russia_Samara_EBA_Yamnaya ------- (p = 0.0305) <-- Decline
+* Russia_Samara_EBA_Yamnaya ------- (p = 0.0305) <-- Decline
 
 
 
