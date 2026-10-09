@@ -1,0 +1,71 @@
+
+ 
+    MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = Ukraine_EIA_Scythian (p=0.66970), Moksha (p=0.17490) 
+-----------------------------------------------------------------
+Moksha  = Ukraine_EIA_Scythian (p=0.96817), Erzya (p=0.17490) 
+-----------------------------------------------------------------
+Seima_Turbino  = 
+Russia_EasternScythian (p=0.83483), 
+Ukraine_EIA_Cimmerian (p=0.82485), 
+Ukraine_EIA1_ForestSteppe_Scythian (p=0.35298) 
+-----------------------------------------------------------------
+Ukraine_EIA_Cimmerian  = 
+Seima_Turbino (p=0.82485), 
+Russia_EasternScythian (p=0.82320), 
+Ukraine_EIA1_ForestSteppe_Scythian (p=0.36794) 
+-----------------------------------------------------------------
+Ukraine_LBA_Cimmerian  = Ukraine_MalaRogozianka_LIA_Scythian (p=0.63406) 
+-----------------------------------------------------------------
+Russia_EasternScythian  = 
+Seima_Turbino (p=0.83483), 
+Ukraine_EIA_Cimmerian (p=0.82320), 
+Ukraine_EIA1_ForestSteppe_Scythian (p=0.75934) 
+-----------------------------------------------------------------
+Ukraine_EIA_Scythian  = Moksha (p=0.96817), Erzya (p=0.66970) 
+-----------------------------------------------------------------
+Ukraine_MalaRogozianka_LIA_Scythian  = Ukraine_LBA_Cimmerian (p=0.63406) 
+-----------------------------------------------------------------
+Ukraine_EIA1_ForestSteppe_Scythian  = 
+Russia_EasternScythian (p=0.75934), 
+Ukraine_EIA_Cimmerian (p=0.36794), 
+Seima_Turbino (p=0.35298) 
+
+[1] "Итоговые веса="
+[1] "Ukraine_EIA_Scythian"
+# A tibble: 1 × 5
+  target               left   weight       se       z
+  <chr>                <chr>   <dbl>    <dbl>   <dbl>
+1 Ukraine_EIA_Scythian Moksha      1 1.81e-13 5.52e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_EIA_Scythian"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4 0.553 0.968      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.968
+ 
+ [1] "Итоговые веса="
+[1] "Ukraine_EIA_Scythian"
+# A tibble: 1 × 5
+  target               left  weight       se       z
+  <chr>                <chr>  <dbl>    <dbl>   <dbl>
+1 Ukraine_EIA_Scythian Erzya      1 1.81e-13 5.52e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_EIA_Scythian"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  2.36 0.670      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.670

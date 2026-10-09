@@ -1,0 +1,118 @@
+
+ 
+MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+
+Ukraine_EIA_Scythian  = 
+Moksha weight1=0.724, Erzya weight2=0.276 (p=0.97907), 
+Moksha (p=0.96817), 
+Erzya (p=0.66970), 
+=================================================================
+Erzya  = Ukraine_EIA_Scythian (p=0.66970)
+-----------------------------------------------------------------
+Moksha  = Ukraine_EIA_Scythian (p=0.96817)
+-----------------------------------------------------------------
+Seima_Turbino  = 
+Russia_EasternScythian (p=0.83483), 
+Ukraine_EIA_Cimmerian (p=0.82485), 
+Ukraine_EIA1_ForestSteppe_Scythian (p=0.35298) 
+-----------------------------------------------------------------
+Ukraine_EIA_Cimmerian  = 
+Seima_Turbino (p=0.82485), 
+Russia_EasternScythian (p=0.82320), 
+Ukraine_EIA1_ForestSteppe_Scythian (p=0.36794) 
+-----------------------------------------------------------------
+Ukraine_LBA_Cimmerian  = Ukraine_MalaRogozianka_LIA_Scythian (p=0.63406) 
+-----------------------------------------------------------------
+Russia_EasternScythian  = 
+Seima_Turbino (p=0.83483), 
+Ukraine_EIA_Cimmerian (p=0.82320), 
+Ukraine_EIA1_ForestSteppe_Scythian (p=0.75934) 
+-----------------------------------------------------------------
+Ukraine_EIA_Scythian  = Moksha (p=0.96817), Erzya (p=0.66970) 
+-----------------------------------------------------------------
+Ukraine_MalaRogozianka_LIA_Scythian  = Ukraine_LBA_Cimmerian (p=0.63406) 
+-----------------------------------------------------------------
+Ukraine_EIA1_ForestSteppe_Scythian  = 
+Russia_EasternScythian (p=0.75934), 
+Ukraine_EIA_Cimmerian (p=0.36794), 
+Seima_Turbino (p=0.35298) 
+
+ Seima_Turbino  = Russia_EasternScythian (p=0.83483), 
+ Ukraine_EIA_Cimmerian (p=0.82485), 
+ Ukraine_EIA1_ForestSteppe_Scythian (p=0.35298), 
+ Ukraine_EIA1_ForestSteppe_Scythian weight1=0.971, Moksha weight2=0.029 (p=0.22921), 
+ Ukraine_EIA1_ForestSteppe_Scythian weight1=0.976, Russia_Chelyabinsk_MLBA_Sintashta weight2=0.024 (p=0.22829), 
+ Ukraine_EIA1_ForestSteppe_Scythian weight1=0.973, Ukraine_EIA_Scythian weight2=0.027 (p=0.22779), 
+ Ukraine_EIA1_ForestSteppe_Scythian weight1=0.981, Russia_Samara_EBA_Yamnaya weight2=0.019 (p=0.22591), 
+ Ukraine_EIA1_ForestSteppe_Scythian weight1=0.988, Russia_Saratov_Scythian weight2=0.012 (p=0.22331), 
+ Ukraine_EIA1_ForestSteppe_Scythian weight1=0.992, Erzya weight2=0.008 (p=0.22253) 
+-----------------------------------------------------------------
+Ukraine_EIA_Cimmerian  = 
+Seima_Turbino weight1=0.901, Erzya weight2=0.099 (p=0.86926), 
+Seima_Turbino weight1=0.805, Russia_Saratov_Scythian weight2=0.195 (p=0.85766), 
+Seima_Turbino weight1=0.903, Ukraine_EIA_Scythian weight2=0.097 (p=0.85760), 
+Seima_Turbino weight1=0.923, Russia_Samara_EBA_Yamnaya weight2=0.077 (p=0.85125), 
+Seima_Turbino weight1=0.923, Russia_Chelyabinsk_MLBA_Sintashta weight2=0.077 (p=0.84721), 
+Seima_Turbino weight1=0.908, Moksha weight2=0.092 (p=0.84608), Seima_Turbino (p=0.82485), 
+Russia_EasternScythian (p=0.82320), 
+Russia_EasternScythian weight1=0.937, Ukraine_EIA_Scythian weight2=0.063 (p=0.74905), 
+Russia_EasternScythian weight1=0.950, Russia_Chelyabinsk_MLBA_Sintashta weight2=0.050 (p=0.74843), 
+Russia_EasternScythian weight1=0.942, Moksha weight2=0.058 (p=0.74344), 
+Russia_EasternScythian weight1=0.941, Erzya weight2=0.059 (p=0.74210), 
+Russia_EasternScythian weight1=0.952, Russia_Samara_EBA_Yamnaya weight2=0.048 (p=0.74130), 
+Russia_EasternScythian weight1=0.894, Russia_Saratov_Scythian weight2=0.106 (p=0.72593), 
+Seima_Turbino weight1=0.961, Ukraine_EIA1_ForestSteppe_Scythian weight2=0.039 (p=0.68442), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.886, Moksha weight2=0.114 (p=0.37561), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.883, Ukraine_EIA_Scythian weight2=0.117 (p=0.37379), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.905, Russia_Chelyabinsk_MLBA_Sintashta weight2=0.095 (p=0.37265), 
+Ukraine_EIA1_ForestSteppe_Scythian (p=0.36794), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.909, Russia_Samara_EBA_Yamnaya weight2=0.091 (p=0.35907), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.779, Russia_Saratov_Scythian weight2=0.221 (p=0.34157), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.897, Erzya weight2=0.103 (p=0.33391) 
+-----------------------------------------------------------------
+Ukraine_LBA_Cimmerian  = Ukraine_MalaRogozianka_LIA_Scythian (p=0.63406) 
+-----------------------------------------------------------------
+Russia_EasternScythian  = 
+Seima_Turbino weight1=0.552, Ukraine_EIA1_ForestSteppe_Scythian weight2=0.448 (p=0.87672), 
+Seima_Turbino (p=0.83483), 
+Ukraine_EIA_Cimmerian weight1=0.561, Ukraine_EIA1_ForestSteppe_Scythian weight2=0.439 (p=0.83203), 
+Ukraine_EIA_Cimmerian (p=0.82320), 
+Ukraine_EIA1_ForestSteppe_Scythian (p=0.75934), 
+Seima_Turbino weight1=0.917, Russia_Saratov_Scythian weight2=0.083 (p=0.71613), 
+Seima_Turbino weight1=0.968, Erzya weight2=0.032 (p=0.71105), 
+Seima_Turbino weight1=0.980, Russia_Samara_EBA_Yamnaya weight2=0.020 (p=0.70405), 
+Seima_Turbino weight1=0.976, Ukraine_EIA_Scythian weight2=0.024 (p=0.70380), 
+Seima_Turbino weight1=0.977, Moksha weight2=0.023 (p=0.70319), 
+Seima_Turbino weight1=0.983, Russia_Chelyabinsk_MLBA_Sintashta weight2=0.017 (p=0.70102), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.936, Moksha weight2=0.064 (p=0.68871), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.937, Ukraine_EIA_Scythian weight2=0.063 (p=0.68053), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.885, Russia_Saratov_Scythian weight2=0.115 (p=0.65505), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.948, Erzya weight2=0.052 (p=0.65218) 
+-----------------------------------------------------------------
+Russia_Saratov_Scythian  =  
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.523, Moksha weight2=0.477 (p=0.97369), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.511, Ukraine_EIA_Scythian weight2=0.489 (p=0.96442), 
+Russia_EasternScythian weight1=0.524, Erzya weight2=0.476 (p=0.94902), 
+Seima_Turbino weight1=0.505, Erzya weight2=0.495 (p=0.88056), 
+Ukraine_EIA1_ForestSteppe_Scythian weight1=0.505, Erzya weight2=0.495 (p=0.87448), 
+Ukraine_EIA_Cimmerian weight1=0.566, Erzya weight2=0.434 (p=0.81684), 
+Russia_EasternScythian weight1=0.552, Moksha weight2=0.448 (p=0.73744), 
+Ukraine_EIA_Cimmerian weight1=0.661, Russia_Samara_EBA_Yamnaya weight2=0.339 (p=0.64216), 
+Ukraine_EIA_Cimmerian weight1=0.577, Ukraine_EIA_Scythian weight2=0.423 (p=0.62372), 
+Ukraine_EIA_Cimmerian weight1=0.589, Moksha weight2=0.411 (p=0.59937), 
+Seima_Turbino weight1=0.514, Ukraine_EIA_Scythian weight2=0.486 (p=0.59763), 
+Seima_Turbino weight1=0.531, Moksha weight2=0.469 (p=0.54403), 
+
+-----------------------------------------------------------------
+Ukraine_EIA_Scythian  = 
+Moksha weight1=0.724, Erzya weight2=0.276 (p=0.97907), 
+Moksha (p=0.96817), 
+Erzya (p=0.66970), 
+-----------------------------------------------------------------
+Ukraine_MalaRogozianka_LIA_Scythian  = Ukraine_LBA_Cimmerian (p=0.63406) 
+-----------------------------------------------------------------
+Ukraine_EIA1_ForestSteppe_Scythian  = 
+Russia_EasternScythian (p=0.75934), 
+Ukraine_EIA_Cimmerian (p=0.36794), 
+Seima_Turbino (p=0.35298) 
+
