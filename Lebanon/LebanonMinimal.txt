@@ -1,0 +1,215 @@
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Lebanon_MBA"
+# A tibble: 1 × 5
+  target      left   weight       se       z
+  <chr>       <chr>   <dbl>    <dbl>   <dbl>
+1 Lebanon_MBA Moksha      1 2.49e-14 4.02e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Lebanon_MBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4 0.986 0.912      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.912
+
+ℹ Reading precomputed data for 8 populations...
+Reading ap data for 36 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Lebanon_MBA"
+# A tibble: 2 × 5
+  target      left          weight     se      z
+  <chr>       <chr>          <dbl>  <dbl>  <dbl>
+1 Lebanon_MBA Moksha        0.952  0.0509 18.7  
+2 Lebanon_MBA Seima_Turbino 0.0476 0.0509  0.935
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Lebanon_MBA"
+# A tibble: 3 × 13
+  pat      wt   dof   chisq        p f4rank Moksha Seima_Turbino feasible best 
+  <chr> <dbl> <dbl>   <dbl>    <dbl>  <dbl>  <dbl>         <dbl> <lgl>    <lgl>
+1 00        0     3   0.500 9.19e- 1      1  0.952        0.0476 TRUE     NA   
+2 01        1     4   0.936 9.19e- 1      0  1           NA      TRUE     TRUE 
+3 10        1     4 115.    7.27e-24      0 NA            1      TRUE     TRUE 
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.919
+
+[1] "Итоговые веса="
+[1] "Lebanon_MBA"
+# A tibble: 1 × 5
+  target      left  weight       se       z
+  <chr>       <chr>  <dbl>    <dbl>   <dbl>
+1 Lebanon_MBA Erzya      1 2.49e-14 4.02e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Lebanon_MBA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  5.78 0.217      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.217
+
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Lebanon_MBA"
+# A tibble: 2 × 5
+  target      left          weight     se     z
+  <chr>       <chr>          <dbl>  <dbl> <dbl>
+1 Lebanon_MBA Erzya         0.926  0.0545 17.0 
+2 Lebanon_MBA Seima_Turbino 0.0745 0.0545  1.37
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Lebanon_MBA"
+# A tibble: 3 × 13
+  pat      wt   dof  chisq        p f4rank  Erzya Seima_Turbino feasible best 
+  <chr> <dbl> <dbl>  <dbl>    <dbl>  <dbl>  <dbl>         <dbl> <lgl>    <lgl>
+1 00        0     3   3.80 2.84e- 1      1  0.926        0.0745 TRUE     NA   
+2 01        1     4   5.28 2.60e- 1      0  1           NA      TRUE     TRUE 
+3 10        1     4 120.   6.46e-25      0 NA            1      TRUE     TRUE 
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.284
+
+
+
+
+=================================================================
+Erzya  = Moksha (p=0.29275), Lebanon_MBA (p=0.21658) 
+-----------------------------------------------------------------
+Moksha  = Lebanon_MBA (p=0.91190), Lebanon_MBA вес1=0.738, Erzya вес2=0.262 (p=0.89348), Erzya вес1=0.955, Seima_Turbino вес2=0.045 (p=0.31332), Erzya (p=0.29275) 
+-----------------------------------------------------------------
+Lebanon_MBA  = Moksha вес1=0.952, Seima_Turbino вес2=0.048 (p=0.91889), 
+Moksha (p=0.91190), 
+Erzya вес1=0.926, Seima_Turbino вес2=0.074 (p=0.28379), 
+Erzya (p=0.21658) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ ПОДРОБНЫЕ ЛОГИ КАЛЬКУЛЯЦИИ ДЛЯ РУКОПИСИ КНИГИ:
+=================================================================
+
+ЦЕЛЬ (TARGET)  : Lebanon_MBA 
+ЧИСТОЕ P-VALUE : 0.91889 
+ИСТОЧНИКИ(LEFT): Moksha + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target      left          weight     se      z
+  <chr>       <chr>          <dbl>  <dbl>  <dbl>
+1 Lebanon_MBA Moksha        0.952  0.0509 18.7  
+2 Lebanon_MBA Seima_Turbino 0.0476 0.0509  0.935
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.91190 
+ИСТОЧНИКИ(LEFT): Lebanon_MBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left        weight       se       z
+  <chr>  <chr>        <dbl>    <dbl>   <dbl>
+1 Moksha Lebanon_MBA      1 2.49e-14 4.02e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Lebanon_MBA 
+ЧИСТОЕ P-VALUE : 0.91190 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target      left   weight       se       z
+  <chr>       <chr>   <dbl>    <dbl>   <dbl>
+1 Lebanon_MBA Moksha      1 2.49e-14 4.02e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.89348 
+ИСТОЧНИКИ(LEFT): Erzya + Lebanon_MBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left        weight    se     z
+  <chr>  <chr>        <dbl> <dbl> <dbl>
+1 Moksha Erzya        0.262 0.344 0.763
+2 Moksha Lebanon_MBA  0.738 0.344 2.15 
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.31332 
+ИСТОЧНИКИ(LEFT): Erzya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left          weight     se      z
+  <chr>  <chr>          <dbl>  <dbl>  <dbl>
+1 Moksha Erzya         0.955  0.0465 20.5  
+2 Moksha Seima_Turbino 0.0453 0.0465  0.974
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.29275 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left   weight       se       z
+  <chr>  <chr>   <dbl>    <dbl>   <dbl>
+1 Erzya  Moksha      1 2.49e-14 4.02e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.29275 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left  weight       se       z
+  <chr>  <chr>  <dbl>    <dbl>   <dbl>
+1 Moksha Erzya      1 2.49e-14 4.02e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Lebanon_MBA 
+ЧИСТОЕ P-VALUE : 0.28379 
+ИСТОЧНИКИ(LEFT): Erzya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target      left          weight     se     z
+  <chr>       <chr>          <dbl>  <dbl> <dbl>
+1 Lebanon_MBA Erzya         0.926  0.0545 17.0 
+2 Lebanon_MBA Seima_Turbino 0.0745 0.0545  1.37
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.21658 
+ИСТОЧНИКИ(LEFT): Lebanon_MBA 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left        weight       se       z
+  <chr>  <chr>        <dbl>    <dbl>   <dbl>
+1 Erzya  Lebanon_MBA      1 2.49e-14 4.02e13
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Lebanon_MBA 
+ЧИСТОЕ P-VALUE : 0.21658 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target      left  weight       se       z
+  <chr>       <chr>  <dbl>    <dbl>   <dbl>
+1 Lebanon_MBA Erzya      1 2.49e-14 4.02e13
+-----------------------------------------------------------------
+--------------------------END-----------------------------------
