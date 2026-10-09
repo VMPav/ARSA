@@ -1,0 +1,3529 @@
+
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = Russia_EarlySarmatian (p=0.62444), 
+Russia_EarlySarmatian weight1=0.862, Russia_Alan weight2=0.138 (p=0.51154), 
+Moksha (p=0.11767), Kazakhstan_Sarmatian (p=0.10985) , Erzya (p=0.03206) 
+-----------------------------------------------------------------
+Moksha  = 
+Russia_Sarmatian weight1=0.850, Kazakhstan_EarlySarmatian weight2=0.150 (p=0.91222), 
+Russia_EarlySarmatian (p=0.87264), 
+Russia_EarlySarmatian weight1=0.840, Russia_Alan weight2=0.160 (p=0.84149), 
+Russia_EarlySarmatian weight1=0.821, Kazakhstan_Sarmatian weight2=0.179 (p=0.83089), 
+Russia_LateSarmatian (p=0.13084), 
+Erzya (p=0.11767), Kazakhstan_Sarmatian (p=0.08284) 
+-----------------------------------------------------------------
+Seima_Turbino  = Kazakhstan_EarlySarmatian (p=0.62076), 
+Kazakhstan_LateSarmatian (p=0.37009), 
+Kazakhstan_Hun_Nomad_Sarmatian (p=0.36733) 
+-----------------------------------------------------------------
+Russia_EarlySarmatian  = Moksha (p=0.87264), 
+Erzya (p=0.62444), Russia_LateSarmatian (p=0.16648), 
+Kazakhstan_Sarmatian (p=0.05152) 
+-----------------------------------------------------------------
+Russia_EIA_LateSarmatian  = Russia_Orenburg_EarlySarmatian (p=0.84725) 
+-----------------------------------------------------------------
+Russia_LateSarmatian  = Russia_EarlySarmatian (p=0.16648), Moksha (p=0.13084) 
+-----------------------------------------------------------------
+Russia_Orenburg_EarlySarmatian  = Russia_EIA_LateSarmatian (p=0.84725) 
+-----------------------------------------------------------------
+Russia_Sarmatian  = Kazakhstan_IA_Sarmatian (p=0.72060) 
+-----------------------------------------------------------------
+Ukraine_Liubivka_Classical_Sarmatian  = Russia_Ekazhevo_IA_Alan (p=0.85582) 
+-----------------------------------------------------------------
+Kazakhstan_EarlySarmatian  = Seima_Turbino (p=0.62076), 
+Kazakhstan_LateSarmatian (p=0.46904), 
+Kazakhstan_Hun_Nomad_Sarmatian (p=0.37526) 
+-----------------------------------------------------------------
+Kazakhstan_Hun_Nomad_Sarmatian  = Kazakhstan_LateSarmatian (p=0.78222), 
+Kazakhstan_EarlySarmatian (p=0.37526), Seima_Turbino (p=0.36733) 
+-----------------------------------------------------------------
+Kazakhstan_IA_Sarmatian  = Russia_Sarmatian (p=0.72060) 
+-----------------------------------------------------------------
+Kazakhstan_LateSarmatian  = Kazakhstan_Hun_Nomad_Sarmatian (p=0.78222), 
+Kazakhstan_EarlySarmatian (p=0.46904), Seima_Turbino (p=0.37009) 
+-----------------------------------------------------------------
+Kazakhstan_Sarmatian  = Russia_Alan (p=0.96783), Erzya (p=0.10985), 
+Moksha (p=0.08284), Russia_EarlySarmatian (p=0.05152) 
+-----------------------------------------------------------------
+Russia_Alan  = Kazakhstan_Sarmatian (p=0.96783) , Erzya (p=0.03206) 
+-----------------------------------------------------------------
+Russia_Ekazhevo_IA_Alan  = Ukraine_Liubivka_Classical_Sarmatian (p=0.85582) 
+-----------------------------------------------------------------
+
+[1] "Итоговые веса="
+[1] "Erzya"
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Erzya  Russia_Alan            0.138 0.276 0.500
+2 Erzya  Russia_EarlySarmatian  0.862 0.276 3.12 
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 3 × 13
+  pat      wt   dof chisq      p f4rank Russia_Alan Russia_EarlySarmatian
+  <chr> <dbl> <dbl> <dbl>  <dbl>  <dbl>       <dbl>                 <dbl>
+1 00        0     3  2.31 0.512       1       0.138                 0.862
+2 01        1     4 12.4  0.0147      0       1                    NA    
+3 10        1     4  3.02 0.555       0      NA                     1    
+# ℹ 5 more variables: feasible <lgl>, best <lgl>, dofdiff <dbl>,
+#   chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.512
+
+[1] "Moksha"
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Moksha Russia_Alan            0.160 0.224 0.713
+2 Moksha Russia_EarlySarmatian  0.840 0.224 3.75 
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 3 × 13
+  pat      wt   dof  chisq      p f4rank Russia_Alan Russia_EarlySarmatian
+  <chr> <dbl> <dbl>  <dbl>  <dbl>  <dbl>       <dbl>                 <dbl>
+1 00        0     3  0.833 0.841       1       0.160                 0.840
+2 01        1     4 13.2   0.0105      0       1                    NA    
+3 10        1     4  1.36  0.851       0      NA                     1    
+# ℹ 5 more variables: feasible <lgl>, best <lgl>, dofdiff <dbl>,
+#   chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.841
+
+
+
+
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = 
+Russia_EarlySarmatian (p=0.62444), 
+Russia_EarlySarmatian weight1=0.769, Kazakhstan_Sarmatian weight2=0.231 (p=0.55813), 
+Russia_EarlySarmatian weight1=0.862, Russia_Alan weight2=0.138 (p=0.51154), 
+
+Russia_Sarmatian weight1=0.812, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.188 (p=0.21623), 
+Russia_Sarmatian weight1=0.851, Kazakhstan_EarlySarmatian weight2=0.149 (p=0.14263), 
+Moksha (p=0.11767), 
+Russia_Sarmatian weight1=0.693, Russia_Orenburg_EarlySarmatian weight2=0.307 (p=0.11633), 
+Kazakhstan_Sarmatian (p=0.10985), 
+Kazakhstan_IA_Sarmatian weight1=0.800, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.200 (p=0.08748), 
+Russia_Sarmatian weight1=0.847, Seima_Turbino weight2=0.153 (p=0.08615), R
+ussia_Sarmatian weight1=0.836, Kazakhstan_LateSarmatian weight2=0.164 (p=0.08604), 
+Russia_Sarmatian weight1=0.702, Russia_EIA_LateSarmatian weight2=0.298 (p=0.08563), 
+Moksha weight1=0.991, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.009 (p=0.08351), 
+Kazakhstan_Sarmatian weight1=0.889, Russia_EIA_LateSarmatian weight2=0.111 (p=0.08254), 
+Moksha weight1=0.628, Kazakhstan_Sarmatian weight2=0.372 (p=0.08178), 
+Kazakhstan_Sarmatian weight1=0.957, Kazakhstan_LateSarmatian weight2=0.043 (p=0.06975), 
+Kazakhstan_Sarmatian weight1=0.811, Russia_LateSarmatian weight2=0.189 (p=0.06847), K
+azakhstan_Sarmatian weight1=0.964, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.036 (p=0.06652), 
+Kazakhstan_Sarmatian weight1=0.973, Kazakhstan_EarlySarmatian weight2=0.027 (p=0.06472), 
+Kazakhstan_Sarmatian weight1=0.946, Russia_Orenburg_EarlySarmatian weight2=0.054 (p=0.06421), 
+Kazakhstan_Sarmatian weight1=0.896, Kazakhstan_IA_Sarmatian weight2=0.104 (p=0.06348), 
+Kazakhstan_Sarmatian weight1=0.995, Seima_Turbino weight2=0.005 (p=0.06129), 
+Kazakhstan_IA_Sarmatian weight1=0.837, Kazakhstan_EarlySarmatian weight2=0.163 (p=0.06100), 
+Kazakhstan_Sarmatian weight1=0.963, Russia_Sarmatian weight2=0.037 (p=0.05890), 
+Kazakhstan_IA_Sarmatian weight1=0.668, Russia_Orenburg_EarlySarmatian weight2=0.332 (p=0.05750) 
+-----------------------------------------------------------------
+Moksha  = 
+Russia_Sarmatian weight1=0.850, Kazakhstan_EarlySarmatian weight2=0.150 (p=0.91222), 
+Russia_EarlySarmatian (p=0.87264), 
+Russia_EarlySarmatian weight1=0.840, Russia_Alan weight2=0.160 (p=0.84149), 
+Russia_EarlySarmatian weight1=0.821, Kazakhstan_Sarmatian weight2=0.179 (p=0.83089), 
+Russia_EarlySarmatian weight1=0.861, Russia_Sarmatian weight2=0.139 (p=0.82876), 
+Russia_Sarmatian weight1=0.825, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.175 (p=0.81090), 
+Russia_EarlySarmatian weight1=0.908, Kazakhstan_IA_Sarmatian weight2=0.092 (p=0.79050), 
+Russia_Sarmatian weight1=0.841, Seima_Turbino weight2=0.159 (p=0.78757), 
+Russia_EarlySarmatian weight1=0.952, Russia_LateSarmatian weight2=0.048 (p=0.75031), 
+Russia_Sarmatian weight1=0.709, Russia_Orenburg_EarlySarmatian weight2=0.291 (p=0.72534), 
+Russia_Sarmatian weight1=0.833, Kazakhstan_LateSarmatian weight2=0.167 (p=0.72097), 
+Russia_Sarmatian weight1=0.717, Russia_EIA_LateSarmatian weight2=0.283 (p=0.55406), 
+Kazakhstan_IA_Sarmatian weight1=0.841, Kazakhstan_EarlySarmatian weight2=0.159 (p=0.31389), 
+Kazakhstan_IA_Sarmatian weight1=0.812, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.188 (p=0.24570), 
+Kazakhstan_IA_Sarmatian weight1=0.832, Seima_Turbino weight2=0.168 (p=0.22941), 
+Kazakhstan_IA_Sarmatian weight1=0.693, Russia_Orenburg_EarlySarmatian weight2=0.307 (p=0.22379), 
+Erzya weight1=0.563, Russia_LateSarmatian weight2=0.437 (p=0.17426), 
+Russia_LateSarmatian weight1=0.567, Kazakhstan_Sarmatian weight2=0.433 (p=0.14705), 
+Kazakhstan_IA_Sarmatian weight1=0.826, Kazakhstan_LateSarmatian weight2=0.174 (p=0.14156), 
+Russia_LateSarmatian (p=0.13084), 
+Erzya (p=0.11767), Kazakhstan_IA_Sarmatian weight1=0.705, Russia_EIA_LateSarmatian weight2=0.295 (p=0.10292), Erzya weight1=0.789, Russia_Sarmatian weight2=0.211 (p=0.09568), Russia_LateSarmatian weight1=0.972, Kazakhstan_EarlySarmatian weight2=0.028 (p=0.08448), Russia_LateSarmatian weight1=0.804, Russia_Alan weight2=0.196 (p=0.08361), Kazakhstan_Sarmatian (p=0.08284), Erzya weight1=0.996, Seima_Turbino weight2=0.004 (p=0.08141), Erzya weight1=0.997, Kazakhstan_LateSarmatian weight2=0.003 (p=0.08027), Russia_LateSarmatian weight1=0.981, Seima_Turbino weight2=0.019 (p=0.07780), Russia_LateSarmatian weight1=0.973, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.027 (p=0.07697), Erzya weight1=0.998, Russia_Orenburg_EarlySarmatian weight2=0.002 (p=0.07516), Russia_LateSarmatian weight1=0.983, Kazakhstan_LateSarmatian weight2=0.017 (p=0.07493), Russia_LateSarmatian weight1=0.967, Russia_Orenburg_EarlySarmatian weight2=0.033 (p=0.07457), Erzya weight1=0.900, Kazakhstan_IA_Sarmatian weight2=0.100 (p=0.07400), Erzya weight1=0.994, Russia_EIA_LateSarmatian weight2=0.006 (p=0.07378), Russia_LateSarmatian weight1=0.999, Russia_EIA_LateSarmatian weight2=0.001 (p=0.07131), Erzya weight1=0.990, Russia_Alan weight2=0.010 (p=0.06980), Kazakhstan_Sarmatian weight1=0.886, Russia_EIA_LateSarmatian weight2=0.114 (p=0.06271), Kazakhstan_Sarmatian weight1=0.755, Russia_Sarmatian weight2=0.245 (p=0.05740), Kazakhstan_Sarmatian weight1=0.818, Kazakhstan_IA_Sarmatian weight2=0.182 (p=0.05522) 
+-----------------------------------------------------------------
+Seima_Turbino  = Kazakhstan_EarlySarmatian (p=0.62076), Kazakhstan_EarlySarmatian weight1=0.913, Russia_Alan weight2=0.087 (p=0.58716), Kazakhstan_EarlySarmatian weight1=0.919, Kazakhstan_Sarmatian weight2=0.081 (p=0.56587), Kazakhstan_EarlySarmatian weight1=0.923, Russia_LateSarmatian weight2=0.077 (p=0.55887), Kazakhstan_EarlySarmatian weight1=0.867, Russia_Orenburg_EarlySarmatian weight2=0.133 (p=0.55746), Kazakhstan_EarlySarmatian weight1=0.937, Kazakhstan_IA_Sarmatian weight2=0.063 (p=0.54369), Kazakhstan_EarlySarmatian weight1=0.937, Russia_Sarmatian weight2=0.063 (p=0.53791), Kazakhstan_EarlySarmatian weight1=0.927, Moksha weight2=0.073 (p=0.53467), Kazakhstan_EarlySarmatian weight1=0.933, Russia_EarlySarmatian weight2=0.067 (p=0.51976), Kazakhstan_EarlySarmatian weight1=0.935, Erzya weight2=0.065 (p=0.51766), Kazakhstan_EarlySarmatian weight1=0.895, Russia_EIA_LateSarmatian weight2=0.105 (p=0.51343), Kazakhstan_LateSarmatian (p=0.37009), Kazakhstan_Hun_Nomad_Sarmatian (p=0.36733) 
+-----------------------------------------------------------------
+Russia_EarlySarmatian  = Moksha (p=0.87264), Moksha weight1=0.931, Russia_EIA_LateSarmatian weight2=0.069 (p=0.83555), Moksha weight1=0.966, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.034 (p=0.82810), Moksha weight1=0.698, Erzya weight2=0.302 (p=0.82758), Moksha weight1=0.968, Kazakhstan_LateSarmatian weight2=0.032 (p=0.82143), Moksha weight1=0.975, Kazakhstan_EarlySarmatian weight2=0.025 (p=0.81726), Moksha weight1=0.946, Russia_Orenburg_EarlySarmatian weight2=0.054 (p=0.80775), Russia_Sarmatian weight1=0.831, Kazakhstan_EarlySarmatian weight2=0.169 (p=0.79547), Moksha weight1=0.979, Seima_Turbino weight2=0.021 (p=0.79312), Russia_Sarmatian weight1=0.800, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.200 (p=0.76301), Russia_Sarmatian weight1=0.812, Kazakhstan_LateSarmatian weight2=0.188 (p=0.71541), Russia_Sarmatian weight1=0.672, Russia_EIA_LateSarmatian weight2=0.328 (p=0.64588), Erzya (p=0.62444), Russia_Sarmatian weight1=0.675, Russia_Orenburg_EarlySarmatian weight2=0.325 (p=0.58829), Kazakhstan_IA_Sarmatian weight1=0.818, Kazakhstan_EarlySarmatian weight2=0.182 (p=0.57964), Erzya weight1=0.768, Russia_LateSarmatian weight2=0.232 (p=0.56586), Erzya weight1=0.920, Russia_EIA_LateSarmatian weight2=0.080 (p=0.55039), Erzya weight1=0.966, Kazakhstan_LateSarmatian weight2=0.034 (p=0.53176), Erzya weight1=0.930, Russia_Orenburg_EarlySarmatian weight2=0.070 (p=0.52957), Erzya weight1=0.972, Seima_Turbino weight2=0.028 (p=0.52149), Erzya weight1=0.973, Kazakhstan_EarlySarmatian weight2=0.027 (p=0.52137), Kazakhstan_IA_Sarmatian weight1=0.785, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.215 (p=0.51568), Russia_Sarmatian weight1=0.827, Seima_Turbino weight2=0.173 (p=0.50679), Erzya weight1=0.975, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.025 (p=0.49383), Kazakhstan_IA_Sarmatian weight1=0.654, Russia_Orenburg_EarlySarmatian weight2=0.346 (p=0.39277), Kazakhstan_IA_Sarmatian weight1=0.802, Kazakhstan_LateSarmatian weight2=0.198 (p=0.36222), Kazakhstan_IA_Sarmatian weight1=0.655, Russia_EIA_LateSarmatian weight2=0.345 (p=0.33118), Kazakhstan_IA_Sarmatian weight1=0.815, Seima_Turbino weight2=0.185 (p=0.31156), Russia_LateSarmatian (p=0.16648), Russia_LateSarmatian weight1=0.949, Kazakhstan_EarlySarmatian weight2=0.051 (p=0.14331), Russia_LateSarmatian weight1=0.944, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.056 (p=0.13052), Russia_LateSarmatian weight1=0.902, Russia_Orenburg_EarlySarmatian weight2=0.098 (p=0.12194), Russia_LateSarmatian weight1=0.957, Kazakhstan_LateSarmatian weight2=0.043 (p=0.12000), Russia_LateSarmatian weight1=0.962, Seima_Turbino weight2=0.038 (p=0.11760), Russia_LateSarmatian weight1=0.732, Kazakhstan_Sarmatian weight2=0.268 (p=0.11282), Russia_LateSarmatian weight1=0.924, Russia_EIA_LateSarmatian weight2=0.076 (p=0.10996), Kazakhstan_Sarmatian weight1=0.826, Russia_EIA_LateSarmatian weight2=0.174 (p=0.06190), Kazakhstan_Sarmatian (p=0.05152) 
+-----------------------------------------------------------------
+Russia_EIA_LateSarmatian  = Kazakhstan_LateSarmatian weight1=0.574, Kazakhstan_IA_Sarmatian weight2=0.426 (p=0.98306), Russia_LateSarmatian weight1=0.507, Kazakhstan_LateSarmatian weight2=0.493 (p=0.96879), Kazakhstan_LateSarmatian weight1=0.575, Russia_Sarmatian weight2=0.425 (p=0.93967), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.515, Russia_LateSarmatian weight2=0.485 (p=0.90404), Russia_EarlySarmatian weight1=0.519, Kazakhstan_LateSarmatian weight2=0.481 (p=0.89597), Russia_LateSarmatian weight1=0.573, Kazakhstan_EarlySarmatian weight2=0.427 (p=0.89383), Russia_Orenburg_EarlySarmatian (p=0.84725), Erzya weight1=0.504, Kazakhstan_LateSarmatian weight2=0.496 (p=0.84555), Kazakhstan_LateSarmatian weight1=0.503, Moksha weight2=0.497 (p=0.82727), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.594, Kazakhstan_IA_Sarmatian weight2=0.406 (p=0.81429), Kazakhstan_EarlySarmatian weight1=0.508, Kazakhstan_IA_Sarmatian weight2=0.492 (p=0.77963), Russia_Orenburg_EarlySarmatian weight1=0.983, Russia_LateSarmatian weight2=0.017 (p=0.71070), Russia_Orenburg_EarlySarmatian weight1=0.982, Kazakhstan_LateSarmatian weight2=0.018 (p=0.71050), Russia_Orenburg_EarlySarmatian weight1=0.991, Russia_EarlySarmatian weight2=0.009 (p=0.70693), Russia_Orenburg_EarlySarmatian weight1=0.990, Kazakhstan_IA_Sarmatian weight2=0.010 (p=0.70557), Russia_Orenburg_EarlySarmatian weight1=0.998, Russia_Sarmatian weight2=0.002 (p=0.70157), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.595, Russia_Sarmatian weight2=0.405 (p=0.68064), Kazakhstan_LateSarmatian weight1=0.520, Kazakhstan_Sarmatian weight2=0.480 (p=0.64269), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.500, Russia_EarlySarmatian weight2=0.500 (p=0.59554), Kazakhstan_LateSarmatian weight1=0.517, Russia_Alan weight2=0.483 (p=0.57234), Kazakhstan_EarlySarmatian weight1=0.508, Russia_Sarmatian weight2=0.492 (p=0.56718), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.521, Moksha weight2=0.479 (p=0.56017), Russia_LateSarmatian weight1=0.556, Seima_Turbino weight2=0.444 (p=0.54460), Russia_EarlySarmatian weight1=0.568, Seima_Turbino weight2=0.432 (p=0.52318), Russia_EarlySarmatian weight1=0.589, Kazakhstan_EarlySarmatian weight2=0.411 (p=0.51726), Seima_Turbino weight1=0.529, Kazakhstan_IA_Sarmatian weight2=0.471 (p=0.49972), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.520, Erzya weight2=0.480 (p=0.39962), Moksha weight1=0.568, Kazakhstan_EarlySarmatian weight2=0.432 (p=0.39095), Erzya weight1=0.570, Kazakhstan_EarlySarmatian weight2=0.430 (p=0.38485), Erzya weight1=0.549, Seima_Turbino weight2=0.451 (p=0.37666), Seima_Turbino weight1=0.530, Russia_Sarmatian weight2=0.470 (p=0.36054), Moksha weight1=0.546, Seima_Turbino weight2=0.454 (p=0.31488), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.545, Kazakhstan_Sarmatian weight2=0.455 (p=0.24547), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.544, Russia_Alan weight2=0.456 (p=0.23359), Kazakhstan_Sarmatian weight1=0.546, Kazakhstan_EarlySarmatian weight2=0.454 (p=0.18082), Russia_Alan weight1=0.549, Kazakhstan_EarlySarmatian weight2=0.451 (p=0.15745), Kazakhstan_Sarmatian weight1=0.525, Seima_Turbino weight2=0.475 (p=0.07231) 
+-----------------------------------------------------------------
+Russia_LateSarmatian  = Kazakhstan_IA_Sarmatian weight1=0.852, Seima_Turbino weight2=0.148 (p=0.79247), Kazakhstan_IA_Sarmatian weight1=0.718, Russia_EIA_LateSarmatian weight2=0.282 (p=0.78870), Kazakhstan_IA_Sarmatian weight1=0.841, Kazakhstan_LateSarmatian weight2=0.159 (p=0.78762), Kazakhstan_IA_Sarmatian weight1=0.726, Russia_Orenburg_EarlySarmatian weight2=0.274 (p=0.72423), Kazakhstan_IA_Sarmatian weight1=0.863, Kazakhstan_EarlySarmatian weight2=0.137 (p=0.67203), Kazakhstan_IA_Sarmatian weight1=0.837, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.163 (p=0.65989), Russia_Sarmatian weight1=0.721, Russia_EIA_LateSarmatian weight2=0.279 (p=0.43683), Russia_Sarmatian weight1=0.846, Kazakhstan_LateSarmatian weight2=0.154 (p=0.34698), Russia_Sarmatian weight1=0.739, Russia_Orenburg_EarlySarmatian weight2=0.261 (p=0.33351), Russia_Sarmatian weight1=0.866, Seima_Turbino weight2=0.134 (p=0.31311), Russia_Sarmatian weight1=0.847, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.153 (p=0.26026), Russia_Sarmatian weight1=0.877, Kazakhstan_EarlySarmatian weight2=0.123 (p=0.24588), Russia_EarlySarmatian weight1=0.677, Kazakhstan_IA_Sarmatian weight2=0.323 (p=0.16666), Russia_EarlySarmatian (p=0.16648), Moksha (p=0.13084), Moksha weight1=0.675, Kazakhstan_IA_Sarmatian weight2=0.325 (p=0.12989), Russia_EarlySarmatian weight1=0.776, Russia_Sarmatian weight2=0.224 (p=0.11059), Russia_EarlySarmatian weight1=1.000, Russia_Alan weight2=0.000 (p=0.09463), Moksha weight1=0.891, Russia_Sarmatian weight2=0.109 (p=0.07324) 
+-----------------------------------------------------------------
+Russia_Orenburg_EarlySarmatian  = Russia_Alan weight1=0.503, Kazakhstan_LateSarmatian weight2=0.497 (p=0.99349), Kazakhstan_Sarmatian weight1=0.503, Kazakhstan_LateSarmatian weight2=0.497 (p=0.98805), Russia_EarlySarmatian weight1=0.559, Seima_Turbino weight2=0.441 (p=0.95410), Seima_Turbino weight1=0.538, Kazakhstan_IA_Sarmatian weight2=0.462 (p=0.95344), Erzya weight1=0.545, Seima_Turbino weight2=0.455 (p=0.94754), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.527, Russia_LateSarmatian weight2=0.473 (p=0.94455), Seima_Turbino weight1=0.535, Russia_Sarmatian weight2=0.465 (p=0.93445), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.606, Kazakhstan_IA_Sarmatian weight2=0.394 (p=0.91320), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.604, Russia_Sarmatian weight2=0.396 (p=0.90730), Russia_LateSarmatian weight1=0.572, Kazakhstan_EarlySarmatian weight2=0.428 (p=0.89452), Moksha weight1=0.543, Seima_Turbino weight2=0.457 (p=0.89335), Russia_LateSarmatian weight1=0.542, Seima_Turbino weight2=0.458 (p=0.86994), Kazakhstan_EarlySarmatian weight1=0.507, Kazakhstan_IA_Sarmatian weight2=0.493 (p=0.86887), Russia_EIA_LateSarmatian (p=0.84725), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.530, Moksha weight2=0.470 (p=0.84055), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.534, Russia_Alan weight2=0.466 (p=0.83450), Kazakhstan_EarlySarmatian weight1=0.502, Russia_Sarmatian weight2=0.498 (p=0.81827), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.535, Kazakhstan_Sarmatian weight2=0.465 (p=0.80387), Russia_Alan weight1=0.561, Kazakhstan_EarlySarmatian weight2=0.439 (p=0.76829), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.517, Russia_EarlySarmatian weight2=0.483 (p=0.76395), Russia_EIA_LateSarmatian weight1=0.946, Russia_Alan weight2=0.054 (p=0.73105), Kazakhstan_Sarmatian weight1=0.564, Kazakhstan_EarlySarmatian weight2=0.436 (p=0.72894), Russia_EIA_LateSarmatian weight1=0.961, Seima_Turbino weight2=0.039 (p=0.72741), Russia_EIA_LateSarmatian weight1=0.954, Kazakhstan_Sarmatian weight2=0.046 (p=0.72316), Russia_EIA_LateSarmatian weight1=0.975, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.025 (p=0.71648), Russia_EIA_LateSarmatian weight1=0.987, Kazakhstan_EarlySarmatian weight2=0.013 (p=0.71147), Erzya weight1=0.514, Kazakhstan_LateSarmatian weight2=0.486 (p=0.71143), Russia_EIA_LateSarmatian weight1=0.995, Moksha weight2=0.005 (p=0.70510), Russia_EIA_LateSarmatian weight1=0.996, Erzya weight2=0.004 (p=0.70476), Kazakhstan_LateSarmatian weight1=0.569, Russia_Sarmatian weight2=0.431 (p=0.69446), Moksha weight1=0.515, Kazakhstan_LateSarmatian weight2=0.485 (p=0.69219), Moksha weight1=0.579, Kazakhstan_EarlySarmatian weight2=0.421 (p=0.68585), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.529, Erzya weight2=0.471 (p=0.66261), Russia_EarlySarmatian weight1=0.593, Kazakhstan_EarlySarmatian weight2=0.407 (p=0.64421), Kazakhstan_Sarmatian weight1=0.534, Seima_Turbino weight2=0.466 (p=0.64051), Russia_EarlySarmatian weight1=0.527, Kazakhstan_LateSarmatian weight2=0.473 (p=0.62325), Erzya weight1=0.574, Kazakhstan_EarlySarmatian weight2=0.426 (p=0.61525), Kazakhstan_LateSarmatian weight1=0.571, Kazakhstan_IA_Sarmatian weight2=0.429 (p=0.60496), Russia_LateSarmatian weight1=0.508, Kazakhstan_LateSarmatian weight2=0.492 (p=0.57569), Russia_Alan weight1=0.533, Seima_Turbino weight2=0.467 (p=0.54201) 
+-----------------------------------------------------------------
+Russia_Sarmatian  = Kazakhstan_IA_Sarmatian weight1=0.829, Kazakhstan_Sarmatian weight2=0.171 (p=0.78650), Kazakhstan_IA_Sarmatian weight1=0.844, Russia_Alan weight2=0.156 (p=0.74960), Kazakhstan_IA_Sarmatian weight1=0.810, Moksha weight2=0.190 (p=0.73743), Kazakhstan_IA_Sarmatian (p=0.72060), Kazakhstan_IA_Sarmatian weight1=0.860, Erzya weight2=0.140 (p=0.67324), Kazakhstan_IA_Sarmatian weight1=0.876, Russia_EarlySarmatian weight2=0.124 (p=0.65011), Kazakhstan_IA_Sarmatian weight1=0.965, Russia_Orenburg_EarlySarmatian weight2=0.035 (p=0.60660), Kazakhstan_IA_Sarmatian weight1=0.982, Seima_Turbino weight2=0.018 (p=0.60303), Kazakhstan_IA_Sarmatian weight1=0.983, Kazakhstan_EarlySarmatian weight2=0.017 (p=0.60155), Kazakhstan_IA_Sarmatian weight1=0.981, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.019 (p=0.60128), Kazakhstan_IA_Sarmatian weight1=0.979, Russia_EIA_LateSarmatian weight2=0.021 (p=0.57457), Kazakhstan_IA_Sarmatian weight1=0.991, Kazakhstan_LateSarmatian weight2=0.009 (p=0.56621) 
+-----------------------------------------------------------------
+Ukraine_Liubivka_Classical_Sarmatian  = Russia_Ekazhevo_IA_Alan (p=0.85582) 
+-----------------------------------------------------------------
+Kazakhstan_EarlySarmatian  = Seima_Turbino (p=0.62076), Kazakhstan_LateSarmatian (p=0.46904), Seima_Turbino weight1=0.787, Kazakhstan_LateSarmatian weight2=0.213 (p=0.44520), Kazakhstan_Hun_Nomad_Sarmatian (p=0.37526) 
+-----------------------------------------------------------------
+Kazakhstan_Hun_Nomad_Sarmatian  = Kazakhstan_EarlySarmatian weight1=0.696, Russia_Orenburg_EarlySarmatian weight2=0.304 (p=0.89918), Kazakhstan_EarlySarmatian weight1=0.701, Russia_EIA_LateSarmatian weight2=0.299 (p=0.88489), Kazakhstan_EarlySarmatian weight1=0.826, Erzya weight2=0.174 (p=0.87820), Kazakhstan_EarlySarmatian weight1=0.830, Russia_LateSarmatian weight2=0.170 (p=0.86863), Kazakhstan_EarlySarmatian weight1=0.833, Kazakhstan_Sarmatian weight2=0.167 (p=0.86353), Kazakhstan_EarlySarmatian weight1=0.831, Russia_Alan weight2=0.169 (p=0.86334), Kazakhstan_EarlySarmatian weight1=0.855, Kazakhstan_IA_Sarmatian weight2=0.145 (p=0.85670), Kazakhstan_EarlySarmatian weight1=0.828, Russia_EarlySarmatian weight2=0.172 (p=0.83686), Kazakhstan_EarlySarmatian weight1=0.856, Russia_Sarmatian weight2=0.144 (p=0.83515), Kazakhstan_EarlySarmatian weight1=0.833, Moksha weight2=0.167 (p=0.81633), Kazakhstan_LateSarmatian (p=0.78222), Kazakhstan_LateSarmatian weight1=0.932, Kazakhstan_Sarmatian weight2=0.068 (p=0.71273), Kazakhstan_LateSarmatian weight1=0.932, Russia_Alan weight2=0.068 (p=0.70925), Kazakhstan_LateSarmatian weight1=0.876, Russia_Orenburg_EarlySarmatian weight2=0.124 (p=0.70876), Kazakhstan_LateSarmatian weight1=0.935, Erzya weight2=0.065 (p=0.70007), Kazakhstan_LateSarmatian weight1=0.942, Russia_EarlySarmatian weight2=0.058 (p=0.68301), Kazakhstan_LateSarmatian weight1=0.944, Moksha weight2=0.056 (p=0.67775), Kazakhstan_LateSarmatian weight1=0.954, Russia_Sarmatian weight2=0.046 (p=0.67196), Kazakhstan_LateSarmatian weight1=0.957, Kazakhstan_IA_Sarmatian weight2=0.043 (p=0.66794), Kazakhstan_LateSarmatian weight1=0.952, Russia_LateSarmatian weight2=0.048 (p=0.66621), Kazakhstan_LateSarmatian weight1=0.911, Russia_EIA_LateSarmatian weight2=0.089 (p=0.66549), Kazakhstan_LateSarmatian weight1=0.979, Seima_Turbino weight2=0.021 (p=0.62891), Seima_Turbino weight1=0.741, Russia_EIA_LateSarmatian weight2=0.259 (p=0.61926), Seima_Turbino weight1=0.852, Erzya weight2=0.148 (p=0.61270), Seima_Turbino weight1=0.852, Russia_EarlySarmatian weight2=0.148 (p=0.59345), Seima_Turbino weight1=0.740, Russia_Orenburg_EarlySarmatian weight2=0.260 (p=0.56581), Seima_Turbino weight1=0.862, Moksha weight2=0.138 (p=0.54948), Seima_Turbino weight1=0.883, Kazakhstan_IA_Sarmatian weight2=0.117 (p=0.54639), Seima_Turbino weight1=0.883, Russia_Sarmatian weight2=0.117 (p=0.53959), Seima_Turbino weight1=0.865, Russia_LateSarmatian weight2=0.135 (p=0.52670), Seima_Turbino weight1=0.870, Kazakhstan_Sarmatian weight2=0.130 (p=0.50335), Seima_Turbino weight1=0.873, Russia_Alan weight2=0.127 (p=0.47558), Kazakhstan_EarlySarmatian (p=0.37526), Seima_Turbino (p=0.36733) 
+-----------------------------------------------------------------
+Kazakhstan_IA_Sarmatian  = Russia_Sarmatian (p=0.72060), Russia_Sarmatian weight1=0.965, Russia_LateSarmatian weight2=0.035 (p=0.56534) 
+-----------------------------------------------------------------
+Kazakhstan_LateSarmatian  = Kazakhstan_Hun_Nomad_Sarmatian (p=0.78222), Kazakhstan_EarlySarmatian weight1=0.762, Russia_EIA_LateSarmatian weight2=0.238 (p=0.74148), Kazakhstan_EarlySarmatian weight1=0.869, Russia_LateSarmatian weight2=0.131 (p=0.70306), Kazakhstan_EarlySarmatian weight1=0.890, Kazakhstan_IA_Sarmatian weight2=0.110 (p=0.66959), Kazakhstan_Hun_Nomad_Sarmatian weight1=0.886, Kazakhstan_EarlySarmatian weight2=0.114 (p=0.63625), Kazakhstan_EarlySarmatian weight1=0.782, Russia_Orenburg_EarlySarmatian weight2=0.218 (p=0.63504), Kazakhstan_EarlySarmatian weight1=0.893, Russia_Sarmatian weight2=0.107 (p=0.63272), Kazakhstan_EarlySarmatian weight1=0.874, Russia_EarlySarmatian weight2=0.126 (p=0.62504), Kazakhstan_EarlySarmatian weight1=0.877, Moksha weight2=0.123 (p=0.61092), Kazakhstan_EarlySarmatian weight1=0.880, Erzya weight2=0.120 (p=0.59342), Kazakhstan_EarlySarmatian weight1=0.888, Russia_Alan weight2=0.112 (p=0.55873), Kazakhstan_EarlySarmatian weight1=0.889, Kazakhstan_Sarmatian weight2=0.111 (p=0.55513), Kazakhstan_EarlySarmatian (p=0.46904), Seima_Turbino weight1=0.808, Russia_EIA_LateSarmatian weight2=0.192 (p=0.37868), Seima_Turbino (p=0.37009), Seima_Turbino weight1=0.913, Russia_EarlySarmatian weight2=0.087 (p=0.31844), Seima_Turbino weight1=0.917, Russia_LateSarmatian weight2=0.083 (p=0.31180), Seima_Turbino weight1=0.930, Kazakhstan_IA_Sarmatian weight2=0.070 (p=0.31011), Seima_Turbino weight1=0.919, Erzya weight2=0.081 (p=0.30374), Seima_Turbino weight1=0.921, Moksha weight2=0.079 (p=0.30056), Seima_Turbino weight1=0.934, Russia_Sarmatian weight2=0.066 (p=0.29819), Seima_Turbino weight1=0.861, Russia_Orenburg_EarlySarmatian weight2=0.139 (p=0.29563), Seima_Turbino weight1=0.945, Kazakhstan_Sarmatian weight2=0.055 (p=0.25998), Seima_Turbino weight1=0.950, Russia_Alan weight2=0.050 (p=0.25388) 
+-----------------------------------------------------------------
+Kazakhstan_Sarmatian  = Russia_Alan weight1=0.797, Erzya weight2=0.203 (p=0.98316), Russia_Alan (p=0.96783), Russia_Alan weight1=0.859, Russia_EarlySarmatian weight2=0.141 (p=0.95762), Russia_Alan weight1=0.852, Moksha weight2=0.148 (p=0.94777), Russia_Alan weight1=0.934, Russia_Sarmatian weight2=0.066 (p=0.92502), Russia_Alan weight1=0.956, Kazakhstan_IA_Sarmatian weight2=0.044 (p=0.91661), Russia_Alan weight1=1.000, Kazakhstan_Hun_Nomad_Sarmatian weight2=0.000 (p=0.90449), Russia_Alan weight1=0.976, Russia_LateSarmatian weight2=0.024 (p=0.90423), Russia_Alan weight1=1.000, Russia_Orenburg_EarlySarmatian weight2=0.000 (p=0.90291), Russia_Alan weight1=0.992, Russia_EIA_LateSarmatian weight2=0.008 (p=0.89876), Russia_Alan weight1=0.999, Kazakhstan_EarlySarmatian weight2=0.001 (p=0.89826), Erzya (p=0.10985), Moksha (p=0.08284), Russia_EarlySarmatian (p=0.05152) 
+-----------------------------------------------------------------
+Russia_Alan  = Kazakhstan_Sarmatian (p=0.96783), Kazakhstan_Sarmatian weight1=0.995, Seima_Turbino weight2=0.005 (p=0.90272), Kazakhstan_Sarmatian weight1=0.999, Kazakhstan_LateSarmatian weight2=0.001 (p=0.89508) 
+-----------------------------------------------------------------
+Russia_Ekazhevo_IA_Alan  = Ukraine_Liubivka_Classical_Sarmatian (p=0.85582) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ Detailed calculation logs for the book manuscript:
+=================================================================
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.99349 
+LEFT: Kazakhstan_LateSarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se     z
+  <chr>                          <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_LateSarmatian  0.497 0.0592  8.40
+2 Russia_Orenburg_EarlySarmatian Russia_Alan               0.503 0.0592  8.50
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.98805 
+LEFT: Kazakhstan_LateSarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se     z
+  <chr>                          <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_LateSarmatian  0.497 0.0591  8.40
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_Sarmatian      0.503 0.0591  8.51
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.98316 
+LEFT: Erzya + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left        weight    se     z
+  <chr>                <chr>        <dbl> <dbl> <dbl>
+1 Kazakhstan_Sarmatian Erzya        0.203 0.260 0.780
+2 Kazakhstan_Sarmatian Russia_Alan  0.797 0.260 3.07 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.98306 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight     se     z
+  <chr>                    <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_IA_Sarmatian   0.426 0.0506  8.41
+2 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian  0.574 0.0506 11.3 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.96879 
+LEFT: Kazakhstan_LateSarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight     se     z
+  <chr>                    <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian  0.493 0.0600  8.21
+2 Russia_EIA_LateSarmatian Russia_LateSarmatian      0.507 0.0600  8.45
+-----------------------------------------------------------------
+
+TARGET  : Russia_Alan 
+P-VALUE : 0.96783 
+LEFT: Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target      left                 weight       se       z
+  <chr>       <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_Alan Kazakhstan_Sarmatian      1 3.48e-13 2.87e12
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.96783 
+LEFT: Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target               left        weight       se       z
+  <chr>                <chr>        <dbl>    <dbl>   <dbl>
+1 Kazakhstan_Sarmatian Russia_Alan      1 3.48e-13 2.87e12
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.95762 
+LEFT: Russia_Alan + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                  weight    se     z
+  <chr>                <chr>                  <dbl> <dbl> <dbl>
+1 Kazakhstan_Sarmatian Russia_Alan            0.859 0.238 3.61 
+2 Kazakhstan_Sarmatian Russia_EarlySarmatian  0.141 0.238 0.593
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.95410 
+LEFT: Russia_EarlySarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                  weight     se     z
+  <chr>                          <chr>                  <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Russia_EarlySarmatian  0.559 0.0548 10.2 
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino          0.441 0.0548  8.06
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.95344 
+LEFT: Kazakhstan_IA_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                    weight     se     z
+  <chr>                          <chr>                    <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_IA_Sarmatian  0.462 0.0459  10.1
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino            0.538 0.0459  11.7
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.94777 
+LEFT: Moksha + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left        weight    se     z
+  <chr>                <chr>        <dbl> <dbl> <dbl>
+1 Kazakhstan_Sarmatian Moksha       0.148 0.284 0.522
+2 Kazakhstan_Sarmatian Russia_Alan  0.852 0.284 3.00 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.94754 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left          weight     se     z
+  <chr>                          <chr>          <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Erzya          0.545 0.0539 10.1 
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino  0.455 0.0539  8.44
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.94455 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                        weight     se     z
+  <chr>                          <chr>                        <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarma…  0.527 0.0637  8.27
+2 Russia_Orenburg_EarlySarmatian Russia_LateSarmatian         0.473 0.0637  7.43
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.93967 
+LEFT: Kazakhstan_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight     se     z
+  <chr>                    <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian  0.575 0.0513 11.2 
+2 Russia_EIA_LateSarmatian Russia_Sarmatian          0.425 0.0513  8.28
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.93445 
+LEFT: Russia_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left             weight     se     z
+  <chr>                          <chr>             <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Russia_Sarmatian  0.465 0.0467  9.96
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino     0.535 0.0467 11.5 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.92502 
+LEFT: Russia_Alan + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left             weight    se     z
+  <chr>                <chr>             <dbl> <dbl> <dbl>
+1 Kazakhstan_Sarmatian Russia_Alan      0.934  0.200 4.67 
+2 Kazakhstan_Sarmatian Russia_Sarmatian 0.0659 0.200 0.329
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.91661 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                    weight    se     z
+  <chr>                <chr>                    <dbl> <dbl> <dbl>
+1 Kazakhstan_Sarmatian Kazakhstan_IA_Sarmatian 0.0440 0.183 0.241
+2 Kazakhstan_Sarmatian Russia_Alan             0.956  0.183 5.23 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.91320 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                        weight     se     z
+  <chr>                          <chr>                        <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarma…  0.606 0.0537 11.3 
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_IA_Sarmatian      0.394 0.0537  7.33
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.91222 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se     z
+  <chr>  <chr>                      <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_EarlySarmatian  0.150 0.0292  5.14
+2 Moksha Russia_Sarmatian           0.850 0.0292 29.1 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.90730 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                        weight     se     z
+  <chr>                          <chr>                        <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarma…  0.604 0.0539 11.2 
+2 Russia_Orenburg_EarlySarmatian Russia_Sarmatian             0.396 0.0539  7.36
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.90449 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                             weight     se        z
+  <chr>                <chr>                             <dbl>  <dbl>    <dbl>
+1 Kazakhstan_Sarmatian Kazakhstan_Hun_Nomad_Sarmatian 0.000456 0.0504  0.00905
+2 Kazakhstan_Sarmatian Russia_Alan                    1.000    0.0504 19.8    
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.90423 
+LEFT: Russia_Alan + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                 weight    se      z
+  <chr>                <chr>                 <dbl> <dbl>  <dbl>
+1 Kazakhstan_Sarmatian Russia_Alan          0.976  0.251 3.89  
+2 Kazakhstan_Sarmatian Russia_LateSarmatian 0.0244 0.251 0.0972
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.90404 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight     se     z
+  <chr>                    <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.515 0.0633  8.14
+2 Russia_EIA_LateSarmatian Russia_LateSarmatian            0.485 0.0633  7.67
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.90291 
+LEFT: Russia_Alan + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                             weight     se        z
+  <chr>                <chr>                             <dbl>  <dbl>    <dbl>
+1 Kazakhstan_Sarmatian Russia_Alan                    1.000    0.0957 10.4    
+2 Kazakhstan_Sarmatian Russia_Orenburg_EarlySarmatian 0.000263 0.0957  0.00274
+-----------------------------------------------------------------
+
+TARGET  : Russia_Alan 
+P-VALUE : 0.90272 
+LEFT: Kazakhstan_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target      left                  weight     se      z
+  <chr>       <chr>                  <dbl>  <dbl>  <dbl>
+1 Russia_Alan Kazakhstan_Sarmatian 0.995   0.0446 22.3  
+2 Russia_Alan Seima_Turbino        0.00529 0.0446  0.119
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.89918 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                         weight    se     z
+  <chr>                          <chr>                         <dbl> <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian     0.696 0.115  6.07
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_Orenburg_EarlySarmat…  0.304 0.115  2.65
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.89876 
+LEFT: Russia_Alan + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                      weight     se       z
+  <chr>                <chr>                      <dbl>  <dbl>   <dbl>
+1 Kazakhstan_Sarmatian Russia_Alan              0.992   0.0914 10.9   
+2 Kazakhstan_Sarmatian Russia_EIA_LateSarmatian 0.00753 0.0914  0.0824
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.89826 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                        weight     se       z
+  <chr>                <chr>                        <dbl>  <dbl>   <dbl>
+1 Kazakhstan_Sarmatian Kazakhstan_EarlySarmatian 0.000964 0.0423  0.0228
+2 Kazakhstan_Sarmatian Russia_Alan               0.999    0.0423 23.6   
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.89597 
+LEFT: Kazakhstan_LateSarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight     se     z
+  <chr>                    <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian  0.481 0.0601  8.00
+2 Russia_EIA_LateSarmatian Russia_EarlySarmatian     0.519 0.0601  8.64
+-----------------------------------------------------------------
+
+TARGET  : Russia_Alan 
+P-VALUE : 0.89508 
+LEFT: Kazakhstan_LateSarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target      left                       weight     se       z
+  <chr>       <chr>                       <dbl>  <dbl>   <dbl>
+1 Russia_Alan Kazakhstan_LateSarmatian 0.000672 0.0466  0.0144
+2 Russia_Alan Kazakhstan_Sarmatian     0.999    0.0466 21.4   
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.89452 
+LEFT: Kazakhstan_EarlySarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian  0.428 0.0542  7.89
+2 Russia_Orenburg_EarlySarmatian Russia_LateSarmatian       0.572 0.0542 10.5 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.89383 
+LEFT: Kazakhstan_EarlySarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_EarlySarmatian  0.427 0.0510  8.37
+2 Russia_EIA_LateSarmatian Russia_LateSarmatian       0.573 0.0510 11.2 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.89335 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left          weight     se     z
+  <chr>                          <chr>          <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Moksha         0.543 0.0520 10.5 
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino  0.457 0.0520  8.80
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.88489 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight    se     z
+  <chr>                          <chr>                      <dbl> <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.701 0.117  6.01
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_EIA_LateSarmatian   0.299 0.117  2.56
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.87820 
+LEFT: Erzya + Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Erzya                      0.174 0.0672  2.58
+2 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.826 0.0672 12.3 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.87264 
+LEFT: Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                  weight       se       z
+  <chr>  <chr>                  <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlySarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.87264 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left   weight       se       z
+  <chr>                 <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlySarmatian Moksha      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.86994 
+LEFT: Russia_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                 weight     se     z
+  <chr>                          <chr>                 <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Russia_LateSarmatian  0.542 0.0546  9.93
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino         0.458 0.0546  8.40
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.86887 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian  0.507 0.0457  11.1
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_IA_Sarmatian    0.493 0.0457  10.8
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.86863 
+LEFT: Kazakhstan_EarlySarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.830 0.0686 12.1 
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_LateSarmatian       0.170 0.0686  2.48
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.86353 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.833 0.0661 12.6 
+2 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_Sarmatian       0.167 0.0661  2.53
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.86334 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.831 0.0668 12.4 
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_Alan                0.169 0.0668  2.53
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.85670 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.855 0.0580 14.7 
+2 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_IA_Sarmatian    0.145 0.0580  2.49
+-----------------------------------------------------------------
+
+TARGET  : Ukraine_Liubivka_Classical_Sarmatian 
+P-VALUE : 0.85582 
+LEFT: Russia_Ekazhevo_IA_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left              weight       se       z
+  <chr>                                <chr>              <dbl>    <dbl>   <dbl>
+1 Ukraine_Liubivka_Classical_Sarmatian Russia_Ekazhevo_…      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Ekazhevo_IA_Alan 
+P-VALUE : 0.85582 
+LEFT: Ukraine_Liubivka_Classical_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left                           weight       se       z
+  <chr>                   <chr>                           <dbl>    <dbl>   <dbl>
+1 Russia_Ekazhevo_IA_Alan Ukraine_Liubivka_Classical_Sa…      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.84725 
+LEFT: Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left                          weight       se       z
+  <chr>                    <chr>                          <dbl>    <dbl>   <dbl>
+1 Russia_EIA_LateSarmatian Russia_Orenburg_EarlySarmati…      1 1.85e-13 5.41e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.84725 
+LEFT: Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                         left                    weight       se       z
+  <chr>                          <chr>                    <dbl>    <dbl>   <dbl>
+1 Russia_Orenburg_EarlySarmatian Russia_EIA_LateSarmati…      1 1.85e-13 5.41e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.84555 
+LEFT: Erzya + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight     se     z
+  <chr>                    <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Erzya                     0.504 0.0583  8.65
+2 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian  0.496 0.0583  8.51
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.84149 
+LEFT: Russia_Alan + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Moksha Russia_Alan            0.160 0.224 0.713
+2 Moksha Russia_EarlySarmatian  0.840 0.224 3.75 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.84055 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                        weight     se     z
+  <chr>                          <chr>                        <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarma…  0.530 0.0620  8.55
+2 Russia_Orenburg_EarlySarmatian Moksha                       0.470 0.0620  7.59
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.83686 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.828 0.0687 12.1 
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_EarlySarmatian      0.172 0.0687  2.50
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.83555 
+LEFT: Moksha + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se      z
+  <chr>                 <chr>                     <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Moksha                   0.931  0.0862 10.8  
+2 Russia_EarlySarmatian Russia_EIA_LateSarmatian 0.0693 0.0862  0.804
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.83515 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.856 0.0578 14.8 
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_Sarmatian           0.144 0.0578  2.49
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.83450 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                        weight     se     z
+  <chr>                          <chr>                        <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarma…  0.534 0.0634  8.42
+2 Russia_Orenburg_EarlySarmatian Russia_Alan                  0.466 0.0634  7.36
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.83089 
+LEFT: Kazakhstan_Sarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Moksha Kazakhstan_Sarmatian   0.179 0.270 0.663
+2 Moksha Russia_EarlySarmatian  0.821 0.270 3.05 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.82876 
+LEFT: Russia_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Moksha Russia_EarlySarmatian  0.861 0.201 4.28 
+2 Moksha Russia_Sarmatian       0.139 0.201 0.689
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.82810 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight     se      z
+  <chr>                 <chr>                           <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Kazakhstan_Hun_Nomad_Sarmatian 0.0343 0.0479  0.715
+2 Russia_EarlySarmatian Moksha                         0.966  0.0479 20.2  
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.82758 
+LEFT: Erzya + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left   weight    se     z
+  <chr>                 <chr>   <dbl> <dbl> <dbl>
+1 Russia_EarlySarmatian Erzya   0.302 0.497 0.608
+2 Russia_EarlySarmatian Moksha  0.698 0.497 1.40 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.82727 
+LEFT: Kazakhstan_LateSarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight     se     z
+  <chr>                    <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian  0.503 0.0579  8.69
+2 Russia_EIA_LateSarmatian Moksha                    0.497 0.0579  8.58
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.82143 
+LEFT: Kazakhstan_LateSarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se      z
+  <chr>                 <chr>                     <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Kazakhstan_LateSarmatian 0.0319 0.0442  0.721
+2 Russia_EarlySarmatian Moksha                   0.968  0.0442 21.9  
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.81827 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian  0.502 0.0459  10.9
+2 Russia_Orenburg_EarlySarmatian Russia_Sarmatian           0.498 0.0459  10.8
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.81726 
+LEFT: Kazakhstan_EarlySarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                      weight     se      z
+  <chr>                 <chr>                      <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Kazakhstan_EarlySarmatian 0.0252 0.0392  0.644
+2 Russia_EarlySarmatian Moksha                    0.975  0.0392 24.9  
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.81633 
+LEFT: Kazakhstan_EarlySarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmatian  0.833 0.0671 12.4 
+2 Kazakhstan_Hun_Nomad_Sarmatian Moksha                     0.167 0.0671  2.49
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.81429 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight     se     z
+  <chr>                    <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.594 0.0541 11.0 
+2 Russia_EIA_LateSarmatian Kazakhstan_IA_Sarmatian         0.406 0.0541  7.50
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.81090 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_Hun_Nomad_Sarmatian  0.175 0.0349  5.02
+2 Moksha Russia_Sarmatian                0.825 0.0349 23.6 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.80775 
+LEFT: Moksha + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight     se      z
+  <chr>                 <chr>                           <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Moksha                         0.946  0.0886 10.7  
+2 Russia_EarlySarmatian Russia_Orenburg_EarlySarmatian 0.0536 0.0886  0.604
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.80387 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                        weight     se     z
+  <chr>                          <chr>                        <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarma…  0.535 0.0627  8.53
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_Sarmatian         0.465 0.0627  7.42
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.79547 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                      weight     se     z
+  <chr>                 <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_EarlySarmatian  0.169 0.0327  5.18
+2 Russia_EarlySarmatian Russia_Sarmatian           0.831 0.0327 25.4 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.79312 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left          weight     se      z
+  <chr>                 <chr>          <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Moksha        0.979  0.0410 23.9  
+2 Russia_EarlySarmatian Seima_Turbino 0.0214 0.0410  0.522
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.79247 
+LEFT: Kazakhstan_IA_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                    weight     se     z
+  <chr>                <chr>                    <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_IA_Sarmatian  0.852 0.0347 24.6 
+2 Russia_LateSarmatian Seima_Turbino            0.148 0.0347  4.27
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.79050 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                    weight    se     z
+  <chr>  <chr>                    <dbl> <dbl> <dbl>
+1 Moksha Kazakhstan_IA_Sarmatian 0.0925 0.194 0.476
+2 Moksha Russia_EarlySarmatian   0.908  0.194 4.67 
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.78870 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                     weight     se     z
+  <chr>                <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_IA_Sarmatian   0.718 0.0640 11.2 
+2 Russia_LateSarmatian Russia_EIA_LateSarmatian  0.282 0.0640  4.40
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.78762 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                     weight     se     z
+  <chr>                <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_IA_Sarmatian   0.841 0.0371 22.7 
+2 Russia_LateSarmatian Kazakhstan_LateSarmatian  0.159 0.0371  4.30
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.78757 
+LEFT: Russia_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left             weight     se     z
+  <chr>  <chr>             <dbl>  <dbl> <dbl>
+1 Moksha Russia_Sarmatian  0.841 0.0318 26.4 
+2 Moksha Seima_Turbino     0.159 0.0318  5.02
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.78650 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                    weight    se     z
+  <chr>            <chr>                    <dbl> <dbl> <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian  0.829 0.155  5.37
+2 Russia_Sarmatian Kazakhstan_Sarmatian     0.171 0.155  1.11
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.78222 
+LEFT: Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                         left                    weight       se       z
+  <chr>                          <chr>                    <dbl>    <dbl>   <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmati…      1 6.40e-14 1.56e13
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.78222 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left                          weight       se       z
+  <chr>                    <chr>                          <dbl>    <dbl>   <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_Hun_Nomad_Sarmati…      1 6.40e-14 1.56e13
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.77963 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_EarlySarmatian  0.508 0.0431  11.8
+2 Russia_EIA_LateSarmatian Kazakhstan_IA_Sarmatian    0.492 0.0431  11.4
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.76829 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian  0.439 0.0545  8.05
+2 Russia_Orenburg_EarlySarmatian Russia_Alan                0.561 0.0545 10.3 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.76395 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                        weight     se     z
+  <chr>                          <chr>                        <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarma…  0.517 0.0639  8.09
+2 Russia_Orenburg_EarlySarmatian Russia_EarlySarmatian        0.483 0.0639  7.56
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.76301 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight     se     z
+  <chr>                 <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.200 0.0400  5.01
+2 Russia_EarlySarmatian Russia_Sarmatian                0.800 0.0400 20.0 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.75031 
+LEFT: Russia_EarlySarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Moksha Russia_EarlySarmatian 0.952  0.408 2.33 
+2 Moksha Russia_LateSarmatian  0.0478 0.408 0.117
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.74960 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                    weight    se     z
+  <chr>            <chr>                    <dbl> <dbl> <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian  0.844 0.151  5.61
+2 Russia_Sarmatian Russia_Alan              0.156 0.151  1.04
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.74148 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight    se     z
+  <chr>                    <chr>                      <dbl> <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.762 0.120  6.38
+2 Kazakhstan_LateSarmatian Russia_EIA_LateSarmatian   0.238 0.120  1.99
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.73743 
+LEFT: Kazakhstan_IA_Sarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                    weight    se     z
+  <chr>            <chr>                    <dbl> <dbl> <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian  0.810 0.189  4.30
+2 Russia_Sarmatian Moksha                   0.190 0.189  1.01
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.73105 
+LEFT: Russia_Alan + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight    se     z
+  <chr>                          <chr>                     <dbl> <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Russia_Alan              0.0542 0.124 0.439
+2 Russia_Orenburg_EarlySarmatian Russia_EIA_LateSarmatian 0.946  0.124 7.66 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.72894 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian  0.436 0.0548  7.96
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_Sarmatian       0.564 0.0548 10.3 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.72741 
+LEFT: Russia_EIA_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight    se     z
+  <chr>                          <chr>                     <dbl> <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Russia_EIA_LateSarmatian 0.961  0.112 8.59 
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino            0.0394 0.112 0.352
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.72534 
+LEFT: Russia_Orenburg_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Moksha Russia_Orenburg_EarlySarmatian  0.291 0.0559  5.20
+2 Moksha Russia_Sarmatian                0.709 0.0559 12.7 
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.72423 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                           weight     se     z
+  <chr>                <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_IA_Sarmatian         0.726 0.0650 11.2 
+2 Russia_LateSarmatian Russia_Orenburg_EarlySarmatian  0.274 0.0650  4.21
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.72316 
+LEFT: Kazakhstan_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight    se     z
+  <chr>                          <chr>                     <dbl> <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Sarmatian     0.0463 0.122 0.381
+2 Russia_Orenburg_EarlySarmatian Russia_EIA_LateSarmatian 0.954  0.122 7.85 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.72097 
+LEFT: Kazakhstan_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_LateSarmatian  0.167 0.0327  5.10
+2 Moksha Russia_Sarmatian          0.833 0.0327 25.5 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.72060 
+LEFT: Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                    weight       se       z
+  <chr>            <chr>                    <dbl>    <dbl>   <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_IA_Sarmatian 
+P-VALUE : 0.72060 
+LEFT: Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left             weight       se       z
+  <chr>                   <chr>             <dbl>    <dbl>   <dbl>
+1 Kazakhstan_IA_Sarmatian Russia_Sarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.71648 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                         weight    se     z
+  <chr>                          <chr>                         <dbl> <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarmat… 0.0247 0.159 0.155
+2 Russia_Orenburg_EarlySarmatian Russia_EIA_LateSarmatian     0.975  0.159 6.15 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.71541 
+LEFT: Kazakhstan_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se     z
+  <chr>                 <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_LateSarmatian  0.188 0.0368  5.12
+2 Russia_EarlySarmatian Russia_Sarmatian          0.812 0.0368 22.1 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.71273 
+LEFT: Kazakhstan_LateSarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se      z
+  <chr>                          <chr>                     <dbl>  <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.932  0.0776 12.0  
+2 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_Sarmatian     0.0680 0.0776  0.876
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.71147 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight    se     z
+  <chr>                          <chr>                      <dbl> <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian 0.0128 0.107 0.120
+2 Russia_Orenburg_EarlySarmatian Russia_EIA_LateSarmatian  0.987  0.107 9.23 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.71143 
+LEFT: Erzya + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se     z
+  <chr>                          <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Erzya                     0.514 0.0598  8.61
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_LateSarmatian  0.486 0.0598  8.13
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.71070 
+LEFT: Russia_LateSarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight    se     z
+  <chr>                    <chr>                           <dbl> <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Russia_LateSarmatian           0.0169 0.140 0.121
+2 Russia_EIA_LateSarmatian Russia_Orenburg_EarlySarmatian 0.983  0.140 7.03 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.71050 
+LEFT: Kazakhstan_LateSarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight    se     z
+  <chr>                    <chr>                           <dbl> <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian       0.0182 0.133 0.137
+2 Russia_EIA_LateSarmatian Russia_Orenburg_EarlySarmatian 0.982  0.133 7.37 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.70925 
+LEFT: Kazakhstan_LateSarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se      z
+  <chr>                          <chr>                     <dbl>  <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.932  0.0779 12.0  
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_Alan              0.0683 0.0779  0.877
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.70876 
+LEFT: Kazakhstan_LateSarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                         weight    se     z
+  <chr>                          <chr>                         <dbl> <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian      0.876 0.160 5.46 
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_Orenburg_EarlySarmat…  0.124 0.160 0.775
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.70693 
+LEFT: Russia_EarlySarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                            weight    se      z
+  <chr>                    <chr>                            <dbl> <dbl>  <dbl>
+1 Russia_EIA_LateSarmatian Russia_EarlySarmatian          0.00887 0.142 0.0626
+2 Russia_EIA_LateSarmatian Russia_Orenburg_EarlySarmatian 0.991   0.142 7.00  
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.70557 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                            weight     se      z
+  <chr>                    <chr>                            <dbl>  <dbl>  <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_IA_Sarmatian        0.00994 0.0983  0.101
+2 Russia_EIA_LateSarmatian Russia_Orenburg_EarlySarmatian 0.990   0.0983 10.1  
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.70510 
+LEFT: Moksha + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight    se      z
+  <chr>                          <chr>                      <dbl> <dbl>  <dbl>
+1 Russia_Orenburg_EarlySarmatian Moksha                   0.00540 0.132 0.0411
+2 Russia_Orenburg_EarlySarmatian Russia_EIA_LateSarmatian 0.995   0.132 7.56  
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.70476 
+LEFT: Erzya + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight    se      z
+  <chr>                          <chr>                      <dbl> <dbl>  <dbl>
+1 Russia_Orenburg_EarlySarmatian Erzya                    0.00429 0.134 0.0320
+2 Russia_Orenburg_EarlySarmatian Russia_EIA_LateSarmatian 0.996   0.134 7.42  
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.70306 
+LEFT: Kazakhstan_EarlySarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.869 0.0680 12.8 
+2 Kazakhstan_LateSarmatian Russia_LateSarmatian       0.131 0.0680  1.92
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.70157 
+LEFT: Russia_Orenburg_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                            weight     se       z
+  <chr>                    <chr>                            <dbl>  <dbl>   <dbl>
+1 Russia_EIA_LateSarmatian Russia_Orenburg_EarlySarmatian 0.998   0.0977 10.2   
+2 Russia_EIA_LateSarmatian Russia_Sarmatian               0.00167 0.0977  0.0171
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.70007 
+LEFT: Erzya + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se      z
+  <chr>                          <chr>                     <dbl>  <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Erzya                    0.0649 0.0798  0.813
+2 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.935  0.0798 11.7  
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.69446 
+LEFT: Kazakhstan_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se     z
+  <chr>                          <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_LateSarmatian  0.569 0.0511 11.1 
+2 Russia_Orenburg_EarlySarmatian Russia_Sarmatian          0.431 0.0511  8.44
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.69219 
+LEFT: Kazakhstan_LateSarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se     z
+  <chr>                          <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_LateSarmatian  0.485 0.0587  8.27
+2 Russia_Orenburg_EarlySarmatian Moksha                    0.515 0.0587  8.78
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.68585 
+LEFT: Kazakhstan_EarlySarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian  0.421 0.0516  8.15
+2 Russia_Orenburg_EarlySarmatian Moksha                     0.579 0.0516 11.2 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.68301 
+LEFT: Kazakhstan_LateSarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se      z
+  <chr>                          <chr>                     <dbl>  <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.942  0.0823 11.4  
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_EarlySarmatian    0.0580 0.0823  0.704
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.68064 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight     se     z
+  <chr>                    <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.595 0.0549 10.8 
+2 Russia_EIA_LateSarmatian Russia_Sarmatian                0.405 0.0549  7.38
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.67775 
+LEFT: Kazakhstan_LateSarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se      z
+  <chr>                          <chr>                     <dbl>  <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.944  0.0802 11.8  
+2 Kazakhstan_Hun_Nomad_Sarmatian Moksha                   0.0556 0.0802  0.693
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.67324 
+LEFT: Erzya + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                    weight    se     z
+  <chr>            <chr>                    <dbl> <dbl> <dbl>
+1 Russia_Sarmatian Erzya                    0.140 0.174 0.806
+2 Russia_Sarmatian Kazakhstan_IA_Sarmatian  0.860 0.174 4.94 
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.67203 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                      weight     se     z
+  <chr>                <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_EarlySarmatian  0.137 0.0324  4.23
+2 Russia_LateSarmatian Kazakhstan_IA_Sarmatian    0.863 0.0324 26.7 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.67196 
+LEFT: Kazakhstan_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se      z
+  <chr>                          <chr>                     <dbl>  <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.954  0.0679 14.1  
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_Sarmatian         0.0457 0.0679  0.673
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.66959 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.890 0.0589 15.1 
+2 Kazakhstan_LateSarmatian Kazakhstan_IA_Sarmatian    0.110 0.0589  1.87
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.66794 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se      z
+  <chr>                          <chr>                     <dbl>  <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_IA_Sarmatian  0.0429 0.0687  0.624
+2 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.957  0.0687 13.9  
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.66621 
+LEFT: Kazakhstan_LateSarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se      z
+  <chr>                          <chr>                     <dbl>  <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.952  0.0833 11.4  
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_LateSarmatian     0.0479 0.0833  0.576
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.66549 
+LEFT: Kazakhstan_LateSarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight    se     z
+  <chr>                          <chr>                     <dbl> <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.911  0.168 5.42 
+2 Kazakhstan_Hun_Nomad_Sarmatian Russia_EIA_LateSarmatian 0.0892 0.168 0.531
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.66261 
+LEFT: Erzya + Kazakhstan_Hun_Nomad_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                        weight     se     z
+  <chr>                          <chr>                        <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Erzya                        0.471 0.0645  7.31
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_Hun_Nomad_Sarma…  0.529 0.0645  8.20
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.65989 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                           weight     se     z
+  <chr>                <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.163 0.0397  4.10
+2 Russia_LateSarmatian Kazakhstan_IA_Sarmatian         0.837 0.0397 21.1 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.65011 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                    weight    se     z
+  <chr>            <chr>                    <dbl> <dbl> <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian  0.876 0.167 5.24 
+2 Russia_Sarmatian Russia_EarlySarmatian    0.124 0.167 0.744
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.64588 
+LEFT: Russia_EIA_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se     z
+  <chr>                 <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Russia_EIA_LateSarmatian  0.328 0.0619  5.30
+2 Russia_EarlySarmatian Russia_Sarmatian          0.672 0.0619 10.9 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.64421 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian  0.407 0.0542  7.50
+2 Russia_Orenburg_EarlySarmatian Russia_EarlySarmatian      0.593 0.0542 10.9 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.64269 
+LEFT: Kazakhstan_LateSarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight     se     z
+  <chr>                    <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian  0.520 0.0597  8.71
+2 Russia_EIA_LateSarmatian Kazakhstan_Sarmatian      0.480 0.0597  8.05
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.64051 
+LEFT: Kazakhstan_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                 weight     se     z
+  <chr>                          <chr>                 <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_Sarmatian  0.534 0.0549  9.73
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino         0.466 0.0549  8.48
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.63625 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_Hun_Nomad_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight    se     z
+  <chr>                    <chr>                           <dbl> <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian       0.114 0.737 0.155
+2 Kazakhstan_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.886 0.737 1.20 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.63504 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight    se     z
+  <chr>                    <chr>                           <dbl> <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian       0.782 0.121  6.47
+2 Kazakhstan_LateSarmatian Russia_Orenburg_EarlySarmatian  0.218 0.121  1.80
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.63272 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.893 0.0584 15.3 
+2 Kazakhstan_LateSarmatian Russia_Sarmatian           0.107 0.0584  1.83
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.62891 
+LEFT: Kazakhstan_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight    se      z
+  <chr>                          <chr>                     <dbl> <dbl>  <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_LateSarmatian 0.979  0.685 1.43  
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino            0.0209 0.685 0.0305
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.62504 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.874 0.0696 12.6 
+2 Kazakhstan_LateSarmatian Russia_EarlySarmatian      0.126 0.0696  1.82
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.62444 
+LEFT: Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                  weight       se       z
+  <chr>  <chr>                  <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_EarlySarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.62444 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left  weight       se       z
+  <chr>                 <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_EarlySarmatian Erzya      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.62325 
+LEFT: Kazakhstan_LateSarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se     z
+  <chr>                          <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_LateSarmatian  0.473 0.0606  7.80
+2 Russia_Orenburg_EarlySarmatian Russia_EarlySarmatian     0.527 0.0606  8.71
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.62076 
+LEFT: Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                      weight       se       z
+  <chr>         <chr>                      <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian      1 1.85e-13 5.41e12
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_EarlySarmatian 
+P-VALUE : 0.62076 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left          weight       se       z
+  <chr>                     <chr>          <dbl>    <dbl>   <dbl>
+1 Kazakhstan_EarlySarmatian Seima_Turbino      1 1.85e-13 5.41e12
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.61926 
+LEFT: Russia_EIA_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight    se     z
+  <chr>                          <chr>                     <dbl> <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Russia_EIA_LateSarmatian  0.259 0.125  2.07
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino             0.741 0.125  5.93
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.61525 
+LEFT: Erzya + Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                      weight     se     z
+  <chr>                          <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Erzya                      0.574 0.0535 10.7 
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_EarlySarmatian  0.426 0.0535  7.96
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.61270 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left          weight     se     z
+  <chr>                          <chr>          <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Erzya          0.148 0.0682  2.16
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino  0.852 0.0682 12.5 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.61092 
+LEFT: Kazakhstan_EarlySarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.877 0.0683 12.8 
+2 Kazakhstan_LateSarmatian Moksha                     0.123 0.0683  1.80
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.60660 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                           weight     se      z
+  <chr>            <chr>                           <dbl>  <dbl>  <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian        0.965  0.0598 16.1  
+2 Russia_Sarmatian Russia_Orenburg_EarlySarmatian 0.0347 0.0598  0.580
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.60496 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se     z
+  <chr>                          <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_IA_Sarmatian   0.429 0.0518  8.29
+2 Russia_Orenburg_EarlySarmatian Kazakhstan_LateSarmatian  0.571 0.0518 11.0 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.60303 
+LEFT: Kazakhstan_IA_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                    weight     se      z
+  <chr>            <chr>                    <dbl>  <dbl>  <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian 0.982  0.0314 31.3  
+2 Russia_Sarmatian Seima_Turbino           0.0180 0.0314  0.573
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.60155 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                      weight     se      z
+  <chr>            <chr>                      <dbl>  <dbl>  <dbl>
+1 Russia_Sarmatian Kazakhstan_EarlySarmatian 0.0173 0.0300  0.578
+2 Russia_Sarmatian Kazakhstan_IA_Sarmatian   0.983  0.0300 32.8  
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.60128 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                           weight     se      z
+  <chr>            <chr>                           <dbl>  <dbl>  <dbl>
+1 Russia_Sarmatian Kazakhstan_Hun_Nomad_Sarmatian 0.0191 0.0354  0.539
+2 Russia_Sarmatian Kazakhstan_IA_Sarmatian        0.981  0.0354 27.7  
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.59554 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight     se     z
+  <chr>                    <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.500 0.0649  7.71
+2 Russia_EIA_LateSarmatian Russia_EarlySarmatian           0.500 0.0649  7.70
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.59345 
+LEFT: Russia_EarlySarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                  weight     se     z
+  <chr>                          <chr>                  <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Russia_EarlySarmatian  0.148 0.0703  2.10
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino          0.852 0.0703 12.1 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.59342 
+LEFT: Erzya + Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Erzya                      0.120 0.0690  1.74
+2 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.880 0.0690 12.8 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.58829 
+LEFT: Russia_Orenburg_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight     se     z
+  <chr>                 <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Russia_Orenburg_EarlySarmatian  0.325 0.0641  5.07
+2 Russia_EarlySarmatian Russia_Sarmatian                0.675 0.0641 10.5 
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.58716 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight     se     z
+  <chr>         <chr>                      <dbl>  <dbl> <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian 0.913  0.0755 12.1 
+2 Seima_Turbino Russia_Alan               0.0869 0.0755  1.15
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.57964 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                      weight     se     z
+  <chr>                 <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_EarlySarmatian  0.182 0.0321  5.67
+2 Russia_EarlySarmatian Kazakhstan_IA_Sarmatian    0.818 0.0321 25.5 
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.57569 
+LEFT: Kazakhstan_LateSarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                     weight     se     z
+  <chr>                          <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Kazakhstan_LateSarmatian  0.492 0.0621  7.92
+2 Russia_Orenburg_EarlySarmatian Russia_LateSarmatian      0.508 0.0621  8.19
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.57457 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                     weight     se      z
+  <chr>            <chr>                     <dbl>  <dbl>  <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian  0.979  0.0592 16.5  
+2 Russia_Sarmatian Russia_EIA_LateSarmatian 0.0207 0.0592  0.350
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.57234 
+LEFT: Kazakhstan_LateSarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight     se     z
+  <chr>                    <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_LateSarmatian  0.517 0.0603  8.57
+2 Russia_EIA_LateSarmatian Russia_Alan               0.483 0.0603  8.01
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.56718 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_EarlySarmatian  0.508 0.0439  11.6
+2 Russia_EIA_LateSarmatian Russia_Sarmatian           0.492 0.0439  11.2
+-----------------------------------------------------------------
+
+TARGET  : Russia_Sarmatian 
+P-VALUE : 0.56621 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target           left                      weight     se      z
+  <chr>            <chr>                      <dbl>  <dbl>  <dbl>
+1 Russia_Sarmatian Kazakhstan_IA_Sarmatian  0.991   0.0324 30.6  
+2 Russia_Sarmatian Kazakhstan_LateSarmatian 0.00903 0.0324  0.279
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.56587 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight     se     z
+  <chr>         <chr>                      <dbl>  <dbl> <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian 0.919  0.0755 12.2 
+2 Seima_Turbino Kazakhstan_Sarmatian      0.0807 0.0755  1.07
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.56586 
+LEFT: Erzya + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                 weight    se     z
+  <chr>                 <chr>                 <dbl> <dbl> <dbl>
+1 Russia_EarlySarmatian Erzya                 0.768 0.343 2.24 
+2 Russia_EarlySarmatian Russia_LateSarmatian  0.232 0.343 0.677
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.56581 
+LEFT: Russia_Orenburg_EarlySarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                         weight    se     z
+  <chr>                          <chr>                         <dbl> <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Russia_Orenburg_EarlySarmat…  0.260 0.128  2.02
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino                 0.740 0.128  5.76
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_IA_Sarmatian 
+P-VALUE : 0.56534 
+LEFT: Russia_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                  left                 weight    se     z
+  <chr>                   <chr>                 <dbl> <dbl> <dbl>
+1 Kazakhstan_IA_Sarmatian Russia_LateSarmatian 0.0350 0.258 0.135
+2 Kazakhstan_IA_Sarmatian Russia_Sarmatian     0.965  0.258 3.73 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.56017 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight     se     z
+  <chr>                    <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.521 0.0624  8.35
+2 Russia_EIA_LateSarmatian Moksha                          0.479 0.0624  7.67
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.55887 
+LEFT: Kazakhstan_EarlySarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight     se      z
+  <chr>         <chr>                      <dbl>  <dbl>  <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian 0.923  0.0784 11.8  
+2 Seima_Turbino Russia_LateSarmatian      0.0773 0.0784  0.986
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.55873 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.888 0.0679 13.1 
+2 Kazakhstan_LateSarmatian Russia_Alan                0.112 0.0679  1.65
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.55813 
+LEFT: Kazakhstan_Sarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Erzya  Kazakhstan_Sarmatian   0.231 0.332 0.695
+2 Erzya  Russia_EarlySarmatian  0.769 0.332 2.32 
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.55746 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                           weight    se     z
+  <chr>         <chr>                           <dbl> <dbl> <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian       0.867 0.135 6.40 
+2 Seima_Turbino Russia_Orenburg_EarlySarmatian  0.133 0.135 0.980
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.55513 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian  0.889 0.0674 13.2 
+2 Kazakhstan_LateSarmatian Kazakhstan_Sarmatian       0.111 0.0674  1.65
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.55406 
+LEFT: Russia_EIA_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Moksha Russia_EIA_LateSarmatian  0.283 0.0552  5.13
+2 Moksha Russia_Sarmatian          0.717 0.0552 13.0 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.55039 
+LEFT: Erzya + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se     z
+  <chr>                 <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Erzya                    0.920  0.0978 9.40 
+2 Russia_EarlySarmatian Russia_EIA_LateSarmatian 0.0802 0.0978 0.820
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.54948 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left          weight     se     z
+  <chr>                          <chr>          <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Moksha         0.138 0.0679  2.04
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino  0.862 0.0679 12.7 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.54639 
+LEFT: Kazakhstan_IA_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                    weight     se     z
+  <chr>                          <chr>                    <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_IA_Sarmatian  0.117 0.0591  1.98
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino            0.883 0.0591 14.9 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.54460 
+LEFT: Russia_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                 weight     se     z
+  <chr>                    <chr>                 <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Russia_LateSarmatian  0.556 0.0522 10.6 
+2 Russia_EIA_LateSarmatian Seima_Turbino         0.444 0.0522  8.51
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.54369 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight     se      z
+  <chr>         <chr>                      <dbl>  <dbl>  <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian 0.937  0.0666 14.1  
+2 Seima_Turbino Kazakhstan_IA_Sarmatian   0.0634 0.0666  0.953
+-----------------------------------------------------------------
+
+TARGET  : Russia_Orenburg_EarlySarmatian 
+P-VALUE : 0.54201 
+LEFT: Russia_Alan + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left          weight     se     z
+  <chr>                          <chr>          <dbl>  <dbl> <dbl>
+1 Russia_Orenburg_EarlySarmatian Russia_Alan    0.533 0.0551  9.67
+2 Russia_Orenburg_EarlySarmatian Seima_Turbino  0.467 0.0551  8.48
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.53959 
+LEFT: Russia_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left             weight     se     z
+  <chr>                          <chr>             <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Russia_Sarmatian  0.117 0.0590  1.99
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino     0.883 0.0590 15.0 
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.53791 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight     se      z
+  <chr>         <chr>                      <dbl>  <dbl>  <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian 0.937  0.0663 14.1  
+2 Seima_Turbino Russia_Sarmatian          0.0632 0.0663  0.953
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.53467 
+LEFT: Kazakhstan_EarlySarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight     se      z
+  <chr>         <chr>                      <dbl>  <dbl>  <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian 0.927  0.0774 12.0  
+2 Seima_Turbino Moksha                    0.0731 0.0774  0.944
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.53176 
+LEFT: Erzya + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se      z
+  <chr>                 <chr>                     <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Erzya                    0.966  0.0469 20.6  
+2 Russia_EarlySarmatian Kazakhstan_LateSarmatian 0.0338 0.0469  0.722
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.52957 
+LEFT: Erzya + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight    se     z
+  <chr>                 <chr>                           <dbl> <dbl> <dbl>
+1 Russia_EarlySarmatian Erzya                          0.930  0.102 9.15 
+2 Russia_EarlySarmatian Russia_Orenburg_EarlySarmatian 0.0704 0.102 0.693
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.52670 
+LEFT: Russia_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                 weight     se     z
+  <chr>                          <chr>                 <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Russia_LateSarmatian  0.135 0.0709  1.90
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino         0.865 0.0709 12.2 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.52318 
+LEFT: Russia_EarlySarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                  weight     se     z
+  <chr>                    <chr>                  <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Russia_EarlySarmatian  0.568 0.0532 10.7 
+2 Russia_EIA_LateSarmatian Seima_Turbino          0.432 0.0532  8.12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.52149 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left          weight     se      z
+  <chr>                 <chr>          <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Erzya         0.972  0.0447 21.7  
+2 Russia_EarlySarmatian Seima_Turbino 0.0285 0.0447  0.637
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.52137 
+LEFT: Erzya + Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                      weight     se      z
+  <chr>                 <chr>                      <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Erzya                     0.973  0.0432 22.5  
+2 Russia_EarlySarmatian Kazakhstan_EarlySarmatian 0.0269 0.0432  0.622
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.51976 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight     se      z
+  <chr>         <chr>                      <dbl>  <dbl>  <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian 0.933  0.0799 11.7  
+2 Seima_Turbino Russia_EarlySarmatian     0.0673 0.0799  0.843
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.51766 
+LEFT: Erzya + Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight     se      z
+  <chr>         <chr>                      <dbl>  <dbl>  <dbl>
+1 Seima_Turbino Erzya                     0.0646 0.0778  0.831
+2 Seima_Turbino Kazakhstan_EarlySarmatian 0.935  0.0778 12.0  
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.51726 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_EarlySarmatian  0.411 0.0515  7.98
+2 Russia_EIA_LateSarmatian Russia_EarlySarmatian      0.589 0.0515 11.4 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.51568 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight     se     z
+  <chr>                 <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.215 0.0391  5.49
+2 Russia_EarlySarmatian Kazakhstan_IA_Sarmatian         0.785 0.0391 20.1 
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.51343 
+LEFT: Kazakhstan_EarlySarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                      weight    se     z
+  <chr>         <chr>                      <dbl> <dbl> <dbl>
+1 Seima_Turbino Kazakhstan_EarlySarmatian  0.895 0.140 6.42 
+2 Seima_Turbino Russia_EIA_LateSarmatian   0.105 0.140 0.752
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.51154 
+LEFT: Russia_Alan + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Erzya  Russia_Alan            0.138 0.276 0.500
+2 Erzya  Russia_EarlySarmatian  0.862 0.276 3.12 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.50679 
+LEFT: Russia_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left             weight     se     z
+  <chr>                 <chr>             <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Russia_Sarmatian  0.827 0.0350 23.6 
+2 Russia_EarlySarmatian Seima_Turbino     0.173 0.0350  4.95
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.50335 
+LEFT: Kazakhstan_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left                 weight     se     z
+  <chr>                          <chr>                 <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_Sarmatian  0.130 0.0684  1.91
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino         0.870 0.0684 12.7 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.49972 
+LEFT: Kazakhstan_IA_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                    weight     se     z
+  <chr>                    <chr>                    <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_IA_Sarmatian  0.471 0.0440  10.7
+2 Russia_EIA_LateSarmatian Seima_Turbino            0.529 0.0440  12.0
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.49383 
+LEFT: Erzya + Kazakhstan_Hun_Nomad_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight     se      z
+  <chr>                 <chr>                           <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Erzya                          0.975  0.0530 18.4  
+2 Russia_EarlySarmatian Kazakhstan_Hun_Nomad_Sarmatian 0.0247 0.0530  0.466
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.47558 
+LEFT: Russia_Alan + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                         left          weight     se     z
+  <chr>                          <chr>          <dbl>  <dbl> <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Russia_Alan    0.127 0.0689  1.84
+2 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino  0.873 0.0689 12.7 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_EarlySarmatian 
+P-VALUE : 0.46904 
+LEFT: Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left                     weight       se       z
+  <chr>                     <chr>                     <dbl>    <dbl>   <dbl>
+1 Kazakhstan_EarlySarmatian Kazakhstan_LateSarmatian      1 6.40e-14 1.56e13
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.46904 
+LEFT: Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left                      weight       se       z
+  <chr>                    <chr>                      <dbl>    <dbl>   <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_EarlySarmatian      1 6.40e-14 1.56e13
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_EarlySarmatian 
+P-VALUE : 0.44520 
+LEFT: Kazakhstan_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                    left                     weight    se     z
+  <chr>                     <chr>                     <dbl> <dbl> <dbl>
+1 Kazakhstan_EarlySarmatian Kazakhstan_LateSarmatian  0.213  1.29 0.165
+2 Kazakhstan_EarlySarmatian Seima_Turbino             0.787  1.29 0.611
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.43683 
+LEFT: Russia_EIA_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                     weight     se     z
+  <chr>                <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Russia_EIA_LateSarmatian  0.279 0.0683  4.09
+2 Russia_LateSarmatian Russia_Sarmatian          0.721 0.0683 10.6 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.39962 
+LEFT: Erzya + Kazakhstan_Hun_Nomad_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight     se     z
+  <chr>                    <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Erzya                           0.480 0.0648  7.41
+2 Russia_EIA_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.520 0.0648  8.02
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.39277 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight     se     z
+  <chr>                 <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_IA_Sarmatian         0.654 0.0644 10.1 
+2 Russia_EarlySarmatian Russia_Orenburg_EarlySarmatian  0.346 0.0644  5.38
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.39095 
+LEFT: Kazakhstan_EarlySarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_EarlySarmatian  0.432 0.0494  8.74
+2 Russia_EIA_LateSarmatian Moksha                     0.568 0.0494 11.5 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.38485 
+LEFT: Erzya + Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Erzya                      0.570 0.0501 11.4 
+2 Russia_EIA_LateSarmatian Kazakhstan_EarlySarmatian  0.430 0.0501  8.58
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.37868 
+LEFT: Russia_EIA_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                     weight    se     z
+  <chr>                    <chr>                     <dbl> <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Russia_EIA_LateSarmatian  0.192 0.141  1.36
+2 Kazakhstan_LateSarmatian Seima_Turbino             0.808 0.141  5.73
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.37666 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left          weight     se     z
+  <chr>                    <chr>          <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Erzya          0.549 0.0516 10.6 
+2 Russia_EIA_LateSarmatian Seima_Turbino  0.451 0.0516  8.73
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.37526 
+LEFT: Kazakhstan_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                         left                    weight       se       z
+  <chr>                          <chr>                    <dbl>    <dbl>   <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Kazakhstan_EarlySarmat…      1 4.98e-14 2.01e13
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_EarlySarmatian 
+P-VALUE : 0.37526 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                    left                         weight       se       z
+  <chr>                     <chr>                         <dbl>    <dbl>   <dbl>
+1 Kazakhstan_EarlySarmatian Kazakhstan_Hun_Nomad_Sarmat…      1 4.98e-14 2.01e13
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.37009 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left          weight       se       z
+  <chr>                    <chr>          <dbl>    <dbl>   <dbl>
+1 Kazakhstan_LateSarmatian Seima_Turbino      1 6.40e-14 1.56e13
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.37009 
+LEFT: Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                     weight       se       z
+  <chr>         <chr>                     <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Kazakhstan_LateSarmatian      1 6.40e-14 1.56e13
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.36733 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                           weight       se       z
+  <chr>         <chr>                           <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Kazakhstan_Hun_Nomad_Sarmatian      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Hun_Nomad_Sarmatian 
+P-VALUE : 0.36733 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                         left          weight       se       z
+  <chr>                          <chr>          <dbl>    <dbl>   <dbl>
+1 Kazakhstan_Hun_Nomad_Sarmatian Seima_Turbino      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.36222 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se     z
+  <chr>                 <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_IA_Sarmatian   0.802 0.0357 22.4 
+2 Russia_EarlySarmatian Kazakhstan_LateSarmatian  0.198 0.0357  5.55
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.36054 
+LEFT: Russia_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left             weight     se     z
+  <chr>                    <chr>             <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Russia_Sarmatian  0.470 0.0455  10.3
+2 Russia_EIA_LateSarmatian Seima_Turbino     0.530 0.0455  11.6
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.34698 
+LEFT: Kazakhstan_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                     weight     se     z
+  <chr>                <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_LateSarmatian  0.154 0.0395  3.90
+2 Russia_LateSarmatian Russia_Sarmatian          0.846 0.0395 21.4 
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.33351 
+LEFT: Russia_Orenburg_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                           weight     se     z
+  <chr>                <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Russia_Orenburg_EarlySarmatian  0.261 0.0710  3.68
+2 Russia_LateSarmatian Russia_Sarmatian                0.739 0.0710 10.4 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.33118 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se     z
+  <chr>                 <chr>                     <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_IA_Sarmatian   0.655 0.0624 10.5 
+2 Russia_EarlySarmatian Russia_EIA_LateSarmatian  0.345 0.0624  5.54
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.31844 
+LEFT: Russia_EarlySarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                  weight     se     z
+  <chr>                    <chr>                  <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Russia_EarlySarmatian 0.0870 0.0753  1.16
+2 Kazakhstan_LateSarmatian Seima_Turbino         0.913  0.0753 12.1 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.31488 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left          weight     se     z
+  <chr>                    <chr>          <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Moksha         0.546 0.0501 10.9 
+2 Russia_EIA_LateSarmatian Seima_Turbino  0.454 0.0501  9.06
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.31389 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se     z
+  <chr>  <chr>                      <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_EarlySarmatian  0.159 0.0275  5.79
+2 Moksha Kazakhstan_IA_Sarmatian    0.841 0.0275 30.6 
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.31311 
+LEFT: Russia_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left             weight     se     z
+  <chr>                <chr>             <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Russia_Sarmatian  0.866 0.0371 23.4 
+2 Russia_LateSarmatian Seima_Turbino     0.134 0.0371  3.63
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.31180 
+LEFT: Russia_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                 weight     se     z
+  <chr>                    <chr>                 <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Russia_LateSarmatian 0.0826 0.0758  1.09
+2 Kazakhstan_LateSarmatian Seima_Turbino        0.917  0.0758 12.1 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.31156 
+LEFT: Kazakhstan_IA_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                    weight     se     z
+  <chr>                 <chr>                    <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_IA_Sarmatian  0.815 0.0337 24.2 
+2 Russia_EarlySarmatian Seima_Turbino            0.185 0.0337  5.49
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.31011 
+LEFT: Kazakhstan_IA_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                    weight     se     z
+  <chr>                    <chr>                    <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_IA_Sarmatian 0.0697 0.0629  1.11
+2 Kazakhstan_LateSarmatian Seima_Turbino           0.930  0.0629 14.8 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.30374 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left          weight     se     z
+  <chr>                    <chr>          <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Erzya         0.0809 0.0747  1.08
+2 Kazakhstan_LateSarmatian Seima_Turbino 0.919  0.0747 12.3 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.30056 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left          weight     se     z
+  <chr>                    <chr>          <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Moksha        0.0788 0.0737  1.07
+2 Kazakhstan_LateSarmatian Seima_Turbino 0.921  0.0737 12.5 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.29819 
+LEFT: Russia_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left             weight     se     z
+  <chr>                    <chr>             <dbl>  <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Russia_Sarmatian 0.0661 0.0629  1.05
+2 Kazakhstan_LateSarmatian Seima_Turbino    0.934  0.0629 14.9 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.29563 
+LEFT: Russia_Orenburg_EarlySarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight    se     z
+  <chr>                    <chr>                           <dbl> <dbl> <dbl>
+1 Kazakhstan_LateSarmatian Russia_Orenburg_EarlySarmatian  0.139 0.149 0.932
+2 Kazakhstan_LateSarmatian Seima_Turbino                   0.861 0.149 5.76 
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.26026 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                           weight     se     z
+  <chr>                <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.153 0.0421  3.64
+2 Russia_LateSarmatian Russia_Sarmatian                0.847 0.0421 20.1 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.25998 
+LEFT: Kazakhstan_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                 weight     se      z
+  <chr>                    <chr>                 <dbl>  <dbl>  <dbl>
+1 Kazakhstan_LateSarmatian Kazakhstan_Sarmatian 0.0550 0.0747  0.736
+2 Kazakhstan_LateSarmatian Seima_Turbino        0.945  0.0747 12.6  
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_LateSarmatian 
+P-VALUE : 0.25388 
+LEFT: Russia_Alan + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left          weight     se      z
+  <chr>                    <chr>          <dbl>  <dbl>  <dbl>
+1 Kazakhstan_LateSarmatian Russia_Alan   0.0502 0.0750  0.670
+2 Kazakhstan_LateSarmatian Seima_Turbino 0.950  0.0750 12.7  
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.24588 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                      weight     se     z
+  <chr>                <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_EarlySarmatian  0.123 0.0345  3.57
+2 Russia_LateSarmatian Russia_Sarmatian           0.877 0.0345 25.4 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.24570 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_Hun_Nomad_Sarmatian  0.188 0.0333  5.65
+2 Moksha Kazakhstan_IA_Sarmatian         0.812 0.0333 24.4 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.24547 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight     se     z
+  <chr>                    <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.545 0.0665  8.20
+2 Russia_EIA_LateSarmatian Kazakhstan_Sarmatian            0.455 0.0665  6.84
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.23359 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                           weight     se     z
+  <chr>                    <chr>                           <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_Hun_Nomad_Sarmatian  0.544 0.0677  8.04
+2 Russia_EIA_LateSarmatian Russia_Alan                     0.456 0.0677  6.73
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.22941 
+LEFT: Kazakhstan_IA_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                    weight     se     z
+  <chr>  <chr>                    <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_IA_Sarmatian  0.832 0.0294 28.3 
+2 Moksha Seima_Turbino            0.168 0.0294  5.69
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.22379 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_IA_Sarmatian         0.693 0.0556 12.5 
+2 Moksha Russia_Orenburg_EarlySarmatian  0.307 0.0556  5.52
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.21623 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Erzya  Kazakhstan_Hun_Nomad_Sarmatian  0.188 0.0406  4.63
+2 Erzya  Russia_Sarmatian                0.812 0.0406 20.0 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.18082 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_EarlySarmatian  0.454 0.0528  8.60
+2 Russia_EIA_LateSarmatian Kazakhstan_Sarmatian       0.546 0.0528 10.3 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.17426 
+LEFT: Erzya + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                 weight    se     z
+  <chr>  <chr>                 <dbl> <dbl> <dbl>
+1 Moksha Erzya                 0.563 0.413  1.36
+2 Moksha Russia_LateSarmatian  0.437 0.413  1.06
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.16666 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                    weight    se     z
+  <chr>                <chr>                    <dbl> <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_IA_Sarmatian  0.323 0.262  1.23
+2 Russia_LateSarmatian Russia_EarlySarmatian    0.677 0.262  2.58
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.16648 
+LEFT: Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target               left                  weight       se       z
+  <chr>                <chr>                  <dbl>    <dbl>   <dbl>
+1 Russia_LateSarmatian Russia_EarlySarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.16648 
+LEFT: Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left                 weight       se       z
+  <chr>                 <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_EarlySarmatian Russia_LateSarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.15745 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                      weight     se     z
+  <chr>                    <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_EarlySarmatian  0.451 0.0539  8.36
+2 Russia_EIA_LateSarmatian Russia_Alan                0.549 0.0539 10.2 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.14705 
+LEFT: Kazakhstan_Sarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                 weight    se     z
+  <chr>  <chr>                 <dbl> <dbl> <dbl>
+1 Moksha Kazakhstan_Sarmatian  0.433 0.458 0.946
+2 Moksha Russia_LateSarmatian  0.567 0.458 1.24 
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.14331 
+LEFT: Kazakhstan_EarlySarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                      weight     se     z
+  <chr>                 <chr>                      <dbl>  <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_EarlySarmatian 0.0510 0.0454  1.12
+2 Russia_EarlySarmatian Russia_LateSarmatian      0.949  0.0454 20.9 
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.14263 
+LEFT: Kazakhstan_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se     z
+  <chr>  <chr>                      <dbl>  <dbl> <dbl>
+1 Erzya  Kazakhstan_EarlySarmatian  0.149 0.0337  4.41
+2 Erzya  Russia_Sarmatian           0.851 0.0337 25.3 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.14156 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_IA_Sarmatian   0.826 0.0310 26.7 
+2 Moksha Kazakhstan_LateSarmatian  0.174 0.0310  5.61
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.13084 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target               left   weight       se       z
+  <chr>                <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_LateSarmatian Moksha      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.13084 
+LEFT: Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                 weight       se       z
+  <chr>  <chr>                 <dbl>    <dbl>   <dbl>
+1 Moksha Russia_LateSarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.13052 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight     se      z
+  <chr>                 <chr>                           <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Kazakhstan_Hun_Nomad_Sarmatian 0.0558 0.0575  0.970
+2 Russia_EarlySarmatian Russia_LateSarmatian           0.944  0.0575 16.4  
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.12989 
+LEFT: Kazakhstan_IA_Sarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                    weight    se     z
+  <chr>                <chr>                    <dbl> <dbl> <dbl>
+1 Russia_LateSarmatian Kazakhstan_IA_Sarmatian  0.325 0.259  1.25
+2 Russia_LateSarmatian Moksha                   0.675 0.259  2.60
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.12194 
+LEFT: Russia_LateSarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                           weight    se     z
+  <chr>                 <chr>                           <dbl> <dbl> <dbl>
+1 Russia_EarlySarmatian Russia_LateSarmatian           0.902  0.119 7.58 
+2 Russia_EarlySarmatian Russia_Orenburg_EarlySarmatian 0.0978 0.119 0.821
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.12000 
+LEFT: Kazakhstan_LateSarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight     se      z
+  <chr>                 <chr>                     <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Kazakhstan_LateSarmatian 0.0434 0.0540  0.804
+2 Russia_EarlySarmatian Russia_LateSarmatian     0.957  0.0540 17.7  
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.11767 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left   weight       se       z
+  <chr>  <chr>   <dbl>    <dbl>   <dbl>
+1 Erzya  Moksha      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.11767 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left  weight       se       z
+  <chr>  <chr>  <dbl>    <dbl>   <dbl>
+1 Moksha Erzya      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.11760 
+LEFT: Russia_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                 weight     se      z
+  <chr>                 <chr>                 <dbl>  <dbl>  <dbl>
+1 Russia_EarlySarmatian Russia_LateSarmatian 0.962  0.0494 19.5  
+2 Russia_EarlySarmatian Seima_Turbino        0.0380 0.0494  0.769
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.11633 
+LEFT: Russia_Orenburg_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Erzya  Russia_Orenburg_EarlySarmatian  0.307 0.0730  4.20
+2 Erzya  Russia_Sarmatian                0.693 0.0730  9.49
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.11282 
+LEFT: Kazakhstan_Sarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                 weight    se     z
+  <chr>                 <chr>                 <dbl> <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_Sarmatian  0.268 0.660 0.406
+2 Russia_EarlySarmatian Russia_LateSarmatian  0.732 0.660 1.11 
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.11059 
+LEFT: Russia_EarlySarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                  weight    se     z
+  <chr>                <chr>                  <dbl> <dbl> <dbl>
+1 Russia_LateSarmatian Russia_EarlySarmatian  0.776 0.381 2.04 
+2 Russia_LateSarmatian Russia_Sarmatian       0.224 0.381 0.587
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.10996 
+LEFT: Russia_EIA_LateSarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight    se     z
+  <chr>                 <chr>                     <dbl> <dbl> <dbl>
+1 Russia_EarlySarmatian Russia_EIA_LateSarmatian 0.0763 0.123 0.622
+2 Russia_EarlySarmatian Russia_LateSarmatian     0.924  0.123 7.53 
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.10985 
+LEFT: Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                 weight       se       z
+  <chr>  <chr>                 <dbl>    <dbl>   <dbl>
+1 Erzya  Kazakhstan_Sarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.10985 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target               left  weight       se       z
+  <chr>                <chr>  <dbl>    <dbl>   <dbl>
+1 Kazakhstan_Sarmatian Erzya      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.10292 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_IA_Sarmatian   0.705 0.0557 12.7 
+2 Moksha Russia_EIA_LateSarmatian  0.295 0.0557  5.29
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.09568 
+LEFT: Erzya + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left             weight    se     z
+  <chr>  <chr>             <dbl> <dbl> <dbl>
+1 Moksha Erzya             0.789 0.256 3.09 
+2 Moksha Russia_Sarmatian  0.211 0.256 0.826
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.09463 
+LEFT: Russia_Alan + Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left                    weight    se        z
+  <chr>                <chr>                    <dbl> <dbl>    <dbl>
+1 Russia_LateSarmatian Russia_Alan           0.000364 0.586 0.000621
+2 Russia_LateSarmatian Russia_EarlySarmatian 1.000    0.586 1.71    
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.08748 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Erzya  Kazakhstan_Hun_Nomad_Sarmatian  0.200 0.0393  5.09
+2 Erzya  Kazakhstan_IA_Sarmatian         0.800 0.0393 20.4 
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.08615 
+LEFT: Russia_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left             weight     se     z
+  <chr>  <chr>             <dbl>  <dbl> <dbl>
+1 Erzya  Russia_Sarmatian  0.847 0.0361 23.5 
+2 Erzya  Seima_Turbino     0.153 0.0361  4.22
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.08604 
+LEFT: Kazakhstan_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Erzya  Kazakhstan_LateSarmatian  0.164 0.0364  4.49
+2 Erzya  Russia_Sarmatian          0.836 0.0364 22.9 
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.08563 
+LEFT: Russia_EIA_LateSarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Erzya  Russia_EIA_LateSarmatian  0.298 0.0675  4.41
+2 Erzya  Russia_Sarmatian          0.702 0.0675 10.4 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.08448 
+LEFT: Kazakhstan_EarlySarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se      z
+  <chr>  <chr>                      <dbl>  <dbl>  <dbl>
+1 Moksha Kazakhstan_EarlySarmatian 0.0277 0.0418  0.663
+2 Moksha Russia_LateSarmatian      0.972  0.0418 23.3  
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.08361 
+LEFT: Russia_Alan + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                 weight    se     z
+  <chr>  <chr>                 <dbl> <dbl> <dbl>
+1 Moksha Russia_Alan           0.196 0.497 0.393
+2 Moksha Russia_LateSarmatian  0.804 0.497 1.62 
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.08351 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                            weight     se      z
+  <chr>  <chr>                            <dbl>  <dbl>  <dbl>
+1 Erzya  Kazakhstan_Hun_Nomad_Sarmatian 0.00934 0.0453  0.206
+2 Erzya  Moksha                         0.991   0.0453 21.9  
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.08284 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target               left   weight       se       z
+  <chr>                <chr>   <dbl>    <dbl>   <dbl>
+1 Kazakhstan_Sarmatian Moksha      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.08284 
+LEFT: Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                 weight       se       z
+  <chr>  <chr>                 <dbl>    <dbl>   <dbl>
+1 Moksha Kazakhstan_Sarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.08254 
+LEFT: Kazakhstan_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight    se     z
+  <chr>  <chr>                     <dbl> <dbl> <dbl>
+1 Erzya  Kazakhstan_Sarmatian      0.889 0.105  8.46
+2 Erzya  Russia_EIA_LateSarmatian  0.111 0.105  1.05
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.08178 
+LEFT: Kazakhstan_Sarmatian + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                 weight    se     z
+  <chr>  <chr>                 <dbl> <dbl> <dbl>
+1 Erzya  Kazakhstan_Sarmatian  0.372  1.85 0.202
+2 Erzya  Moksha                0.628  1.85 0.340
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.08141 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left           weight     se      z
+  <chr>  <chr>           <dbl>  <dbl>  <dbl>
+1 Moksha Erzya         0.996   0.0369 27.0  
+2 Moksha Seima_Turbino 0.00391 0.0369  0.106
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.08027 
+LEFT: Erzya + Kazakhstan_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se       z
+  <chr>  <chr>                      <dbl>  <dbl>   <dbl>
+1 Moksha Erzya                    0.997   0.0379 26.3   
+2 Moksha Kazakhstan_LateSarmatian 0.00342 0.0379  0.0902
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.07780 
+LEFT: Russia_LateSarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                 weight     se      z
+  <chr>  <chr>                 <dbl>  <dbl>  <dbl>
+1 Moksha Russia_LateSarmatian 0.981  0.0458 21.4  
+2 Moksha Seima_Turbino        0.0192 0.0458  0.419
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.07697 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se      z
+  <chr>  <chr>                           <dbl>  <dbl>  <dbl>
+1 Moksha Kazakhstan_Hun_Nomad_Sarmatian 0.0269 0.0540  0.498
+2 Moksha Russia_LateSarmatian           0.973  0.0540 18.0  
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.07516 
+LEFT: Erzya + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                            weight     se       z
+  <chr>  <chr>                            <dbl>  <dbl>   <dbl>
+1 Moksha Erzya                          0.998   0.0989 10.1   
+2 Moksha Russia_Orenburg_EarlySarmatian 0.00238 0.0989  0.0241
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.07493 
+LEFT: Kazakhstan_LateSarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se      z
+  <chr>  <chr>                     <dbl>  <dbl>  <dbl>
+1 Moksha Kazakhstan_LateSarmatian 0.0167 0.0514  0.326
+2 Moksha Russia_LateSarmatian     0.983  0.0514 19.1  
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.07457 
+LEFT: Russia_LateSarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight    se     z
+  <chr>  <chr>                           <dbl> <dbl> <dbl>
+1 Moksha Russia_LateSarmatian           0.967  0.113 8.55 
+2 Moksha Russia_Orenburg_EarlySarmatian 0.0325 0.113 0.287
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.07400 
+LEFT: Erzya + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                    weight    se     z
+  <chr>  <chr>                    <dbl> <dbl> <dbl>
+1 Moksha Erzya                   0.900  0.232 3.87 
+2 Moksha Kazakhstan_IA_Sarmatian 0.0997 0.232 0.429
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.07378 
+LEFT: Erzya + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se       z
+  <chr>  <chr>                      <dbl>  <dbl>   <dbl>
+1 Moksha Erzya                    0.994   0.0881 11.3   
+2 Moksha Russia_EIA_LateSarmatian 0.00648 0.0881  0.0735
+-----------------------------------------------------------------
+
+TARGET  : Russia_LateSarmatian 
+P-VALUE : 0.07324 
+LEFT: Moksha + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target               left             weight    se     z
+  <chr>                <chr>             <dbl> <dbl> <dbl>
+1 Russia_LateSarmatian Moksha            0.891 0.473 1.88 
+2 Russia_LateSarmatian Russia_Sarmatian  0.109 0.473 0.229
+-----------------------------------------------------------------
+
+TARGET  : Russia_EIA_LateSarmatian 
+P-VALUE : 0.07231 
+LEFT: Kazakhstan_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                 weight     se     z
+  <chr>                    <chr>                 <dbl>  <dbl> <dbl>
+1 Russia_EIA_LateSarmatian Kazakhstan_Sarmatian  0.525 0.0552  9.52
+2 Russia_EIA_LateSarmatian Seima_Turbino         0.475 0.0552  8.61
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.07131 
+LEFT: Russia_EIA_LateSarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight    se       z
+  <chr>  <chr>                      <dbl> <dbl>   <dbl>
+1 Moksha Russia_EIA_LateSarmatian 0.00115 0.123 0.00939
+2 Moksha Russia_LateSarmatian     0.999   0.123 8.13   
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.06980 
+LEFT: Erzya + Russia_Alan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left        weight    se      z
+  <chr>  <chr>        <dbl> <dbl>  <dbl>
+1 Moksha Erzya       0.990  0.844 1.17  
+2 Moksha Russia_Alan 0.0103 0.844 0.0122
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.06975 
+LEFT: Kazakhstan_LateSarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se      z
+  <chr>  <chr>                     <dbl>  <dbl>  <dbl>
+1 Erzya  Kazakhstan_LateSarmatian 0.0432 0.0506  0.853
+2 Erzya  Kazakhstan_Sarmatian     0.957  0.0506 18.9  
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.06847 
+LEFT: Kazakhstan_Sarmatian + Russia_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                 weight    se     z
+  <chr>  <chr>                 <dbl> <dbl> <dbl>
+1 Erzya  Kazakhstan_Sarmatian  0.811 0.497 1.63 
+2 Erzya  Russia_LateSarmatian  0.189 0.497 0.380
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.06652 
+LEFT: Kazakhstan_Hun_Nomad_Sarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se      z
+  <chr>  <chr>                           <dbl>  <dbl>  <dbl>
+1 Erzya  Kazakhstan_Hun_Nomad_Sarmatian 0.0358 0.0563  0.636
+2 Erzya  Kazakhstan_Sarmatian           0.964  0.0563 17.1  
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.06472 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se      z
+  <chr>  <chr>                      <dbl>  <dbl>  <dbl>
+1 Erzya  Kazakhstan_EarlySarmatian 0.0267 0.0469  0.569
+2 Erzya  Kazakhstan_Sarmatian      0.973  0.0469 20.8  
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.06421 
+LEFT: Kazakhstan_Sarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight    se     z
+  <chr>  <chr>                           <dbl> <dbl> <dbl>
+1 Erzya  Kazakhstan_Sarmatian           0.946  0.135 7.03 
+2 Erzya  Russia_Orenburg_EarlySarmatian 0.0537 0.135 0.399
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.06348 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                    weight    se     z
+  <chr>  <chr>                    <dbl> <dbl> <dbl>
+1 Erzya  Kazakhstan_IA_Sarmatian  0.104 0.254 0.409
+2 Erzya  Kazakhstan_Sarmatian     0.896 0.254 3.53 
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.06271 
+LEFT: Kazakhstan_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Moksha Kazakhstan_Sarmatian      0.886 0.0949  9.34
+2 Moksha Russia_EIA_LateSarmatian  0.114 0.0949  1.20
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.06190 
+LEFT: Kazakhstan_Sarmatian + Russia_EIA_LateSarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                left                     weight    se     z
+  <chr>                 <chr>                     <dbl> <dbl> <dbl>
+1 Russia_EarlySarmatian Kazakhstan_Sarmatian      0.826 0.103  8.03
+2 Russia_EarlySarmatian Russia_EIA_LateSarmatian  0.174 0.103  1.69
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.06129 
+LEFT: Kazakhstan_Sarmatian + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                  weight     se       z
+  <chr>  <chr>                  <dbl>  <dbl>   <dbl>
+1 Erzya  Kazakhstan_Sarmatian 0.995   0.0513 19.4   
+2 Erzya  Seima_Turbino        0.00481 0.0513  0.0937
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.06100 
+LEFT: Kazakhstan_EarlySarmatian + Kazakhstan_IA_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                      weight     se     z
+  <chr>  <chr>                      <dbl>  <dbl> <dbl>
+1 Erzya  Kazakhstan_EarlySarmatian  0.163 0.0324  5.03
+2 Erzya  Kazakhstan_IA_Sarmatian    0.837 0.0324 25.8 
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.05890 
+LEFT: Kazakhstan_Sarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                 weight    se     z
+  <chr>  <chr>                 <dbl> <dbl> <dbl>
+1 Erzya  Kazakhstan_Sarmatian 0.963  0.352 2.74 
+2 Erzya  Russia_Sarmatian     0.0369 0.352 0.105
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.05750 
+LEFT: Kazakhstan_IA_Sarmatian + Russia_Orenburg_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                           weight     se     z
+  <chr>  <chr>                           <dbl>  <dbl> <dbl>
+1 Erzya  Kazakhstan_IA_Sarmatian         0.668 0.0702  9.51
+2 Erzya  Russia_Orenburg_EarlySarmatian  0.332 0.0702  4.73
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.05740 
+LEFT: Kazakhstan_Sarmatian + Russia_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                 weight    se     z
+  <chr>  <chr>                 <dbl> <dbl> <dbl>
+1 Moksha Kazakhstan_Sarmatian  0.755 0.304 2.48 
+2 Moksha Russia_Sarmatian      0.245 0.304 0.806
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.05522 
+LEFT: Kazakhstan_IA_Sarmatian + Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                    weight    se     z
+  <chr>  <chr>                    <dbl> <dbl> <dbl>
+1 Moksha Kazakhstan_IA_Sarmatian  0.182 0.232 0.783
+2 Moksha Kazakhstan_Sarmatian     0.818 0.232 3.53 
+-----------------------------------------------------------------
+
+TARGET  : Kazakhstan_Sarmatian 
+P-VALUE : 0.05152 
+LEFT: Russia_EarlySarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target               left                  weight       se       z
+  <chr>                <chr>                  <dbl>    <dbl>   <dbl>
+1 Kazakhstan_Sarmatian Russia_EarlySarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlySarmatian 
+P-VALUE : 0.05152 
+LEFT: Kazakhstan_Sarmatian 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                left                 weight       se       z
+  <chr>                 <chr>                 <dbl>    <dbl>   <dbl>
+1 Russia_EarlySarmatian Kazakhstan_Sarmatian      1 4.27e-13 2.34e12
+-----------------------------------------------------------------
+--------------------------END-----------------------------------

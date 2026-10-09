@@ -1,0 +1,92 @@
+
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = Russia_EarlySarmatian (p=0.62444), 
+Moksha (p=0.11767), Kazakhstan_Sarmatian (p=0.10985) 
+-----------------------------------------------------------------
+Moksha  = Russia_EarlySarmatian (p=0.87264), 
+Russia_LateSarmatian (p=0.13084), 
+Erzya (p=0.11767), Kazakhstan_Sarmatian (p=0.08284) 
+-----------------------------------------------------------------
+Seima_Turbino  = Kazakhstan_EarlySarmatian (p=0.62076), 
+Kazakhstan_LateSarmatian (p=0.37009), 
+Kazakhstan_Hun_Nomad_Sarmatian (p=0.36733) 
+-----------------------------------------------------------------
+Russia_EarlySarmatian  = Moksha (p=0.87264), 
+Erzya (p=0.62444), Russia_LateSarmatian (p=0.16648), 
+Kazakhstan_Sarmatian (p=0.05152) 
+-----------------------------------------------------------------
+Russia_EIA_LateSarmatian  = Russia_Orenburg_EarlySarmatian (p=0.84725) 
+-----------------------------------------------------------------
+Russia_LateSarmatian  = Russia_EarlySarmatian (p=0.16648), Moksha (p=0.13084) 
+-----------------------------------------------------------------
+Russia_Orenburg_EarlySarmatian  = Russia_EIA_LateSarmatian (p=0.84725) 
+-----------------------------------------------------------------
+Russia_Sarmatian  = Kazakhstan_IA_Sarmatian (p=0.72060) 
+-----------------------------------------------------------------
+Ukraine_Liubivka_Classical_Sarmatian  = Russia_Ekazhevo_IA_Alan (p=0.85582) 
+-----------------------------------------------------------------
+Kazakhstan_EarlySarmatian  = Seima_Turbino (p=0.62076), 
+Kazakhstan_LateSarmatian (p=0.46904), 
+Kazakhstan_Hun_Nomad_Sarmatian (p=0.37526) 
+-----------------------------------------------------------------
+Kazakhstan_Hun_Nomad_Sarmatian  = Kazakhstan_LateSarmatian (p=0.78222), 
+Kazakhstan_EarlySarmatian (p=0.37526), Seima_Turbino (p=0.36733) 
+-----------------------------------------------------------------
+Kazakhstan_IA_Sarmatian  = Russia_Sarmatian (p=0.72060) 
+-----------------------------------------------------------------
+Kazakhstan_LateSarmatian  = Kazakhstan_Hun_Nomad_Sarmatian (p=0.78222), 
+Kazakhstan_EarlySarmatian (p=0.46904), Seima_Turbino (p=0.37009) 
+-----------------------------------------------------------------
+Kazakhstan_Sarmatian  = Russia_Alan (p=0.96783), Erzya (p=0.10985), 
+Moksha (p=0.08284), Russia_EarlySarmatian (p=0.05152) 
+-----------------------------------------------------------------
+Russia_Alan  = Kazakhstan_Sarmatian (p=0.96783) , Erzya (p=0.03206) 
+-----------------------------------------------------------------
+Russia_Ekazhevo_IA_Alan  = Ukraine_Liubivka_Classical_Sarmatian (p=0.85582) 
+-----------------------------------------------------------------
+
+[1] "Итоговые веса="
+[1] "Erzya"
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Erzya  Russia_Alan            0.138 0.276 0.500
+2 Erzya  Russia_EarlySarmatian  0.862 0.276 3.12 
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 3 × 13
+  pat      wt   dof chisq      p f4rank Russia_Alan Russia_EarlySarmatian
+  <chr> <dbl> <dbl> <dbl>  <dbl>  <dbl>       <dbl>                 <dbl>
+1 00        0     3  2.31 0.512       1       0.138                 0.862
+2 01        1     4 12.4  0.0147      0       1                    NA    
+3 10        1     4  3.02 0.555       0      NA                     1    
+# ℹ 5 more variables: feasible <lgl>, best <lgl>, dofdiff <dbl>,
+#   chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.512
+
+[1] "Moksha"
+# A tibble: 2 × 5
+  target left                  weight    se     z
+  <chr>  <chr>                  <dbl> <dbl> <dbl>
+1 Moksha Russia_Alan            0.160 0.224 0.713
+2 Moksha Russia_EarlySarmatian  0.840 0.224 3.75 
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 3 × 13
+  pat      wt   dof  chisq      p f4rank Russia_Alan Russia_EarlySarmatian
+  <chr> <dbl> <dbl>  <dbl>  <dbl>  <dbl>       <dbl>                 <dbl>
+1 00        0     3  0.833 0.841       1       0.160                 0.840
+2 01        1     4 13.2   0.0105      0       1                    NA    
+3 10        1     4  1.36  0.851       0      NA                     1    
+# ℹ 5 more variables: feasible <lgl>, best <lgl>, dofdiff <dbl>,
+#   chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.841
