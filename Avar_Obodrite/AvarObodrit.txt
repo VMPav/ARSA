@@ -1,0 +1,174 @@
+
+Erzya  =  Hungary_EarlyMiddleAvar-oHighEastAsia (p=0.24092), 
+Poland_EarlySlav (p=0.23454),
+ Hungary_Transtisza_EarlyAvar-oHighEastAsia (p=0.19566), 
+ Hungary_EarlyMiddleAvar-oLowEastAsia (p=0.18192), 
+ Hungary_EarlyAvar-oHighEastAsia (p=0.08619)
+ Kazakhstan_Medieval_Nomad (p=0.34956), 
+
+Moksha  = Hungary_EarlyMiddleAvar-oHighEastAsia (p=0.59236), 
+Poland_EarlySlav (p=0.35474), 
+Hungary_EarlyAvar-oHighEastAsia (p=0.22601), 
+Kazakhstan_Medieval_Nomad (p=0.15269), 
+Hungary_EarlyMiddleAvar-oLowEastAsia (p=0.08544), 
+Hungary_Transtisza_EarlyAvar-oHighEastAsia (p=0.07489),
+Kazakhstan_Medieval_Nomad (p=0.15269)
+
+[1] "Hungary_EarlyMiddleAvar-oHighEastAsia"
+# A tibble: 1 × 5
+  target                                left   weight       se       z
+  <chr>                                 <chr>   <dbl>    <dbl>   <dbl>
+1 Hungary_EarlyMiddleAvar-oHighEastAsia Moksha      1 2.91e-13 3.43e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Hungary_EarlyMiddleAvar-oHighEastAsia"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  2.80 0.592      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.592
+
+[1] "Итоговые веса="
+[1] "Hungary_EarlyMiddleAvar-oHighEastAsia"
+# A tibble: 1 × 5
+  target                                left  weight       se       z
+  <chr>                                 <chr>  <dbl>    <dbl>   <dbl>
+1 Hungary_EarlyMiddleAvar-oHighEastAsia Erzya      1 2.91e-13 3.43e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Hungary_EarlyMiddleAvar-oHighEastAsia"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  5.49 0.241      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.241
+[1] "Итоговые веса="
+[1] "Poland_EarlySlav"
+# A tibble: 1 × 5
+  target           left   weight       se       z
+  <chr>            <chr>   <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Moksha      1 2.91e-13 3.43e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Poland_EarlySlav"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  4.40 0.355      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.355
+[1] "Poland_EarlySlav"
+# A tibble: 1 × 5
+  target           left  weight       se       z
+  <chr>            <chr>  <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Erzya      1 2.91e-13 3.43e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Poland_EarlySlav"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  5.56 0.235      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.235
+
+
+
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = Kazakhstan_Medieval_Nomad (p=0.34956), 
+Hungary_EarlyMiddleAvar-oHighEastAsia (p=0.24092), 
+Poland_EarlySlav (p=0.23454), 
+Hungary_Transtisza_EarlyAvar-oHighEastAsia (p=0.19566), 
+Hungary_EarlyMiddleAvar-oLowEastAsia (p=0.18192), 
+Hungary_EarlyAvar-oHighEastAsia (p=0.08619), 
+
+-----------------------------------------------------------------
+Moksha  = 
+Hungary_EarlyMiddleAvar-oHighEastAsia (p=0.59236), 
+Poland_EarlySlav (p=0.35474), 
+Hungary_EarlyAvar-oHighEastAsia (p=0.22601), 
+Kazakhstan_Medieval_Nomad (p=0.15269), 
+Hungary_EarlyMiddleAvar-oLowEastAsia (p=0.08544), 
+Hungary_Transtisza_EarlyAvar-oHighEastAsia (p=0.07489), 
+
+-----------------------------------------------------------------
+Seima_Turbino  = Hungary_EarlyAvar-olowEastAsia (p=0.84268), 
+Hungary_EarlyAvar-oLowEastAsia (p=0.84268), 
+Hungary_EarlyMedieval_EarlyAvar-oHighEastAsia (p=0.26049) 
+-----------------------------------------------------------------
+Hungary_Elite_EarlyAvar-oHighEastAsia  = 
+Hungary_Transtisza_EarlyAvar-oHighEastAsia (p=0.11931), 
+Kazakhstan_Medieval_Nomad (p=0.07836), 
+Hungary_Avar-oHighEastAsia (p=0.05372) 
+-----------------------------------------------------------------
+Poland_EarlySlav  = 
+Hungary_EarlyMiddleAvar-oLowEastAsia (p=0.60765), 
+Hungary_EarlyMiddleAvar-oHighEastAsia (p=0.51353), 
+Moksha (p=0.35474), Hungary_EarlyAvar-oHighEastAsia (p=0.25563), 
+Erzya (p=0.23454) 
+-----------------------------------------------------------------
+Kazakhstan_Medieval_Nomad  = 
+Hungary_Transtisza_EarlyAvar-oHighEastAsia (p=0.78595), 
+Hungary_EarlyMiddleAvar-oHighEastAsia (p=0.56276), 
+Erzya (p=0.34956), Moksha (p=0.15269),
+ Hungary_Elite_EarlyAvar-oHighEastAsia (p=0.07836) 
+-----------------------------------------------------------------
+Hungary_Avar-oHighEastAsia  = Hungary_Elite_EarlyAvar-oHighEastAsia (p=0.05372) 
+-----------------------------------------------------------------
+Hungary_EarlyAvar-oHighEastAsia  = 
+Poland_EarlySlav (p=0.25563), 
+Moksha (p=0.22601), 
+Hungary_EarlyMiddleAvar-oLowEastAsia (p=0.18868), 
+Erzya (p=0.08619) 
+-----------------------------------------------------------------
+Hungary_EarlyAvar-olowEastAsia  = Seima_Turbino (p=0.84268) 
+-----------------------------------------------------------------
+Hungary_EarlyAvar-oLowEastAsia  = Seima_Turbino (p=0.84268) 
+-----------------------------------------------------------------
+Hungary_EarlyMedieval_EarlyAvar-oHighEastAsia  = Seima_Turbino (p=0.26049) 
+-----------------------------------------------------------------
+Hungary_EarlyMedieval_LateAvar-oHighEastAsia  = 
+Hungary_Transtisza_EarlyAvar-oLowEastAsia (p=0.83663) 
+-----------------------------------------------------------------
+Hungary_Transtisza_EarlyAvar-oHighEastAsia  = 
+Kazakhstan_Medieval_Nomad (p=0.78595), 
+Erzya (p=0.19566), 
+Hungary_EarlyMiddleAvar-oHighEastAsia (p=0.16872), 
+Hungary_Elite_EarlyAvar-oHighEastAsia (p=0.11931), 
+Moksha (p=0.07489) 
+-----------------------------------------------------------------
+Hungary_Transtisza_EarlyAvar-oLowEastAsia  = 
+Hungary_EarlyMedieval_LateAvar-oHighEastAsia (p=0.83663) 
+-----------------------------------------------------------------
+Hungary_EarlyMiddleAvar-oHighEastAsia  = 
+Moksha (p=0.59236), 
+Kazakhstan_Medieval_Nomad (p=0.56276), 
+Poland_EarlySlav (p=0.51353), 
+Erzya (p=0.24092), 
+Hungary_EarlyMiddleAvar-oLowEastAsia (p=0.17498), 
+Hungary_Transtisza_EarlyAvar-oHighEastAsia (p=0.16872) 
+-----------------------------------------------------------------
+Hungary_EarlyMiddleAvar-oLowEastAsia  = 
+Poland_EarlySlav (p=0.60765), 
+Hungary_EarlyAvar-oHighEastAsia (p=0.18868), 
+Erzya (p=0.18192), Hungary_EarlyMiddleAvar-oHighEastAsia (p=0.17498), 
+Moksha (p=0.08544) 
+-----------------------------------------------------------------
+
+
+
