@@ -1,0 +1,281 @@
+
+
+f2_dir <- "D:/Arsa_Final_F2_BlocksMinEtruscan"
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 2 × 5
+  target                  left          weight     se     z
+  <chr>                   <chr>          <dbl>  <dbl> <dbl>
+1 Italy_Lazio_IA_Etruscan Moksha        0.921  0.0572 16.1 
+2 Italy_Lazio_IA_Etruscan Seima_Turbino 0.0789 0.0572  1.38
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 3 × 13
+  pat      wt   dof  chisq        p f4rank Moksha Seima_Turbino feasible best 
+  <chr> <dbl> <dbl>  <dbl>    <dbl>  <dbl>  <dbl>         <dbl> <lgl>    <lgl>
+1 00        0     3  0.574 9.02e- 1      1  0.921        0.0789 TRUE     NA   
+2 01        1     4  2.05  7.27e- 1      0  1           NA      TRUE     TRUE 
+3 10        1     4 89.0   2.12e-18      0 NA            1      TRUE     TRUE 
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.902
+
+Reading ap data for 28 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 1 × 5
+  target                  left   weight       se       z
+  <chr>                   <chr>   <dbl>    <dbl>   <dbl>
+1 Italy_Lazio_IA_Etruscan Moksha      1 1.14e-13 8.79e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  1.74 0.784      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.784
+
+
+[1] "Итоговые веса="
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 2 × 5
+  target                  left          weight     se     z
+  <chr>                   <chr>          <dbl>  <dbl> <dbl>
+1 Italy_Lazio_IA_Etruscan Erzya          0.891 0.0625 14.3 
+2 Italy_Lazio_IA_Etruscan Seima_Turbino  0.109 0.0625  1.74
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 3 × 13
+  pat      wt   dof chisq        p f4rank  Erzya Seima_Turbino feasible best 
+  <chr> <dbl> <dbl> <dbl>    <dbl>  <dbl>  <dbl>         <dbl> <lgl>    <lgl>
+1 00        0     3  5.09 1.65e- 1      1  0.891         0.109 TRUE     NA   
+2 01        1     4  8.28 8.17e- 2      0  1            NA     TRUE     TRUE 
+3 10        1     4 89.7  1.49e-18      0 NA             1     TRUE     TRUE 
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.165
+
+[1] "Итоговые веса="
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 1 × 5
+  target                  left  weight       se       z
+  <chr>                   <chr>  <dbl>    <dbl>   <dbl>
+1 Italy_Lazio_IA_Etruscan Erzya      1 1.14e-13 8.79e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  7.60 0.107      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.107
+> 
+
+
+
+
+
+
+
+
+
+
+f2_dir <- "D:/Arsa_Final_F2_BlocksEtruscanMain"
+
+[1] "Итоговые веса="
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 2 × 5
+  target                  left          weight     se     z
+  <chr>                   <chr>          <dbl>  <dbl> <dbl>
+1 Italy_Lazio_IA_Etruscan Moksha         0.779 0.0159  49.0
+2 Italy_Lazio_IA_Etruscan Seima_Turbino  0.221 0.0159  13.9
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 3 × 13
+  pat      wt   dof  chisq         p f4rank Moksha Seima_Turbino feasible best 
+  <chr> <dbl> <dbl>  <dbl>     <dbl>  <dbl>  <dbl>         <dbl> <lgl>    <lgl>
+1 00        0     3   2.54 4.69e-  1      1  0.779         0.221 TRUE     NA   
+2 01        1     4 121.   3.35e- 25      0  1            NA     TRUE     TRUE 
+3 10        1     4 523.   6.77e-112      0 NA             1     TRUE     TRUE 
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.469
+Предупреждение:
+В read_f2(dir, pops, pops2, type = type, remove_na = remove_na,  :
+  Discarding 1 block(s) due to missing values!
+Discarded block(s): 710
+> source("d:\\_soft26\\ARSA_DOGGERLAND_TO_MYCENAE_SINTASHTA\\Etruscan\\Etruski$
+ℹ Computing f4 stats...
+ℹ Reading precomputed data for 8 populations...
+Reading ap data for 36 pairs...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 2 × 5
+  target                  left          weight     se     z
+  <chr>                   <chr>          <dbl>  <dbl> <dbl>
+1 Italy_Lazio_IA_Etruscan Erzya          0.797 0.0169  47.3
+2 Italy_Lazio_IA_Etruscan Seima_Turbino  0.203 0.0169  12.0
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Italy_Lazio_IA_Etruscan"
+# A tibble: 3 × 13
+  pat      wt   dof  chisq         p f4rank  Erzya Seima_Turbino feasible best 
+  <chr> <dbl> <dbl>  <dbl>     <dbl>  <dbl>  <dbl>         <dbl> <lgl>    <lgl>
+1 00        0     3   2.51 4.73e-  1      1  0.797         0.203 TRUE     NA   
+2 01        1     4  93.4  2.54e- 19      0  1            NA     TRUE     TRUE 
+3 10        1     4 505.   5.86e-108      0 NA             1     TRUE     TRUE 
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.473
+Предупреждение:
+В read_f2(dir, pops, pops2, type = type, remove_na = remove_na,  :
+  Discarding 1 block(s) due to missing values!
+Discarded block(s): 710
+
+f2_dir <- "D:/Arsa_Final_F2_Blocks_MainEtrusciLebanon"
+
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Italy_Lazio_IA_Etruscan  = 
+Lebanon_MBA weight1=0.925, Seima_Turbino weight2=0.075 (p=0.99121), 
+Moksha weight1=0.815, Seima_Turbino weight2=0.185 (p=0.61479), 
+Erzya weight1=0.831, Seima_Turbino weight2=0.169 (p=0.57114), 
+Lebanon_MBA (p=0.09308) 
+-----------------------------------------------------------------
+Lebanon_MBA  = Italy_Lazio_IA_Etruscan weight1=0.616, Erzya weight2=0.384 (p=0.97037), 
+Italy_Lazio_IA_Etruscan weight1=0.651, Moksha weight2=0.349 (p=0.95046), 
+Erzya weight1=0.900, Seima_Turbino weight2=0.100 (p=0.58610), 
+Moksha weight1=0.881, Seima_Turbino weight2=0.119 (p=0.55998), 
+Italy_Lazio_IA_Etruscan (p=0.09308) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ Detailed calculation logs for the book manuscript:
+=================================================================
+
+TARGET  : Italy_Lazio_IA_Etruscan 
+P-VALUE : 0.99121 
+LEFT: Lebanon_MBA + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                  left          weight     se     z
+  <chr>                   <chr>          <dbl>  <dbl> <dbl>
+1 Italy_Lazio_IA_Etruscan Lebanon_MBA   0.925  0.0214 43.2 
+2 Italy_Lazio_IA_Etruscan Seima_Turbino 0.0747 0.0214  3.49
+-----------------------------------------------------------------
+
+TARGET  : Lebanon_MBA 
+P-VALUE : 0.97037 
+LEFT: Erzya + Italy_Lazio_IA_Etruscan 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target      left                    weight     se     z
+  <chr>       <chr>                    <dbl>  <dbl> <dbl>
+1 Lebanon_MBA Erzya                    0.384 0.0990  3.88
+2 Lebanon_MBA Italy_Lazio_IA_Etruscan  0.616 0.0990  6.22
+-----------------------------------------------------------------
+
+TARGET  : Lebanon_MBA 
+P-VALUE : 0.95046 
+LEFT: Italy_Lazio_IA_Etruscan + Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target      left                    weight     se     z
+  <chr>       <chr>                    <dbl>  <dbl> <dbl>
+1 Lebanon_MBA Italy_Lazio_IA_Etruscan  0.651 0.0899  7.25
+2 Lebanon_MBA Moksha                   0.349 0.0899  3.88
+-----------------------------------------------------------------
+
+TARGET  : Italy_Lazio_IA_Etruscan 
+P-VALUE : 0.61479 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                  left          weight     se     z
+  <chr>                   <chr>          <dbl>  <dbl> <dbl>
+1 Italy_Lazio_IA_Etruscan Moksha         0.815 0.0173  47.1
+2 Italy_Lazio_IA_Etruscan Seima_Turbino  0.185 0.0173  10.7
+-----------------------------------------------------------------
+
+TARGET  : Lebanon_MBA 
+P-VALUE : 0.58610 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target      left          weight     se     z
+  <chr>       <chr>          <dbl>  <dbl> <dbl>
+1 Lebanon_MBA Erzya          0.900 0.0182 49.5 
+2 Lebanon_MBA Seima_Turbino  0.100 0.0182  5.50
+-----------------------------------------------------------------
+
+TARGET  : Italy_Lazio_IA_Etruscan 
+P-VALUE : 0.57114 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                  left          weight     se     z
+  <chr>                   <chr>          <dbl>  <dbl> <dbl>
+1 Italy_Lazio_IA_Etruscan Erzya          0.831 0.0191 43.6 
+2 Italy_Lazio_IA_Etruscan Seima_Turbino  0.169 0.0191  8.87
+-----------------------------------------------------------------
+
+TARGET  : Lebanon_MBA 
+P-VALUE : 0.55998 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target      left          weight     se     z
+  <chr>       <chr>          <dbl>  <dbl> <dbl>
+1 Lebanon_MBA Moksha         0.881 0.0169 52.3 
+2 Lebanon_MBA Seima_Turbino  0.119 0.0169  7.06
+-----------------------------------------------------------------
+
+TARGET  : Lebanon_MBA 
+P-VALUE : 0.09308 
+LEFT: Italy_Lazio_IA_Etruscan 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target      left                    weight       se       z
+  <chr>       <chr>                    <dbl>    <dbl>   <dbl>
+1 Lebanon_MBA Italy_Lazio_IA_Etruscan      1 2.49e-14 4.02e13
+-----------------------------------------------------------------
+
+TARGET  : Italy_Lazio_IA_Etruscan 
+P-VALUE : 0.09308 
+LEFT: Lebanon_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left        weight       se       z
+  <chr>                   <chr>        <dbl>    <dbl>   <dbl>
+1 Italy_Lazio_IA_Etruscan Lebanon_MBA      1 2.49e-14 4.02e13
+-----------------------------------------------------------------
+--------------------------END-----------------------------------
