@@ -1,0 +1,587 @@
+
+Erzya  = Russia_EarlyMedieval_Viking_OldRus-o (p=0.82513), 
+Russia_EarlyMedieval_Viking_OldRus (p=0.18023), 
+
+Moksha  = Russia_EarlyMedieval_Viking_OldRus-o (p=0.45238), 
+Russia_EarlyMedieval_Viking_OldRus (p=0.12562), 
+Ukraine_EarlyMedieval_Viking_OldRus (p=0.06836), 
+Russia_EarlyMedieval_Viking (p=0.06279) 
+
+[1] "Итоговые веса="
+[1] "Russia_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 5
+  target                             left               weight       se       z
+  <chr>                              <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus England_Mesolithic      1 3.20e-13 3.13e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Russia_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4 0.741 0.946      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.946
+
+[1] "Итоговые веса="
+[1] "Ukraine_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 5
+  target                              left               weight       se       z
+  <chr>                               <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus England_Mesolithic      1 3.34e-13 2.99e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 12
+  pat      wt   dof chisq       p f4rank England_Mesolithic feasible best 
+  <chr> <dbl> <dbl> <dbl>   <dbl>  <dbl>              <dbl> <lgl>    <lgl>
+1 0         0     4  14.5 0.00575      0                  1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+        p
+    <dbl>
+1 0.00575
+
+
+MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = Russia_EarlyMedieval_Viking_OldRus-o (p=0.82513), 
+England_Mesolithic (p=0.54013), 
+Russia_EarlyMedieval_Viking_OldRus (p=0.18023), 
+Russia_Samara_LBA_Srubnaya (p=0.13188) 
+-----------------------------------------------------------------
+Moksha  = Russia_EarlyMedieval_Viking_OldRus-o (p=0.45238), 
+England_Mesolithic (p=0.27875), 
+Russia_EarlyMedieval_Viking_OldRus (p=0.12562), 
+Ukraine_EarlyMedieval_Viking_OldRus (p=0.06836), 
+Russia_EarlyMedieval_Viking (p=0.06279) 
+-----------------------------------------------------------------
+Russia_EarlyMedieval_Viking_OldRus  = England_Mesolithic (p=0.94621), Erzya (p=0.18023), Russia_Samara_LBA_Srubnaya (p=0.16762), Moksha (p=0.12562), Poland_EarlySlav (p=0.09746) 
+-----------------------------------------------------------------
+Russia_EarlyMedieval_Viking_OldRus-o  = Erzya (p=0.82513), Moksha (p=0.45238), Ukraine_EarlyMedieval_Viking_OldRus (p=0.41369), England_Mesolithic (p=0.28637), Russia_Samara_LBA_Srubnaya (p=0.09703), Russia_EarlyMedieval_Viking (p=0.08884) 
+-----------------------------------------------------------------
+Russia_EarlyMedieval_Viking  = Ukraine_EarlyMedieval_Viking_OldRus (p=0.51643), Ukraine_Medieval_OldRus (p=0.13904), Russia_EarlyMedieval_Viking_OldRus-o (p=0.08884), Moksha (p=0.06279) 
+-----------------------------------------------------------------
+Russia_EarlyMedieval_Vyatichi  = Ukraine_Medieval_OldRus (p=0.66029), Ukraine_EarlyMedieval_Viking_OldRus-o (p=0.31011) 
+-----------------------------------------------------------------
+Ukraine_EarlyMedieval_Viking_OldRus  = Russia_EarlyMedieval_Viking (p=0.51643), Russia_EarlyMedieval_Viking_OldRus-o (p=0.41369), Moksha (p=0.06836), Ukraine_Medieval_OldRus (p=0.05323) 
+-----------------------------------------------------------------
+Ukraine_EarlyMedieval_Viking_OldRus-o  = Ukraine_Medieval_OldRus (p=0.69314), Russia_EarlyMedieval_Vyatichi (p=0.31011) 
+-----------------------------------------------------------------
+Ukraine_Medieval_OldRus  = Ukraine_EarlyMedieval_Viking_OldRus-o (p=0.69314), Russia_EarlyMedieval_Vyatichi (p=0.66029), Russia_EarlyMedieval_Viking (p=0.13904), Ukraine_EarlyMedieval_Viking_OldRus (p=0.05323) 
+-----------------------------------------------------------------
+England_Mesolithic  = Russia_EarlyMedieval_Viking_OldRus (p=0.94621), Erzya (p=0.54013), Russia_Samara_LBA_Srubnaya (p=0.49471), Russia_EarlyMedieval_Viking_OldRus-o (p=0.28637), Moksha (p=0.27875), Poland_EarlySlav (p=0.13350) 
+-----------------------------------------------------------------
+Russia_Samara_LBA_Srubnaya  = England_Mesolithic (p=0.49471), Poland_EarlySlav (p=0.43624), Russia_EarlyMedieval_Viking_OldRus (p=0.16762), Erzya (p=0.13188), Russia_EarlyMedieval_Viking_OldRus-o (p=0.09703) 
+-----------------------------------------------------------------
+Poland_EarlySlav  = Russia_Samara_LBA_Srubnaya (p=0.43624), England_Mesolithic (p=0.13350), Russia_EarlyMedieval_Viking_OldRus (p=0.09746) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ ПОДРОБНЫЕ ЛОГИ КАЛЬКУЛЯЦИИ ДЛЯ РУКОПИСИ КНИГИ:
+=================================================================
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.94621 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left               weight       se       z
+  <chr>                              <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus England_Mesolithic      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.94621 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                               weight       se       z
+  <chr>              <chr>                               <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_EarlyMedieval_Viking_OldRus      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus-o 
+ЧИСТОЕ P-VALUE : 0.82513 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left  weight       se       z
+  <chr>                                <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Erzya      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.82513 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus-o 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                                 weight       se       z
+  <chr>  <chr>                                 <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus-o      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_Medieval_OldRus 
+ЧИСТОЕ P-VALUE : 0.69314 
+ИСТОЧНИКИ(LEFT): Ukraine_EarlyMedieval_Viking_OldRus-o 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left                           weight       se       z
+  <chr>                   <chr>                           <dbl>    <dbl>   <dbl>
+1 Ukraine_Medieval_OldRus Ukraine_EarlyMedieval_Viking_…      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus-o 
+ЧИСТОЕ P-VALUE : 0.69314 
+ИСТОЧНИКИ(LEFT): Ukraine_Medieval_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                left             weight       se       z
+  <chr>                                 <chr>             <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus-o Ukraine_Medieva…      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_Medieval_OldRus 
+ЧИСТОЕ P-VALUE : 0.66029 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Vyatichi 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left                          weight       se       z
+  <chr>                   <chr>                          <dbl>    <dbl>   <dbl>
+1 Ukraine_Medieval_OldRus Russia_EarlyMedieval_Vyatichi      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Vyatichi 
+ЧИСТОЕ P-VALUE : 0.66029 
+ИСТОЧНИКИ(LEFT): Ukraine_Medieval_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left                    weight       se       z
+  <chr>                         <chr>                    <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Vyatichi Ukraine_Medieval_OldRus      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.54013 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left  weight       se       z
+  <chr>              <chr>  <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Erzya      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.54013 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Erzya  England_Mesolithic      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking 
+ЧИСТОЕ P-VALUE : 0.51643 
+ИСТОЧНИКИ(LEFT): Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                      left                       weight       se       z
+  <chr>                       <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking Ukraine_EarlyMedieval_Vik…      1 2.99e-13 3.35e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.51643 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                              left               weight       se       z
+  <chr>                               <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Russia_EarlyMedie…      1 2.99e-13 3.35e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.49471 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left               weight       se       z
+  <chr>                      <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya England_Mesolithic      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.49471 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                       weight       se       z
+  <chr>              <chr>                       <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_Samara_LBA_Srubnaya      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus-o 
+ЧИСТОЕ P-VALUE : 0.45238 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left   weight       se       z
+  <chr>                                <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Moksha      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.45238 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus-o 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                                 weight       se       z
+  <chr>  <chr>                                 <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus-o      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.43624 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left             weight       se       z
+  <chr>                      <chr>             <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Poland_EarlySlav      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Poland_EarlySlav 
+ЧИСТОЕ P-VALUE : 0.43624 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                       weight       se       z
+  <chr>            <chr>                       <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Russia_Samara_LBA_Srubnaya      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.41369 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus-o 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                              left               weight       se       z
+  <chr>                               <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Russia_EarlyMedie…      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus-o 
+ЧИСТОЕ P-VALUE : 0.41369 
+ИСТОЧНИКИ(LEFT): Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left              weight       se       z
+  <chr>                                <chr>              <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Ukraine_EarlyMed…      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Vyatichi 
+ЧИСТОЕ P-VALUE : 0.31011 
+ИСТОЧНИКИ(LEFT): Ukraine_EarlyMedieval_Viking_OldRus-o 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                        left                     weight       se       z
+  <chr>                         <chr>                     <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Vyatichi Ukraine_EarlyMedieval_V…      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus-o 
+ЧИСТОЕ P-VALUE : 0.31011 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Vyatichi 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                left             weight       se       z
+  <chr>                                 <chr>             <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus-o Russia_EarlyMed…      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.28637 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus-o 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                                weight       se       z
+  <chr>              <chr>                                <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_EarlyMedieval_Viking_OldRus…      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus-o 
+ЧИСТОЕ P-VALUE : 0.28637 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left              weight       se       z
+  <chr>                                <chr>              <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o England_Mesolith…      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.27875 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Moksha England_Mesolithic      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.27875 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left   weight       se       z
+  <chr>              <chr>   <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Moksha      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.18023 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                               weight       se       z
+  <chr>  <chr>                               <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.18023 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left  weight       se       z
+  <chr>                              <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Erzya      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.16762 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left                weight       se       z
+  <chr>                              <chr>                <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Russia_Samara_LBA_…      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.16762 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_EarlyMedieval_Vikin…      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking 
+ЧИСТОЕ P-VALUE : 0.13904 
+ИСТОЧНИКИ(LEFT): Ukraine_Medieval_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                      left                    weight       se       z
+  <chr>                       <chr>                    <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking Ukraine_Medieval_OldRus      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_Medieval_OldRus 
+ЧИСТОЕ P-VALUE : 0.13904 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left                        weight       se       z
+  <chr>                   <chr>                        <dbl>    <dbl>   <dbl>
+1 Ukraine_Medieval_OldRus Russia_EarlyMedieval_Viking      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : England_Mesolithic 
+ЧИСТОЕ P-VALUE : 0.13350 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Poland_EarlySlav      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Poland_EarlySlav 
+ЧИСТОЕ P-VALUE : 0.13350 
+ИСТОЧНИКИ(LEFT): England_Mesolithic 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav England_Mesolithic      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.13188 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_LBA_Srubnaya      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.13188 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left  weight       se       z
+  <chr>                      <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Erzya      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.12562 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                               weight       se       z
+  <chr>  <chr>                               <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.12562 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left   weight       se       z
+  <chr>                              <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Moksha      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Poland_EarlySlav 
+ЧИСТОЕ P-VALUE : 0.09746 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                               weight       se       z
+  <chr>            <chr>                               <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Russia_EarlyMedieval_Viking_OldRus      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.09746 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left             weight       se       z
+  <chr>                              <chr>             <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Poland_EarlySlav      1 3.20e-13 3.13e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus-o 
+ЧИСТОЕ P-VALUE : 0.09703 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left              weight       se       z
+  <chr>                                <chr>              <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Russia_Samara_LB…      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.09703 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus-o 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_EarlyMedieval_Vikin…      1 1.35e-13 7.40e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus-o 
+ЧИСТОЕ P-VALUE : 0.08884 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left              weight       se       z
+  <chr>                                <chr>              <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Russia_EarlyMedi…      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking 
+ЧИСТОЕ P-VALUE : 0.08884 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus-o 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                      left                       weight       se       z
+  <chr>                       <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking Russia_EarlyMedieval_Viki…      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.06836 
+ИСТОЧНИКИ(LEFT): Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                                weight       se       z
+  <chr>  <chr>                                <dbl>    <dbl>   <dbl>
+1 Moksha Ukraine_EarlyMedieval_Viking_OldRus      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.06836 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                              left   weight       se       z
+  <chr>                               <chr>   <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Moksha      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.06279 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                        weight       se       z
+  <chr>  <chr>                        <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlyMedieval_Viking      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking 
+ЧИСТОЕ P-VALUE : 0.06279 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                      left   weight       se       z
+  <chr>                       <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking Moksha      1 3.34e-13 2.99e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_Medieval_OldRus 
+ЧИСТОЕ P-VALUE : 0.05323 
+ИСТОЧНИКИ(LEFT): Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left                           weight       se       z
+  <chr>                   <chr>                           <dbl>    <dbl>   <dbl>
+1 Ukraine_Medieval_OldRus Ukraine_EarlyMedieval_Viking_…      1 2.99e-13 3.35e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.05323 
+ИСТОЧНИКИ(LEFT): Ukraine_Medieval_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                              left               weight       se       z
+  <chr>                               <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Ukraine_Medieval_…      1 2.99e-13 3.35e12
+-----------------------------------------------------------------
+--------------------------END-----------------------------------

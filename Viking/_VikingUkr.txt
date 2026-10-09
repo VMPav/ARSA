@@ -1,0 +1,447 @@
+
+[1] "Итоговые веса="
+[1] "Russia_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 5
+  target                             left               weight       se       z
+  <chr>                              <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus England_Mesolithic      1 3.20e-13 3.13e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Russia_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4 0.741 0.946      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.946
+
+
+Ukraine_EarlyMedieval_Viking_OldRus  = 
+Erzya weight1=0.517, Seima_Turbino weight2=0.483 (p=0.31732), 
+Russia_Samara_LBA_Srubnaya weight1=0.501, Seima_Turbino weight2=0.499 (p=0.20175), 
+Seima_Turbino weight1=0.534, Poland_EarlySlav weight2=0.466 (p=0.17265), 
+Moksha weight1=0.531, Seima_Turbino weight2=0.469 (p=0.13628), 
+
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.98699 
+LEFT: Erzya + Ukraine_Medieval_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left                   weight    se     z
+  <chr>                                <chr>                   <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Erzya                   0.843 0.113  7.46
+2 Russia_EarlyMedieval_Viking_OldRus-o Ukraine_Medieval_OldR…  0.157 0.113  1.39
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.97544 
+LEFT: Erzya + Ukraine_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left                   weight    se     z
+  <chr>                                <chr>                   <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Erzya                   0.686 0.250  2.75
+2 Russia_EarlyMedieval_Viking_OldRus-o Ukraine_EarlyMedieval…  0.314 0.250  1.26
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.96521 
+LEFT: Erzya + Russia_EarlyMedieval_Vyatichi 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left                  weight     se     z
+  <chr>                                <chr>                  <dbl>  <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Erzya                  0.880 0.0883  9.97
+2 Russia_EarlyMedieval_Viking_OldRus-o Russia_EarlyMedieval…  0.120 0.0883  1.36
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.94621 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left               weight       se       z
+  <chr>                              <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus England_Mesolithic      1 3.20e-13 3.13e12
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.94440 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left          weight     se     z
+  <chr>                                <chr>          <dbl>  <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Erzya          0.894 0.0819 10.9 
+2 Russia_EarlyMedieval_Viking_OldRus-o Seima_Turbino  0.106 0.0819  1.29
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.93111 
+LEFT: Erzya + Russia_EarlyMedieval_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left                   weight    se     z
+  <chr>                                <chr>                   <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Erzya                   0.776 0.187  4.15
+2 Russia_EarlyMedieval_Viking_OldRus-o Russia_EarlyMedieval_…  0.224 0.187  1.20
+
+
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.90247 
+LEFT: Erzya + Ukraine_EarlyMedieval_Viking_OldRus-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left                   weight    se     z
+  <chr>                                <chr>                   <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Erzya                   0.869 0.109  8.00
+2 Russia_EarlyMedieval_Viking_OldRus-o Ukraine_EarlyMedieval…  0.131 0.109  1.21
+
+TARGET  : Erzya 
+P-VALUE : 0.83479 
+LEFT: England_Mesolithic + Russia_EarlyMedieval_Viking_OldRus-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                 weight    se     z
+  <chr>  <chr>                                 <dbl> <dbl> <dbl>
+1 Erzya  England_Mesolithic                    0.357 0.394 0.906
+2 Erzya  Russia_EarlyMedieval_Viking_OldRus-o  0.643 0.394 1.63 
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.82513 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left  weight       se       z
+  <chr>                                <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Erzya      1 1.35e-13 7.40e12
+
+TARGET  : Erzya 
+P-VALUE : 0.82513 
+LEFT: Russia_EarlyMedieval_Viking_OldRus-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                                 weight       se       z
+  <chr>  <chr>                                 <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus-o      1 1.35e-13 7.40e12
+
+TARGET  : Erzya 
+P-VALUE : 0.81426 
+LEFT: Russia_EarlyMedieval_Viking_OldRus + Russia_EarlyMedieval_Viking_OldRus-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                 weight    se     z
+  <chr>  <chr>                                 <dbl> <dbl> <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus    0.275 0.315 0.874
+2 Erzya  Russia_EarlyMedieval_Viking_OldRus-o  0.725 0.315 2.30 
+
+TARGET  : Moksha 
+P-VALUE : 0.79438 
+LEFT: Russia_EarlyMedieval_Viking + Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                               weight    se     z
+  <chr>  <chr>                               <dbl> <dbl> <dbl>
+1 Moksha Russia_EarlyMedieval_Viking         0.388 0.136  2.85
+2 Moksha Russia_EarlyMedieval_Viking_OldRus  0.612 0.136  4.50
+
+TARGET  : Russia_EarlyMedieval_Viking 
+P-VALUE : 0.78606 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                      left          weight    se     z
+  <chr>                       <chr>          <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking Moksha         0.658 0.108  6.11
+2 Russia_EarlyMedieval_Viking Seima_Turbino  0.342 0.108  3.17
+
+TARGET  : Erzya 
+P-VALUE : 0.78568 
+LEFT: Russia_EarlyMedieval_Viking_OldRus-o + Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                 weight    se     z
+  <chr>  <chr>                                 <dbl> <dbl> <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus-o  0.722 0.298 2.42 
+2 Erzya  Russia_Samara_LBA_Srubnaya            0.278 0.298 0.935
+
+TARGET  : Erzya 
+P-VALUE : 0.77064 
+LEFT: Poland_EarlySlav + Russia_EarlyMedieval_Viking_OldRus-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                 weight    se     z
+  <chr>  <chr>                                 <dbl> <dbl> <dbl>
+1 Erzya  Poland_EarlySlav                      0.201 0.243 0.826
+2 Erzya  Russia_EarlyMedieval_Viking_OldRus-o  0.799 0.243 3.29 
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.74763 
+LEFT: England_Mesolithic + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left               weight     se     z
+  <chr>                                <chr>               <dbl>  <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o England_Mesolithic  0.814 0.0799 10.2 
+2 Russia_EarlyMedieval_Viking_OldRus-o Seima_Turbino       0.186 0.0799  2.33
+
+
+TARGET  : Moksha 
+P-VALUE : 0.71560 
+LEFT: Russia_EarlyMedieval_Viking_OldRus + Ukraine_Medieval_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                               weight     se     z
+  <chr>  <chr>                               <dbl>  <dbl> <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus  0.760 0.0898  8.46
+2 Moksha Ukraine_Medieval_OldRus             0.240 0.0898  2.67
+
+TARGET  : Russia_EarlyMedieval_Viking 
+P-VALUE : 0.70208 
+LEFT: Moksha + Russia_EarlyMedieval_Vyatichi 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                      left                          weight    se     z
+  <chr>                       <chr>                          <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking Moksha                         0.619 0.126  4.90
+2 Russia_EarlyMedieval_Viking Russia_EarlyMedieval_Vyatichi  0.381 0.126  3.01
+
+TARGET  : Erzya 
+P-VALUE : 0.66106 
+LEFT: England_Mesolithic + Ukraine_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight    se     z
+  <chr>  <chr>                                <dbl> <dbl> <dbl>
+1 Erzya  England_Mesolithic                   0.738 0.199  3.71
+2 Erzya  Ukraine_EarlyMedieval_Viking_OldRus  0.262 0.199  1.32
+
+TARGET  : Ukraine_Medieval_OldRus 
+P-VALUE : 0.66029 
+LEFT: Russia_EarlyMedieval_Vyatichi 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left                          weight       se       z
+  <chr>                   <chr>                          <dbl>    <dbl>   <dbl>
+1 Ukraine_Medieval_OldRus Russia_EarlyMedieval_Vyatichi      1 3.34e-13 2.99e12
+
+TARGET  : Erzya 
+P-VALUE : 0.59611 
+LEFT: England_Mesolithic + Ukraine_Medieval_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                    weight    se     z
+  <chr>  <chr>                    <dbl> <dbl> <dbl>
+1 Erzya  England_Mesolithic       0.877 0.106  8.29
+2 Erzya  Ukraine_Medieval_OldRus  0.123 0.106  1.16
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.59552 
+LEFT: Russia_EarlyMedieval_Viking_OldRus + Ukraine_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight    se     z
+  <chr>  <chr>                                <dbl> <dbl> <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus   0.611 0.162  3.78
+2 Moksha Ukraine_EarlyMedieval_Viking_OldRus  0.389 0.162  2.41
+
+TARGET  : Moksha 
+P-VALUE : 0.59530 
+LEFT: Russia_EarlyMedieval_Viking_OldRus + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                               weight     se     z
+  <chr>  <chr>                               <dbl>  <dbl> <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus  0.828 0.0633 13.1 
+2 Moksha Seima_Turbino                       0.172 0.0633  2.72
+
+TARGET  : Ukraine_Medieval_OldRus 
+P-VALUE : 0.56371 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                  left          weight    se     z
+  <chr>                   <chr>          <dbl> <dbl> <dbl>
+1 Ukraine_Medieval_OldRus Erzya          0.299 0.148  2.02
+2 Ukraine_Medieval_OldRus Seima_Turbino  0.701 0.148  4.75
+
+TARGET  : Ukraine_Medieval_OldRus 
+P-VALUE : 0.55449 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                  left          weight    se     z
+  <chr>                   <chr>          <dbl> <dbl> <dbl>
+1 Ukraine_Medieval_OldRus Moksha         0.322 0.162  1.99
+2 Ukraine_Medieval_OldRus Seima_Turbino  0.678 0.162  4.19
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.55174 
+LEFT: Moksha + Ukraine_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left                   weight    se     z
+  <chr>                                <chr>                   <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Moksha                  0.580 0.385  1.51
+2 Russia_EarlyMedieval_Viking_OldRus-o Ukraine_EarlyMedieval…  0.420 0.385  1.09
+
+TARGET  : Erzya 
+P-VALUE : 0.54013 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Erzya  England_Mesolithic      1 3.20e-13 3.13e12
+
+TARGET  : Ukraine_Medieval_OldRus 
+P-VALUE : 0.53943 
+LEFT: Russia_Samara_LBA_Srubnaya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                  left                       weight    se     z
+  <chr>                   <chr>                       <dbl> <dbl> <dbl>
+1 Ukraine_Medieval_OldRus Russia_Samara_LBA_Srubnaya  0.256 0.127  2.02
+2 Ukraine_Medieval_OldRus Seima_Turbino               0.744 0.127  5.86
+
+TARGET  : Erzya 
+P-VALUE : 0.52871 
+LEFT: Russia_EarlyMedieval_Viking_OldRus + Ukraine_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight    se     z
+  <chr>  <chr>                                <dbl> <dbl> <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus   0.656 0.174  3.78
+2 Erzya  Ukraine_EarlyMedieval_Viking_OldRus  0.344 0.174  1.98
+
+TARGET  : Russia_EarlyMedieval_Viking 
+P-VALUE : 0.49209 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                      left          weight    se     z
+  <chr>                       <chr>          <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking Erzya          0.591 0.109  5.41
+2 Russia_EarlyMedieval_Viking Seima_Turbino  0.409 0.109  3.75
+
+ARGET  : Russia_EarlyMedieval_Viking 
+P-VALUE : 0.47100 
+LEFT: Moksha + Ukraine_Medieval_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                      left                    weight    se     z
+  <chr>                       <chr>                    <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking Moksha                   0.540 0.189  2.85
+2 Russia_EarlyMedieval_Viking Ukraine_Medieval_OldRus  0.460 0.189  2.43
+
+TARGET  : Moksha 
+P-VALUE : 0.46343 
+LEFT: Poland_EarlySlav + Ukraine_Medieval_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                    weight     se     z
+  <chr>  <chr>                    <dbl>  <dbl> <dbl>
+1 Moksha Poland_EarlySlav         0.719 0.0828  8.69
+2 Moksha Ukraine_Medieval_OldRus  0.281 0.0828  3.39
+
+TARGET  : Ukraine_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.46238 
+LEFT: Erzya + Ukraine_Medieval_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left                    weight    se     z
+  <chr>                               <chr>                    <dbl> <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Erzya                    0.551 0.148  3.71
+2 Ukraine_EarlyMedieval_Viking_OldRus Ukraine_Medieval_OldRus  0.449 0.148  3.03
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.45238 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                               left   weight       se       z
+  <chr>                                <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Moksha      1 1.35e-13 7.40e12
+
+TARGET  : Ukraine_Medieval_OldRus 
+P-VALUE : 0.44309 
+LEFT: Poland_EarlySlav + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                  left             weight    se     z
+  <chr>                   <chr>             <dbl> <dbl> <dbl>
+1 Ukraine_Medieval_OldRus Poland_EarlySlav  0.226 0.129  1.75
+2 Ukraine_Medieval_OldRus Seima_Turbino     0.774 0.129  5.99
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.42731 
+LEFT: Moksha + Ukraine_EarlyMedieval_Viking_OldRus-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left                   weight    se     z
+  <chr>                                <chr>                   <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Moksha                  0.867 0.125  6.96
+2 Russia_EarlyMedieval_Viking_OldRus-o Ukraine_EarlyMedieval…  0.133 0.125  1.06
+
+TARGET  : Ukraine_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.38194 
+LEFT: Erzya + Russia_EarlyMedieval_Vyatichi 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left                    weight    se     z
+  <chr>                               <chr>                    <dbl> <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Erzya                    0.663 0.119  5.59
+2 Ukraine_EarlyMedieval_Viking_OldRus Russia_EarlyMedieval_V…  0.337 0.119  2.83
+
+TARGET  : Moksha 
+P-VALUE : 0.37037 
+LEFT: Russia_EarlyMedieval_Viking + Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                        weight    se     z
+  <chr>  <chr>                        <dbl> <dbl> <dbl>
+1 Moksha Russia_EarlyMedieval_Viking  0.423 0.136  3.10
+2 Moksha Russia_Samara_LBA_Srubnaya   0.577 0.136  4.23
+
+TARGET  : Moksha 
+P-VALUE : 0.35294 
+LEFT: Russia_EarlyMedieval_Viking_OldRus + Ukraine_EarlyMedieval_Viking_OldRus-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                  weight     se     z
+  <chr>  <chr>                                  <dbl>  <dbl> <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus     0.815 0.0819  9.95
+2 Moksha Ukraine_EarlyMedieval_Viking_OldRus-o  0.185 0.0819  2.25
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.34894 
+LEFT: Moksha + Ukraine_Medieval_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left                   weight    se     z
+  <chr>                                <chr>                   <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Moksha                 0.914  0.164 5.59 
+2 Russia_EarlyMedieval_Viking_OldRus-o Ukraine_Medieval_OldR… 0.0862 0.164 0.527
+
+TARGET  : Erzya 
+P-VALUE : 0.32748 
+LEFT: Russia_EarlyMedieval_Viking_OldRus + Ukraine_EarlyMedieval_Viking_OldRus-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                  weight     se     z
+  <chr>  <chr>                                  <dbl>  <dbl> <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus     0.834 0.0893  9.34
+2 Erzya  Ukraine_EarlyMedieval_Viking_OldRus-o  0.166 0.0893  1.86
+
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus-o 
+P-VALUE : 0.32478 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                               left          weight    se     z
+  <chr>                                <chr>          <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus-o Moksha        0.962  0.101 9.50 
+2 Russia_EarlyMedieval_Viking_OldRus-o Seima_Turbino 0.0380 0.101 0.375

@@ -1,0 +1,744 @@
+
+"Russia_Mordovia_Eneolithic_Ekaterinovka"
+"3093-2920 calBCE (4395±25 BP, PSUAMS-4316)"	..	Russia_Mordovia_Eneolithic_Ekaterinovka	
+"Imerka-8 (Mordovia Republic of, Zubovo-Polyansky District, Imerka Village)"
+
+900-1100 CE	..	Russia_EarlyMedieval_Viking_OldRus	"Gnezdovo (Smolensk Oblast, Smolensky District, Gnezdovo Village)"
+900-1300 CE	..	Russia_EarlyMedieval_Viking_OldRus-o	"Kurevanikha (Vologda Oblast, Ustyuzhensky District)"	Russia
+
+Russia_EarlyMedieval_Viking_OldRus  = Moksha (p=0.91708), 
+  Erzya (p=0.18429), 
+  Russia_Samara_LBA_Srubnaya (p=0.30106),
+  Poland_EarlySlav (p=0.06445) 
+
+900-1200 CE	..	Ukraine_EarlyMedieval_Viking_OldRus	"Shestovytsia (Chernihiv Oblast, 
+Chernihiv District, Kyjinka Municipality)"	Ukraine	
+
+Ukraine_EarlyMedieval_Viking_OldRus  = Erzya вес1=0.517, Seima_Turbino вес2=0.483 (p=0.31732), 
+Russia_Samara_LBA_Srubnaya вес1=0.501, Seima_Turbino вес2=0.499 (p=0.20175), 
+Seima_Turbino вес1=0.534, Poland_EarlySlav вес2=0.466 (p=0.17265), 
+Moksha вес1=0.531, Seima_Turbino вес2=0.469 (p=0.13628), 
+Russia_EarlyMedieval_Viking_OldRus вес1=0.523, Seima_Turbino вес2=0.477 (p=0.08315) 
+
+[1] "Итоговые веса="
+[1] "Russia_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 5
+  target                             left               weight       se       z
+  <chr>                              <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus England_Mesolithic      1 3.20e-13 3.13e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Russia_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank England_Mesolithic feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>              <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4 0.741 0.946      0                  1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.946
+
+[1] "Итоговые веса="
+[1] "Ukraine_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 5
+  target                              left               weight       se       z
+  <chr>                               <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus England_Mesolithic      1 3.34e-13 2.99e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Ukraine_EarlyMedieval_Viking_OldRus"
+# A tibble: 1 × 12
+  pat      wt   dof chisq       p f4rank England_Mesolithic feasible best 
+  <chr> <dbl> <dbl> <dbl>   <dbl>  <dbl>              <dbl> <lgl>    <lgl>
+1 0         0     4  14.5 0.00575      0                  1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+        p
+    <dbl>
+1 0.00575  !!!!!!!!1
+
+     MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Russia_EarlyMedieval_Viking_OldRus  = Moksha (p=0.91708), 
+Poland_EarlySlav вес1=0.877, Seima_Turbino вес2=0.123 (p=0.45502), 
+Russia_Samara_LBA_Srubnaya вес1=0.933, Seima_Turbino вес2=0.067 (p=0.37292), 
+Russia_Samara_LBA_Srubnaya (p=0.30106), 
+Russia_Samara_LBA_Srubnaya вес1=0.924, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.076 (p=0.24173), 
+Poland_EarlySlav вес1=0.810, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.190 (p=0.20325), 
+Erzya (p=0.18429), 
+Erzya вес1=0.942, Seima_Turbino вес2=0.058 (p=0.15236), 
+Erzya вес1=0.979, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.021 (p=0.10871), 
+Erzya вес1=0.861, Poland_EarlySlav вес2=0.139 (p=0.10174), 
+Poland_EarlySlav (p=0.06445) 
+-----------------------------------------------------------------
+Ukraine_EarlyMedieval_Viking_OldRus  = Erzya вес1=0.517, Seima_Turbino вес2=0.483 (p=0.31732), 
+
+Russia_Samara_LBA_Srubnaya вес1=0.501, Seima_Turbino вес2=0.499 (p=0.20175), 
+Seima_Turbino вес1=0.534, Poland_EarlySlav вес2=0.466 (p=0.17265), 
+Moksha вес1=0.531, Seima_Turbino вес2=0.469 (p=0.13628), 
+Russia_EarlyMedieval_Viking_OldRus вес1=0.523, Seima_Turbino вес2=0.477 (p=0.08315) 
+-----------------------------------------------------------------
+Moksha  = Russia_EarlyMedieval_Viking_OldRus (p=0.91708), Poland_EarlySlav вес1=0.873, Seima_Turbino вес2=0.127 (p=0.90903), Russia_EarlyMedieval_Viking_OldRus вес1=0.702, Russia_Samara_LBA_Srubnaya вес2=0.298 (p=0.88644), Russia_EarlyMedieval_Viking_OldRus вес1=0.960, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.040 (p=0.83912), Russia_EarlyMedieval_Viking_OldRus вес1=0.881, Poland_EarlySlav вес2=0.119 (p=0.82473), Russia_EarlyMedieval_Viking_OldRus вес1=0.966, Erzya вес2=0.034 (p=0.81145), Russia_EarlyMedieval_Viking_OldRus вес1=0.995, Seima_Turbino вес2=0.005 (p=0.76234), Russia_Samara_LBA_Srubnaya вес1=0.933, Seima_Turbino вес2=0.067 (p=0.75918), Poland_EarlySlav вес1=0.787, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.213 (p=0.67013), Russia_Samara_LBA_Srubnaya вес1=0.903, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.097 (p=0.63410), Russia_Samara_LBA_Srubnaya (p=0.60512), Erzya вес1=0.938, Seima_Turbino вес2=0.062 (p=0.12704), Erzya (p=0.12125), Erzya вес1=0.927, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.073 (p=0.08864), Poland_EarlySlav (p=0.07678), Erzya вес1=0.667, Poland_EarlySlav вес2=0.333 (p=0.07262) 
+-----------------------------------------------------------------
+Erzya  = Russia_Samara_LBA_Srubnaya (p=0.46717), Russia_Samara_LBA_Srubnaya вес1=0.954, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.046 (p=0.38997), Russia_Samara_LBA_Srubnaya вес1=0.990, Seima_Turbino вес2=0.010 (p=0.33933), Russia_EarlyMedieval_Viking_OldRus (p=0.18429), Poland_EarlySlav вес1=0.819, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.181 (p=0.17114), Moksha (p=0.12125), Poland_EarlySlav вес1=0.921, Seima_Turbino вес2=0.079 (p=0.08218) 
+-----------------------------------------------------------------
+Russia_Samara_LBA_Srubnaya  = Poland_EarlySlav вес1=0.876, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.124 (p=0.83308), Poland_EarlySlav вес1=0.551, Erzya вес2=0.449 (p=0.71162), Poland_EarlySlav вес1=0.934, Seima_Turbino вес2=0.066 (p=0.69942), Moksha вес1=0.528, Poland_EarlySlav вес2=0.472 (p=0.69912), Moksha вес1=0.615, Erzya вес2=0.385 (p=0.61981), Moksha (p=0.60512), Poland_EarlySlav вес1=0.612, Russia_EarlyMedieval_Viking_OldRus вес2=0.388 (p=0.55192), Poland_EarlySlav (p=0.49343), Erzya (p=0.46717), Erzya вес1=0.644, Russia_EarlyMedieval_Viking_OldRus вес2=0.356 (p=0.36062), Russia_EarlyMedieval_Viking_OldRus (p=0.30106) 
+-----------------------------------------------------------------
+Poland_EarlySlav  = Russia_Samara_LBA_Srubnaya (p=0.49343), Moksha (p=0.07678), Russia_EarlyMedieval_Viking_OldRus (p=0.06445) 
+-----------------------------------------------------------------
+  
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.91708 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left   weight       se       z
+  <chr>                              <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Moksha      1 1.78e-13 5.63e12
+
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.18429 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left  weight       se       z
+  <chr>                              <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Erzya      1 1.78e-13 5.63e12
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.31732 
+ИСТОЧНИКИ(LEFT): Erzya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left          weight     se     z
+  <chr>                               <chr>          <dbl>  <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Erzya          0.517 0.0689  7.50
+2 Ukraine_EarlyMedieval_Viking_OldRus Seima_Turbino  0.483 0.0689  7.01
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.20175 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left                   weight     se     z
+  <chr>                               <chr>                   <dbl>  <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Russia_Samara_LBA_Sru…  0.501 0.0692  7.24
+2 Ukraine_EarlyMedieval_Viking_OldRus Seima_Turbino           0.499 0.0692  7.21
+-----------------------------------------------------------------
+
+ ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.63410 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight     se     z
+  <chr>  <chr>                                <dbl>  <dbl> <dbl>
+1 Moksha Russia_Samara_LBA_Srubnaya          0.903  0.0875 10.3 
+2 Moksha Ukraine_EarlyMedieval_Viking_OldRus 0.0967 0.0875  1.11
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.60512 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Samara_LBA_Srubnaya      1 3.63e-13 2.76e12
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.46717 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_LBA_Srubnaya      1 1.78e-13 5.63e12
+
+
+   ГЕНЕРАЛЬНЫЙ ПАСПОРТ РОДСТВЕННЫХ СВЯЗЕЙ (ПО СТЕПЕНИ ЧИСТОТЫ)
+=================================================================
+Russia_EarlyMedieval_Viking_OldRus  = Moksha (p=0.91708), Poland_EarlySlav вес1=0.877, Seima_Turbino вес2=0.123 (p=0.45502), Russia_Samara_LBA_Srubnaya вес1=0.933, Seima_Turbino вес2=0.067 (p=0.37292), Russia_Samara_LBA_Srubnaya (p=0.30106), Russia_Samara_LBA_Srubnaya вес1=0.924, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.076 (p=0.24173), Poland_EarlySlav вес1=0.810, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.190 (p=0.20325), Erzya (p=0.18429), Erzya вес1=0.942, Seima_Turbino вес2=0.058 (p=0.15236), Erzya вес1=0.979, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.021 (p=0.10871), Erzya вес1=0.861, Poland_EarlySlav вес2=0.139 (p=0.10174), Poland_EarlySlav (p=0.06445) 
+-----------------------------------------------------------------
+Ukraine_EarlyMedieval_Viking_OldRus  = Erzya вес1=0.517, Seima_Turbino вес2=0.483 (p=0.31732), Russia_Samara_LBA_Srubnaya вес1=0.501, Seima_Turbino вес2=0.499 (p=0.20175), Seima_Turbino вес1=0.534, Poland_EarlySlav вес2=0.466 (p=0.17265), Moksha вес1=0.531, Seima_Turbino вес2=0.469 (p=0.13628), Russia_EarlyMedieval_Viking_OldRus вес1=0.523, Seima_Turbino вес2=0.477 (p=0.08315) 
+-----------------------------------------------------------------
+Moksha  = Russia_EarlyMedieval_Viking_OldRus (p=0.91708), Poland_EarlySlav вес1=0.873, Seima_Turbino вес2=0.127 (p=0.90903), Russia_EarlyMedieval_Viking_OldRus вес1=0.702, Russia_Samara_LBA_Srubnaya вес2=0.298 (p=0.88644), Russia_EarlyMedieval_Viking_OldRus вес1=0.960, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.040 (p=0.83912), Russia_EarlyMedieval_Viking_OldRus вес1=0.881, Poland_EarlySlav вес2=0.119 (p=0.82473), Russia_EarlyMedieval_Viking_OldRus вес1=0.966, Erzya вес2=0.034 (p=0.81145), Russia_EarlyMedieval_Viking_OldRus вес1=0.995, Seima_Turbino вес2=0.005 (p=0.76234), Russia_Samara_LBA_Srubnaya вес1=0.933, Seima_Turbino вес2=0.067 (p=0.75918), Poland_EarlySlav вес1=0.787, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.213 (p=0.67013), Russia_Samara_LBA_Srubnaya вес1=0.903, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.097 (p=0.63410), Russia_Samara_LBA_Srubnaya (p=0.60512), Erzya вес1=0.938, Seima_Turbino вес2=0.062 (p=0.12704), Erzya (p=0.12125), Erzya вес1=0.927, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.073 (p=0.08864), Poland_EarlySlav (p=0.07678), Erzya вес1=0.667, Poland_EarlySlav вес2=0.333 (p=0.07262) 
+-----------------------------------------------------------------
+Erzya  = Russia_Samara_LBA_Srubnaya (p=0.46717), Russia_Samara_LBA_Srubnaya вес1=0.954, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.046 (p=0.38997), Russia_Samara_LBA_Srubnaya вес1=0.990, Seima_Turbino вес2=0.010 (p=0.33933), Russia_EarlyMedieval_Viking_OldRus (p=0.18429), Poland_EarlySlav вес1=0.819, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.181 (p=0.17114), Moksha (p=0.12125), Poland_EarlySlav вес1=0.921, Seima_Turbino вес2=0.079 (p=0.08218) 
+-----------------------------------------------------------------
+Russia_Samara_LBA_Srubnaya  = Poland_EarlySlav вес1=0.876, Ukraine_EarlyMedieval_Viking_OldRus вес2=0.124 (p=0.83308), Poland_EarlySlav вес1=0.551, Erzya вес2=0.449 (p=0.71162), Poland_EarlySlav вес1=0.934, Seima_Turbino вес2=0.066 (p=0.69942), Moksha вес1=0.528, Poland_EarlySlav вес2=0.472 (p=0.69912), Moksha вес1=0.615, Erzya вес2=0.385 (p=0.61981), Moksha (p=0.60512), Poland_EarlySlav вес1=0.612, Russia_EarlyMedieval_Viking_OldRus вес2=0.388 (p=0.55192), Poland_EarlySlav (p=0.49343), Erzya (p=0.46717), Erzya вес1=0.644, Russia_EarlyMedieval_Viking_OldRus вес2=0.356 (p=0.36062), Russia_EarlyMedieval_Viking_OldRus (p=0.30106) 
+-----------------------------------------------------------------
+Poland_EarlySlav  = Russia_Samara_LBA_Srubnaya (p=0.49343), Moksha (p=0.07678), Russia_EarlyMedieval_Viking_OldRus (p=0.06445) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ ПОДРОБНЫЕ ЛОГИ КАЛЬКУЛЯЦИИ ДЛЯ РУКОПИСИ КНИГИ:
+=================================================================
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.91708 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left   weight       se       z
+  <chr>                              <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Moksha      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.91708 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                               weight       se       z
+  <chr>  <chr>                               <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.90903 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left             weight     se     z
+  <chr>  <chr>             <dbl>  <dbl> <dbl>
+1 Moksha Poland_EarlySlav  0.873 0.0349 25.0 
+2 Moksha Seima_Turbino     0.127 0.0349  3.64
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.88644 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus + Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                               weight    se     z
+  <chr>  <chr>                               <dbl> <dbl> <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus  0.702 0.425 1.65 
+2 Moksha Russia_Samara_LBA_Srubnaya          0.298 0.425 0.701
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.83912 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight    se     z
+  <chr>  <chr>                                <dbl> <dbl> <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus  0.960  0.101 9.50 
+2 Moksha Ukraine_EarlyMedieval_Viking_OldRus 0.0403 0.101 0.399
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.83308 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left                            weight     se     z
+  <chr>                      <chr>                            <dbl>  <dbl> <dbl>
+1 Russia_Samara_LBA_Srubnaya Poland_EarlySlav                 0.876 0.0633 13.8 
+2 Russia_Samara_LBA_Srubnaya Ukraine_EarlyMedieval_Viking_O…  0.124 0.0633  1.95
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.82473 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                               weight    se     z
+  <chr>  <chr>                               <dbl> <dbl> <dbl>
+1 Moksha Poland_EarlySlav                    0.119 0.315 0.378
+2 Moksha Russia_EarlyMedieval_Viking_OldRus  0.881 0.315 2.80 
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.81145 
+ИСТОЧНИКИ(LEFT): Erzya + Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                               weight    se      z
+  <chr>  <chr>                               <dbl> <dbl>  <dbl>
+1 Moksha Erzya                              0.0344 0.383 0.0899
+2 Moksha Russia_EarlyMedieval_Viking_OldRus 0.966  0.383 2.52  
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.76234 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight     se       z
+  <chr>  <chr>                                <dbl>  <dbl>   <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus 0.995   0.0498 20.0   
+2 Moksha Seima_Turbino                      0.00461 0.0498  0.0925
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.75918 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                       weight     se     z
+  <chr>  <chr>                       <dbl>  <dbl> <dbl>
+1 Moksha Russia_Samara_LBA_Srubnaya 0.933  0.0405 23.1 
+2 Moksha Seima_Turbino              0.0667 0.0405  1.65
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.71162 
+ИСТОЧНИКИ(LEFT): Erzya + Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left             weight    se     z
+  <chr>                      <chr>             <dbl> <dbl> <dbl>
+1 Russia_Samara_LBA_Srubnaya Erzya             0.449 0.298  1.51
+2 Russia_Samara_LBA_Srubnaya Poland_EarlySlav  0.551 0.298  1.85
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.69942 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left             weight     se     z
+  <chr>                      <chr>             <dbl>  <dbl> <dbl>
+1 Russia_Samara_LBA_Srubnaya Poland_EarlySlav 0.934  0.0339 27.6 
+2 Russia_Samara_LBA_Srubnaya Seima_Turbino    0.0659 0.0339  1.95
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.69912 
+ИСТОЧНИКИ(LEFT): Moksha + Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left             weight    se     z
+  <chr>                      <chr>             <dbl> <dbl> <dbl>
+1 Russia_Samara_LBA_Srubnaya Moksha            0.528 0.361  1.46
+2 Russia_Samara_LBA_Srubnaya Poland_EarlySlav  0.472 0.361  1.31
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.67013 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight     se     z
+  <chr>  <chr>                                <dbl>  <dbl> <dbl>
+1 Moksha Poland_EarlySlav                     0.787 0.0668 11.8 
+2 Moksha Ukraine_EarlyMedieval_Viking_OldRus  0.213 0.0668  3.20
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.63410 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight     se     z
+  <chr>  <chr>                                <dbl>  <dbl> <dbl>
+1 Moksha Russia_Samara_LBA_Srubnaya          0.903  0.0875 10.3 
+2 Moksha Ukraine_EarlyMedieval_Viking_OldRus 0.0967 0.0875  1.11
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.61981 
+ИСТОЧНИКИ(LEFT): Erzya + Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left   weight    se     z
+  <chr>                      <chr>   <dbl> <dbl> <dbl>
+1 Russia_Samara_LBA_Srubnaya Erzya   0.385 0.390 0.987
+2 Russia_Samara_LBA_Srubnaya Moksha  0.615 0.390 1.57 
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.60512 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left   weight       se       z
+  <chr>                      <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Moksha      1 3.63e-13 2.76e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.60512 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Samara_LBA_Srubnaya      1 3.63e-13 2.76e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.55192 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left                             weight    se     z
+  <chr>                      <chr>                             <dbl> <dbl> <dbl>
+1 Russia_Samara_LBA_Srubnaya Poland_EarlySlav                  0.612 0.295  2.07
+2 Russia_Samara_LBA_Srubnaya Russia_EarlyMedieval_Viking_Old…  0.388 0.295  1.31
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.49343 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left             weight       se       z
+  <chr>                      <chr>             <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Poland_EarlySlav      1 3.63e-13 2.76e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Poland_EarlySlav 
+ЧИСТОЕ P-VALUE : 0.49343 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                       weight       se       z
+  <chr>            <chr>                       <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Russia_Samara_LBA_Srubnaya      1 3.63e-13 2.76e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.46717 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left  weight       se       z
+  <chr>                      <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Erzya      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.46717 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_LBA_Srubnaya      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.45502 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                             left             weight     se     z
+  <chr>                              <chr>             <dbl>  <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Poland_EarlySlav  0.877 0.0400 21.9 
+2 Russia_EarlyMedieval_Viking_OldRus Seima_Turbino     0.123 0.0400  3.07
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.38997 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight     se     z
+  <chr>  <chr>                                <dbl>  <dbl> <dbl>
+1 Erzya  Russia_Samara_LBA_Srubnaya          0.954  0.0963 9.90 
+2 Erzya  Ukraine_EarlyMedieval_Viking_OldRus 0.0465 0.0963 0.483
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.37292 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                             left                    weight     se     z
+  <chr>                              <chr>                    <dbl>  <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Russia_Samara_LBA_Srub… 0.933  0.0469 19.9 
+2 Russia_EarlyMedieval_Viking_OldRus Seima_Turbino           0.0670 0.0469  1.43
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.36062 
+ИСТОЧНИКИ(LEFT): Erzya + Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                     left                             weight    se     z
+  <chr>                      <chr>                             <dbl> <dbl> <dbl>
+1 Russia_Samara_LBA_Srubnaya Erzya                             0.644 0.816 0.789
+2 Russia_Samara_LBA_Srubnaya Russia_EarlyMedieval_Viking_Old…  0.356 0.816 0.436
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.33933 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                        weight     se      z
+  <chr>  <chr>                        <dbl>  <dbl>  <dbl>
+1 Erzya  Russia_Samara_LBA_Srubnaya 0.990   0.0462 21.4  
+2 Erzya  Seima_Turbino              0.00964 0.0462  0.209
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.31732 
+ИСТОЧНИКИ(LEFT): Erzya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left          weight     se     z
+  <chr>                               <chr>          <dbl>  <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Erzya          0.517 0.0689  7.50
+2 Ukraine_EarlyMedieval_Viking_OldRus Seima_Turbino  0.483 0.0689  7.01
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.30106 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left                weight       se       z
+  <chr>                              <chr>                <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Russia_Samara_LBA_…      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_Samara_LBA_Srubnaya 
+ЧИСТОЕ P-VALUE : 0.30106 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Russia_EarlyMedieval_Vikin…      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.24173 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                             left                     weight    se     z
+  <chr>                              <chr>                     <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Russia_Samara_LBA_Srubn… 0.924  0.105 8.77 
+2 Russia_EarlyMedieval_Viking_OldRus Ukraine_EarlyMedieval_V… 0.0758 0.105 0.719
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.20325 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                             left                    weight     se     z
+  <chr>                              <chr>                    <dbl>  <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Poland_EarlySlav         0.810 0.0807 10.0 
+2 Russia_EarlyMedieval_Viking_OldRus Ukraine_EarlyMedieval_…  0.190 0.0807  2.36
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.20175 
+ИСТОЧНИКИ(LEFT): Russia_Samara_LBA_Srubnaya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left                   weight     se     z
+  <chr>                               <chr>                   <dbl>  <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Russia_Samara_LBA_Sru…  0.501 0.0692  7.24
+2 Ukraine_EarlyMedieval_Viking_OldRus Seima_Turbino           0.499 0.0692  7.21
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.18429 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left  weight       se       z
+  <chr>                              <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Erzya      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.18429 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                               weight       se       z
+  <chr>  <chr>                               <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.17265 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left             weight     se     z
+  <chr>                               <chr>             <dbl>  <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Poland_EarlySlav  0.466 0.0654  7.13
+2 Ukraine_EarlyMedieval_Viking_OldRus Seima_Turbino     0.534 0.0654  8.16
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.17114 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight     se     z
+  <chr>  <chr>                                <dbl>  <dbl> <dbl>
+1 Erzya  Poland_EarlySlav                     0.819 0.0756 10.8 
+2 Erzya  Ukraine_EarlyMedieval_Viking_OldRus  0.181 0.0756  2.40
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.15236 
+ИСТОЧНИКИ(LEFT): Erzya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                             left          weight     se     z
+  <chr>                              <chr>          <dbl>  <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Erzya         0.942  0.0526 17.9 
+2 Russia_EarlyMedieval_Viking_OldRus Seima_Turbino 0.0578 0.0526  1.10
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.13628 
+ИСТОЧНИКИ(LEFT): Moksha + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left          weight     se     z
+  <chr>                               <chr>          <dbl>  <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Moksha         0.531 0.0754  7.04
+2 Ukraine_EarlyMedieval_Viking_OldRus Seima_Turbino  0.469 0.0754  6.22
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.12704 
+ИСТОЧНИКИ(LEFT): Erzya + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left          weight     se     z
+  <chr>  <chr>          <dbl>  <dbl> <dbl>
+1 Moksha Erzya         0.938  0.0419 22.4 
+2 Moksha Seima_Turbino 0.0619 0.0419  1.48
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.12125 
+ИСТОЧНИКИ(LEFT): Erzya 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left  weight       se       z
+  <chr>  <chr>  <dbl>    <dbl>   <dbl>
+1 Moksha Erzya      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.12125 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left   weight       se       z
+  <chr>  <chr>   <dbl>    <dbl>   <dbl>
+1 Erzya  Moksha      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.10871 
+ИСТОЧНИКИ(LEFT): Erzya + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                             left                     weight    se     z
+  <chr>                              <chr>                     <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Erzya                    0.979  0.131 7.45 
+2 Russia_EarlyMedieval_Viking_OldRus Ukraine_EarlyMedieval_V… 0.0210 0.131 0.160
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.10174 
+ИСТОЧНИКИ(LEFT): Erzya + Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                             left             weight    se     z
+  <chr>                              <chr>             <dbl> <dbl> <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Erzya             0.861  1.11 0.777
+2 Russia_EarlyMedieval_Viking_OldRus Poland_EarlySlav  0.139  1.11 0.125
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.08864 
+ИСТОЧНИКИ(LEFT): Erzya + Ukraine_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                                weight    se     z
+  <chr>  <chr>                                <dbl> <dbl> <dbl>
+1 Moksha Erzya                               0.927  0.105 8.81 
+2 Moksha Ukraine_EarlyMedieval_Viking_OldRus 0.0735 0.105 0.699
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Ukraine_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.08315 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                              left                   weight     se     z
+  <chr>                               <chr>                   <dbl>  <dbl> <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Russia_EarlyMedieval_…  0.523 0.0786  6.66
+2 Ukraine_EarlyMedieval_Viking_OldRus Seima_Turbino           0.477 0.0786  6.07
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Erzya 
+ЧИСТОЕ P-VALUE : 0.08218 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav + Seima_Turbino 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left             weight     se     z
+  <chr>  <chr>             <dbl>  <dbl> <dbl>
+1 Erzya  Poland_EarlySlav 0.921  0.0396 23.3 
+2 Erzya  Seima_Turbino    0.0790 0.0396  1.99
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Poland_EarlySlav 
+ЧИСТОЕ P-VALUE : 0.07678 
+ИСТОЧНИКИ(LEFT): Moksha 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left   weight       se       z
+  <chr>            <chr>   <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Moksha      1 3.63e-13 2.76e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.07678 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left             weight       se       z
+  <chr>  <chr>             <dbl>    <dbl>   <dbl>
+1 Moksha Poland_EarlySlav      1 3.63e-13 2.76e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Moksha 
+ЧИСТОЕ P-VALUE : 0.07262 
+ИСТОЧНИКИ(LEFT): Erzya + Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left             weight    se     z
+  <chr>  <chr>             <dbl> <dbl> <dbl>
+1 Moksha Erzya             0.667  1.24 0.537
+2 Moksha Poland_EarlySlav  0.333  1.24 0.268
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Poland_EarlySlav 
+ЧИСТОЕ P-VALUE : 0.06445 
+ИСТОЧНИКИ(LEFT): Russia_EarlyMedieval_Viking_OldRus 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                               weight       se       z
+  <chr>            <chr>                               <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Russia_EarlyMedieval_Viking_OldRus      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+
+ЦЕЛЬ (TARGET)  : Russia_EarlyMedieval_Viking_OldRus 
+ЧИСТОЕ P-VALUE : 0.06445 
+ИСТОЧНИКИ(LEFT): Poland_EarlySlav 
+СТАТУС МОДЕЛИ  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left             weight       se       z
+  <chr>                              <chr>             <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Poland_EarlySlav      1 1.78e-13 5.63e12
+-----------------------------------------------------------------
+--------------------------END-----------------------------------
