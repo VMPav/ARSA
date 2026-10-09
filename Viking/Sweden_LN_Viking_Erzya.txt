@@ -1,0 +1,1104 @@
+
+f2_dir <- "D:/Arsa_Final_F2_BlocksVikingLast"
+
+
+("Erzya","Moksha","Seima_Turbino","Poland_EarlySlav","Russia_EarlyMedieval_Viking_OldRus",
+"Ukraine_EarlyMedieval_Viking_OldRus","Russia_Roman_RyazanOka",
+"Russia_EMA_Viking_OldRus","Russia_EarlyMedieval_Viking","Estonia_EarlyMedieval_EarlyViking",
+"Sweden_LN_Viking","Sweden_Viking","Wales_Viking","Poland_Viking",
+"Denmark_EarlyViking","Russia_Samara_LBA_Srubnaya","England_Mesolithic")
+
+
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = Sweden_LN_Viking (p=0.95774), 
+England_Mesolithic (p=0.50030), 
+Estonia_EarlyMedieval_EarlyViking (p=0.40345), 
+Russia_Samara_LBA_Srubnaya (p=0.30121), 
+Moksha (p=0.24657), 
+Russia_EarlyMedieval_Viking_OldRus (p=0.20311), 
+Poland_Viking (p=0.19966), 
+Denmark_EarlyViking (p=0.09971), 
+Russia_Roman_RyazanOka (p=0.09889), 
+Sweden_Viking (p=0.08818) 
+-----------------------------------------------------------------
+Moksha  = Russia_EarlyMedieval_Viking_OldRus (p=0.82182), 
+England_Mesolithic (p=0.68990), 
+Denmark_EarlyViking (p=0.25981), 
+Erzya (p=0.24657), Sweden_LN_Viking (p=0.18821), 
+Poland_Viking (p=0.14557), 
+Russia_Samara_LBA_Srubnaya (p=0.09186), 
+Estonia_EarlyMedieval_EarlyViking (p=0.08172) 
+-----------------------------------------------------------------
+Seima_Turbino  = 
+Wales_Viking (p=0.63406), 
+Russia_EMA_Viking_OldRus (p=0.52462) 
+-----------------------------------------------------------------
+Poland_EarlySlav  = Russia_Samara_LBA_Srubnaya (p=0.75222), Sweden_Viking (p=0.57954), Poland_Viking (p=0.52949), Estonia_EarlyMedieval_EarlyViking (p=0.38159), Russia_Roman_RyazanOka (p=0.07937) 
+-----------------------------------------------------------------
+Russia_EarlyMedieval_Viking_OldRus  = 
+Moksha (p=0.82182), England_Mesolithic (p=0.80160), 
+Denmark_EarlyViking (p=0.48985), R
+ussia_Roman_RyazanOka (p=0.37840), 
+Erzya (p=0.20311), 
+Estonia_EarlyMedieval_EarlyViking (p=0.11107), 
+Poland_Viking (p=0.07460), Sweden_LN_Viking (p=0.06074) 
+-----------------------------------------------------------------
+Ukraine_EarlyMedieval_Viking_OldRus  = Russia_EarlyMedieval_Viking (p=0.71199) 
+-----------------------------------------------------------------
+Russia_Roman_RyazanOka  = 
+Russia_EarlyMedieval_Viking_OldRus (p=0.37840), 
+England_Mesolithic (p=0.26450), 
+Estonia_EarlyMedieval_EarlyViking (p=0.19657), 
+Poland_Viking (p=0.15113), 
+Sweden_Viking (p=0.11152), 
+Erzya (p=0.09889), 
+Poland_EarlySlav (p=0.07937), 
+Denmark_EarlyViking (p=0.05511) 
+-----------------------------------------------------------------
+Russia_EMA_Viking_OldRus  = Wales_Viking (p=0.99153), Seima_Turbino (p=0.52462) 
+-----------------------------------------------------------------
+Russia_EarlyMedieval_Viking  = Ukraine_EarlyMedieval_Viking_OldRus (p=0.71199) 
+-----------------------------------------------------------------
+Estonia_EarlyMedieval_EarlyViking  = 
+Russia_Samara_LBA_Srubnaya (p=0.74076), 
+Sweden_Viking (p=0.71808), 
+Poland_Viking (p=0.55442), 
+Erzya (p=0.40345), 
+Poland_EarlySlav (p=0.38159), 
+Russia_Roman_RyazanOka (p=0.19657), 
+Sweden_LN_Viking (p=0.14291), 
+Russia_EarlyMedieval_Viking_OldRus (p=0.11107), England_Mesolithic (p=0.09960), Moksha (p=0.08172) 
+-----------------------------------------------------------------
+Sweden_LN_Viking  = Erzya (p=0.95774), 
+Russia_Samara_LBA_Srubnaya (p=0.22012), 
+England_Mesolithic (p=0.19114), Moksha (p=0.18821), 
+Estonia_EarlyMedieval_EarlyViking (p=0.14291), 
+Russia_EarlyMedieval_Viking_OldRus (p=0.06074), 
+Poland_Viking (p=0.06067) 
+-----------------------------------------------------------------
+Sweden_Viking  = Estonia_EarlyMedieval_EarlyViking (p=0.71808), Poland_EarlySlav (p=0.57954), Russia_Samara_LBA_Srubnaya (p=0.54907), Poland_Viking (p=0.27031), Russia_Roman_RyazanOka (p=0.11152), Erzya (p=0.08818) 
+-----------------------------------------------------------------
+Wales_Viking  = Russia_EMA_Viking_OldRus (p=0.99153), Seima_Turbino (p=0.63406) 
+-----------------------------------------------------------------
+Poland_Viking  = Russia_Samara_LBA_Srubnaya (p=0.58257), Estonia_EarlyMedieval_EarlyViking (p=0.55442), Poland_EarlySlav (p=0.52949), Sweden_Viking (p=0.27031), Erzya (p=0.19966), Russia_Roman_RyazanOka (p=0.15113), Moksha (p=0.14557), England_Mesolithic (p=0.08177), Russia_EarlyMedieval_Viking_OldRus (p=0.07460), Sweden_LN_Viking (p=0.06067) 
+-----------------------------------------------------------------
+Denmark_EarlyViking  = England_Mesolithic (p=0.92192), Russia_EarlyMedieval_Viking_OldRus (p=0.48985), Moksha (p=0.25981), Erzya (p=0.09971), Russia_Roman_RyazanOka (p=0.05511) 
+-----------------------------------------------------------------
+Russia_Samara_LBA_Srubnaya  = Poland_EarlySlav (p=0.75222), Estonia_EarlyMedieval_EarlyViking (p=0.74076), Poland_Viking (p=0.58257), Sweden_Viking (p=0.54907), Erzya (p=0.30121), Sweden_LN_Viking (p=0.22012), Moksha (p=0.09186) 
+-----------------------------------------------------------------
+England_Mesolithic  = 
+Denmark_EarlyViking (p=0.92192), 
+Russia_EarlyMedieval_Viking_OldRus (p=0.80160), 
+Moksha (p=0.68990), 
+Erzya (p=0.50030), 
+Russia_Roman_RyazanOka (p=0.26450), 
+Sweden_LN_Viking (p=0.19114), 
+Estonia_EarlyMedieval_EarlyViking (p=0.09960), 
+Poland_Viking (p=0.08177) 
+-----------------------------------------------------------------
+
+
+=================================================================
+ Detailed calculation logs for the book manuscript:
+=================================================================
+
+TARGET  : Russia_EMA_Viking_OldRus 
+P-VALUE : 0.99153 
+LEFT: Wales_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left         weight       se       z
+  <chr>                    <chr>         <dbl>    <dbl>   <dbl>
+1 Russia_EMA_Viking_OldRus Wales_Viking      1 9.95e-14 1.00e13
+-----------------------------------------------------------------
+
+TARGET  : Wales_Viking 
+P-VALUE : 0.99153 
+LEFT: Russia_EMA_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target       left                     weight       se       z
+  <chr>        <chr>                     <dbl>    <dbl>   <dbl>
+1 Wales_Viking Russia_EMA_Viking_OldRus      1 9.95e-14 1.00e13
+-----------------------------------------------------------------
+
+TARGET  : Sweden_LN_Viking 
+P-VALUE : 0.95774 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left  weight       se       z
+  <chr>            <chr>  <dbl>    <dbl>   <dbl>
+1 Sweden_LN_Viking Erzya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.95774 
+LEFT: Sweden_LN_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left             weight       se       z
+  <chr>  <chr>             <dbl>    <dbl>   <dbl>
+1 Erzya  Sweden_LN_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : England_Mesolithic 
+P-VALUE : 0.92192 
+LEFT: Denmark_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                weight       se       z
+  <chr>              <chr>                <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Denmark_EarlyViking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Denmark_EarlyViking 
+P-VALUE : 0.92192 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left               weight       se       z
+  <chr>               <chr>               <dbl>    <dbl>   <dbl>
+1 Denmark_EarlyViking England_Mesolithic      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.82182 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left   weight       se       z
+  <chr>                              <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Moksha      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.82182 
+LEFT: Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                               weight       se       z
+  <chr>  <chr>                               <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlyMedieval_Viking_OldRus      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.80160 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left               weight       se       z
+  <chr>                              <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus England_Mesolithic      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : England_Mesolithic 
+P-VALUE : 0.80160 
+LEFT: Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                               weight       se       z
+  <chr>              <chr>                               <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_EarlyMedieval_Viking_OldRus      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Samara_LBA_Srubnaya 
+P-VALUE : 0.75222 
+LEFT: Poland_EarlySlav 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left             weight       se       z
+  <chr>                      <chr>             <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Poland_EarlySlav      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_EarlySlav 
+P-VALUE : 0.75222 
+LEFT: Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                       weight       se       z
+  <chr>            <chr>                       <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Russia_Samara_LBA_Srubnaya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Samara_LBA_Srubnaya 
+P-VALUE : 0.74076 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left                        weight       se       z
+  <chr>                      <chr>                        <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Estonia_EarlyMedieval_Earl…      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.74076 
+LEFT: Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Russia_Samara_LBA_S…      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_Viking 
+P-VALUE : 0.71808 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                              weight       se       z
+  <chr>         <chr>                              <dbl>    <dbl>   <dbl>
+1 Sweden_Viking Estonia_EarlyMedieval_EarlyViking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.71808 
+LEFT: Sweden_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left          weight       se       z
+  <chr>                             <chr>          <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Sweden_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Ukraine_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.71199 
+LEFT: Russia_EarlyMedieval_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                              left               weight       se       z
+  <chr>                               <chr>               <dbl>    <dbl>   <dbl>
+1 Ukraine_EarlyMedieval_Viking_OldRus Russia_EarlyMedie…      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking 
+P-VALUE : 0.71199 
+LEFT: Ukraine_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                      left                       weight       se       z
+  <chr>                       <chr>                       <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking Ukraine_EarlyMedieval_Vik…      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.68990 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Moksha England_Mesolithic      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : England_Mesolithic 
+P-VALUE : 0.68990 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left   weight       se       z
+  <chr>              <chr>   <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Moksha      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.63406 
+LEFT: Wales_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left         weight       se       z
+  <chr>         <chr>         <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Wales_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Wales_Viking 
+P-VALUE : 0.63406 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target       left          weight       se       z
+  <chr>        <chr>          <dbl>    <dbl>   <dbl>
+1 Wales_Viking Seima_Turbino      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.58257 
+LEFT: Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                       weight       se       z
+  <chr>         <chr>                       <dbl>    <dbl>   <dbl>
+1 Poland_Viking Russia_Samara_LBA_Srubnaya      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Samara_LBA_Srubnaya 
+P-VALUE : 0.58257 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left          weight       se       z
+  <chr>                      <chr>          <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_EarlySlav 
+P-VALUE : 0.57954 
+LEFT: Sweden_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left          weight       se       z
+  <chr>            <chr>          <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Sweden_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_Viking 
+P-VALUE : 0.57954 
+LEFT: Poland_EarlySlav 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left             weight       se       z
+  <chr>         <chr>             <dbl>    <dbl>   <dbl>
+1 Sweden_Viking Poland_EarlySlav      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.55442 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left          weight       se       z
+  <chr>                             <chr>          <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.55442 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                              weight       se       z
+  <chr>         <chr>                              <dbl>    <dbl>   <dbl>
+1 Poland_Viking Estonia_EarlyMedieval_EarlyViking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Samara_LBA_Srubnaya 
+P-VALUE : 0.54907 
+LEFT: Sweden_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left          weight       se       z
+  <chr>                      <chr>          <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Sweden_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_Viking 
+P-VALUE : 0.54907 
+LEFT: Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                       weight       se       z
+  <chr>         <chr>                       <dbl>    <dbl>   <dbl>
+1 Sweden_Viking Russia_Samara_LBA_Srubnaya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.52949 
+LEFT: Poland_EarlySlav 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left             weight       se       z
+  <chr>         <chr>             <dbl>    <dbl>   <dbl>
+1 Poland_Viking Poland_EarlySlav      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_EarlySlav 
+P-VALUE : 0.52949 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left          weight       se       z
+  <chr>            <chr>          <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.52462 
+LEFT: Russia_EMA_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                     weight       se       z
+  <chr>         <chr>                     <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Russia_EMA_Viking_OldRus      1 9.95e-14 1.00e13
+-----------------------------------------------------------------
+
+TARGET  : Russia_EMA_Viking_OldRus 
+P-VALUE : 0.52462 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left          weight       se       z
+  <chr>                    <chr>          <dbl>    <dbl>   <dbl>
+1 Russia_EMA_Viking_OldRus Seima_Turbino      1 9.95e-14 1.00e13
+-----------------------------------------------------------------
+
+TARGET  : England_Mesolithic 
+P-VALUE : 0.50030 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left  weight       se       z
+  <chr>              <chr>  <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Erzya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.50030 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left               weight       se       z
+  <chr>  <chr>               <dbl>    <dbl>   <dbl>
+1 Erzya  England_Mesolithic      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.48985 
+LEFT: Denmark_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left                weight       se       z
+  <chr>                              <chr>                <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Denmark_EarlyViking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Denmark_EarlyViking 
+P-VALUE : 0.48985 
+LEFT: Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left                               weight       se       z
+  <chr>               <chr>                               <dbl>    <dbl>   <dbl>
+1 Denmark_EarlyViking Russia_EarlyMedieval_Viking_OldRus      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.40345 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left  weight       se       z
+  <chr>                             <chr>  <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Erzya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.40345 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                              weight       se       z
+  <chr>  <chr>                              <dbl>    <dbl>   <dbl>
+1 Erzya  Estonia_EarlyMedieval_EarlyViking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.38159 
+LEFT: Poland_EarlySlav 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left             weight       se       z
+  <chr>                             <chr>             <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Poland_EarlySlav      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_EarlySlav 
+P-VALUE : 0.38159 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                              weight       se       z
+  <chr>            <chr>                              <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Estonia_EarlyMedieval_EarlyViking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.37840 
+LEFT: Russia_Roman_RyazanOka 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left                weight       se       z
+  <chr>                              <chr>                <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Russia_Roman_Ryaza…      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Roman_RyazanOka 
+P-VALUE : 0.37840 
+LEFT: Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                 left                            weight       se       z
+  <chr>                  <chr>                            <dbl>    <dbl>   <dbl>
+1 Russia_Roman_RyazanOka Russia_EarlyMedieval_Viking_Ol…      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.30121 
+LEFT: Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Samara_LBA_Srubnaya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Samara_LBA_Srubnaya 
+P-VALUE : 0.30121 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left  weight       se       z
+  <chr>                      <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Erzya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_Viking 
+P-VALUE : 0.27031 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left          weight       se       z
+  <chr>         <chr>          <dbl>    <dbl>   <dbl>
+1 Sweden_Viking Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.27031 
+LEFT: Sweden_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left          weight       se       z
+  <chr>         <chr>          <dbl>    <dbl>   <dbl>
+1 Poland_Viking Sweden_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : England_Mesolithic 
+P-VALUE : 0.26450 
+LEFT: Russia_Roman_RyazanOka 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                   weight       se       z
+  <chr>              <chr>                   <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_Roman_RyazanOka      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Roman_RyazanOka 
+P-VALUE : 0.26450 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                 left               weight       se       z
+  <chr>                  <chr>               <dbl>    <dbl>   <dbl>
+1 Russia_Roman_RyazanOka England_Mesolithic      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.25981 
+LEFT: Denmark_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                weight       se       z
+  <chr>  <chr>                <dbl>    <dbl>   <dbl>
+1 Moksha Denmark_EarlyViking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Denmark_EarlyViking 
+P-VALUE : 0.25981 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left   weight       se       z
+  <chr>               <chr>   <dbl>    <dbl>   <dbl>
+1 Denmark_EarlyViking Moksha      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.24657 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left  weight       se       z
+  <chr>  <chr>  <dbl>    <dbl>   <dbl>
+1 Moksha Erzya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.24657 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left   weight       se       z
+  <chr>  <chr>   <dbl>    <dbl>   <dbl>
+1 Erzya  Moksha      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_LN_Viking 
+P-VALUE : 0.22012 
+LEFT: Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                       weight       se       z
+  <chr>            <chr>                       <dbl>    <dbl>   <dbl>
+1 Sweden_LN_Viking Russia_Samara_LBA_Srubnaya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Samara_LBA_Srubnaya 
+P-VALUE : 0.22012 
+LEFT: Sweden_LN_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left             weight       se       z
+  <chr>                      <chr>             <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Sweden_LN_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.20311 
+LEFT: Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                               weight       se       z
+  <chr>  <chr>                               <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_EarlyMedieval_Viking_OldRus      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.20311 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left  weight       se       z
+  <chr>                              <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Erzya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.19966 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left  weight       se       z
+  <chr>         <chr>  <dbl>    <dbl>   <dbl>
+1 Poland_Viking Erzya      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.19966 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left          weight       se       z
+  <chr>  <chr>          <dbl>    <dbl>   <dbl>
+1 Erzya  Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Roman_RyazanOka 
+P-VALUE : 0.19657 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                 left                            weight       se       z
+  <chr>                  <chr>                            <dbl>    <dbl>   <dbl>
+1 Russia_Roman_RyazanOka Estonia_EarlyMedieval_EarlyVik…      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.19657 
+LEFT: Russia_Roman_RyazanOka 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Russia_Roman_Ryazan…      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : England_Mesolithic 
+P-VALUE : 0.19114 
+LEFT: Sweden_LN_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Sweden_LN_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_LN_Viking 
+P-VALUE : 0.19114 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Sweden_LN_Viking England_Mesolithic      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.18821 
+LEFT: Sweden_LN_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left             weight       se       z
+  <chr>  <chr>             <dbl>    <dbl>   <dbl>
+1 Moksha Sweden_LN_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_LN_Viking 
+P-VALUE : 0.18821 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left   weight       se       z
+  <chr>            <chr>   <dbl>    <dbl>   <dbl>
+1 Sweden_LN_Viking Moksha      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.15113 
+LEFT: Russia_Roman_RyazanOka 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                   weight       se       z
+  <chr>         <chr>                   <dbl>    <dbl>   <dbl>
+1 Poland_Viking Russia_Roman_RyazanOka      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Roman_RyazanOka 
+P-VALUE : 0.15113 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                 left          weight       se       z
+  <chr>                  <chr>          <dbl>    <dbl>   <dbl>
+1 Russia_Roman_RyazanOka Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.14557 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left          weight       se       z
+  <chr>  <chr>          <dbl>    <dbl>   <dbl>
+1 Moksha Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.14557 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left   weight       se       z
+  <chr>         <chr>   <dbl>    <dbl>   <dbl>
+1 Poland_Viking Moksha      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_LN_Viking 
+P-VALUE : 0.14291 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                              weight       se       z
+  <chr>            <chr>                              <dbl>    <dbl>   <dbl>
+1 Sweden_LN_Viking Estonia_EarlyMedieval_EarlyViking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.14291 
+LEFT: Sweden_LN_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left             weight       se       z
+  <chr>                             <chr>             <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Sweden_LN_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_Viking 
+P-VALUE : 0.11152 
+LEFT: Russia_Roman_RyazanOka 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                   weight       se       z
+  <chr>         <chr>                   <dbl>    <dbl>   <dbl>
+1 Sweden_Viking Russia_Roman_RyazanOka      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Roman_RyazanOka 
+P-VALUE : 0.11152 
+LEFT: Sweden_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                 left          weight       se       z
+  <chr>                  <chr>          <dbl>    <dbl>   <dbl>
+1 Russia_Roman_RyazanOka Sweden_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.11107 
+LEFT: Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left                 weight       se       z
+  <chr>                             <chr>                 <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Russia_EarlyMedieva…      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.11107 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left                weight       se       z
+  <chr>                              <chr>                <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Estonia_EarlyMedie…      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.09971 
+LEFT: Denmark_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                weight       se       z
+  <chr>  <chr>                <dbl>    <dbl>   <dbl>
+1 Erzya  Denmark_EarlyViking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Denmark_EarlyViking 
+P-VALUE : 0.09971 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left  weight       se       z
+  <chr>               <chr>  <dbl>    <dbl>   <dbl>
+1 Denmark_EarlyViking Erzya      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.09960 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left               weight       se       z
+  <chr>                             <chr>               <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking England_Mesolithic      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : England_Mesolithic 
+P-VALUE : 0.09960 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                              weight       se       z
+  <chr>              <chr>                              <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Estonia_EarlyMedieval_EarlyViking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.09889 
+LEFT: Russia_Roman_RyazanOka 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                   weight       se       z
+  <chr>  <chr>                   <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Roman_RyazanOka      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Roman_RyazanOka 
+P-VALUE : 0.09889 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                 left  weight       se       z
+  <chr>                  <chr>  <dbl>    <dbl>   <dbl>
+1 Russia_Roman_RyazanOka Erzya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.09186 
+LEFT: Russia_Samara_LBA_Srubnaya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                       weight       se       z
+  <chr>  <chr>                       <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Samara_LBA_Srubnaya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Samara_LBA_Srubnaya 
+P-VALUE : 0.09186 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                     left   weight       se       z
+  <chr>                      <chr>   <dbl>    <dbl>   <dbl>
+1 Russia_Samara_LBA_Srubnaya Moksha      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.08818 
+LEFT: Sweden_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left          weight       se       z
+  <chr>  <chr>          <dbl>    <dbl>   <dbl>
+1 Erzya  Sweden_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_Viking 
+P-VALUE : 0.08818 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left  weight       se       z
+  <chr>         <chr>  <dbl>    <dbl>   <dbl>
+1 Sweden_Viking Erzya      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : England_Mesolithic 
+P-VALUE : 0.08177 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left          weight       se       z
+  <chr>              <chr>          <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.08177 
+LEFT: England_Mesolithic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left               weight       se       z
+  <chr>         <chr>               <dbl>    <dbl>   <dbl>
+1 Poland_Viking England_Mesolithic      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Estonia_EarlyMedieval_EarlyViking 
+P-VALUE : 0.08172 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                            left   weight       se       z
+  <chr>                             <chr>   <dbl>    <dbl>   <dbl>
+1 Estonia_EarlyMedieval_EarlyViking Moksha      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.08172 
+LEFT: Estonia_EarlyMedieval_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                              weight       se       z
+  <chr>  <chr>                              <dbl>    <dbl>   <dbl>
+1 Moksha Estonia_EarlyMedieval_EarlyViking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Roman_RyazanOka 
+P-VALUE : 0.07937 
+LEFT: Poland_EarlySlav 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                 left             weight       se       z
+  <chr>                  <chr>             <dbl>    <dbl>   <dbl>
+1 Russia_Roman_RyazanOka Poland_EarlySlav      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_EarlySlav 
+P-VALUE : 0.07937 
+LEFT: Russia_Roman_RyazanOka 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                   weight       se       z
+  <chr>            <chr>                   <dbl>    <dbl>   <dbl>
+1 Poland_EarlySlav Russia_Roman_RyazanOka      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.07460 
+LEFT: Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                               weight       se       z
+  <chr>         <chr>                               <dbl>    <dbl>   <dbl>
+1 Poland_Viking Russia_EarlyMedieval_Viking_OldRus      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.07460 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left          weight       se       z
+  <chr>                              <chr>          <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_EarlyMedieval_Viking_OldRus 
+P-VALUE : 0.06074 
+LEFT: Sweden_LN_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                             left             weight       se       z
+  <chr>                              <chr>             <dbl>    <dbl>   <dbl>
+1 Russia_EarlyMedieval_Viking_OldRus Sweden_LN_Viking      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_LN_Viking 
+P-VALUE : 0.06074 
+LEFT: Russia_EarlyMedieval_Viking_OldRus 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                               weight       se       z
+  <chr>            <chr>                               <dbl>    <dbl>   <dbl>
+1 Sweden_LN_Viking Russia_EarlyMedieval_Viking_OldRus      1 2.70e-13 3.70e12
+-----------------------------------------------------------------
+
+TARGET  : Sweden_LN_Viking 
+P-VALUE : 0.06067 
+LEFT: Poland_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left          weight       se       z
+  <chr>            <chr>          <dbl>    <dbl>   <dbl>
+1 Sweden_LN_Viking Poland_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Poland_Viking 
+P-VALUE : 0.06067 
+LEFT: Sweden_LN_Viking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left             weight       se       z
+  <chr>         <chr>             <dbl>    <dbl>   <dbl>
+1 Poland_Viking Sweden_LN_Viking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Denmark_EarlyViking 
+P-VALUE : 0.05511 
+LEFT: Russia_Roman_RyazanOka 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target              left                   weight       se       z
+  <chr>               <chr>                   <dbl>    <dbl>   <dbl>
+1 Denmark_EarlyViking Russia_Roman_RyazanOka      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
+
+TARGET  : Russia_Roman_RyazanOka 
+P-VALUE : 0.05511 
+LEFT: Denmark_EarlyViking 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                 left                weight       se       z
+  <chr>                  <chr>                <dbl>    <dbl>   <dbl>
+1 Russia_Roman_RyazanOka Denmark_EarlyViking      1 1.63e-13 6.12e12
+-----------------------------------------------------------------
