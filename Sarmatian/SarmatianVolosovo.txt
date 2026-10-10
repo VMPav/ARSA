@@ -1,0 +1,170 @@
+
+calBCE (calibrated Before the Common Era) в археологии означает калиброванные годы до нашей эры. 
+
+5500-3600 BCE	..	Russia_Ivanovo_Eneolithic_Volosovo_Lyalovo	
+
+"Lopatino (Samara Oblast, Krasnoyarsky District, Lopatino Village)"	Russia	53.639689	50.664314	Native Pulldown on 3.2M snpset	AG.TW	"1240k,Twist1.4M"	3	1.72360923	0.14003537	1387608	885618	460340	906521	218946	M	..	0	0	R-KMS67	R1b1a1b1b3	..	1790.696	I3a	"[0.981,0.995]"	0.043	0.352	"[0,0.005]"	"[0,0.003]"	"ds.half,ds.half,ds.half"	"S10714.E1.L1,S10714.E1.L3,S10714.E1.L2"	"0.167,0.103,0.104"	Pass	..
+
+I12498.TW	45264	I12498	"grave 56 (level IIa),  ВВАЗ 91;Сахтыш II-a; kб. 147-150,гр. 0-20;погр. 
+N 56 (MOS247, 658)"	petrous (cochlea)	LazaridisReichNature2025	LazaridisReichNature2025	
+https://doi.org/10.1038/s41586-024-08531-5	ENA:PRJEB81467	
+"Context: Date(s) from same site (I12962, I8404, I8409, I8417, I8416, I8410)"	6500	548	
+5500-3600 BCE	..	Russia_Ivanovo_Eneolithic_Volosovo_Lyalovo	
+"Sakhtysh-2a (Ivanovo Oblast, Teykovsky District, Sakhtysh Village)"	
+Russia	56.784	40.44866	Native Pulldown on 3.2M snpset	TW	
+"1240k,Twist1.4M"	3	3.10212499	0.12383448	1308069	840937	456251	847643	217103	M	..	
+0	0	R-Y13200	R1b1a1a	..	366.962	U5a2b2	"[0.973,0.995]"	0.107	0.388	
+"[0.006,0.013]"	"[0.007,0.012]"	"ds.half,ds.half,ds.half"	"S12498.Y1.E1.L1,S12498.Y1.E2.L1,S12498.Y1.E3.L1"	
+"0.069,0.043,0.056"	Pass	"ANGSD=[0.005,0.009], hapConX=[0.007,0.012]"
+
+I12498.AG.TW	45265	I12498	"grave 56 (level IIa),  ВВАЗ 91;Сахтыш II-a; kб. 147-150,гр. 0-20;погр. 
+N 56 (MOS247, 658)"	petrous (cochlea)	LazaridisReichNature2025	LazaridisReichNature2025	
+https://doi.org/10.1038/s41586-024-08531-5	ENA:PRJEB81467	"Context: Date(s) from same site 
+(I12962, I8404, I8409, I8417, I8416, I8410)"	6500	548	
+5500-3600 BCE	..	Russia_Ivanovo_Eneolithic_Volosovo_Lyalovo	
+"Sakhtysh-2a (Ivanovo Oblast, Teykovsky District, Sakhtysh Village)"	Russia	56.784	40.44866	
+Native Pulldown on 3.2M snpset	AG.TW	"1240k,Twist1.4M"	3	3.10212499	0.12383448	1444396	912647	
+491442	939086	233853	M	..	0	0	R-Y13200	R1b1a1a	..	366.962	U5a2b2	"[0.973,0.995]"	0.107	0.388	
+"[0.006,0.013]"	"[0.007,0.012]"	"ds.half,ds.half,ds.half"	"S12498.Y1.E1.L1,S12498.Y1.E2.L1,S12498.Y1.E3.L1"	
+"0.069,0.043,0.056"	Pass	"ANGSD=[0.005,0.009], hapConX=[0.007,0.012]"
+
+
+f2_dir <- "D:/Arsa_Final_F2_BlocksVolosovo"
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Erzya"
+# A tibble: 1 × 5
+  target left        weight       se       z
+  <chr>  <chr>        <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Alan      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Alan feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>       <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  4.60 0.331      0           1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.331
+
+[1] "Итоговые веса="
+[1] "Moksha"
+# A tibble: 1 × 5
+  target left        weight       se       z
+  <chr>  <chr>        <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Alan      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Alan feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>       <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  5.59 0.232      0           1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.232
+
+[1] "Итоговые веса="
+[1] "Erzya"
+# A tibble: 1 × 5
+  target left                  weight       se       z
+  <chr>  <chr>                  <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_EarlySarmatian      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_EarlySarmatian feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                 <dbl> <lgl>    <lgl>
+1 0         0     4  3.06 0.548      0                     1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.548
+> 
+[1] "Итоговые веса="
+[1] "Moksha"
+# A tibble: 1 × 5
+  target left                  weight       se       z
+  <chr>  <chr>                  <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlySarmatian      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_EarlySarmatian feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                 <dbl> <lgl>    <lgl>
+1 0         0     4  1.45 0.835      0                     1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.835
+> 
+
+[1] "Итоговые веса="
+[1] "England_Mesolithic"
+# A tibble: 1 × 5
+  target             left                               weight       se       z
+  <chr>              <chr>                               <dbl>    <dbl>   <dbl>
+1 England_Mesolithic Russia_Ivanovo_Eneolithic_Volosovo      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "England_Mesolithic"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Ivanovo_Eneolithi…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                      <dbl> <lgl>    <lgl>
+1 0         0     4  4.44 0.350      0                          1 TRUE     NA   
+# ℹ abbreviated name: ¹​Russia_Ivanovo_Eneolithic_Volosovo
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.350
+
+[1] "Итоговые веса="
+[1] "Moksha"
+# A tibble: 1 × 5
+  target left                               weight       se       z
+  <chr>  <chr>                               <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Ivanovo_Eneolithic_Volosovo      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Ivanovo_Eneolithi…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                      <dbl> <lgl>    <lgl>
+1 0         0     4  2.87 0.581      0                          1 TRUE     NA   
+# ℹ abbreviated name: ¹​Russia_Ivanovo_Eneolithic_Volosovo
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.581
+
+[1] "Erzya"
+# A tibble: 1 × 5
+  target left                               weight       se       z
+  <chr>  <chr>                               <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Ivanovo_Eneolithic_Volosovo      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Ivanovo_Eneolithi…¹ feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                      <dbl> <lgl>    <lgl>
+1 0         0     4  5.98 0.201      0                          1 TRUE     NA   
+# ℹ abbreviated name: ¹​Russia_Ivanovo_Eneolithic_Volosovo
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.201
+

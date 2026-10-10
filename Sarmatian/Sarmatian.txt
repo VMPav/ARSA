@@ -90,3 +90,86 @@ Russia_Ekazhevo_IA_Alan  = Ukraine_Liubivka_Classical_Sarmatian (p=0.85582)
       p
   <dbl>
 1 0.841
+
+
+f2_dir <- "D:/Arsa_Final_F2_BlocksVolosovo"
+
+ℹ Computing number of admixture waves...
+[1] "Итоговые веса="
+[1] "Erzya"
+# A tibble: 1 × 5
+  target left        weight       se       z
+  <chr>  <chr>        <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_Alan      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Alan feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>       <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  4.60 0.331      0           1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.331
+
+[1] "Итоговые веса="
+[1] "Moksha"
+# A tibble: 1 × 5
+  target left        weight       se       z
+  <chr>  <chr>        <dbl>    <dbl>   <dbl>
+1 Moksha Russia_Alan      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_Alan feasible best  dofdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>       <dbl> <lgl>    <lgl>   <dbl>
+1 0         0     4  5.59 0.232      0           1 TRUE     NA         NA
+# ℹ 2 more variables: chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.232
+
+[1] "Итоговые веса="
+[1] "Erzya"
+# A tibble: 1 × 5
+  target left                  weight       se       z
+  <chr>  <chr>                  <dbl>    <dbl>   <dbl>
+1 Erzya  Russia_EarlySarmatian      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_EarlySarmatian feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                 <dbl> <lgl>    <lgl>
+1 0         0     4  3.06 0.548      0                     1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.548
+> 
+[1] "Итоговые веса="
+[1] "Moksha"
+# A tibble: 1 × 5
+  target left                  weight       se       z
+  <chr>  <chr>                  <dbl>    <dbl>   <dbl>
+1 Moksha Russia_EarlySarmatian      1 1.42e-13 7.03e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Russia_EarlySarmatian feasible best 
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>                 <dbl> <lgl>    <lgl>
+1 0         0     4  1.45 0.835      0                     1 TRUE     NA   
+# ℹ 3 more variables: dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.835
+> 
+
+
