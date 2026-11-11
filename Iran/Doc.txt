@@ -1,0 +1,97 @@
+
+
+"6065-5889 calBCE (7100±45 BP, PSUAMS-2151)"	..	
+Iran_HajjiFiruz_N	"Hajji Firuz (West Azerbaijan Province, Naqadeh County)"	Iran	
+
+"1919-1747 calBCE (3510±25 BP, PSUAMS-2985)"	..	Iran_DinkhaTepe_BA_IA1-1	
+"Dinkha Tepe (West Azerbaijan, Ashnavieh)"	Iran
+
+"1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"	..	Iran_DinkhaTepe_BA_IA2-2	
+"Dinkha Tepe (West Azerbaijan, Ashnavieh)"	Iran	
+
+"2196-2029 calBCE (3705±20 BP, PSUAMS-2771)"	..	Iran_Hasanlu_MBA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	Native Pulldown on 3.2M snpset	AG	1240k
+
+"1496-1323 calBCE (3150±20 BP, PSUAMS-3118)"	..	Iran_Hasanlu_LBA-2	
+"Hasanlu (West Azerbaijan Province, Naqadeh County)"
+
+"1111-931 calBCE (2855±20 BP, PSUAMS-2773)"	..	Iran_Hasanlu_IA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	Native Pulldown on 3.2M snpset	AG	1240k
+
+"1046-900 calBCE (2810±25 BP, PSUAMS-2150)"	..	Iran_Hasanlu_IA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	
+
+"761-479 calBCE (2470±20 BP, PSUAMS-2984)"	..	Iran_Hasanlu_IA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)" Iran
+
+
+
+
+"1613-1508 calBCE (3290±20 BP, PSUAMS-2258)"	..	Croatia_MBA	"Veliki-Vanik (Split-Dalmatia County, Grad Vrgorac)"	
+Croatia	43.194	17.344	Native 1Pulldown on 3.2M snpset	AG	1240k	1	3.52339352	0.06843354	1132848	743229	395859
+	719452	185192	F	..	0	0	n/a (female)	n/a (female)	n/a (female)	677	W3a1	"[0.994,0.999]"	0.124	
+    0.013	n/a (female)	n/a (female)	ds.half	S4332.E1.L2	0.633	Pass	..
+
+I4338.AG	812	I4338	65-31-768 (Box 60)	petrous (cochlea)	LazaridisReichScience2022	LazaridisReichScience2022	
+https://doi.org/10.1126/science.abm4247	ENA:PRJEB54831	Direct: IntCal20	2582	83	
+"761-479 calBCE (2470±20 BP, PSUAMS-2984)"	..	Iran_Hasanlu_IA	"Hasanlu (West Azerbaijan Province, Naqadeh County)"
+	Iran	37.004949	45.459021	Native Pulldown on 3.2M snpset	AG	1240k	1	3.12644887	0.08011283	1117326	729759	389703	709278	182425	F	..	0	0	n/a (female)	n/a (female)	n/a (female)	440	T2d2	"[0.985,0.995]"	0.198	0.011	n/a (female)	n/a (female)	ds.minus	S4338.E1.L1	0.66	Pass	..
+I4098.AG	813	I4098	65-31-758 (Box 56) (65-31-758)	petrous (cochlea)	LazaridisReichScience2022	LazaridisReichScience2022	https://doi.org/10.1126/science.abm4247	ENA:PRJEB54831	Direct: IntCal20	3378	32	
+
+"1496-1323 calBCE (3150±20 BP, PSUAMS-3118)"	..	Iran_Hasanlu_LBA-2	
+"Hasanlu (West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	
+Native Pulldown on 3.2M snpset	AG	1240k	1	1.24992982	0.02774614	836930	565643	299652	524452	138861
+	F	..	0	0	n/a (female)	n/a (female)	n/a (female)	157	W6	"[0.978,0.990]"	0.264	0.014	n/a (female)
+    	n/a (female)	ds.minus	S4339.E1.L1	..	Pass	..
+I4340.AG	814	I4340	66-23-400 (Box 99)	petrous (cochlea)	LazaridisReichScience2022	LazaridisReichScience2022	
+https://doi.org/10.1126/science.abm4247	ENA:PRJEB54831	Direct: IntCal20	3291	39	
+
+"1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"	..	Iran_DinkhaTepe_BA_IA2-2	
+"Dinkha Tepe (West Azerbaijan, Ashnavieh)"	Iran	
+
+37.00786335	45.16575874	Native Pulldown on 3.2M snpset	AG	1240k	1	2.68377658	0.06241765	1032962	679928	363391	
+651641	169237	F	..	0	0	n/a (female)	n/a (female)	n/a (female)	380	T2c1c	"[0.984,0.995]"	0.277	0.012
+	n/a (female)	n/a (female)	ds.minus	S4340.E1.L1	0.41	Pass	..
+I4341.AG	815	I4341	69-33-2 (Box 108)	petrous (cochlea)	LazaridisReichScience2022	LazaridisReichScience2022	
+https://doi.org/10.1126/science.abm4247	ENA:PRJEB54831	Direct: IntCal20	3775	44	
+
+"1919-1747 calBCE (3510±25 BP, PSUAMS-2985)"	..	Iran_DinkhaTepe_BA_IA1-1	
+"Dinkha Tepe (West Azerbaijan, Ashnavieh)"	Iran	37.00786335	45.16575874	Native Pulldown on 3.2M snpset	AG	1240k
+	1	3.61326533	0.06526524	1107209	725490	387963	701199	181330	F	..	0	0	n/a (female)	
+    n/a (female)	n/a (female)	424	U2e2	"[0.976,0.988]"	0.216	0.015	n/a (female)	n/a (female)
+    	ds.minus	S4341.E1.L1	0.54	Pass	..
+I4351.AG	816	I4351	F11 B3 1	petrous (cochlea)	NarasimhanReichScience2019	NarasimhanReichScience2019
+https://doi.org/10.1126/science.aat7487	ENA:PRJEB32466	Direct: IntCal20	7920	48	
+
+"6065-5889 calBCE (7100±45 BP, PSUAMS-2151)"	..	
+Iran_HajjiFiruz_N	"Hajji Firuz (West Azerbaijan Province, Naqadeh County)"	Iran	
+
+36.9944	45.4744	Native Pulldown on 3.2M snpset	AG	1240k	1	3.16217076	0.03721826	1102252	730796	389823	696842
+	181780	F	2.5d:I4351:I4349,2.5d:I2323:I4351	0	0	n/a (female)	n/a (female)	n/a (female)	169	HV
+    	"[0.978,0.995]"	0.273	0.013	n/a (female)	n/a (female)	ds.minus	S4351.E1.L1	0.113	Pass	..
+
+I4353.AG	817	I4353	60-20-232	petrous (cochlea)	LazaridisReichScience2022	LazaridisReichScience2022	
+https://doi.org/10.1126/science.abm4247	ENA:PRJEB54831	Direct: IntCal20	2911	36	
+
+"1046-900 calBCE (2810±25 BP, PSUAMS-2150)"	..	Iran_Hasanlu_IA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	
+
+Native Pulldown on 3.2M snpset	AG	1240k	1	4.13814498	0.06684393	1154124	752039	403308	733065	188822	M	..	0	0	J-Y286618	J2a1a1b1a1a	..	296	HV1a'b'c	"[0.980,0.995]"	0.141	0.424	"[0.009,0.017]"	"[0.006,0.01]"	ds.minus	S4353.E1.L1	0.685	Pass	"ANGSD=[0.009,0.017], hapConX=[0.006,0.01]"
+I4354.AG	818	I4354	65-31-756	petrous (cochlea)	LazaridisReichScience2022	LazaridisReichScience2022	
+https://doi.org/10.1126/science.abm4247	ENA:PRJEB54831	Direct: IntCal20	4042	43	
+
+"2196-2029 calBCE (3705±20 BP, PSUAMS-2771)"	..	Iran_Hasanlu_MBA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	Native Pulldown on 3.2M snpset	AG	1240k
+
+	1	2.00519711	0.03073671	980965	660940	350747	617580	163071	M	..	0	0	J-CTS1460	J1a2b1b2~	..	135	J2a2	"[0.985,0.996]"	0.328	0.428	"[0.004,0.016]"	"[0.01,0.018]"	ds.minus	S4354.E1.L1	0.209	Questionable	..
+I4356.AG	819	I4356	65-31-765	petrous (cochlea)	LazaridisReichScience2022	LazaridisReichScience2022	
+https://doi.org/10.1126/science.abm4247	ENA:PRJEB54831	Direct: IntCal20	2967	44	
+
+"1111-931 calBCE (2855±20 BP, PSUAMS-2773)"	..	Iran_Hasanlu_IA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	Native Pulldown on 3.2M snpset	AG	1240k
+
+	1	4.30149161	0.06903622	1160127	752421	404385	737510	189569	M	..	0	0	R-Y4362	R1b1a1b1b	..	421	U3b3
+    	"[0.980,0.994]"	0.16	0.425	"[0.004,0.011]"	"[0.005,0.009]"	ds.minus	S4356.E1.L1	0.711	Pass	..
+I4419.AG	823	I4419	Burial 1 (BB1)	petrous (cochlea)	LipsonReichCurrBiol2018	LipsonReichCurrBiol2018	
+
+https://doi.org/10.1016/j.cub.2018.02.051	ENA:PRJEB24

@@ -1,0 +1,1315 @@
+
+
+[1] "Итоговые веса="
+[1] "Pakistan_Historic_H"
+# A tibble: 1 × 5
+  target              left   weight       se       z
+  <chr>               <chr>   <dbl>    <dbl>   <dbl>
+1 Pakistan_Historic_H Moksha      1 2.99e-13 3.35e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Pakistan_Historic_H"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  2.01 0.735      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.735
+
+[1] "Итоговые веса="
+[1] "Pakistan_Historic_H"
+# A tibble: 1 × 5
+  target              left  weight       se       z
+  <chr>               <chr>  <dbl>    <dbl>   <dbl>
+1 Pakistan_Historic_H Erzya      1 2.99e-13 3.35e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Pakistan_Historic_H"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  4.77 0.312      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.312
+
+[1] "Итоговые веса="
+[1] "Pakistan_Historic"
+# A tibble: 1 × 5
+  target            left  weight       se       z
+  <chr>             <chr>  <dbl>    <dbl>   <dbl>
+1 Pakistan_Historic Erzya      1 2.99e-13 3.35e12
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Pakistan_Historic"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  7.16 0.128      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.128
+
+[1] "Итоговые веса="
+[1] "Erzya"
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic  0.727 0.0866  8.40
+2 Erzya  Sindhi_Pakistan-o  0.273 0.0866  3.15
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Erzya"
+# A tibble: 3 × 13
+  pat      wt   dof  chisq        p f4rank Pakistan_Historic `Sindhi_Pakistan-o`
+  <chr> <dbl> <dbl>  <dbl>    <dbl>  <dbl>             <dbl>               <dbl>
+1 00        0     3  0.424 0.935         1             0.727               0.273
+2 01        1     4  9.06  0.0597        0             1                  NA    
+3 10        1     4 20.0   0.000494      0            NA                   1    
+# ℹ 5 more variables: feasible <lgl>, best <lgl>, dofdiff <dbl>,
+#   chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.935
+
+[1] "Итоговые веса="
+[1] "Moksha"
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic_H       0.834 0.0964  8.65
+2 Moksha Pakistan_EarlyHistoric_H  0.166 0.0964  1.72
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Moksha"
+# A tibble: 3 × 13
+  pat      wt   dof  chisq          p f4rank Pakistan_Historic_H
+  <chr> <dbl> <dbl>  <dbl>      <dbl>  <dbl>               <dbl>
+1 00        0     3  0.221 0.974           1               0.834
+2 01        1     4  2.19  0.700           0               1    
+3 10        1     4 31.1   0.00000289      0              NA    
+# ℹ 6 more variables: Pakistan_EarlyHistoric_H <dbl>, feasible <lgl>,
+#   best <lgl>, dofdiff <dbl>, chisqdiff <dbl>, p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.974
+
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = 
+Pakistan_Historic weight1=0.727, Sindhi_Pakistan-o weight2=0.273 (p=0.93522), 
+Pakistan_IA weight1=0.765, Pakistan_Medieval_Ghaznavid weight2=0.235 (p=0.89606), 
+Pakistan_IA weight1=0.776, Pakistan_EarlyHistoric_H weight2=0.224 (p=0.71130), 
+Pakistan_Historic weight1=0.730, Pakistan_IA-o weight2=0.270 (p=0.68523), 
+Pakistan_IA weight1=0.881, Pakistan_ProtohistoricGraves weight2=0.119 (p=0.65691), 
+Iran_TepeHissar_C weight1=0.699, Sindhi_Pakistan-o weight2=0.301 (p=0.64947), 
+Pakistan_Historic weight1=0.591, Pakistan_Medieval weight2=0.409 (p=0.64036), 
+Pakistan_IA weight1=0.745, Pakistan_IA-o weight2=0.255 (p=0.62090), 
+Pakistan_Historic weight1=0.810, Pakistan_LBA weight2=0.190 (p=0.61588), 
+Iran_TepeHissar_C weight1=0.685, Pakistan_IA-o weight2=0.315 (p=0.60838), 
+Iran_TepeHissar_C weight1=0.715, Pakistan_Medieval_Ghaznavid weight2=0.285 (p=0.59935), 
+Pakistan_IA weight1=0.864, Pakistan_Historic-2 weight2=0.136 (p=0.59668), 
+Pakistan_Historic weight1=0.856, Pakistan_Historic-2 weight2=0.144 (p=0.53139), 
+Pakistan_IA weight1=0.612, Pakistan_Medieval weight2=0.388 (p=0.48253), 
+Pakistan_Historic weight1=0.765, Pakistan_Medieval_Ghaznavid weight2=0.235 (p=0.47520), 
+Pakistan_Historic weight1=0.878, Seima_Turbino weight2=0.122 (p=0.47071), 
+Pakistan_IA weight1=0.889, Seima_Turbino weight2=0.111 (p=0.42538), 
+Iran_TepeHissar_C weight1=0.827, Pakistan_Historic-2 weight2=0.173 (p=0.41809), 
+Pakistan_IA weight1=0.882, Pakistan_Medieval-2 weight2=0.118 (p=0.40977), 
+Pakistan_IA weight1=0.768, Sindhi_Pakistan-o weight2=0.232 (p=0.40965), 
+Iran_TepeHissar_C weight1=0.780, Pakistan_LBA weight2=0.220 (p=0.40462), 
+Pakistan_Historic_H weight1=0.819, Pakistan_Medieval_Ghaznavid weight2=0.181 (p=0.40326), 
+Iran_TepeHissar_C weight1=0.539, Pakistan_Medieval weight2=0.461 (p=0.39836), 
+Pakistan_Historic weight1=0.790, Pakistan_EarlyHistoric_H weight2=0.210 (p=0.39646), 
+Pakistan_Historic weight1=0.883, Pakistan_ProtohistoricGraves weight2=0.117 (p=0.39347), 
+Pakistan_IA weight1=0.833, Pakistan_LBA weight2=0.167 (p=0.36868), 
+Iran_TepeHissar_C weight1=0.732, Pakistan_EarlyHistoric_H weight2=0.268 (p=0.35702), 
+Iran_TepeHissar_C weight1=0.854, Pakistan_ProtohistoricGraves weight2=0.146 (p=0.34320), 
+Pakistan_Historic weight1=0.882, Pakistan_Medieval-2 weight2=0.118 (p=0.33673), 
+Pakistan_Historic_H weight1=0.569, Pakistan_Historic weight2=0.431 (p=0.33666), 
+Pakistan_Historic_H (p=0.31208), 
+Pakistan_Historic_H weight1=0.853, Pakistan_EarlyHistoric_H weight2=0.147 (p=0.29152), 
+Iran_TepeHissar_C weight1=0.860, Seima_Turbino weight2=0.140 (p=0.27999), 
+Pakistan_Historic_H weight1=0.943, Pakistan_ProtohistoricGraves weight2=0.057 (p=0.25484), 
+Pakistan_Historic_H weight1=0.680, Pakistan_Medieval weight2=0.320 (p=0.24097), 
+Pakistan_Historic_H weight1=0.874, Pakistan_IA-o weight2=0.126 (p=0.23808), 
+Pakistan_Historic_H weight1=0.942, Pakistan_Historic-2 weight2=0.058 (p=0.23592), 
+Moksha weight1=0.592, Pakistan_Historic weight2=0.408 (p=0.23296), 
+Pakistan_Historic_H weight1=0.972, Pakistan_Medieval-2 weight2=0.028 (p=0.20753), 
+Pakistan_Historic_H weight1=0.981, Seima_Turbino weight2=0.019 (p=0.20561), 
+Pakistan_Historic_H weight1=0.944, Sindhi_Pakistan-o weight2=0.056 (p=0.20216), 
+Pakistan_Historic_H weight1=0.980, Pakistan_LBA weight2=0.020 (p=0.20058), 
+Iran_TepeHissar_C weight1=0.857, Pakistan_Medieval-2 weight2=0.143 (p=0.19364), 
+Moksha (p=0.19203), Moksha weight1=0.709, Pakistan_IA weight2=0.291 (p=0.13607), 
+Moksha weight1=0.824, Iran_TepeHissar_C weight2=0.176 (p=0.12999), 
+Pakistan_Historic (p=0.12775), 
+Moksha weight1=0.968, Pakistan_Medieval_Ghaznavid weight2=0.032 (p=0.12274), 
+Pakistan_Historic weight1=0.978, Pakistan_IA weight2=0.022 (p=0.06823), 
+Pakistan_IA (p=0.06272), Pakistan_Medieval (p=0.05872) 
+-----------------------------------------------------------------
+Moksha  = 
+Pakistan_Historic_H weight1=0.834, Pakistan_EarlyHistoric_H weight2=0.166 (p=0.97416), 
+Pakistan_Historic_H weight1=0.918, Pakistan_ProtohistoricGraves weight2=0.082 (p=0.94408), 
+Pakistan_Historic_H weight1=0.912, Pakistan_Medieval-2 weight2=0.088 (p=0.94033), 
+Pakistan_Historic_H weight1=0.849, Pakistan_Medieval_Ghaznavid weight2=0.151 (p=0.93341), 
+Pakistan_Historic_H weight1=0.811, Pakistan_IA-o weight2=0.189 (p=0.92709), 
+Pakistan_Historic_H weight1=0.901, Pakistan_Historic-2 weight2=0.099 (p=0.92171), 
+Pakistan_Historic_H weight1=0.921, Seima_Turbino weight2=0.079 (p=0.89975), 
+Pakistan_Historic_H weight1=0.875, Pakistan_LBA weight2=0.125 (p=0.89575), 
+Iran_TepeHissar_C weight1=0.729, Pakistan_LBA weight2=0.271 (p=0.89113), 
+Pakistan_IA weight1=0.846, Pakistan_Medieval-2 weight2=0.154 (p=0.83421), 
+Pakistan_IA weight1=0.777, Pakistan_LBA weight2=0.223 (p=0.78463), 
+Pakistan_IA weight1=0.857, Seima_Turbino weight2=0.143 (p=0.75309), 
+Pakistan_Historic_H weight1=0.836, Sindhi_Pakistan-o weight2=0.164 (p=0.74205), 
+Pakistan_Historic_H (p=0.73461), 
+Pakistan_Historic_H weight1=0.739, Pakistan_Medieval weight2=0.261 (p=0.71001), 
+Iran_TepeHissar_C weight1=0.632, Pakistan_IA-o weight2=0.368 (p=0.65997), 
+Pakistan_IA weight1=0.692, Pakistan_IA-o weight2=0.308 (p=0.65055), 
+Iran_TepeHissar_C weight1=0.619, Sindhi_Pakistan-o weight2=0.381 (p=0.64364), 
+Pakistan_IA weight1=0.834, Pakistan_Historic-2 weight2=0.166 (p=0.64172), 
+Pakistan_Historic_H weight1=0.999, Erzya weight2=0.001 (p=0.57797), 
+Pakistan_IA weight1=0.731, Pakistan_EarlyHistoric_H weight2=0.269 (p=0.54030), 
+Pakistan_IA weight1=0.864, Pakistan_ProtohistoricGraves weight2=0.136 (p=0.53255), 
+Iran_TepeHissar_C weight1=0.823, Seima_Turbino weight2=0.177 (p=0.52691), 
+Pakistan_Historic weight1=0.610, Sindhi_Pakistan-o weight2=0.390 (p=0.47040), 
+Pakistan_Historic weight1=0.739, Pakistan_LBA weight2=0.261 (p=0.46580), 
+Iran_TepeHissar_C weight1=0.799, Pakistan_Historic-2 weight2=0.201 (p=0.41290), 
+Pakistan_IA weight1=0.519, Pakistan_Medieval weight2=0.481 (p=0.36520), 
+Pakistan_IA weight1=0.666, Sindhi_Pakistan-o weight2=0.334 (p=0.34841), 
+Iran_TepeHissar_C weight1=0.818, Pakistan_Medieval-2 weight2=0.182 (p=0.34436), 
+Pakistan_IA weight1=0.747, Pakistan_Medieval_Ghaznavid weight2=0.253 (p=0.30422), 
+Pakistan_Medieval weight1=0.554, Iran_TepeHissar_C weight2=0.446 (p=0.29093), 
+Pakistan_Historic weight1=0.632, Pakistan_IA-o weight2=0.368 (p=0.28661), 
+Pakistan_Medieval weight1=0.553, Pakistan_Historic weight2=0.447 (p=0.25769), 
+Iran_TepeHissar_C weight1=0.686, Pakistan_EarlyHistoric_H weight2=0.314 (p=0.22217), 
+Iran_TepeHissar_C weight1=0.835, Pakistan_ProtohistoricGraves weight2=0.165 (p=0.22083), 
+Pakistan_Historic weight1=0.835, Seima_Turbino weight2=0.165 (p=0.19404), 
+Erzya (p=0.19203), 
+Iran_TepeHissar_C weight1=0.694, Pakistan_Medieval_Ghaznavid weight2=0.306 (p=0.17118), 
+Erzya weight1=0.918, Pakistan_LBA weight2=0.082 (p=0.16787), 
+Erzya weight1=0.954, Pakistan_Medieval-2 weight2=0.046 (p=0.15635), 
+Pakistan_Historic weight1=0.816, Pakistan_Historic-2 weight2=0.184 (p=0.15009), 
+Erzya weight1=0.963, Seima_Turbino weight2=0.037 (p=0.14733), 
+Erzya weight1=0.972, Pakistan_Historic-2 weight2=0.028 (p=0.13568), 
+Erzya weight1=0.922, Pakistan_IA-o weight2=0.078 (p=0.12949), 
+Erzya weight1=0.984, Pakistan_ProtohistoricGraves weight2=0.016 (p=0.12791), 
+Erzya weight1=0.952, Pakistan_EarlyHistoric_H weight2=0.048 (p=0.12464), 
+Pakistan_Historic weight1=0.832, Pakistan_Medieval-2 weight2=0.168 (p=0.12304), 
+Erzya weight1=0.948, Sindhi_Pakistan-o weight2=0.052 (p=0.12276), 
+Erzya weight1=0.947, Pakistan_Medieval weight2=0.053 (p=0.11704), 
+Pakistan_Medieval (p=0.08454), Pakistan_Historic weight1=0.716, 
+Pakistan_EarlyHistoric_H weight2=0.284 (p=0.07151), 
+Pakistan_Historic weight1=0.857, Pakistan_ProtohistoricGraves weight2=0.143 (p=0.05358) 
+-----------------------------------------------------------------
+Seima_Turbino  = 
+Pakistan_Medieval-2 (p=0.80117), 
+Pakistan_Historic-2 (p=0.73729), 
+Pakistan_Medieval-2 weight1=0.600, Pakistan_Historic-2 weight2=0.400 (p=0.67247), 
+Pakistan_Medieval-2 weight1=0.994, Sindhi_Pakistan-o weight2=0.006 (p=0.64899), 
+Pakistan_Medieval-2 weight1=0.949, Pakistan_ProtohistoricGraves weight2=0.051 (p=0.62984), 
+Pakistan_ProtohistoricGraves (p=0.62278), 
+Pakistan_ProtohistoricGraves weight1=0.834, Pakistan_LBA weight2=0.166 (p=0.51785), 
+Pakistan_ProtohistoricGraves weight1=0.926, Sindhi_Pakistan-o weight2=0.074 (p=0.47883), 
+Pakistan_ProtohistoricGraves weight1=0.968, Pakistan_Historic_H weight2=0.032 (p=0.46382), 
+Pakistan_ProtohistoricGraves weight1=0.971, Moksha weight2=0.029 (p=0.46143), 
+Pakistan_ProtohistoricGraves weight1=0.972, Pakistan_Medieval weight2=0.028 (p=0.46109), 
+Pakistan_ProtohistoricGraves weight1=0.965, Pakistan_IA-o weight2=0.035 (p=0.45892), 
+Pakistan_ProtohistoricGraves weight1=0.990, Iran_TepeHissar_C weight2=0.010 (p=0.45501), 
+Pakistan_ProtohistoricGraves weight1=0.982, Pakistan_IA weight2=0.018 (p=0.45481), 
+Pakistan_ProtohistoricGraves weight1=1.000, Pakistan_Historic weight2=0.000 (p=0.45420), 
+Pakistan_ProtohistoricGraves weight1=0.992, Erzya weight2=0.008 (p=0.45379) 
+
+TARGET  : Moksha 
+P-VALUE : 0.73461 
+LEFT: Pakistan_Historic_H 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                weight       se       z
+  <chr>  <chr>                <dbl>    <dbl>   <dbl>
+1 Moksha Pakistan_Historic_H      1 2.99e-13 3.35e12
+
+TARGET  : Erzya 
+P-VALUE : 0.31208 
+LEFT: Pakistan_Historic_H 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                weight       se       z
+  <chr>  <chr>                <dbl>    <dbl>   <dbl>
+1 Erzya  Pakistan_Historic_H      1 2.99e-13 3.35e12
+
+TARGET  : Moksha 
+P-VALUE : 0.97416 
+LEFT: Pakistan_EarlyHistoric_H + Pakistan_Historic_H 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_EarlyHistoric_H  0.166 0.0964  1.72
+2 Moksha Pakistan_Historic_H       0.834 0.0964  8.65
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.94895 
+LEFT: Erzya + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left         weight    se     z
+  <chr>         <chr>         <dbl> <dbl> <dbl>
+1 Pakistan_IA-o Erzya         0.346 0.120  2.89
+2 Pakistan_IA-o Pakistan_LBA  0.654 0.120  5.46
+-------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.94408 
+LEFT: Pakistan_Historic_H + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                         weight     se     z
+  <chr>  <chr>                         <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic_H          0.918  0.0476 19.3 
+2 Moksha Pakistan_ProtohistoricGraves 0.0824 0.0476  1.73
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.94033 
+LEFT: Pakistan_Historic_H + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic_H 0.912  0.0514 17.7 
+2 Moksha Pakistan_Medieval-2 0.0876 0.0514  1.70
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.93522 
+LEFT: Pakistan_Historic + Sindhi_Pakistan-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic  0.727 0.0866  8.40
+2 Erzya  Sindhi_Pakistan-o  0.273 0.0866  3.15
+
+TARGET  : Moksha 
+P-VALUE : 0.93341 
+LEFT: Pakistan_Historic_H + Pakistan_Medieval_Ghaznavid 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                        weight     se     z
+  <chr>  <chr>                        <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic_H          0.849 0.0895  9.48
+2 Moksha Pakistan_Medieval_Ghaznavid  0.151 0.0895  1.69
+
+TARGET  : Moksha 
+P-VALUE : 0.92709 
+LEFT: Pakistan_Historic_H + Pakistan_IA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight    se     z
+  <chr>  <chr>                <dbl> <dbl> <dbl>
+1 Moksha Pakistan_Historic_H  0.811 0.114  7.11
+2 Moksha Pakistan_IA-o        0.189 0.114  1.66
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.92171 
+LEFT: Pakistan_Historic-2 + Pakistan_Historic_H 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic-2 0.0994 0.0583  1.71
+2 Moksha Pakistan_Historic_H 0.901  0.0583 15.5 
+
+TARGET  : Moksha 
+P-VALUE : 0.89975 
+LEFT: Pakistan_Historic_H + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic_H 0.921  0.0481 19.1 
+2 Moksha Seima_Turbino       0.0791 0.0481  1.64
+
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_Historic-2 
+P-VALUE : 0.89754 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target              left          weight     se     z
+  <chr>               <chr>          <dbl>  <dbl> <dbl>
+1 Pakistan_Historic-2 Erzya          0.163 0.0952  1.71
+2 Pakistan_Historic-2 Seima_Turbino  0.837 0.0952  8.79
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.89606 
+LEFT: Pakistan_IA + Pakistan_Medieval_Ghaznavid 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                        weight     se     z
+  <chr>  <chr>                        <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_IA                  0.765 0.0681 11.2 
+2 Erzya  Pakistan_Medieval_Ghaznavid  0.235 0.0681  3.46
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.89575 
+LEFT: Pakistan_Historic_H + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic_H  0.875 0.0807 10.8 
+2 Moksha Pakistan_LBA         0.125 0.0807  1.54
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.89505 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left          weight     se     z
+  <chr>         <chr>          <dbl>  <dbl> <dbl>
+1 Pakistan_IA-o Erzya          0.611 0.0653  9.36
+2 Pakistan_IA-o Seima_Turbino  0.389 0.0653  5.96
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.89113 
+LEFT: Iran_TepeHissar_C + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Moksha Iran_TepeHissar_C  0.729 0.0576 12.7 
+2 Moksha Pakistan_LBA       0.271 0.0576  4.71
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.87455 
+LEFT: Moksha + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                weight     se     z
+  <chr>         <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_IA-o Moksha               0.545 0.0814  6.70
+2 Pakistan_IA-o Pakistan_Historic-2  0.455 0.0814  5.59
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_EarlyHistoric_H 
+P-VALUE : 0.87430 
+LEFT: Erzya + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                         weight     se     z
+  <chr>                    <chr>                         <dbl>  <dbl> <dbl>
+1 Pakistan_EarlyHistoric_H Erzya                         0.538 0.0673  8.00
+2 Pakistan_EarlyHistoric_H Pakistan_ProtohistoricGraves  0.462 0.0673  6.87
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.84037 
+LEFT: Erzya + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                weight     se     z
+  <chr>         <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_IA-o Erzya                0.536 0.0829  6.47
+2 Pakistan_IA-o Pakistan_Historic-2  0.464 0.0829  5.60
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_Historic-2 
+P-VALUE : 0.83683 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target              left          weight     se     z
+  <chr>               <chr>          <dbl>  <dbl> <dbl>
+1 Pakistan_Historic-2 Moksha         0.152 0.0985  1.55
+2 Pakistan_Historic-2 Seima_Turbino  0.848 0.0985  8.61
+
+
+TARGET  : Moksha 
+P-VALUE : 0.83421 
+LEFT: Pakistan_IA + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_IA          0.846 0.0349 24.2 
+2 Moksha Pakistan_Medieval-2  0.154 0.0349  4.41
+
+TARGET  : Pakistan_EarlyHistoric_H 
+P-VALUE : 0.82687 
+LEFT: Moksha + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                         weight     se     z
+  <chr>                    <chr>                         <dbl>  <dbl> <dbl>
+1 Pakistan_EarlyHistoric_H Moksha                        0.537 0.0677  7.94
+2 Pakistan_EarlyHistoric_H Pakistan_ProtohistoricGraves  0.463 0.0677  6.84
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.80117 
+LEFT: Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                weight       se       z
+  <chr>         <chr>                <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Pakistan_Medieval-2      1 1.21e-13 8.27e12
+
+TARGET  : Pakistan_EarlyHistoric_H 
+P-VALUE : 0.78621 
+LEFT: Erzya + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                weight     se     z
+  <chr>                    <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_EarlyHistoric_H Erzya                0.486 0.0877  5.54
+2 Pakistan_EarlyHistoric_H Pakistan_Medieval-2  0.514 0.0877  5.86
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.78463 
+LEFT: Pakistan_IA + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left         weight     se     z
+  <chr>  <chr>         <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_IA   0.777 0.0533 14.6 
+2 Moksha Pakistan_LBA  0.223 0.0533  4.19
+
+
+TARGET  : Moksha 
+P-VALUE : 0.75309 
+LEFT: Pakistan_IA + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left          weight     se     z
+  <chr>  <chr>          <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_IA    0.857 0.0328 26.1 
+2 Moksha Seima_Turbino  0.143 0.0328  4.35
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.75307 
+LEFT: Moksha + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                         weight     se     z
+  <chr>         <chr>                         <dbl>  <dbl> <dbl>
+1 Pakistan_IA-o Moksha                        0.627 0.0680  9.22
+2 Pakistan_IA-o Pakistan_ProtohistoricGraves  0.373 0.0680  5.49
+
+TARGET  : Moksha 
+P-VALUE : 0.74205 
+LEFT: Pakistan_Historic_H + Sindhi_Pakistan-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight    se     z
+  <chr>  <chr>                <dbl> <dbl> <dbl>
+1 Moksha Pakistan_Historic_H  0.836 0.157  5.34
+2 Moksha Sindhi_Pakistan-o    0.164 0.157  1.05
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.73729 
+LEFT: Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                weight       se       z
+  <chr>         <chr>                <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Pakistan_Historic-2      1 2.84e-14 3.52e13
+
+
+TARGET  : Moksha 
+P-VALUE : 0.73461 
+LEFT: Pakistan_Historic_H 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                weight       se       z
+  <chr>  <chr>                <dbl>    <dbl>   <dbl>
+1 Moksha Pakistan_Historic_H      1 2.99e-13 3.35e12
+
+TARGET  : Erzya 
+P-VALUE : 0.71130 
+LEFT: Pakistan_EarlyHistoric_H + Pakistan_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_EarlyHistoric_H  0.224 0.0695  3.23
+2 Erzya  Pakistan_IA               0.776 0.0695 11.2 
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.70418 
+LEFT: Erzya + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                weight     se     z
+  <chr>         <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_IA-o Erzya                0.585 0.0755  7.76
+2 Pakistan_IA-o Pakistan_Medieval-2  0.415 0.0755  5.50
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.69937 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left          weight     se     z
+  <chr>         <chr>          <dbl>  <dbl> <dbl>
+1 Pakistan_IA-o Moksha         0.622 0.0654  9.51
+2 Pakistan_IA-o Seima_Turbino  0.378 0.0654  5.79
+
+TARGET  : Erzya 
+P-VALUE : 0.68523 
+LEFT: Pakistan_Historic + Pakistan_IA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic  0.730 0.0947  7.70
+2 Erzya  Pakistan_IA-o      0.270 0.0947  2.85
+
+TARGET  : Moksha 
+P-VALUE : 0.65997 
+LEFT: Iran_TepeHissar_C + Pakistan_IA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Moksha Iran_TepeHissar_C  0.632 0.0818  7.73
+2 Moksha Pakistan_IA-o      0.368 0.0818  4.50
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.65951 
+LEFT: Erzya + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                         weight     se     z
+  <chr>         <chr>                         <dbl>  <dbl> <dbl>
+1 Pakistan_IA-o Erzya                         0.618 0.0687  9.00
+2 Pakistan_IA-o Pakistan_ProtohistoricGraves  0.382 0.0687  5.56
+
+
+TARGET  : Erzya 
+P-VALUE : 0.65691 
+LEFT: Pakistan_IA + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                         weight     se     z
+  <chr>  <chr>                         <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_IA                   0.881 0.0350 25.2 
+2 Erzya  Pakistan_ProtohistoricGraves  0.119 0.0350  3.39
+
+TARGET  : Moksha 
+P-VALUE : 0.65055 
+LEFT: Pakistan_IA + Pakistan_IA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left          weight     se     z
+  <chr>  <chr>          <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_IA    0.692 0.0784  8.82
+2 Moksha Pakistan_IA-o  0.308 0.0784  3.94
+
+TARGET  : Erzya 
+P-VALUE : 0.64947 
+LEFT: Iran_TepeHissar_C + Sindhi_Pakistan-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Iran_TepeHissar_C  0.699 0.0851  8.21
+2 Erzya  Sindhi_Pakistan-o  0.301 0.0851  3.54
+
+TARGET  : Moksha 
+P-VALUE : 0.64364 
+LEFT: Iran_TepeHissar_C + Sindhi_Pakistan-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Moksha Iran_TepeHissar_C  0.619 0.0951  6.51
+2 Moksha Sindhi_Pakistan-o  0.381 0.0951  4.01
+
+TARGET  : Moksha 
+P-VALUE : 0.64172 
+LEFT: Pakistan_Historic-2 + Pakistan_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic-2  0.166 0.0389  4.27
+2 Moksha Pakistan_IA          0.834 0.0389 21.4 
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.64036 
+LEFT: Pakistan_Historic + Pakistan_Medieval 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight    se     z
+  <chr>  <chr>              <dbl> <dbl> <dbl>
+1 Erzya  Pakistan_Historic  0.591 0.133  4.45
+2 Erzya  Pakistan_Medieval  0.409 0.133  3.08
+
+TARGET  : Pakistan_EarlyHistoric_H 
+P-VALUE : 0.62380 
+LEFT: Erzya + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                weight     se     z
+  <chr>                    <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_EarlyHistoric_H Erzya                0.457 0.0844  5.41
+2 Pakistan_EarlyHistoric_H Pakistan_Historic-2  0.543 0.0844  6.44
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.62278 
+LEFT: Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                         weight       se       z
+  <chr>         <chr>                         <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Pakistan_ProtohistoricGraves      1 1.21e-13 8.27e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.62090 
+LEFT: Pakistan_IA + Pakistan_IA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left          weight     se     z
+  <chr>  <chr>          <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_IA    0.745 0.0858  8.68
+2 Erzya  Pakistan_IA-o  0.255 0.0858  2.97
+
+TARGET  : Pakistan_LBA 
+P-VALUE : 0.61657 
+LEFT: Moksha + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target       left          weight     se     z
+  <chr>        <chr>          <dbl>  <dbl> <dbl>
+1 Pakistan_LBA Moksha         0.420 0.0786  5.35
+2 Pakistan_LBA Seima_Turbino  0.580 0.0786  7.37
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.61588 
+LEFT: Pakistan_Historic + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic  0.810 0.0672 12.1 
+2 Erzya  Pakistan_LBA       0.190 0.0672  2.84
+
+TARGET  : Erzya 
+P-VALUE : 0.60838 
+LEFT: Iran_TepeHissar_C + Pakistan_IA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Iran_TepeHissar_C  0.685 0.0894  7.66
+2 Erzya  Pakistan_IA-o      0.315 0.0894  3.53
+
+TARGET  : Pakistan_Medieval_Ghaznavid 
+P-VALUE : 0.60567 
+LEFT: Erzya + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                      left                weight     se     z
+  <chr>                       <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_Medieval_Ghaznavid Erzya                0.447 0.0856  5.22
+2 Pakistan_Medieval_Ghaznavid Pakistan_Historic-2  0.553 0.0856  6.46
+
+
+TARGET  : Erzya 
+P-VALUE : 0.59935 
+LEFT: Iran_TepeHissar_C + Pakistan_Medieval_Ghaznavid 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                        weight     se     z
+  <chr>  <chr>                        <dbl>  <dbl> <dbl>
+1 Erzya  Iran_TepeHissar_C            0.715 0.0760  9.41
+2 Erzya  Pakistan_Medieval_Ghaznavid  0.285 0.0760  3.74
+
+TARGET  : Erzya 
+P-VALUE : 0.59668 
+LEFT: Pakistan_Historic-2 + Pakistan_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic-2  0.136 0.0408  3.33
+2 Erzya  Pakistan_IA          0.864 0.0408 21.2 
+
+TARGET  : Pakistan_Historic_H 
+P-VALUE : 0.58799 
+LEFT: Moksha + Pakistan_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target              left              weight    se     z
+  <chr>               <chr>              <dbl> <dbl> <dbl>
+1 Pakistan_Historic_H Moksha            0.928  0.322 2.88 
+2 Pakistan_Historic_H Pakistan_Historic 0.0723 0.322 0.224
+
+TARGET  : Pakistan_EarlyHistoric_H 
+P-VALUE : 0.55420 
+LEFT: Moksha + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                weight     se     z
+  <chr>                    <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_EarlyHistoric_H Moksha               0.457 0.0840  5.43
+2 Pakistan_EarlyHistoric_H Pakistan_Historic-2  0.543 0.0840  6.47
+
+TARGET  : Pakistan_EarlyHistoric_H 
+P-VALUE : 0.53415 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left          weight     se     z
+  <chr>                    <chr>          <dbl>  <dbl> <dbl>
+1 Pakistan_EarlyHistoric_H Erzya          0.508 0.0873  5.82
+2 Pakistan_EarlyHistoric_H Seima_Turbino  0.492 0.0873  5.64
+
+TARGET  : Moksha 
+P-VALUE : 0.53255 
+LEFT: Pakistan_IA + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                         weight     se     z
+  <chr>  <chr>                         <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_IA                   0.864 0.0320 27.0 
+2 Moksha Pakistan_ProtohistoricGraves  0.136 0.0320  4.25
+
+TARGET  : Erzya 
+P-VALUE : 0.53139 
+LEFT: Pakistan_Historic + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic    0.856 0.0496 17.2 
+2 Erzya  Pakistan_Historic-2  0.144 0.0496  2.91
+
+TARGET  : Pakistan_Medieval 
+P-VALUE : 0.52700 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target            left          weight     se     z
+  <chr>             <chr>          <dbl>  <dbl> <dbl>
+1 Pakistan_Medieval Erzya          0.798 0.0612 13.0 
+2 Pakistan_Medieval Seima_Turbino  0.202 0.0612  3.31
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.52691 
+LEFT: Iran_TepeHissar_C + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Moksha Iran_TepeHissar_C  0.823 0.0389 21.1 
+2 Moksha Seima_Turbino      0.177 0.0389  4.56
+
+
+TARGET  : Pakistan_LBA 
+P-VALUE : 0.50902 
+LEFT: Erzya + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target       left          weight     se     z
+  <chr>        <chr>          <dbl>  <dbl> <dbl>
+1 Pakistan_LBA Erzya          0.398 0.0799  4.99
+2 Pakistan_LBA Seima_Turbino  0.602 0.0799  7.53
+
+TARGET  : Sindhi_Pakistan-o 
+P-VALUE : 0.49354 
+LEFT: Erzya + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target            left         weight    se     z
+  <chr>             <chr>         <dbl> <dbl> <dbl>
+1 Sindhi_Pakistan-o Erzya         0.448 0.129  3.46
+2 Sindhi_Pakistan-o Pakistan_LBA  0.552 0.129  4.26
+
+TARGET  : Erzya 
+P-VALUE : 0.48253 
+LEFT: Pakistan_IA + Pakistan_Medieval 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight    se     z
+  <chr>  <chr>              <dbl> <dbl> <dbl>
+1 Erzya  Pakistan_IA        0.612 0.137  4.46
+2 Erzya  Pakistan_Medieval  0.388 0.137  2.84
+
+TARGET  : Pakistan_IA-o 
+P-VALUE : 0.47900 
+LEFT: Moksha + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target        left                weight     se     z
+  <chr>         <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_IA-o Moksha               0.594 0.0789  7.53
+2 Pakistan_IA-o Pakistan_Medieval-2  0.406 0.0789  5.14
+
+TARGET  : Erzya 
+P-VALUE : 0.47520 
+LEFT: Pakistan_Historic + Pakistan_Medieval_Ghaznavid 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                        weight     se     z
+  <chr>  <chr>                        <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic            0.765 0.0859  8.90
+2 Erzya  Pakistan_Medieval_Ghaznavid  0.235 0.0859  2.73
+
+
+TARGET  : Pakistan_Medieval 
+P-VALUE : 0.47097 
+LEFT: Erzya + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target            left                weight     se     z
+  <chr>             <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_Medieval Erzya                0.753 0.0723 10.4 
+2 Pakistan_Medieval Pakistan_Historic-2  0.247 0.0723  3.42
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_EarlyHistoric_H 
+P-VALUE : 0.47087 
+LEFT: Moksha + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                   left                weight     se     z
+  <chr>                    <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_EarlyHistoric_H Moksha               0.486 0.0952  5.10
+2 Pakistan_EarlyHistoric_H Pakistan_Medieval-2  0.514 0.0952  5.40
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.47071 
+LEFT: Pakistan_Historic + Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic  0.878 0.0439 20.0 
+2 Erzya  Seima_Turbino      0.122 0.0439  2.78
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.47040 
+LEFT: Pakistan_Historic + Sindhi_Pakistan-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight    se     z
+  <chr>  <chr>              <dbl> <dbl> <dbl>
+1 Moksha Pakistan_Historic  0.610 0.104  5.84
+2 Moksha Sindhi_Pakistan-o  0.390 0.104  3.73
+
+
+TARGET  : Moksha 
+P-VALUE : 0.46580 
+LEFT: Pakistan_Historic + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Moksha Pakistan_Historic  0.739 0.0612 12.1 
+2 Moksha Pakistan_LBA       0.261 0.0612  4.27
+
+TARGET  : Pakistan_Medieval_Ghaznavid 
+P-VALUE : 0.45457 
+LEFT: Moksha + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                      left                         weight     se     z
+  <chr>                       <chr>                         <dbl>  <dbl> <dbl>
+1 Pakistan_Medieval_Ghaznavid Moksha                        0.530 0.0705  7.51
+2 Pakistan_Medieval_Ghaznavid Pakistan_ProtohistoricGraves  0.470 0.0705  6.67
+
+
+TARGET  : Erzya 
+P-VALUE : 0.41809 
+LEFT: Iran_TepeHissar_C + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Erzya  Iran_TepeHissar_C    0.827 0.0462 17.9 
+2 Erzya  Pakistan_Historic-2  0.173 0.0462  3.74
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_Medieval 
+P-VALUE : 0.41338 
+LEFT: Erzya + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target            left                weight     se     z
+  <chr>             <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_Medieval Erzya                0.793 0.0643 12.3 
+2 Pakistan_Medieval Pakistan_Medieval-2  0.207 0.0643  3.22
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.41290 
+LEFT: Iran_TepeHissar_C + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Moksha Iran_TepeHissar_C    0.799 0.0442 18.1 
+2 Moksha Pakistan_Historic-2  0.201 0.0442  4.53
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.40977 
+LEFT: Pakistan_IA + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_IA          0.882 0.0390 22.6 
+2 Erzya  Pakistan_Medieval-2  0.118 0.0390  3.01
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.40965 
+LEFT: Pakistan_IA + Sindhi_Pakistan-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_IA        0.768 0.0883  8.69
+2 Erzya  Sindhi_Pakistan-o  0.232 0.0883  2.63
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.40462 
+LEFT: Iran_TepeHissar_C + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight     se     z
+  <chr>  <chr>              <dbl>  <dbl> <dbl>
+1 Erzya  Iran_TepeHissar_C  0.780 0.0651 12.0 
+2 Erzya  Pakistan_LBA       0.220 0.0651  3.38
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.40326 
+LEFT: Pakistan_Historic_H + Pakistan_Medieval_Ghaznavid 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                        weight    se     z
+  <chr>  <chr>                        <dbl> <dbl> <dbl>
+1 Erzya  Pakistan_Historic_H          0.819 0.102  8.03
+2 Erzya  Pakistan_Medieval_Ghaznavid  0.181 0.102  1.77
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.39836 
+LEFT: Iran_TepeHissar_C + Pakistan_Medieval 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight    se     z
+  <chr>  <chr>              <dbl> <dbl> <dbl>
+1 Erzya  Iran_TepeHissar_C  0.539 0.135  3.99
+2 Erzya  Pakistan_Medieval  0.461 0.135  3.41
+
+TARGET  : Erzya 
+P-VALUE : 0.39646 
+LEFT: Pakistan_EarlyHistoric_H + Pakistan_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_EarlyHistoric_H  0.210 0.0804  2.62
+2 Erzya  Pakistan_Historic         0.790 0.0804  9.82
+
+TARGET  : Erzya 
+P-VALUE : 0.39347 
+LEFT: Pakistan_Historic + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                         weight     se     z
+  <chr>  <chr>                         <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic             0.883 0.0441 20.1 
+2 Erzya  Pakistan_ProtohistoricGraves  0.117 0.0441  2.65
+
+TARGET  : Pakistan_Medieval 
+P-VALUE : 0.36916 
+LEFT: Erzya + Sindhi_Pakistan-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target            left              weight    se     z
+  <chr>             <chr>              <dbl> <dbl> <dbl>
+1 Pakistan_Medieval Erzya              0.509 0.159  3.20
+2 Pakistan_Medieval Sindhi_Pakistan-o  0.491 0.159  3.09
+
+TARGET  : Erzya 
+P-VALUE : 0.36868 
+LEFT: Pakistan_IA + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left         weight     se     z
+  <chr>  <chr>         <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_IA   0.833 0.0605 13.8 
+2 Erzya  Pakistan_LBA  0.167 0.0605  2.76
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.36520 
+LEFT: Pakistan_IA + Pakistan_Medieval 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight    se     z
+  <chr>  <chr>              <dbl> <dbl> <dbl>
+1 Moksha Pakistan_IA        0.519 0.139  3.73
+2 Moksha Pakistan_Medieval  0.481 0.139  3.46
+
+TARGET  : Pakistan_Medieval_Ghaznavid 
+P-VALUE : 0.35908 
+LEFT: Moksha + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target                      left                weight     se     z
+  <chr>                       <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_Medieval_Ghaznavid Moksha               0.430 0.0886  4.85
+2 Pakistan_Medieval_Ghaznavid Pakistan_Historic-2  0.570 0.0886  6.44
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_Medieval 
+P-VALUE : 0.35758 
+LEFT: Moksha + Pakistan_Historic-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target            left                weight     se     z
+  <chr>             <chr>                <dbl>  <dbl> <dbl>
+1 Pakistan_Medieval Moksha               0.770 0.0771  9.98
+2 Pakistan_Medieval Pakistan_Historic-2  0.230 0.0771  2.98
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.35702 
+LEFT: Iran_TepeHissar_C + Pakistan_EarlyHistoric_H 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                     weight     se     z
+  <chr>  <chr>                     <dbl>  <dbl> <dbl>
+1 Erzya  Iran_TepeHissar_C         0.732 0.0760  9.63
+2 Erzya  Pakistan_EarlyHistoric_H  0.268 0.0760  3.53
+-----------------------------------------------------------------
+
+TARGET  : Pakistan_Medieval 
+P-VALUE : 0.35490 
+LEFT: Erzya + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target            left                         weight     se     z
+  <chr>             <chr>                         <dbl>  <dbl> <dbl>
+1 Pakistan_Medieval Erzya                         0.799 0.0599 13.3 
+2 Pakistan_Medieval Pakistan_ProtohistoricGraves  0.201 0.0599  3.35
+
+TARGET  : Moksha 
+P-VALUE : 0.34841 
+LEFT: Pakistan_IA + Sindhi_Pakistan-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left              weight    se     z
+  <chr>  <chr>              <dbl> <dbl> <dbl>
+1 Moksha Pakistan_IA        0.666 0.107  6.23
+2 Moksha Sindhi_Pakistan-o  0.334 0.107  3.12
+-----------------------------------------------------------------
+
+TARGET  : Sindhi_Pakistan-o 
+P-VALUE : 0.34490 
+LEFT: Moksha + Pakistan_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target            left         weight    se     z
+  <chr>             <chr>         <dbl> <dbl> <dbl>
+1 Sindhi_Pakistan-o Moksha        0.485 0.151  3.21
+2 Sindhi_Pakistan-o Pakistan_LBA  0.515 0.151  3.41
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.34436 
+LEFT: Iran_TepeHissar_C + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Moksha Iran_TepeHissar_C    0.818 0.0414 19.8 
+2 Moksha Pakistan_Medieval-2  0.182 0.0414  4.39
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.34320 
+LEFT: Iran_TepeHissar_C + Pakistan_ProtohistoricGraves 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                         weight     se     z
+  <chr>  <chr>                         <dbl>  <dbl> <dbl>
+1 Erzya  Iran_TepeHissar_C             0.854 0.0407 21.0 
+2 Erzya  Pakistan_ProtohistoricGraves  0.146 0.0407  3.58
+
+TARGET  : Erzya 
+P-VALUE : 0.33673 
+LEFT: Pakistan_Historic + Pakistan_Medieval-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 2 × 5
+  target left                weight     se     z
+  <chr>  <chr>                <dbl>  <dbl> <dbl>
+1 Erzya  Pakistan_Historic    0.882 0.0482 18.3 
+2 Erzya  Pakistan_Medieval-2  0.118 0.0482  2.44
+
+TARGET  : Erzya 
+P-VALUE : 0.31208 
+LEFT: Pakistan_Historic_H 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                weight       se       z
+  <chr>  <chr>                <dbl>    <dbl>   <dbl>
+1 Erzya  Pakistan_Historic_H      1 2.99e-13 3.35e12
+
+
+
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = 
+Pakistan_Historic weight1=0.727, Sindhi_Pakistan-o weight2=0.273 (p=0.93522), 
+Pakistan_IA weight1=0.765, Pakistan_Medieval_Ghaznavid weight2=0.235 (p=0.89606), 
+Pakistan_IA weight1=0.776, Pakistan_EarlyHistoric_H weight2=0.224 (p=0.71130), 
+Pakistan_Historic weight1=0.730, Pakistan_IA-o weight2=0.270 (p=0.68523), 
+Pakistan_IA weight1=0.881, Pakistan_ProtohistoricGraves weight2=0.119 (p=0.65691), 
+Iran_TepeHissar_C weight1=0.699, Sindhi_Pakistan-o weight2=0.301 (p=0.64947), 
+Pakistan_Historic weight1=0.591, Pakistan_Medieval weight2=0.409 (p=0.64036), 
+Pakistan_IA weight1=0.745, Pakistan_IA-o weight2=0.255 (p=0.62090), 
+Pakistan_Historic weight1=0.810, Pakistan_LBA weight2=0.190 (p=0.61588), 
+Iran_TepeHissar_C weight1=0.685, Pakistan_IA-o weight2=0.315 (p=0.60838), 
+Iran_TepeHissar_C weight1=0.715, Pakistan_Medieval_Ghaznavid weight2=0.285 (p=0.59935), 
+Pakistan_IA weight1=0.864, Pakistan_Historic-2 weight2=0.136 (p=0.59668), 
+Pakistan_Historic weight1=0.856, Pakistan_Historic-2 weight2=0.144 (p=0.53139), 
+Pakistan_IA weight1=0.612, Pakistan_Medieval weight2=0.388 (p=0.48253), 
+Pakistan_Historic weight1=0.765, Pakistan_Medieval_Ghaznavid weight2=0.235 (p=0.47520), 
+Pakistan_Historic weight1=0.878, Seima_Turbino weight2=0.122 (p=0.47071), 
+Pakistan_IA weight1=0.889, Seima_Turbino weight2=0.111 (p=0.42538), 
+Iran_TepeHissar_C weight1=0.827, Pakistan_Historic-2 weight2=0.173 (p=0.41809), 
+Pakistan_IA weight1=0.882, Pakistan_Medieval-2 weight2=0.118 (p=0.40977), 
+Pakistan_IA weight1=0.768, Sindhi_Pakistan-o weight2=0.232 (p=0.40965), 
+Iran_TepeHissar_C weight1=0.780, Pakistan_LBA weight2=0.220 (p=0.40462), 
+Pakistan_Historic_H weight1=0.819, Pakistan_Medieval_Ghaznavid weight2=0.181 (p=0.40326), 
+Iran_TepeHissar_C weight1=0.539, Pakistan_Medieval weight2=0.461 (p=0.39836), 
+Pakistan_Historic weight1=0.790, Pakistan_EarlyHistoric_H weight2=0.210 (p=0.39646), 
+Pakistan_Historic weight1=0.883, Pakistan_ProtohistoricGraves weight2=0.117 (p=0.39347), 
+Pakistan_IA weight1=0.833, Pakistan_LBA weight2=0.167 (p=0.36868), 
+Iran_TepeHissar_C weight1=0.732, Pakistan_EarlyHistoric_H weight2=0.268 (p=0.35702), 
+Iran_TepeHissar_C weight1=0.854, Pakistan_ProtohistoricGraves weight2=0.146 (p=0.34320), 
+Pakistan_Historic weight1=0.882, Pakistan_Medieval-2 weight2=0.118 (p=0.33673), 
+Pakistan_Historic_H weight1=0.569, Pakistan_Historic weight2=0.431 (p=0.33666), 
+Pakistan_Historic_H (p=0.31208), 
+Pakistan_Historic_H weight1=0.853, Pakistan_EarlyHistoric_H weight2=0.147 (p=0.29152), 
+Iran_TepeHissar_C weight1=0.860, Seima_Turbino weight2=0.140 (p=0.27999), 
+Pakistan_Historic_H weight1=0.943, Pakistan_ProtohistoricGraves weight2=0.057 (p=0.25484), 
+Pakistan_Historic_H weight1=0.680, Pakistan_Medieval weight2=0.320 (p=0.24097), 
+Pakistan_Historic_H weight1=0.874, Pakistan_IA-o weight2=0.126 (p=0.23808), 
+Pakistan_Historic_H weight1=0.942, Pakistan_Historic-2 weight2=0.058 (p=0.23592), 
+Moksha weight1=0.592, Pakistan_Historic weight2=0.408 (p=0.23296), 
+Pakistan_Historic_H weight1=0.972, Pakistan_Medieval-2 weight2=0.028 (p=0.20753), 
+Pakistan_Historic_H weight1=0.981, Seima_Turbino weight2=0.019 (p=0.20561), 
+Pakistan_Historic_H weight1=0.944, Sindhi_Pakistan-o weight2=0.056 (p=0.20216), 
+Pakistan_Historic_H weight1=0.980, Pakistan_LBA weight2=0.020 (p=0.20058), 
+Iran_TepeHissar_C weight1=0.857, Pakistan_Medieval-2 weight2=0.143 (p=0.19364), 
+Moksha (p=0.19203), Moksha weight1=0.709, Pakistan_IA weight2=0.291 (p=0.13607), 
+Moksha weight1=0.824, Iran_TepeHissar_C weight2=0.176 (p=0.12999), 
+Pakistan_Historic (p=0.12775), 
+Moksha weight1=0.968, Pakistan_Medieval_Ghaznavid weight2=0.032 (p=0.12274), 
+Pakistan_Historic weight1=0.978, Pakistan_IA weight2=0.022 (p=0.06823), 
+Pakistan_IA (p=0.06272), Pakistan_Medieval (p=0.05872) 
+-----------------------------------------------------------------
+Moksha  = 
+Pakistan_Historic_H weight1=0.834, Pakistan_EarlyHistoric_H weight2=0.166 (p=0.97416), 
+Pakistan_Historic_H weight1=0.918, Pakistan_ProtohistoricGraves weight2=0.082 (p=0.94408), 
+Pakistan_Historic_H weight1=0.912, Pakistan_Medieval-2 weight2=0.088 (p=0.94033), 
+Pakistan_Historic_H weight1=0.849, Pakistan_Medieval_Ghaznavid weight2=0.151 (p=0.93341), 
+Pakistan_Historic_H weight1=0.811, Pakistan_IA-o weight2=0.189 (p=0.92709), 
+Pakistan_Historic_H weight1=0.901, Pakistan_Historic-2 weight2=0.099 (p=0.92171), 
+Pakistan_Historic_H weight1=0.921, Seima_Turbino weight2=0.079 (p=0.89975), 
+Pakistan_Historic_H weight1=0.875, Pakistan_LBA weight2=0.125 (p=0.89575), 
+Iran_TepeHissar_C weight1=0.729, Pakistan_LBA weight2=0.271 (p=0.89113), 
+Pakistan_IA weight1=0.846, Pakistan_Medieval-2 weight2=0.154 (p=0.83421), 
+Pakistan_IA weight1=0.777, Pakistan_LBA weight2=0.223 (p=0.78463), 
+Pakistan_IA weight1=0.857, Seima_Turbino weight2=0.143 (p=0.75309), 
+Pakistan_Historic_H weight1=0.836, Sindhi_Pakistan-o weight2=0.164 (p=0.74205), 
+Pakistan_Historic_H (p=0.73461), 
+Pakistan_Historic_H weight1=0.739, Pakistan_Medieval weight2=0.261 (p=0.71001), 
+Iran_TepeHissar_C weight1=0.632, Pakistan_IA-o weight2=0.368 (p=0.65997), 
+Pakistan_IA weight1=0.692, Pakistan_IA-o weight2=0.308 (p=0.65055), 
+Iran_TepeHissar_C weight1=0.619, Sindhi_Pakistan-o weight2=0.381 (p=0.64364), 
+Pakistan_IA weight1=0.834, Pakistan_Historic-2 weight2=0.166 (p=0.64172), 
+Pakistan_Historic_H weight1=0.999, Erzya weight2=0.001 (p=0.57797), 
+Pakistan_IA weight1=0.731, Pakistan_EarlyHistoric_H weight2=0.269 (p=0.54030), 
+Pakistan_IA weight1=0.864, Pakistan_ProtohistoricGraves weight2=0.136 (p=0.53255), 
+Iran_TepeHissar_C weight1=0.823, Seima_Turbino weight2=0.177 (p=0.52691), 
+Pakistan_Historic weight1=0.610, Sindhi_Pakistan-o weight2=0.390 (p=0.47040), 
+Pakistan_Historic weight1=0.739, Pakistan_LBA weight2=0.261 (p=0.46580), 
+Iran_TepeHissar_C weight1=0.799, Pakistan_Historic-2 weight2=0.201 (p=0.41290), 
+Pakistan_IA weight1=0.519, Pakistan_Medieval weight2=0.481 (p=0.36520), 
+Pakistan_IA weight1=0.666, Sindhi_Pakistan-o weight2=0.334 (p=0.34841), 
+Iran_TepeHissar_C weight1=0.818, Pakistan_Medieval-2 weight2=0.182 (p=0.34436), 
+Pakistan_IA weight1=0.747, Pakistan_Medieval_Ghaznavid weight2=0.253 (p=0.30422), 
+Pakistan_Medieval weight1=0.554, Iran_TepeHissar_C weight2=0.446 (p=0.29093), 
+Pakistan_Historic weight1=0.632, Pakistan_IA-o weight2=0.368 (p=0.28661), 
+Pakistan_Medieval weight1=0.553, Pakistan_Historic weight2=0.447 (p=0.25769), 
+Iran_TepeHissar_C weight1=0.686, Pakistan_EarlyHistoric_H weight2=0.314 (p=0.22217), 
+Iran_TepeHissar_C weight1=0.835, Pakistan_ProtohistoricGraves weight2=0.165 (p=0.22083), 
+Pakistan_Historic weight1=0.835, Seima_Turbino weight2=0.165 (p=0.19404), 
+Erzya (p=0.19203), 
+Iran_TepeHissar_C weight1=0.694, Pakistan_Medieval_Ghaznavid weight2=0.306 (p=0.17118), 
+Erzya weight1=0.918, Pakistan_LBA weight2=0.082 (p=0.16787), 
+Erzya weight1=0.954, Pakistan_Medieval-2 weight2=0.046 (p=0.15635), 
+Pakistan_Historic weight1=0.816, Pakistan_Historic-2 weight2=0.184 (p=0.15009), 
+Erzya weight1=0.963, Seima_Turbino weight2=0.037 (p=0.14733), 
+Erzya weight1=0.972, Pakistan_Historic-2 weight2=0.028 (p=0.13568), 
+Erzya weight1=0.922, Pakistan_IA-o weight2=0.078 (p=0.12949), 
+Erzya weight1=0.984, Pakistan_ProtohistoricGraves weight2=0.016 (p=0.12791), 
+Erzya weight1=0.952, Pakistan_EarlyHistoric_H weight2=0.048 (p=0.12464), 
+Pakistan_Historic weight1=0.832, Pakistan_Medieval-2 weight2=0.168 (p=0.12304), 
+Erzya weight1=0.948, Sindhi_Pakistan-o weight2=0.052 (p=0.12276), 
+Erzya weight1=0.947, Pakistan_Medieval weight2=0.053 (p=0.11704), 
+Pakistan_Medieval (p=0.08454), Pakistan_Historic weight1=0.716, 
+Pakistan_EarlyHistoric_H weight2=0.284 (p=0.07151), 
+Pakistan_Historic weight1=0.857, Pakistan_ProtohistoricGraves weight2=0.143 (p=0.05358) 
+-----------------------------------------------------------------
+Seima_Turbino  = 
+Pakistan_Medieval-2 (p=0.80117), 
+Pakistan_Historic-2 (p=0.73729), 
+Pakistan_Medieval-2 weight1=0.600, Pakistan_Historic-2 weight2=0.400 (p=0.67247), 
+Pakistan_Medieval-2 weight1=0.994, Sindhi_Pakistan-o weight2=0.006 (p=0.64899), 
+Pakistan_Medieval-2 weight1=0.949, Pakistan_ProtohistoricGraves weight2=0.051 (p=0.62984), 
+Pakistan_ProtohistoricGraves (p=0.62278), 
+Pakistan_ProtohistoricGraves weight1=0.834, Pakistan_LBA weight2=0.166 (p=0.51785), 
+Pakistan_ProtohistoricGraves weight1=0.926, Sindhi_Pakistan-o weight2=0.074 (p=0.47883), 
+Pakistan_ProtohistoricGraves weight1=0.968, Pakistan_Historic_H weight2=0.032 (p=0.46382), 
+Pakistan_ProtohistoricGraves weight1=0.971, Moksha weight2=0.029 (p=0.46143), 
+Pakistan_ProtohistoricGraves weight1=0.972, Pakistan_Medieval weight2=0.028 (p=0.46109), 
+Pakistan_ProtohistoricGraves weight1=0.965, Pakistan_IA-o weight2=0.035 (p=0.45892), 
+Pakistan_ProtohistoricGraves weight1=0.990, Iran_TepeHissar_C weight2=0.010 (p=0.45501), 
+Pakistan_ProtohistoricGraves weight1=0.982, Pakistan_IA weight2=0.018 (p=0.45481), 
+Pakistan_ProtohistoricGraves weight1=1.000, Pakistan_Historic weight2=0.000 (p=0.45420), 
+Pakistan_ProtohistoricGraves weight1=0.992, Erzya weight2=0.008 (p=0.45379) 
+-----------------------------------------------------------------

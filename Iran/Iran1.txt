@@ -1,0 +1,1249 @@
+
+
+"6065-5889 calBCE (7100±45 BP, PSUAMS-2151)"	..	
+Iran_HajjiFiruz_N	"Hajji Firuz (West Azerbaijan Province, Naqadeh County)"	Iran	
+
+"1919-1747 calBCE (3510±25 BP, PSUAMS-2985)"	..	Iran_DinkhaTepe_BA_IA1-1	
+"Dinkha Tepe (West Azerbaijan, Ashnavieh)"	Iran
+
+"1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"	..	Iran_DinkhaTepe_BA_IA2-2	
+"Dinkha Tepe (West Azerbaijan, Ashnavieh)"	Iran	
+
+"2196-2029 calBCE (3705±20 BP, PSUAMS-2771)"	..	Iran_Hasanlu_MBA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	Native Pulldown on 3.2M snpset	AG	1240k
+
+"1496-1323 calBCE (3150±20 BP, PSUAMS-3118)"	..	Iran_Hasanlu_LBA-2	
+"Hasanlu (West Azerbaijan Province, Naqadeh County)"
+
+"1111-931 calBCE (2855±20 BP, PSUAMS-2773)"	..	Iran_Hasanlu_IA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	Native Pulldown on 3.2M snpset	AG	1240k
+
+"1046-900 calBCE (2810±25 BP, PSUAMS-2150)"	..	Iran_Hasanlu_IA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)"	Iran	37.004949	45.459021	
+
+"761-479 calBCE (2470±20 BP, PSUAMS-2984)"	..	Iran_Hasanlu_IA	"Hasanlu 
+(West Azerbaijan Province, Naqadeh County)" Iran  
+  
+  
+   MASTER RECORD OF KINSHIP TIES (BY DEGREE OF PURITY)
+=================================================================
+Erzya  = Moksha (p=0.81223), 
+Iran_DinkhaTepe_BA_IA2-2 (p=0.75721), "1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"
+Iran_Hasanlu_IA (p=0.28170), "1111-931 calBCE (2855±20 BP, PSUAMS-2773)"
+Iran_HajjiFiruz_N (p=0.14518),   "6065-5889 calBCE"
+Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA (p=0.12474), 
+Iran_DinkhaTepe_BA_IA1-1 (p=0.05311)   1919-1747 calBCE 
+-----------------------------------------------------------------
+Moksha  = Iran_DinkhaTepe_BA_IA2-2 (p=0.81410), "1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"
+Erzya (p=0.81223), 
+Iran_Hasanlu_IA (p=0.40912), "1111-931 calBCE (2855±20 BP, PSUAMS-2773)"
+Iran_HajjiFiruz_N (p=0.26074), "6065-5889 calBCE"
+Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA (p=0.15789), 
+Iran_DinkhaTepe_BA_IA1-1 (p=0.11304) 1919-1747 calBCE 
+-----------------------------------------------------------------
+Seima_Turbino  = Iran_Hasanlu_MBA (p=0.92381), "2196-2029 calBCE (3705±20 BP, PSUAMS-2771)"
+Iran_HajjiFiruz_BA (p=0.63082), 
+Iran_Hasanlu_LBA (p=0.48766), 
+Iran_HajjiFiruz_IA (p=0.46361), 
+Iran_GanjDareh_Historic (p=0.41484), 
+Iran_Hasanlu_LBA-2 (p=0.34727), 
+Iran_Hasanlu_LBA-o (p=0.24139), 
+Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA (p=0.07293) 
+-----------------------------------------------------------------
+Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA  = Iran_Hasanlu_LBA-o (p=0.18819), 
+Moksha (p=0.15789), Erzya (p=0.12474), 
+Iran_Hasanlu_MBA (p=0.08192), "2196-2029 calBCE (3705±20 BP, PSUAMS-2771)"
+Seima_Turbino (p=0.07293) 
+-----------------------------------------------------------------
+Iran_DinkhaTepe_BA_IA1-1  = Iran_GanjDareh_N (p=0.27044), 
+Iran_DinkhaTepe_BA_IA2-2 (p=0.24472), 
+Iran_HajjiFiruz_N (p=0.13664), 
+Moksha (p=0.11304), Erzya (p=0.05311) 
+-----------------------------------------------------------------
+Iran_DinkhaTepe_BA_IA2-2  =  "1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"
+Iran_Hasanlu_IA (p=0.91850), 
+Moksha (p=0.81410), 
+Erzya (p=0.75721), 
+Iran_HajjiFiruz_N (p=0.46151), 
+Iran_DinkhaTepe_BA_IA1-1 (p=0.24472), 
+Iran_GanjDareh_N (p=0.23056) 
+-----------------------------------------------------------------
+Iran_GanjDareh_Historic  = Iran_HajjiFiruz_BA (p=0.62223), Iran_Hasanlu_LBA (p=0.59296), 
+Seima_Turbino (p=0.41484), Iran_Hasanlu_LBA-2 (p=0.23317), 
+Iran_Hasanlu_MBA (p=0.18122), "2196-2029 calBCE (3705±20 BP, PSUAMS-2771)"
+Iran_HajjiFiruz_IA (p=0.15406), Iran_Hasanlu_LBA-o (p=0.10156) 
+-----------------------------------------------------------------
+Iran_GanjDareh_N  = Iran_HajjiFiruz_N (p=0.40787), Iran_DinkhaTepe_BA_IA1-1 (p=0.27044), 
+Iran_DinkhaTepe_BA_IA2-2 (p=0.23056), "1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"
+Iran_Hasanlu_IA (p=0.05350) 
+-----------------------------------------------------------------
+Iran_HajjiFiruz_BA  = Iran_Hasanlu_MBA (p=0.66028), "2196-2029 calBCE (3705±20 BP, PSUAMS-2771)"
+Seima_Turbino (p=0.63082), 
+Iran_GanjDareh_Historic (p=0.62223), Iran_HajjiFiruz_IA (p=0.46792), Iran_Hasanlu_LBA-2 (p=0.44578), 
+Iran_Hasanlu_LBA (p=0.43873), Iran_Hasanlu_LBA-o (p=0.30234) 
+-----------------------------------------------------------------
+Iran_HajjiFiruz_IA  = Iran_Hasanlu_LBA-2 (p=0.97599), 
+Iran_Hasanlu_MBA (p=0.76220), "2196-2029 calBCE (3705±20 BP, PSUAMS-2771)"
+Iran_HajjiFiruz_BA (p=0.46792), Seima_Turbino (p=0.46361), Iran_GanjDareh_Historic (p=0.15406), 
+Iran_Hasanlu_LBA (p=0.06047) 
+-----------------------------------------------------------------
+Iran_HajjiFiruz_N  = Iran_DinkhaTepe_BA_IA2-2 (p=0.46151), "1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"
+Iran_GanjDareh_N (p=0.40787), 
+Moksha (p=0.26074), Iran_Hasanlu_IA (p=0.22916), 
+Erzya (p=0.14518), Iran_DinkhaTepe_BA_IA1-1 (p=0.13664) 
+-----------------------------------------------------------------
+Iran_Hasanlu_IA  = Iran_DinkhaTepe_BA_IA2-2 (p=0.91850), "1411-1274 calBCE (3075±20 BP, PSUAMS-2958)"
+Moksha (p=0.40912), Erzya (p=0.28170), 
+Iran_HajjiFiruz_N (p=0.22916), Iran_GanjDareh_N (p=0.05350) 
+-----------------------------------------------------------------
+Iran_Hasanlu_LBA  = Iran_Hasanlu_LBA-o (p=0.62053), Iran_GanjDareh_Historic (p=0.59296), 
+Seima_Turbino (p=0.48766), Iran_HajjiFiruz_BA (p=0.43873), 
+Iran_Hasanlu_MBA (p=0.16429), Iran_HajjiFiruz_IA (p=0.06047) 
+-----------------------------------------------------------------
+Iran_Hasanlu_LBA-2  = Iran_HajjiFiruz_IA (p=0.97599), 
+Iran_Hasanlu_MBA (p=0.56354), 
+Iran_HajjiFiruz_BA (p=0.44578), Seima_Turbino (p=0.34727), Iran_GanjDareh_Historic (p=0.23317) 
+-----------------------------------------------------------------
+Iran_Hasanlu_LBA-o  = Iran_Hasanlu_LBA (p=0.62053), Iran_HajjiFiruz_BA (p=0.30234), 
+Seima_Turbino (p=0.24139), Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA (p=0.18819), 
+Iran_GanjDareh_Historic (p=0.10156), Iran_Hasanlu_MBA (p=0.09493) 
+-----------------------------------------------------------------
+Iran_Hasanlu_MBA  = Seima_Turbino (p=0.92381), Iran_HajjiFiruz_IA (p=0.76220), 
+Iran_HajjiFiruz_BA (p=0.66028), Iran_Hasanlu_LBA-2 (p=0.56354), Iran_GanjDareh_Historic (p=0.18122), 
+Iran_Hasanlu_LBA (p=0.16429), Iran_Hasanlu_LBA-o (p=0.09493), 
+Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA (p=0.08192) 
+-----------------------------------------------------------------
+
+Erzya  = 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.862, Iran_Hasanlu_LBA weight2=0.138 (p=0.98196), 
+Iran_GanjDareh_N weight1=0.718, Iran_Hasanlu_LBA weight2=0.282 (p=0.95540), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.844, Iran_Hasanlu_LBA-o weight2=0.156 (p=0.94597), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.886, Iran_GanjDareh_Historic weight2=0.114 (p=0.91005), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.852, Iran_HajjiFiruz_BA weight2=0.148 (p=0.89293), 
+Iran_GanjDareh_N weight1=0.674, Iran_Hasanlu_LBA-o weight2=0.326 (p=0.86550), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.879, Seima_Turbino weight2=0.121 (p=0.83363), 
+Iran_Hasanlu_IA weight1=0.825, Iran_Hasanlu_LBA weight2=0.175 (p=0.83181), 
+Iran_HajjiFiruz_N weight1=0.729, Iran_Hasanlu_LBA-o weight2=0.271 (p=0.81715), 
+Moksha (p=0.81223), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.781, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.219 (p=0.79350), 
+Iran_Hasanlu_IA weight1=0.792, Iran_HajjiFiruz_BA weight2=0.208 (p=0.78206), 
+Iran_Hasanlu_IA weight1=0.848, Iran_GanjDareh_Historic weight2=0.152 (p=0.77829), 
+Iran_DinkhaTepe_BA_IA2-2 (p=0.75721), 
+
+Moksha weight1=0.949, Iran_Hasanlu_LBA-o weight2=0.051 (p=0.75498), 
+Moksha weight1=0.963, Iran_Hasanlu_LBA weight2=0.037 (p=0.75360), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.885, Iran_Hasanlu_MBA weight2=0.115 (p=0.73390), 
+Iran_Hasanlu_IA weight1=0.800, Iran_Hasanlu_LBA-o weight2=0.200 (p=0.71931), 
+Moksha weight1=0.980, Iran_HajjiFiruz_BA weight2=0.020 (p=0.71172), 
+Moksha weight1=0.980, Iran_GanjDareh_Historic weight2=0.020 (p=0.70152), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.896, Iran_HajjiFiruz_IA weight2=0.104 (p=0.63358), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.907, Iran_Hasanlu_LBA-2 weight2=0.093 (p=0.61279), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.766, Iran_Hasanlu_LBA weight2=0.234 (p=0.57807), 
+Iran_GanjDareh_N weight1=0.758, Iran_GanjDareh_Historic weight2=0.242 (p=0.57593), 
+Iran_HajjiFiruz_N weight1=0.780, Iran_Hasanlu_LBA weight2=0.220 (p=0.51677), 
+Iran_Hasanlu_IA weight1=0.836, Seima_Turbino weight2=0.164 (p=0.50762), 
+Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight1=0.520, Iran_GanjDareh_N weight2=0.480 (p=0.50424), 
+Iran_HajjiFiruz_N weight1=0.570, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.430 (p=0.50080), 
+Iran_GanjDareh_N weight1=0.682, Iran_HajjiFiruz_BA weight2=0.318 (p=0.47257), 
+Iran_GanjDareh_N weight1=0.704, Seima_Turbino weight2=0.296 (p=0.43294), 
+Iran_Hasanlu_IA weight1=0.682, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.318 (p=0.42476), 
+Iran_Hasanlu_IA weight1=0.825, Iran_Hasanlu_MBA weight2=0.175 (p=0.39997), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.741, Iran_Hasanlu_LBA-o weight2=0.259 (p=0.39368), 
+Iran_Hasanlu_IA weight1=0.835, Iran_HajjiFiruz_IA weight2=0.165 (p=0.35682), 
+Iran_Hasanlu_IA weight1=0.856, Iran_Hasanlu_LBA-2 weight2=0.144 (p=0.34519), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.775, Seima_Turbino weight2=0.225 (p=0.31413), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.824, Iran_GanjDareh_Historic weight2=0.176 (p=0.31403), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.510, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.490 (p=0.28862), 
+Iran_Hasanlu_IA (p=0.28170), 
+Iran_HajjiFiruz_N weight1=0.772, Iran_HajjiFiruz_BA weight2=0.228 (p=0.27242), 
+Iran_HajjiFiruz_N weight1=0.838, Iran_GanjDareh_Historic weight2=0.162 (p=0.25747), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.770, Iran_HajjiFiruz_BA weight2=0.230 (p=0.25189), 
+Iran_HajjiFiruz_N weight1=0.811, Seima_Turbino weight2=0.189 (p=0.20643), 
+Iran_GanjDareh_N weight1=0.674, Iran_Hasanlu_MBA weight2=0.326 (p=0.20215), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.773, Iran_Hasanlu_MBA weight2=0.227 (p=0.18644), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.782, Iran_HajjiFiruz_IA weight2=0.218 (p=0.16289), 
+Iran_HajjiFiruz_N (p=0.14518), 
+Iran_HajjiFiruz_N weight1=0.821, Iran_Hasanlu_MBA weight2=0.179 (p=0.13135), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.834, Iran_Hasanlu_LBA-2 weight2=0.166 (p=0.12886), 
+Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA (p=0.12474), 
+Iran_GanjDareh_N weight1=0.706, Iran_HajjiFiruz_IA weight2=0.294 (p=0.09750), 
+Iran_HajjiFiruz_N weight1=0.905, Iran_HajjiFiruz_IA weight2=0.095 (p=0.08315), 
+Iran_GanjDareh_N weight1=0.745, Iran_Hasanlu_LBA-2 weight2=0.255 (p=0.07737), 
+Iran_HajjiFiruz_N weight1=0.922, Iran_Hasanlu_LBA-2 weight2=0.078 (p=0.07541), 
+Iran_DinkhaTepe_BA_IA1-1 (p=0.05311) 
+-----------------------------------------------------------------
+Moksha  = 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.863, Seima_Turbino weight2=0.137 (p=0.99016), 
+Iran_Hasanlu_IA weight1=0.818, Iran_HajjiFiruz_BA weight2=0.182 (p=0.98874), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.843, Iran_Hasanlu_MBA weight2=0.157 (p=0.97929), 
+Iran_Hasanlu_IA weight1=0.867, Iran_GanjDareh_Historic weight2=0.133 (p=0.96993), 
+Iran_HajjiFiruz_N weight1=0.592, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.408 (p=0.95360), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.896, Iran_Hasanlu_LBA weight2=0.104 (p=0.94168), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.868, Iran_HajjiFiruz_BA weight2=0.132 (p=0.93742), 
+Iran_Hasanlu_IA weight1=0.832, Seima_Turbino weight2=0.168 (p=0.92843), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.906, Iran_GanjDareh_Historic weight2=0.094 (p=0.92717), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.755, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.245 (p=0.92540), 
+Iran_Hasanlu_IA weight1=0.808, Iran_Hasanlu_MBA weight2=0.192 (p=0.91549), 
+Iran_GanjDareh_N weight1=0.746, Iran_Hasanlu_LBA weight2=0.254 (p=0.91064), 
+Iran_HajjiFiruz_N weight1=0.771, Iran_Hasanlu_LBA-o weight2=0.229 (p=0.90885), 
+Iran_Hasanlu_IA weight1=0.860, Iran_Hasanlu_LBA weight2=0.140 (p=0.89603), 
+Iran_GanjDareh_N weight1=0.712, Seima_Turbino weight2=0.288 (p=0.89440), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.885, Iran_Hasanlu_LBA-o weight2=0.115 (p=0.87540), 
+Iran_GanjDareh_N weight1=0.511, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.489 (p=0.85154), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.864, Iran_HajjiFiruz_IA weight2=0.136 (p=0.83002), 
+
+Iran_DinkhaTepe_BA_IA2-2 (p=0.81410), 
+Erzya (p=0.81223), 
+Iran_DinkhaTepe_BA_IA2-2 weight1=0.889, Iran_Hasanlu_LBA-2 weight2=0.111 (p=0.80960), 
+Iran_Hasanlu_IA weight1=0.828, Iran_HajjiFiruz_IA weight2=0.172 (p=0.78349), 
+Iran_Hasanlu_IA weight1=0.852, Iran_Hasanlu_LBA-2 weight2=0.148 (p=0.78024), 
+Iran_GanjDareh_N weight1=0.703, Iran_Hasanlu_LBA-o weight2=0.297 (p=0.76757), 
+Erzya weight1=0.797, Iran_HajjiFiruz_N weight2=0.203 (p=0.75081), 
+Iran_Hasanlu_IA weight1=0.842, Iran_Hasanlu_LBA-o weight2=0.158 (p=0.74102), 
+Erzya weight1=0.946, Iran_Hasanlu_MBA weight2=0.054 (p=0.72383), 
+Erzya weight1=0.873, Iran_DinkhaTepe_BA_IA1-1 weight2=0.127 (p=0.71885), 
+Erzya weight1=0.778, Iran_Hasanlu_IA weight2=0.222 (p=0.71838), 
+Erzya weight1=0.541, Iran_DinkhaTepe_BA_IA2-2 weight2=0.459 (p=0.71609), 
+Erzya weight1=0.915, Iran_GanjDareh_N weight2=0.085 (p=0.70727), 
+Erzya weight1=0.984, Seima_Turbino weight2=0.016 (p=0.70304), 
+Iran_Hasanlu_IA weight1=0.694, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.306 (p=0.70187), 
+Iran_GanjDareh_N weight1=0.776, Iran_GanjDareh_Historic weight2=0.224 (p=0.69995), 
+Erzya weight1=0.963, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.037 (p=0.69466), 
+Iran_GanjDareh_N weight1=0.682, Iran_Hasanlu_MBA weight2=0.318 (p=0.64921), 
+Iran_GanjDareh_N weight1=0.702, Iran_HajjiFiruz_BA weight2=0.298 (p=0.64316), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.795, Iran_Hasanlu_LBA weight2=0.205 (p=0.62639), 
+Iran_DinkhaTepe_BA_IA1-1 weight1=0.768, Seima_Turbino weight2=0.232 (p=0.62429), 
+Erzya weight1=0.965, Iran_HajjiFiruz_IA weight2=0.035 (p=0.61667), 
+Iran_HajjiFiruz_N weight1=0.822, Iran_Hasanlu_LBA weight2=0.178 (p=0.61282), 
+Erzya weight1=0.978, Iran_Hasanlu_LBA-2 weight2=0.022 (p=0.58759),
+ Iran_DinkhaTepe_BA_IA1-1 weight1=0.549, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.451 (p=0.53522), 
+ Iran_DinkhaTepe_BA_IA1-1 weight1=0.749, Iran_Hasanlu_MBA weight2=0.251 (p=0.49442), 
+ Iran_HajjiFiruz_N weight1=0.805, Seima_Turbino weight2=0.195 (p=0.46794), 
+ Iran_DinkhaTepe_BA_IA1-1 weight1=0.840, Iran_GanjDareh_Historic weight2=0.160 (p=0.42533), 
+ Iran_HajjiFiruz_N weight1=0.803, Iran_HajjiFiruz_BA weight2=0.197 (p=0.42147), 
+ Iran_DinkhaTepe_BA_IA1-1 weight1=0.781, Iran_Hasanlu_LBA-o weight2=0.219 (p=0.41209), 
+ Iran_Hasanlu_IA (p=0.40912), 
+ Iran_HajjiFiruz_N weight1=0.862, Iran_GanjDareh_Historic weight2=0.138 (p=0.39732), 
+ Iran_DinkhaTepe_BA_IA1-1 weight1=0.770, Iran_HajjiFiruz_IA weight2=0.230 (p=0.37895), 
+ Iran_DinkhaTepe_BA_IA1-1 weight1=0.791, Iran_HajjiFiruz_BA weight2=0.209 (p=0.36850), 
+ Iran_HajjiFiruz_N weight1=0.792, Iran_Hasanlu_MBA weight2=0.208 (p=0.34646), 
+ Iran_DinkhaTepe_BA_IA1-1 weight1=0.820, Iran_Hasanlu_LBA-2 weight2=0.180 (p=0.28918), 
+ Iran_GanjDareh_N weight1=0.709, Iran_HajjiFiruz_IA weight2=0.291 (p=0.26767), 
+ Iran_HajjiFiruz_N (p=0.26074), 
+ Iran_GanjDareh_N weight1=0.753, Iran_Hasanlu_LBA-2 weight2=0.247 (p=0.20958), 
+ Iran_HajjiFiruz_N weight1=0.875, Iran_HajjiFiruz_IA weight2=0.125 (p=0.17723), 
+ Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA (p=0.15789), 
+ Iran_HajjiFiruz_N weight1=0.908, Iran_Hasanlu_LBA-2 weight2=0.092 (p=0.15737), 
+ Iran_DinkhaTepe_BA_IA1-1 (p=0.11304) 
+-----------------------------------------------------------------
+Seima_Turbino  = 
+Iran_Hasanlu_MBA weight1=0.693, Iran_Hasanlu_LBA weight2=0.307 (p=0.95692), 
+Iran_Hasanlu_MBA (p=0.92381), 
+Iran_Hasanlu_MBA weight1=0.784, Iran_GanjDareh_Historic weight2=0.216 (p=0.89812), 
+Iran_Hasanlu_MBA weight1=0.816, Iran_Hasanlu_LBA-o weight2=0.184 (p=0.84977), 
+Iran_Hasanlu_LBA-2 weight1=0.518, Iran_Hasanlu_LBA-o weight2=0.482 (p=0.66468), 
+Iran_HajjiFiruz_IA weight1=0.570, Iran_Hasanlu_LBA-o weight2=0.430 (p=0.66324), 
+Iran_HajjiFiruz_IA weight1=0.501, Iran_Hasanlu_LBA weight2=0.499 (p=0.64752), 
+Iran_HajjiFiruz_BA (p=0.63082), 
+Iran_Hasanlu_LBA weight1=0.550, Iran_Hasanlu_LBA-2 weight2=0.450 (p=0.61556), 
+Iran_GanjDareh_Historic weight1=0.591, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.409 (p=0.60389), 
+Iran_GanjDareh_Historic weight1=0.753, Iran_Hasanlu_IA weight2=0.247 (p=0.49462), 
+Iran_GanjDareh_Historic weight1=0.716, Moksha weight2=0.284 (p=0.49249), 
+Iran_Hasanlu_LBA (p=0.48766), 
+Iran_GanjDareh_Historic weight1=0.769, Iran_HajjiFiruz_N weight2=0.231 (p=0.47371), 
+Iran_HajjiFiruz_BA weight1=0.917, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.083 (p=0.47190), 
+Iran_HajjiFiruz_IA (p=0.46361), 
+Iran_GanjDareh_Historic weight1=0.760, Iran_DinkhaTepe_BA_IA2-2 weight2=0.240 (p=0.45388), 
+Iran_GanjDareh_Historic weight1=0.799, Iran_GanjDareh_N weight2=0.201 (p=0.44921), 
+Iran_Hasanlu_LBA-2 weight1=0.599, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.401 (p=0.44433), 
+Iran_GanjDareh_Historic weight1=0.742, Erzya weight2=0.258 (p=0.43287),
+Iran_GanjDareh_Historic weight1=0.798, Iran_DinkhaTepe_BA_IA1-1 weight2=0.202 (p=0.41615), 
+Iran_GanjDareh_Historic (p=0.41484), 
+Iran_HajjiFiruz_IA weight1=0.695, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.305 (p=0.41319), 
+Iran_Hasanlu_LBA weight1=0.858, Iran_HajjiFiruz_N weight2=0.142 (p=0.40673), 
+Iran_HajjiFiruz_IA weight1=0.577, Iran_GanjDareh_Historic weight2=0.423 (p=0.40556), 
+Iran_Hasanlu_LBA weight1=0.850, Moksha weight2=0.150 (p=0.37948), 
+Iran_Hasanlu_LBA weight1=0.893, Iran_GanjDareh_N weight2=0.107 (p=0.37684), 
+Iran_Hasanlu_LBA weight1=0.881, Iran_DinkhaTepe_BA_IA1-1 weight2=0.119 (p=0.37583), 
+Iran_Hasanlu_LBA weight1=0.775, Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA weight2=0.225 (p=0.36999), 
+Iran_Hasanlu_LBA weight1=0.885, Iran_Hasanlu_IA weight2=0.115 (p=0.36828), 
+Iran_Hasanlu_LBA weight1=0.886, Iran_DinkhaTepe_BA_IA2-2 weight2=0.114 (p=0.36634), 
+Iran_Hasanlu_LBA weight1=0.910, Erzya weight2=0.090 (p=0.35219), 
+Iran_Hasanlu_LBA-2 (p=0.34727), 
+Iran_GanjDareh_Historic weight1=0.683, Iran_Hasanlu_LBA-o weight2=0.317 (p=0.29322), 
+Iran_GanjDareh_Historic weight1=0.540, Iran_Hasanlu_LBA-2 weight2=0.460 (p=0.28451), 
+Iran_Hasanlu_LBA-o (p=0.24139), 
+Iran_Hasanlu_LBA-2 weight1=0.863, Erzya weight2=0.137 (p=0.23657), 
+Iran_Hasanlu_LBA-2 weight1=0.877, Moksha weight2=0.123 (p=0.23212), 
+Iran_Hasanlu_LBA-2 weight1=0.892, Iran_Hasanlu_IA weight2=0.108 (p=0.22655), 
+Iran_Hasanlu_LBA-2 weight1=0.910, Iran_DinkhaTepe_BA_IA2-2 weight2=0.090 (p=0.22298), 
+Iran_Hasanlu_LBA-2 weight1=0.973, Iran_GanjDareh_N weight2=0.027 (p=0.20889), 
+Iran_Hasanlu_LBA-2 weight1=0.957, Iran_DinkhaTepe_BA_IA1-1 weight2=0.043 (p=0.20776), 
+Iran_Hasanlu_LBA-o weight1=0.946, Iran_HajjiFiruz_N weight2=0.054 (p=0.14496), 
+Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA (p=0.07293) 
+
+
+=================================================================
+ Detailed calculation logs for the book manuscript:
+=================================================================
+
+TARGET  : Iran_Hasanlu_LBA-2 
+P-VALUE : 0.97599 
+LEFT: Iran_HajjiFiruz_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left               weight       se       z
+  <chr>              <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-2 Iran_HajjiFiruz_IA      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_IA 
+P-VALUE : 0.97599 
+LEFT: Iran_Hasanlu_LBA-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left               weight       se       z
+  <chr>              <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_IA Iran_Hasanlu_LBA-2      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_MBA 
+P-VALUE : 0.92381 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left          weight       se       z
+  <chr>            <chr>          <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_MBA Seima_Turbino      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.92381 
+LEFT: Iran_Hasanlu_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left             weight       se       z
+  <chr>         <chr>             <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Iran_Hasanlu_MBA      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA2-2 
+P-VALUE : 0.91850 
+LEFT: Iran_Hasanlu_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left            weight       se       z
+  <chr>                    <chr>            <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA2-2 Iran_Hasanlu_IA      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_IA 
+P-VALUE : 0.91850 
+LEFT: Iran_DinkhaTepe_BA_IA2-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target          left                     weight       se       z
+  <chr>           <chr>                     <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_IA Iran_DinkhaTepe_BA_IA2-2      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.81410 
+LEFT: Iran_DinkhaTepe_BA_IA2-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                     weight       se       z
+  <chr>  <chr>                     <dbl>    <dbl>   <dbl>
+1 Moksha Iran_DinkhaTepe_BA_IA2-2      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA2-2 
+P-VALUE : 0.81410 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left   weight       se       z
+  <chr>                    <chr>   <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA2-2 Moksha      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.81223 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left   weight       se       z
+  <chr>  <chr>   <dbl>    <dbl>   <dbl>
+1 Erzya  Moksha      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.81223 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left  weight       se       z
+  <chr>  <chr>  <dbl>    <dbl>   <dbl>
+1 Moksha Erzya      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_MBA 
+P-VALUE : 0.76220 
+LEFT: Iran_HajjiFiruz_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_MBA Iran_HajjiFiruz_IA      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_IA 
+P-VALUE : 0.76220 
+LEFT: Iran_Hasanlu_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_IA Iran_Hasanlu_MBA      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA2-2 
+P-VALUE : 0.75721 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left  weight       se       z
+  <chr>                    <chr>  <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA2-2 Erzya      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.75721 
+LEFT: Iran_DinkhaTepe_BA_IA2-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                     weight       se       z
+  <chr>  <chr>                     <dbl>    <dbl>   <dbl>
+1 Erzya  Iran_DinkhaTepe_BA_IA2-2      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_BA 
+P-VALUE : 0.66028 
+LEFT: Iran_Hasanlu_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_BA Iran_Hasanlu_MBA      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_MBA 
+P-VALUE : 0.66028 
+LEFT: Iran_HajjiFiruz_BA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_MBA Iran_HajjiFiruz_BA      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_BA 
+P-VALUE : 0.63082 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left          weight       se       z
+  <chr>              <chr>          <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_BA Seima_Turbino      1 2.20e-13 4.54e12
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.63082 
+LEFT: Iran_HajjiFiruz_BA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left               weight       se       z
+  <chr>         <chr>               <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Iran_HajjiFiruz_BA      1 2.20e-13 4.54e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_Historic 
+P-VALUE : 0.62223 
+LEFT: Iran_HajjiFiruz_BA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left               weight       se       z
+  <chr>                   <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_Historic Iran_HajjiFiruz_BA      1 2.20e-13 4.54e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_BA 
+P-VALUE : 0.62223 
+LEFT: Iran_GanjDareh_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                    weight       se       z
+  <chr>              <chr>                    <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_BA Iran_GanjDareh_Historic      1 2.20e-13 4.54e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-o 
+P-VALUE : 0.62053 
+LEFT: Iran_Hasanlu_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-o Iran_Hasanlu_LBA      1 4.41e-13 2.27e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA 
+P-VALUE : 0.62053 
+LEFT: Iran_Hasanlu_LBA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA Iran_Hasanlu_LBA-o      1 4.41e-13 2.27e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA 
+P-VALUE : 0.59296 
+LEFT: Iran_GanjDareh_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                    weight       se       z
+  <chr>            <chr>                    <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA Iran_GanjDareh_Historic      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_Historic 
+P-VALUE : 0.59296 
+LEFT: Iran_Hasanlu_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left             weight       se       z
+  <chr>                   <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_Historic Iran_Hasanlu_LBA      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-2 
+P-VALUE : 0.56354 
+LEFT: Iran_Hasanlu_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-2 Iran_Hasanlu_MBA      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_MBA 
+P-VALUE : 0.56354 
+LEFT: Iran_Hasanlu_LBA-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_MBA Iran_Hasanlu_LBA-2      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.48766 
+LEFT: Iran_Hasanlu_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left             weight       se       z
+  <chr>         <chr>             <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Iran_Hasanlu_LBA      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA 
+P-VALUE : 0.48766 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left          weight       se       z
+  <chr>            <chr>          <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA Seima_Turbino      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_IA 
+P-VALUE : 0.46792 
+LEFT: Iran_HajjiFiruz_BA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left               weight       se       z
+  <chr>              <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_IA Iran_HajjiFiruz_BA      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_BA 
+P-VALUE : 0.46792 
+LEFT: Iran_HajjiFiruz_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left               weight       se       z
+  <chr>              <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_BA Iran_HajjiFiruz_IA      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_IA 
+P-VALUE : 0.46361 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left          weight       se       z
+  <chr>              <chr>          <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_IA Seima_Turbino      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.46361 
+LEFT: Iran_HajjiFiruz_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left               weight       se       z
+  <chr>         <chr>               <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Iran_HajjiFiruz_IA      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA2-2 
+P-VALUE : 0.46151 
+LEFT: Iran_HajjiFiruz_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left              weight       se       z
+  <chr>                    <chr>              <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA2-2 Iran_HajjiFiruz_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_N 
+P-VALUE : 0.46151 
+LEFT: Iran_DinkhaTepe_BA_IA2-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left                     weight       se       z
+  <chr>             <chr>                     <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_N Iran_DinkhaTepe_BA_IA2-2      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-2 
+P-VALUE : 0.44578 
+LEFT: Iran_HajjiFiruz_BA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left               weight       se       z
+  <chr>              <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-2 Iran_HajjiFiruz_BA      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_BA 
+P-VALUE : 0.44578 
+LEFT: Iran_Hasanlu_LBA-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left               weight       se       z
+  <chr>              <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_BA Iran_Hasanlu_LBA-2      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_BA 
+P-VALUE : 0.43873 
+LEFT: Iran_Hasanlu_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_BA Iran_Hasanlu_LBA      1 4.41e-13 2.27e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA 
+P-VALUE : 0.43873 
+LEFT: Iran_HajjiFiruz_BA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA Iran_HajjiFiruz_BA      1 4.41e-13 2.27e12
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.41484 
+LEFT: Iran_GanjDareh_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                    weight       se       z
+  <chr>         <chr>                    <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Iran_GanjDareh_Historic      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_Historic 
+P-VALUE : 0.41484 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left          weight       se       z
+  <chr>                   <chr>          <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_Historic Seima_Turbino      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.40912 
+LEFT: Iran_Hasanlu_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left            weight       se       z
+  <chr>  <chr>            <dbl>    <dbl>   <dbl>
+1 Moksha Iran_Hasanlu_IA      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_IA 
+P-VALUE : 0.40912 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target          left   weight       se       z
+  <chr>           <chr>   <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_IA Moksha      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_N 
+P-VALUE : 0.40787 
+LEFT: Iran_HajjiFiruz_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left              weight       se       z
+  <chr>            <chr>              <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_N Iran_HajjiFiruz_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_N 
+P-VALUE : 0.40787 
+LEFT: Iran_GanjDareh_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left             weight       se       z
+  <chr>             <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_N Iran_GanjDareh_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.34727 
+LEFT: Iran_Hasanlu_LBA-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left               weight       se       z
+  <chr>         <chr>               <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Iran_Hasanlu_LBA-2      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-2 
+P-VALUE : 0.34727 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left          weight       se       z
+  <chr>              <chr>          <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-2 Seima_Turbino      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-o 
+P-VALUE : 0.30234 
+LEFT: Iran_HajjiFiruz_BA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left               weight       se       z
+  <chr>              <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-o Iran_HajjiFiruz_BA      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_BA 
+P-VALUE : 0.30234 
+LEFT: Iran_Hasanlu_LBA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left               weight       se       z
+  <chr>              <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_BA Iran_Hasanlu_LBA-o      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_IA 
+P-VALUE : 0.28170 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target          left  weight       se       z
+  <chr>           <chr>  <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_IA Erzya      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.28170 
+LEFT: Iran_Hasanlu_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left            weight       se       z
+  <chr>  <chr>            <dbl>    <dbl>   <dbl>
+1 Erzya  Iran_Hasanlu_IA      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_N 
+P-VALUE : 0.27044 
+LEFT: Iran_DinkhaTepe_BA_IA1-1 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                     weight       se       z
+  <chr>            <chr>                     <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_N Iran_DinkhaTepe_BA_IA1-1      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA1-1 
+P-VALUE : 0.27044 
+LEFT: Iran_GanjDareh_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left             weight       se       z
+  <chr>                    <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA1-1 Iran_GanjDareh_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_N 
+P-VALUE : 0.26074 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left   weight       se       z
+  <chr>             <chr>   <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_N Moksha      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.26074 
+LEFT: Iran_HajjiFiruz_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left              weight       se       z
+  <chr>  <chr>              <dbl>    <dbl>   <dbl>
+1 Moksha Iran_HajjiFiruz_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA2-2 
+P-VALUE : 0.24472 
+LEFT: Iran_DinkhaTepe_BA_IA1-1 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left                     weight       se       z
+  <chr>                    <chr>                     <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA2-2 Iran_DinkhaTepe_BA_IA1-1      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA1-1 
+P-VALUE : 0.24472 
+LEFT: Iran_DinkhaTepe_BA_IA2-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left                     weight       se       z
+  <chr>                    <chr>                     <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA1-1 Iran_DinkhaTepe_BA_IA2-2      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.24139 
+LEFT: Iran_Hasanlu_LBA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left               weight       se       z
+  <chr>         <chr>               <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Iran_Hasanlu_LBA-o      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-o 
+P-VALUE : 0.24139 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left          weight       se       z
+  <chr>              <chr>          <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-o Seima_Turbino      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-2 
+P-VALUE : 0.23317 
+LEFT: Iran_GanjDareh_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                    weight       se       z
+  <chr>              <chr>                    <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-2 Iran_GanjDareh_Historic      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_Historic 
+P-VALUE : 0.23317 
+LEFT: Iran_Hasanlu_LBA-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left               weight       se       z
+  <chr>                   <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_Historic Iran_Hasanlu_LBA-2      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_N 
+P-VALUE : 0.23056 
+LEFT: Iran_DinkhaTepe_BA_IA2-2 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                     weight       se       z
+  <chr>            <chr>                     <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_N Iran_DinkhaTepe_BA_IA2-2      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA2-2 
+P-VALUE : 0.23056 
+LEFT: Iran_GanjDareh_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left             weight       se       z
+  <chr>                    <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA2-2 Iran_GanjDareh_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_IA 
+P-VALUE : 0.22916 
+LEFT: Iran_HajjiFiruz_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target          left              weight       se       z
+  <chr>           <chr>              <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_IA Iran_HajjiFiruz_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_N 
+P-VALUE : 0.22916 
+LEFT: Iran_Hasanlu_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left            weight       se       z
+  <chr>             <chr>            <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_N Iran_Hasanlu_IA      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-o 
+P-VALUE : 0.18819 
+LEFT: Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                                weight       se       z
+  <chr>              <chr>                                <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-o Ignore_Iranian_Zoroastrian_PCA_out…      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+P-VALUE : 0.18819 
+LEFT: Iran_Hasanlu_LBA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                      left       weight       se       z
+  <chr>                                       <chr>       <dbl>    <dbl>   <dbl>
+1 Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA Iran_Hasa…      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_MBA 
+P-VALUE : 0.18122 
+LEFT: Iran_GanjDareh_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                    weight       se       z
+  <chr>            <chr>                    <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_MBA Iran_GanjDareh_Historic      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_Historic 
+P-VALUE : 0.18122 
+LEFT: Iran_Hasanlu_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left             weight       se       z
+  <chr>                   <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_Historic Iran_Hasanlu_MBA      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA 
+P-VALUE : 0.16429 
+LEFT: Iran_Hasanlu_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left             weight       se       z
+  <chr>            <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA Iran_Hasanlu_MBA      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_MBA 
+P-VALUE : 0.16429 
+LEFT: Iran_Hasanlu_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left             weight       se       z
+  <chr>            <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_MBA Iran_Hasanlu_LBA      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.15789 
+LEFT: Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                                        weight       se       z
+  <chr>  <chr>                                        <dbl>    <dbl>   <dbl>
+1 Moksha Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+P-VALUE : 0.15789 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                      left   weight       se       z
+  <chr>                                       <chr>   <dbl>    <dbl>   <dbl>
+1 Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA Moksha      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_Historic 
+P-VALUE : 0.15406 
+LEFT: Iran_HajjiFiruz_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left               weight       se       z
+  <chr>                   <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_Historic Iran_HajjiFiruz_IA      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_IA 
+P-VALUE : 0.15406 
+LEFT: Iran_GanjDareh_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                    weight       se       z
+  <chr>              <chr>                    <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_IA Iran_GanjDareh_Historic      1 4.98e-13 2.01e12
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.14518 
+LEFT: Iran_HajjiFiruz_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left              weight       se       z
+  <chr>  <chr>              <dbl>    <dbl>   <dbl>
+1 Erzya  Iran_HajjiFiruz_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_N 
+P-VALUE : 0.14518 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left  weight       se       z
+  <chr>             <chr>  <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_N Erzya      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_N 
+P-VALUE : 0.13664 
+LEFT: Iran_DinkhaTepe_BA_IA1-1 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target            left                     weight       se       z
+  <chr>             <chr>                     <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_N Iran_DinkhaTepe_BA_IA1-1      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA1-1 
+P-VALUE : 0.13664 
+LEFT: Iran_HajjiFiruz_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left              weight       se       z
+  <chr>                    <chr>              <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA1-1 Iran_HajjiFiruz_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.12474 
+LEFT: Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                                        weight       se       z
+  <chr>  <chr>                                        <dbl>    <dbl>   <dbl>
+1 Erzya  Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+P-VALUE : 0.12474 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                      left  weight       se       z
+  <chr>                                       <chr>  <dbl>    <dbl>   <dbl>
+1 Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA Erzya      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA1-1 
+P-VALUE : 0.11304 
+LEFT: Moksha 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left   weight       se       z
+  <chr>                    <chr>   <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA1-1 Moksha      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Moksha 
+P-VALUE : 0.11304 
+LEFT: Iran_DinkhaTepe_BA_IA1-1 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                     weight       se       z
+  <chr>  <chr>                     <dbl>    <dbl>   <dbl>
+1 Moksha Iran_DinkhaTepe_BA_IA1-1      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-o 
+P-VALUE : 0.10156 
+LEFT: Iran_GanjDareh_Historic 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left                    weight       se       z
+  <chr>              <chr>                    <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-o Iran_GanjDareh_Historic      1 2.20e-13 4.54e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_Historic 
+P-VALUE : 0.10156 
+LEFT: Iran_Hasanlu_LBA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                  left               weight       se       z
+  <chr>                   <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_Historic Iran_Hasanlu_LBA-o      1 2.20e-13 4.54e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA-o 
+P-VALUE : 0.09493 
+LEFT: Iran_Hasanlu_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA-o Iran_Hasanlu_MBA      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_MBA 
+P-VALUE : 0.09493 
+LEFT: Iran_Hasanlu_LBA-o 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_MBA Iran_Hasanlu_LBA-o      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+P-VALUE : 0.08192 
+LEFT: Iran_Hasanlu_MBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                      left       weight       se       z
+  <chr>                                       <chr>       <dbl>    <dbl>   <dbl>
+1 Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA Iran_Hasa…      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_MBA 
+P-VALUE : 0.08192 
+LEFT: Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left                                  weight       se       z
+  <chr>            <chr>                                  <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_MBA Ignore_Iranian_Zoroastrian_PCA_outli…      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+P-VALUE : 0.07293 
+LEFT: Seima_Turbino 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                                      left       weight       se       z
+  <chr>                                       <chr>       <dbl>    <dbl>   <dbl>
+1 Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA Seima_Tur…      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Seima_Turbino 
+P-VALUE : 0.07293 
+LEFT: Ignore_Iranian_Zoroastrian_PCA_outlier-oPCA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target        left                                     weight       se       z
+  <chr>         <chr>                                     <dbl>    <dbl>   <dbl>
+1 Seima_Turbino Ignore_Iranian_Zoroastrian_PCA_outlier-…      1 2.49e-13 4.02e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_LBA 
+P-VALUE : 0.06047 
+LEFT: Iran_HajjiFiruz_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left               weight       se       z
+  <chr>            <chr>               <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_LBA Iran_HajjiFiruz_IA      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_HajjiFiruz_IA 
+P-VALUE : 0.06047 
+LEFT: Iran_Hasanlu_LBA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target             left             weight       se       z
+  <chr>              <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_HajjiFiruz_IA Iran_Hasanlu_LBA      1 2.13e-13 4.69e12
+-----------------------------------------------------------------
+
+TARGET  : Iran_GanjDareh_N 
+P-VALUE : 0.05350 
+LEFT: Iran_Hasanlu_IA 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target           left            weight       se       z
+  <chr>            <chr>            <dbl>    <dbl>   <dbl>
+1 Iran_GanjDareh_N Iran_Hasanlu_IA      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_Hasanlu_IA 
+P-VALUE : 0.05350 
+LEFT: Iran_GanjDareh_N 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target          left             weight       se       z
+  <chr>           <chr>             <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_IA Iran_GanjDareh_N      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Iran_DinkhaTepe_BA_IA1-1 
+P-VALUE : 0.05311 
+LEFT: Erzya 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target                   left  weight       se       z
+  <chr>                    <chr>  <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA1-1 Erzya      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+
+TARGET  : Erzya 
+P-VALUE : 0.05311 
+LEFT: Iran_DinkhaTepe_BA_IA1-1 
+Model  : FEASIBLE == TRUE
+# A tibble: 1 × 5
+  target left                     weight       se       z
+  <chr>  <chr>                     <dbl>    <dbl>   <dbl>
+1 Erzya  Iran_DinkhaTepe_BA_IA1-1      1 3.55e-14 2.81e13
+-----------------------------------------------------------------
+--------------------------END-----------------------------------

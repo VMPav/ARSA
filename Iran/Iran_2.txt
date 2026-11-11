@@ -1,0 +1,76 @@
+
+[1] "Итоговые веса="
+[1] "Iran_DinkhaTepe_BA_IA2-2"
+# A tibble: 1 × 5
+  target                   left  weight       se       z
+  <chr>                    <chr>  <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA2-2 Erzya      1 3.55e-14 2.81e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Iran_DinkhaTepe_BA_IA2-2"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  1.88 0.757      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.757
+
+[1] "Итоговые веса="
+[1] "Iran_DinkhaTepe_BA_IA2-2"
+# A tibble: 1 × 5
+  target                   left   weight       se       z
+  <chr>                    <chr>   <dbl>    <dbl>   <dbl>
+1 Iran_DinkhaTepe_BA_IA2-2 Moksha      1 3.55e-14 2.81e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Iran_DinkhaTepe_BA_IA2-2"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  1.57 0.814      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.814
+
+[1] "Итоговые веса="
+[1] "Iran_Hasanlu_IA"
+# A tibble: 1 × 5
+  target          left  weight       se       z
+  <chr>           <chr>  <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_IA Erzya      1 3.55e-14 2.81e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Iran_Hasanlu_IA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Erzya feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  5.06 0.282      0     1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.282
+
+[1] "Итоговые веса="
+[1] "Iran_Hasanlu_IA"
+# A tibble: 1 × 5
+  target          left   weight       se       z
+  <chr>           <chr>   <dbl>    <dbl>   <dbl>
+1 Iran_Hasanlu_IA Moksha      1 3.55e-14 2.81e13
+[1] "--- ИСТИННЫЙ P-VALUE "
+[1] "Iran_Hasanlu_IA"
+# A tibble: 1 × 12
+  pat      wt   dof chisq     p f4rank Moksha feasible best  dofdiff chisqdiff
+  <chr> <dbl> <dbl> <dbl> <dbl>  <dbl>  <dbl> <lgl>    <lgl>   <dbl>     <dbl>
+1 0         0     4  3.98 0.409      0      1 TRUE     NA         NA        NA
+# ℹ 1 more variable: p_nested <dbl>
+[1] "Чистое число p-value:"
+# A tibble: 1 × 1
+      p
+  <dbl>
+1 0.409
