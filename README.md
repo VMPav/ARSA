@@ -117,6 +117,13 @@ Cite the primary monograph repository as:
 Pavlov, V. M. (2026). ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate (Version v16). Zenodo. (<https://doi.org/10.5281/zenodo.24545979>)
 ```
 ![](ARSA4.png)
+
+### 🟥 Sample Size Asymmetry in f_4-Statistics Matrices: The Statistical Suppression Effect on Small Cohorts
+
+A critical source of systematic bias in standard \texttt{qpAdm} protocols is the severe sample size imbalance among compared population pools. Within the AADR v66 reference panel, massive aggregated arrays such as \texttt{Yamnaya} (47 genomes) and \texttt{Sintashta} (53 genomes) are routinely modeled alongside discrete elite cohorts comprising only 2--10 individuals. By averaging out individual sequencing noise across large cohorts, their intra-group variance approaches zero, which artificially deflates standard errors (\texttt{se}) during the block jackknife procedure. Consequently, within constrained reference setups, the linear optimizer forcibly skews admixture weights toward these oversized pools. Expanding the coordinate space or subsampling cohorts down to balanced benchmark cores (3--5 high-coverage genomes per group) completely eliminates this artifact and restores the true biological equilibrium.
+
+
+
 ## 📊 GENERAL PASSPORT OF GENETIC RELATIONS (By Degree of Cladistic Purity)
 
 Validated via admixtools2 (Outgroups: Mbuti, Papuan, Karitiana, Israel_Natufian, Georgia_Satsurblia_LateUP)
