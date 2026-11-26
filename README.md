@@ -114,7 +114,7 @@ Install `admixtools2` and run reproduction scripts using the provided \(f_2\) bl
 Cite the primary monograph repository as:
 
 ```text
-Pavlov, V. M. (2026). ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate (Version v16). Zenodo. (<https://doi.org/10.5281/zenodo.23224148>)
+Pavlov, V. M. (2026). ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate (Version v16). Zenodo. (<https://doi.org/10.5281/zenodo.24545979>)
 ```
 ![](ARSA4.png)
 ## 📊 GENERAL PASSPORT OF GENETIC RELATIONS (By Degree of Cladistic Purity)
