@@ -39,7 +39,7 @@ Parsimonious two-component frameworks verify that when the sedentary Arsa core w
 
 # ARSA-Matrix-Factory: Paleogenetic qpAdm Re-Validation (admixtools2)
 
-This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov (<https://doi.org/10.5281/zenodo.23224148>) 
+This repository contains precomputed \(f_2\)-statistics blocks and reproduction R-scripts for the paleogenetic monograph: **"ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate"** (14th Enhanced Edition, 2026) by Vladimir M. Pavlov (<https://doi.org/10.5281/zenodo.24545979>) 
 
 ## ⚡ Core Breakthroughs Reproduced in This Repository
 1. **The Doggerland Transgression:** Proves Moksha and Erzya preserve a 99–100% intact Paleo-European/Cro-Magnon backbone (`England_Mesolithic`).
