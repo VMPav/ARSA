@@ -1,6 +1,6 @@
 # ARSA_DOGGERLAND_TO_MYCENAE_SINTASHTA
 ![](doggerland.png)
-(<https://doi.org/10.5281/zenodo.23224148>)
+(<https://doi.org/10.5281/zenodo.24545979>)
 ARSA FROM DOGGERLAND TO MYCENAE AND SINTASHTA: The Law of Genetic Commingling and the Singularity of the Volga-Oka Substrate
 ![](ARSAdiag.png)
 
